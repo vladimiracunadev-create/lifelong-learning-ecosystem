@@ -309,8 +309,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 717859,
-      "sha256": "9d48e86de7e34e93da11c9f413b3950dc386ed03fd655c10c4d26d62923e310c"
+      "bytes": 717876,
+      "sha256": "1610f2bf0b7b607a8a816ed019faa76d19cb6b5f21eed4f8c4312ba50093b198"
     },
     {
       "path": "integrations/README.md",
@@ -424,8 +424,8 @@
     },
     {
       "path": "portal/template.html",
-      "bytes": 63947,
-      "sha256": "067968781b252b4394fa0f0bb5435d8f40033ae47174978675495654a7f2c7ba"
+      "bytes": 63964,
+      "sha256": "0af2fa7fb83f169c6c3da4727561e3cf459f493ec66a9f3be817a3de3d643ab7"
     },
     {
       "path": "prompts/CONTINUITY.md",
