@@ -10,9 +10,9 @@
 
 **Cambios:** workflows de calidad, CodeQL y Pages; Dependabot; plantilla de PR; política de seguridad; mapas del ecosistema; documentación operativa; presentación pública y portal actualizados.
 
-**Verificación local inicial:** validador correcto, 39 pruebas correctas, portal vigente y DOM controlado correcto en Windows con Python 3.12.9 y Node 24.11.1.
+**Verificación local inicial:** validador correcto, 40 pruebas correctas, portal vigente y DOM controlado correcto en Windows con Python 3.12.9 y Node 24.11.1. La primera ejecución remota permitió detectar y corregir una huella dependiente de CRLF/LF.
 
-**Brechas antes de cerrar:** regenerar el portal, validar workflows con `actionlint`, construir el paquete final, revisar datos sensibles, crear el historial Git, publicar el repositorio, comprobar CI/CodeQL/Pages y registrar los enlaces finales.
+**Brechas antes de cerrar:** la ejecución local de `actionlint` fue bloqueada por Windows, pero GitHub aceptó y ejecutó los workflows. Resta subir la corrección multiplataforma y comprobar los estados finales de Calidad, CodeQL y Pages.
 
 **Siguiente acción concreta:** ejecutar todos los gates sobre el árbol modificado y corregir cualquier fallo antes del primer commit.
 

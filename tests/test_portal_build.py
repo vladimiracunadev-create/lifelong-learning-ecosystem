@@ -12,6 +12,15 @@ BUILD = runpy.run_path(str(Path(__file__).resolve().parents[1] / "scripts" / "bu
 
 
 class PortalBoundaryTests(unittest.TestCase):
+    def test_source_fingerprint_normalizes_line_endings(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source.toml"
+            source.write_bytes(b"[project]\r\nname = 'example'\r\n")
+            windows_bytes = BUILD["normalized_source_bytes"](source)
+            source.write_bytes(b"[project]\nname = 'example'\n")
+            unix_bytes = BUILD["normalized_source_bytes"](source)
+            self.assertEqual(windows_bytes, unix_bytes)
+
     def test_personal_folders_are_not_embedded_as_documents(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

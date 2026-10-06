@@ -39,6 +39,11 @@ def read_utf8(path: Path) -> str:
         raise BuildError(f"No se puede leer {path.relative_to(ROOT)} como UTF-8: {exc}") from exc
 
 
+def normalized_source_bytes(path: Path) -> bytes:
+    """Normaliza saltos de línea para que la huella sea estable entre sistemas."""
+    return read_utf8(path).encode("utf-8")
+
+
 def read_dataset(relative: str, collection: str) -> dict:
     try:
         data = json.loads(read_utf8(ROOT / relative))
@@ -140,7 +145,7 @@ def generate() -> tuple[str, dict]:
     for path in sorted(set(digest_paths), key=lambda p: p.relative_to(ROOT).as_posix()):
         digest.update(path.relative_to(ROOT).as_posix().encode("utf-8"))
         digest.update(b"\x00")
-        digest.update(path.read_bytes())
+        digest.update(normalized_source_bytes(path))
         digest.update(b"\x00")
     info = {
         "version": version,

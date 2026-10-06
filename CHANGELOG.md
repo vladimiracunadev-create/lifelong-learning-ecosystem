@@ -13,6 +13,7 @@
 
 - La presentación pública define explícitamente el proyecto como superrepositorio federado y capa de integración, no como un programa adicional.
 - El portal y la guía de desarrollo reflejan la publicación web y los nuevos gates automatizados.
+- La huella de fuentes del portal normaliza saltos de línea para producir los mismos bytes en Windows y Linux.
 
 ## 0.1.0 — 2026-10-05
 

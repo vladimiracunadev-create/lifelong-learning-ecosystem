@@ -6,7 +6,7 @@ La automatización protege tres propiedades distintas: coherencia del contenido,
 
 | Workflow | Disparadores | Gates principales | Resultado |
 | --- | --- | --- | --- |
-| `Calidad` | cambios en `main`, pull requests y ejecución manual | Python 3.11 y 3.14 en Linux, Python 3.12 en Windows, 39 pruebas, validador, portal vigente, DOM controlado con Node 24 | Gate requerido para integrar y paquete ZIP temporal |
+| `Calidad` | cambios en `main`, pull requests y ejecución manual | Python 3.11 y 3.14 en Linux, Python 3.12 en Windows, 40 pruebas, validador, portal vigente, DOM controlado con Node 24 | Gate requerido para integrar y paquete ZIP temporal |
 | `Seguridad` | cambios en `main`, pull requests, semanal y manual | CodeQL para Python y JavaScript | Alertas de análisis estático en GitHub Security |
 | `Portal público` | final exitoso de `Calidad` en `main` y ejecución manual | revalida datos y vigencia antes de desplegar | `index.html` publicado mediante GitHub Pages |
 

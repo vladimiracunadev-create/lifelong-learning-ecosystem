@@ -12,7 +12,7 @@ El lector index.html incorpora el catálogo, las mallas, los apoyos, las rúbric
 
 | Comprobación | Resultado |
 | --- | --- |
-| Suite Python | 39 pruebas correctas |
+| Suite Python | 40 pruebas correctas |
 | Datos y referencias | Seis JSON registrados; IDs, tipos, descriptores y relaciones coherentes |
 | Prerrequisitos | Sin ciclos prohibidos; continuidad entre mallas permitida |
 | Enlaces | Rutas locales, fragmentos y navegación declarada del lector verificados |

@@ -54,8 +54,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1808,
-      "sha256": "b3a22ae97852007dab46f724ee4f06f4d29ed5d4507860abb095aac8fb0843cb"
+      "bytes": 1920,
+      "sha256": "5e813f712f40b77f4f7635521b6a5daa767cce37887321d4d53277cd2849f2a0"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -220,7 +220,7 @@
     {
       "path": "docs/AUTOMATION.md",
       "bytes": 2484,
-      "sha256": "c46277c443f379b3bac8939b3d180e2ca3ec06ba2dba9d95a18b1e3d51e15292"
+      "sha256": "c2b81ea46acdb5df8c0a898eede3c13e39480710b4a041caeda2108062af5c99"
     },
     {
       "path": "docs/DATA_CONTRACT.md",
@@ -294,8 +294,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 681005,
-      "sha256": "c2edb06cd46ff3676b70195c0495ff7e5e86681af9ff5cffb7ca6f9cc91dccb5"
+      "bytes": 681945,
+      "sha256": "995d9c5340755fcb31f93ea0dc52561e8dcce272a0bb62f0c03d5706335ba92e"
     },
     {
       "path": "integrations/README.md",
@@ -414,8 +414,8 @@
     },
     {
       "path": "prompts/CONTINUITY.md",
-      "bytes": 3308,
-      "sha256": "de6831b5c983c741d621c1b7b7ff6b5686d9c74462c3ac47da4cced31fea1ac2"
+      "bytes": 3396,
+      "sha256": "778cf9da71ba92598c7f8e77cdb8c901de666de291d09fc6ce2c1c28642913f1"
     },
     {
       "path": "prompts/IMPROVE_CURRICULUM.md",
@@ -449,8 +449,8 @@
     },
     {
       "path": "quality/RELEASE_EVIDENCE.md",
-      "bytes": 4398,
-      "sha256": "c7fba266e90f9b95809a421570c2c52cbebeb29ed9b5c449e42f7b7d55959778"
+      "bytes": 5130,
+      "sha256": "3f136195e5546afe12df115f07c0b03abff255fcd5a20d56e60137da70ca273f"
     },
     {
       "path": "quality/REQUIREMENTS_TRACEABILITY.md",
@@ -465,17 +465,17 @@
     {
       "path": "quality/STATUS.md",
       "bytes": 4281,
-      "sha256": "073ea6fcc96f1d82b2f962ca027d4dc83f8cafc4170a59eb1ff819d030061505"
+      "sha256": "10cd36fdd350513065ec8a19d8233cadb61851379d31203b4b29d320bcfa2159"
     },
     {
       "path": "quality/validation.json",
       "bytes": 521,
-      "sha256": "b6e0b623b8ce21d88d1dc99c612002ba88f0956b266abd76dbd5311b3bdf7afd"
+      "sha256": "98a5c98565e48b8e7ddad8313e59e0b3b59bd9b34bc52ecc61e6d8774b8faeea"
     },
     {
       "path": "scripts/build_portal.py",
-      "bytes": 9005,
-      "sha256": "7532ee284ab5d996acbafb05feeb3b41dfbfdfe89120e1c6b77e4de05b45ebd6"
+      "bytes": 9196,
+      "sha256": "d6a8fe0a7bc6bb95f6877e42f247f2fe95e8f5ad0abf8404645bfd1e42532b95"
     },
     {
       "path": "scripts/export_plan.py",
@@ -569,8 +569,8 @@
     },
     {
       "path": "tests/test_portal_build.py",
-      "bytes": 1523,
-      "sha256": "f4c3343b866ee335506889dd4468c9f4ede9620f4b6eafe319c871785095cfd7"
+      "bytes": 2022,
+      "sha256": "94aaf9f3e3f67bcdf94eaa61a547aa1c37fafa8122a4d5fc3a262e9f61bcec61"
     },
     {
       "path": "tests/test_validation.py",
