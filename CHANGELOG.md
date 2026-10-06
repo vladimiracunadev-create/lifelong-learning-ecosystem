@@ -6,7 +6,7 @@
 
 - Campus federado en Markdown con seis áreas, análisis por repositorio y enlaces directos a rutas, índices, laboratorios, aplicaciones y portales reales.
 - Inventario de 30 flujos nativos observados: secuencias, rutas por rol o perfil, niveles, módulos, casos, laboratorios y academias en aplicaciones.
-- Tres mapas SVG versionables para el campus, los tipos de flujo y los niveles de evidencia.
+- Nueve mapas SVG versionables: campus, tipos de flujo, niveles de evidencia y una cabecera específica para cada una de las seis áreas.
 - Renderizado seguro de SVG locales dentro del portal autocontenido, con rechazo de contenido activo y cobertura de pruebas.
 - Tres workflows con responsabilidades separadas: calidad multi-entorno, análisis CodeQL y publicación de GitHub Pages después de un gate exitoso.
 - Dependabot para GitHub Actions, plantilla de pull request y política pública de seguridad.

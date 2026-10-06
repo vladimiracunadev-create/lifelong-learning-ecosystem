@@ -2,6 +2,8 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
+![Mapa del área de datos, inteligencia artificial y ciencia](../assets/data-ai-science.svg)
+
 Esta área reúne cinco repositorios con flujos diferentes: matemática secuencial, ciencia de datos aplicada, historia y técnicas de IA, entrenamiento experimental de redes y un laboratorio científico modular.
 
 ## 🧭 Mapa de elección

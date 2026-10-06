@@ -2,7 +2,7 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
-![Tipos de flujo](../assets/tipos-de-flujo.svg)
+![Mapa de recorridos de software y computación](../assets/software-computing.svg)
 
 Esta área contiene seis repositorios revisados. No forman una carrera única: cada uno ofrece una profundidad y una forma de entrada distintas. Las continuidades solo se consideran verificadas dentro de la secuencia declarada por cada fuente.
 

@@ -2,6 +2,8 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
+![Tres sistemas de aprendizaje en educación y evaluación](../assets/education-assessment.svg)
+
 Esta área distingue con cuidado el currículo del estudiante, la formación de quien enseña y el estudio de instrumentos. Un programa para formadores no se presenta automáticamente como contenido para niños.
 
 ## 🧭 Tres sistemas distintos

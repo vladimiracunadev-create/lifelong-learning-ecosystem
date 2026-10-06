@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de recorridos de cloud, sistemas y seguridad</title>
+  <desc id="desc">Siete repositorios reales organizados por programa, laboratorio progresivo y práctica por caso, con su estado observado.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f8ff"/>
+      <stop offset="1" stop-color="#f6fbf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#17324d" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .eyebrow{font:700 15px system-ui,sans-serif;letter-spacing:2px;fill:#34728f}
+      .title{font:800 34px system-ui,sans-serif;fill:#16354a}
+      .intro{font:500 17px system-ui,sans-serif;fill:#4c6575}
+      .lane{fill:#fff;stroke:#c9dce7;stroke-width:2;filter:url(#shadow)}
+      .lane-title{font:800 18px system-ui,sans-serif;fill:#16354a}
+      .repo{font:700 16px system-ui,sans-serif;fill:#183e55}
+      .meta{font:500 14px system-ui,sans-serif;fill:#587080}
+      .pill{font:700 11px system-ui,sans-serif;letter-spacing:.7px;text-anchor:middle}
+      .existing{fill:#dff5e8}.existing-text{fill:#17603b}
+      .developing{fill:#fff0c7}.developing-text{fill:#795500}
+      .experimental{fill:#f2e7ff}.experimental-text{fill:#673a91}
+      .rule{font:600 15px system-ui,sans-serif;fill:#dcebf2;text-anchor:middle}
+      .rule-strong{font:800 21px system-ui,sans-serif;fill:#fff;text-anchor:middle}
+    </style>
+  </defs>
+
+  <rect width="1200" height="650" rx="30" fill="url(#bg)"/>
+  <text class="eyebrow" x="62" y="60">CLOUD · SISTEMAS · SEGURIDAD</text>
+  <text class="title" x="62" y="105">Elige el recorrido por la evidencia que quieres producir</text>
+  <text class="intro" x="62" y="140">Programas extensos, laboratorios progresivos y casos independientes conviven sin formar una secuencia única.</text>
+
+  <g transform="translate(55 180)">
+    <rect class="lane" width="350" height="305" rx="22"/>
+    <circle cx="42" cy="42" r="22" fill="#d9effb"/>
+    <path d="M31 46h22M34 39l8-8 8 8M42 31v25" fill="none" stroke="#236b8e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="lane-title" x="76" y="48">Programa completo</text>
+
+    <text class="repo" x="26" y="98">Multi-cloud engineering</text>
+    <text class="meta" x="26" y="122">288 clases · 288 labs · rutas</text>
+    <rect class="existing" x="244" y="83" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="100">EXISTENTE</text>
+
+    <line x1="26" y1="145" x2="324" y2="145" stroke="#e2edf3"/>
+    <text class="repo" x="26" y="181">Ciberseguridad moderna</text>
+    <text class="meta" x="26" y="205">360 clases · rutas · laboratorios</text>
+    <rect class="existing" x="244" y="166" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="183">EXISTENTE</text>
+
+    <rect x="24" y="238" width="302" height="44" rx="12" fill="#edf6fb"/>
+    <text class="meta" x="175" y="265" text-anchor="middle">Resultado: formación estructurada</text>
+  </g>
+
+  <g transform="translate(425 180)">
+    <rect class="lane" width="350" height="305" rx="22"/>
+    <circle cx="42" cy="42" r="22" fill="#dff5e8"/>
+    <path d="M31 33h22v17H31zM36 50v6m12-6v6M36 39h12" fill="none" stroke="#26734a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="lane-title" x="76" y="48">Laboratorio progresivo</text>
+
+    <text class="repo" x="26" y="98">QEMU/KVM labs</text>
+    <text class="meta" x="26" y="122">12 labs · proyecto vm-manager</text>
+    <rect class="existing" x="244" y="83" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="100">EXISTENTE</text>
+
+    <line x1="26" y1="145" x2="324" y2="145" stroke="#e2edf3"/>
+    <text class="repo" x="26" y="181">Ingeniería de pagos</text>
+    <text class="meta" x="26" y="205">ruta · demo · estados y conciliación</text>
+    <rect class="existing" x="244" y="166" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="183">EXISTENTE</text>
+
+    <rect x="24" y="238" width="302" height="44" rx="12" fill="#ecf8f1"/>
+    <text class="meta" x="175" y="265" text-anchor="middle">Resultado: artefacto ejecutable</text>
+  </g>
+
+  <g transform="translate(795 180)">
+    <rect class="lane" width="350" height="305" rx="22"/>
+    <circle cx="42" cy="42" r="22" fill="#eee5fb"/>
+    <path d="M31 36h22M31 43h16M31 50h19" fill="none" stroke="#6c4695" stroke-width="3" stroke-linecap="round"/>
+    <text class="lane-title" x="76" y="48">Caso o experimento</text>
+
+    <text class="repo" x="26" y="91">Docker labs</text>
+    <text class="meta" x="26" y="113">colección por stack</text>
+    <rect class="existing" x="244" y="76" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="93">EXISTENTE</text>
+
+    <text class="repo" x="26" y="158">Proyectos AWS</text>
+    <text class="meta" x="26" y="180">aprendizaje caso a caso</text>
+    <rect class="developing" x="224" y="143" width="102" height="25" rx="12"/><text class="pill developing-text" x="275" y="160">EN DESARROLLO</text>
+
+    <text class="repo" x="26" y="225">Sandbox labs</text>
+    <text class="meta" x="26" y="247">36 casos en dos familias</text>
+    <rect class="experimental" x="224" y="210" width="102" height="25" rx="12"/><text class="pill experimental-text" x="275" y="227">EXPERIMENTAL</text>
+
+    <rect x="24" y="262" width="302" height="27" rx="12" fill="#f5f0fb"/>
+    <text class="meta" x="175" y="281" text-anchor="middle">Resultado: práctica acotada</text>
+  </g>
+
+  <g transform="translate(120 530)">
+    <rect width="960" height="86" rx="22" fill="#173f57"/>
+    <text class="rule-strong" x="480" y="36">No existe una ruta única entre los siete repositorios</text>
+    <text class="rule" x="480" y="63">El mapa permite elegir; la tabla del documento abre cada fuente y declara sus límites.</text>
+  </g>
+</svg>

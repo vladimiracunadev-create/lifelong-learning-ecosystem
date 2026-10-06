@@ -1,5 +1,21 @@
 # Continuidad del trabajo
 
+## Checkpoint de cabeceras visuales por área — 2026-10-06
+
+**Objetivo atendido:** corregir la inconsistencia por la que Software tenía cabecera gráfica y las demás fichas no, y comprobar el patrón completo en las seis áreas.
+
+**Archivos revisados:** las seis fichas de `docs/faculties`, los SVG existentes, el historial, el estado de calidad y el portal generado.
+
+**Decisiones:** cada área recibe un mapa propio en SVG, basado en los repositorios, cantidades, estados y tipos de recorrido ya documentados. Las líneas conceptuales y vínculos de navegación declaran expresamente que no constituyen prerrequisitos curriculares.
+
+**Cambios:** nuevas cabeceras para Software, Datos/IA, Cloud/sistemas/seguridad, Empresa/finanzas/liderazgo, Educación/evaluación y Arte/espacio/oficios; Software deja de usar la gráfica genérica de tipos de flujo.
+
+**Verificación:** portal reconstruido con 99 documentos y nueve gráficos; 41 pruebas correctas; 392 enlaces locales comprobados; DOM controlado correcto; las seis cabeceras revisadas visualmente en el navegador integrado.
+
+**Brechas:** las gráficas sintetizan evidencia ya observada; no añaden correspondencias entre unidades externas.
+
+**Siguiente acción concreta:** publicar el bloque en `main` y comprobar Calidad, Seguridad y Pages sobre el commit resultante.
+
 ## Checkpoint de campus y flujos nativos — 2026-10-06
 
 **Objetivo atendido:** dejar de presentar M-01 como entrada principal y reconstruir la navegación desde los repositorios educativos reales, sus mallas internas y sus flujos declarados.

@@ -2,6 +2,8 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
+![Mapa de arte, espacio y oficios](../assets/arts-space-trades.svg)
+
 Esta área muestra la amplitud del ecosistema: una formación extensa en entorno construido, módulos técnicos por máquina y tres experiencias culturales guiadas por aplicaciones.
 
 ## 🧭 Mapa de elección

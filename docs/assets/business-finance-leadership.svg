@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa conceptual de empresa, finanzas y liderazgo</title>
+  <desc id="desc">Programas reales ordenados por propósito, con una advertencia de que el orden conceptual no es un prerrequisito verificado.</desc>
+  <defs><marker id="head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#b17b35"/></marker><style>
+    .bg{fill:#fff9f0}.card{fill:#fff;stroke:#ead8b8;stroke-width:2}.title{font:800 34px system-ui,sans-serif;fill:#553b1d}.lead{font:500 17px system-ui,sans-serif;fill:#776044}.num{fill:#9b6629}.n{font:800 17px system-ui,sans-serif;fill:#fff;text-anchor:middle}.repo{font:800 16px system-ui,sans-serif;fill:#59401f}.meta{font:500 13px system-ui,sans-serif;fill:#7d674a}.arrow{stroke:#b17b35;stroke-width:3;fill:none;marker-end:url(#head)}.support{fill:#f4e8d5}.rule{font:700 17px system-ui,sans-serif;fill:#fff;text-anchor:middle}
+  </style></defs>
+  <rect class="bg" width="1200" height="590" rx="30"/>
+  <text class="title" x="60" y="70">Cinco propósitos y dos laboratorios de profundización</text>
+  <text class="lead" x="60" y="106">La línea ayuda a elegir una meta; no afirma una secuencia obligatoria entre repositorios.</text>
+  <path class="arrow" d="M245 237h30"/><path class="arrow" d="M455 237h30"/><path class="arrow" d="M665 237h30"/><path class="arrow" d="M875 237h30"/>
+  <g transform="translate(55 160)"><rect class="card" width="190" height="155" rx="20"/><circle class="num" cx="32" cy="32" r="20"/><text class="n" x="32" y="38">1</text><text class="repo" x="20" y="83">Crear empresa</text><text class="meta" x="20" y="108">336 clases</text><text class="meta" x="20" y="130">6 etapas</text></g>
+  <g transform="translate(265 160)"><rect class="card" width="190" height="155" rx="20"/><circle class="num" cx="32" cy="32" r="20"/><text class="n" x="32" y="38">2</text><text class="repo" x="20" y="83">Operar</text><text class="meta" x="20" y="108">app + academia</text><text class="meta" x="20" y="130">17 laboratorios</text></g>
+  <g transform="translate(475 160)"><rect class="card" width="190" height="155" rx="20"/><circle class="num" cx="32" cy="32" r="20"/><text class="n" x="32" y="38">3</text><text class="repo" x="20" y="83">Financiar</text><text class="meta" x="20" y="108">banca y riesgo</text><text class="meta" x="20" y="130">356 clases</text></g>
+  <g transform="translate(685 160)"><rect class="card" width="190" height="155" rx="20"/><circle class="num" cx="32" cy="32" r="20"/><text class="n" x="32" y="38">4</text><text class="repo" x="20" y="83">Vender y crecer</text><text class="meta" x="20" y="108">336 clases</text><text class="meta" x="20" y="130">17 rutas por rol</text></g>
+  <g transform="translate(895 160)"><rect class="card" width="250" height="155" rx="20"/><circle class="num" cx="32" cy="32" r="20"/><text class="n" x="32" y="38">5</text><text class="repo" x="20" y="83">Dirigir y fundar</text><text class="meta" x="20" y="108">288 clases · casos</text><text class="meta" x="20" y="130">96 laboratorios</text></g>
+  <g transform="translate(250 360)"><rect class="support" width="330" height="105" rx="20"/><text class="repo" x="24" y="42">Blockchain learning path</text><text class="meta" x="24" y="70">66 clases · 10 etapas · proyecto final</text></g>
+  <g transform="translate(620 360)"><rect class="support" width="330" height="105" rx="20"/><text class="repo" x="24" y="42">Payments engineering lab</text><text class="meta" x="24" y="70">estados · ledger · fallos · conciliación</text></g>
+  <rect x="145" y="505" width="910" height="48" rx="18" fill="#65471f"/><text class="rule" x="600" y="535">Cada transición necesita unidades y evidencia antes de convertirse en malla.</text>
+</svg>

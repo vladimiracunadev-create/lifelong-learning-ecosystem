@@ -2,6 +2,8 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
+![Mapa conceptual de empresa, finanzas y liderazgo](../assets/business-finance-leadership.svg)
+
 Esta área reúne programas de creación, operación, finanzas, comercialización y dirección, además de laboratorios de blockchain y pagos. Los contenidos jurídicos, tributarios y financieros enlazan fuentes y casos, pero no sustituyen asesoría profesional.
 
 ## 🧭 Mapa de elección

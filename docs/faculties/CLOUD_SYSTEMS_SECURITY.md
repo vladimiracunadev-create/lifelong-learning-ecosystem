@@ -2,6 +2,8 @@
 
 [← Volver al campus](../CAMPUS.md) · [Ver todos los flujos nativos](../NATIVE_LEARNING_FLOWS.md)
 
+![Mapa de recorridos de cloud, sistemas y seguridad](../assets/cloud-systems-security.svg)
+
 Esta área mezcla programas extensos y laboratorios acotados. La infraestructura disponible cambia lo que se puede ejecutar; por eso cada ficha distingue contenido, entorno y evidencia.
 
 ## 🧭 Mapa de elección

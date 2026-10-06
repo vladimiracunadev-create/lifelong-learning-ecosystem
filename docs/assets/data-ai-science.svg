@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa del área de datos, inteligencia artificial y ciencia</title>
+  <desc id="desc">Cinco repositorios reales y los vínculos que sus fuentes declaran, sin imponer una secuencia transversal.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#7385b6"/></marker><style>
+    .bg{fill:#f7f7fe}.node{fill:#fff;stroke:#d5d9ee;stroke-width:2}.title{font:800 34px system-ui,sans-serif;fill:#292f59}.lead{font:500 17px system-ui,sans-serif;fill:#5a6183}.repo{font:800 17px system-ui,sans-serif;fill:#303866}.meta{font:500 14px system-ui,sans-serif;fill:#666d8b}.arrow{stroke:#7385b6;stroke-width:3;fill:none;stroke-dasharray:8 7;marker-end:url(#arrow)}.label{font:700 12px system-ui,sans-serif;fill:#536397;text-anchor:middle}.rule{font:700 17px system-ui,sans-serif;fill:#fff;text-anchor:middle}
+  </style></defs>
+  <rect class="bg" width="1200" height="590" rx="30"/>
+  <text class="title" x="60" y="70">Un conjunto conectado, no una cadena obligatoria</text>
+  <text class="lead" x="60" y="106">Las flechas representan vínculos explícitos observados en los README de IA y redes neuronales.</text>
+  <path class="arrow" d="M330 220H455"/><path class="arrow" d="M745 220H870"/><path class="arrow" d="M600 290v74"/>
+  <text class="label" x="392" y="207">ENLAZADO</text><text class="label" x="808" y="207">ENLAZADO</text><text class="label" x="652" y="335">ENLAZADO</text>
+  <g transform="translate(55 155)"><rect class="node" width="275" height="135" rx="20"/><text class="repo" x="24" y="43">Matemática computacional</text><text class="meta" x="24" y="72">360 clases · 5 etapas</text><text class="meta" x="24" y="100">demostraciones y notebooks</text></g>
+  <g transform="translate(455 155)"><rect class="node" width="290" height="135" rx="20"/><text class="repo" x="24" y="43">Evolución de IA</text><text class="meta" x="24" y="72">184 clases · papers · labs</text><text class="meta" x="24" y="100">fuente central de los vínculos</text></g>
+  <g transform="translate(870 155)"><rect class="node" width="275" height="135" rx="20"/><text class="repo" x="24" y="43">Redes neuronales</text><text class="meta" x="24" y="72">31 clases · 7 módulos</text><text class="meta" x="24" y="100">93 notebooks declarados</text></g>
+  <g transform="translate(290 365)"><rect class="node" width="310" height="125" rx="20"/><text class="repo" x="24" y="43">Python y ciencia de datos</text><text class="meta" x="24" y="72">232 clases · notebooks · apps</text><text class="meta" x="24" y="99">programación, análisis y modelos</text></g>
+  <g transform="translate(620 365)"><rect class="node" width="290" height="125" rx="20"/><text class="repo" x="24" y="43">Human Genome Labs</text><text class="meta" x="24" y="72">módulos · CLI · PWA · juego</text><text class="meta" x="24" y="99">madurez explícita por módulo</text></g>
+  <rect x="170" y="520" width="860" height="44" rx="17" fill="#303866"/><text class="rule" x="600" y="548">Una flecha de navegación no declara equivalencia ni prerrequisito curricular.</text>
+</svg>

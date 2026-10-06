@@ -4,9 +4,9 @@ Fecha de revisión local: 2026-10-06.
 
 ## Entrega disponible
 
-Campus federado con **seis áreas documentadas**, **30 flujos nativos revisados**, **tres mapas SVG**, **14 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **99 documentos Markdown** embebidos y herramientas locales.
+Campus federado con **seis áreas documentadas**, **30 flujos nativos revisados**, **nueve mapas SVG**, **14 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **99 documentos Markdown** embebidos y herramientas locales.
 
-El lector index.html abre por el campus y los flujos reales; incorpora los tres SVG de forma autocontenida, además del catálogo, las mallas editoriales, los apoyos, las rúbricas y la documentación. Las clases externas siguen en sus repositorios. La API pública confirmó 68 repositorios —64 propios y 4 forks—; los candidatos no reciben automáticamente un ID canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
+El lector index.html abre por el campus y los flujos reales; incorpora los nueve SVG de forma autocontenida, incluidas cabeceras propias para las seis áreas, además del catálogo, las mallas editoriales, los apoyos, las rúbricas y la documentación. Las clases externas siguen en sus repositorios. La API pública confirmó 68 repositorios —64 propios y 4 forks—; los candidatos no reciben automáticamente un ID canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
 
 ## Verificaciones técnicas realizadas
 
@@ -26,6 +26,7 @@ El lector index.html abre por el campus y los flujos reales; incorpora los tres 
 | Automatización | Tres workflows: calidad multi-entorno, CodeQL y Pages después de calidad; acciones fijadas a SHAs completos |
 | Arquitectura pública | Maestro, catálogo canónico, candidatos y propuestas futuras separados por evidencia y madurez |
 | Guía de aprendizaje | Campus de seis áreas, 30 flujos nativos, atlas de 14 integraciones y mapas con enlaces directos |
+| Cabeceras de área | Las seis fichas poseen un SVG propio; revisión visual completa en el ancho real del portal |
 
 Ejecución local fresca: **Windows · Python 3.12.9 · Node 24.11.1**. Las pruebas usan biblioteca estándar de Python. La comprobación de DOM usa Node y está incluida en tests/check_portal_dom.cjs. La evidencia remota se registra en [RELEASE_EVIDENCE.md](RELEASE_EVIDENCE.md); no se considera verde hasta observar el resultado final asociado al commit publicado.
 
@@ -35,7 +36,7 @@ El informe estructurado de validación se conserva en [validation.json](validati
 
 ## Límites de verificación de interfaz
 
-Se realizó una revisión visual local en el navegador integrado: la portada, la navegación móvil y el SVG del campus se mostraron correctamente, sin errores de consola. Esta revisión no recorre todos los tamaños de pantalla ni todas las interacciones del portal publicado.
+Se realizó una revisión visual local en el navegador integrado: la portada, la navegación móvil, el SVG del campus y las seis cabeceras de área se mostraron correctamente. Esta revisión no recorre todos los tamaños de pantalla ni todas las interacciones del portal publicado.
 
 El lector está diseñado para abrirse mediante index.html desde la carpeta extraída. Las instrucciones y lanzadores de Windows están incluidos; su ejecución se debe comprobar en el equipo de destino.
 

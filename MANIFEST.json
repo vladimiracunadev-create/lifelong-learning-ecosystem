@@ -5,7 +5,7 @@
   "release_date": "2026-10-05",
   "hash_algorithm": "SHA-256",
   "scope": "Archivos distribuidos; MANIFEST.json se excluye de su propio hash.",
-  "file_count_excluding_manifest": 132,
+  "file_count_excluding_manifest": 138,
   "files": [
     {
       "path": ".gitattributes",
@@ -54,8 +54,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4296,
-      "sha256": "52af3551d3313fb2b5ce9bb72369ee641dead145334c24a21886cfa923c743df"
+      "bytes": 4341,
+      "sha256": "5902bfe4979ad08950328978b2c1fcce101c8d622da3b42fec85b93bfdf3e381"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -318,14 +318,44 @@
       "sha256": "dd50b0ba0b4485148dc338fabe990e227a90518beefe5e42da39c39e9e3c2e26"
     },
     {
+      "path": "docs/assets/arts-space-trades.svg",
+      "bytes": 3045,
+      "sha256": "915fa53c7d36f11d352c7ce9471d354c94180e77fc8e29fbdb4687a83594d2d8"
+    },
+    {
+      "path": "docs/assets/business-finance-leadership.svg",
+      "bytes": 3831,
+      "sha256": "ed65d470f80dc37be8270a111383a9a982700ddceda33f5b4a3092d33adead20"
+    },
+    {
       "path": "docs/assets/campus-federado.svg",
       "bytes": 4546,
       "sha256": "2e0270f9dc88b66441fe986ed40a906bf9a1804f3ecf76de34b1d2edf7b4748c"
     },
     {
+      "path": "docs/assets/cloud-systems-security.svg",
+      "bytes": 6069,
+      "sha256": "43282a2f58c7f9477151b68edff7b8533adff48dca2036bfda64555d5c0aff85"
+    },
+    {
+      "path": "docs/assets/data-ai-science.svg",
+      "bytes": 3219,
+      "sha256": "d0e27693302b0b466223b01a524a7b95653ad17554f9d7d8d6038e2c745ffaf3"
+    },
+    {
+      "path": "docs/assets/education-assessment.svg",
+      "bytes": 3362,
+      "sha256": "3b871d0af54fa390cacc085abbc346660c9538588e08ef3240265306ad638bca"
+    },
+    {
       "path": "docs/assets/niveles-de-evidencia.svg",
       "bytes": 2071,
       "sha256": "714c827c3fb0d7f7c6a659a0a98df125f9faed93e093a3a83f98704b076dfe02"
+    },
+    {
+      "path": "docs/assets/software-computing.svg",
+      "bytes": 3189,
+      "sha256": "38abe42c6df93bff08de0c67c559de301fd2b4751ef94c810609170046e53a57"
     },
     {
       "path": "docs/assets/tipos-de-flujo.svg",
@@ -334,33 +364,33 @@
     },
     {
       "path": "docs/faculties/ARTS_SPACE_TRADES.md",
-      "bytes": 4110,
-      "sha256": "82b60fe8e11276cffb6c20f641696e78df56503d44268b7043c9f587dfd7844a"
+      "bytes": 4179,
+      "sha256": "bfa972936495fae8d801903de34b3b2ba5ecd82a9ef8458856dd57f2b0060936"
     },
     {
       "path": "docs/faculties/BUSINESS_FINANCE_LEADERSHIP.md",
-      "bytes": 5423,
-      "sha256": "b4e1b3c905b0b45dc0062687e29e9ffe9672d9eee59fa5abf13bf4729aa0eeb0"
+      "bytes": 5519,
+      "sha256": "54a6ebebef6020035decc1164545e873843f3dfffb766a258d719e3c09ab2ac8"
     },
     {
       "path": "docs/faculties/CLOUD_SYSTEMS_SECURITY.md",
-      "bytes": 4898,
-      "sha256": "442604b6809d44a1f0219ee8657d809ec96ff30fe58ec66d2cbefc43ffb34e38"
+      "bytes": 4990,
+      "sha256": "9bd8e02837915aae8c2f9fb5f68c02cf9be6d8d621466f14efec74362e391b51"
     },
     {
       "path": "docs/faculties/DATA_AI_SCIENCE.md",
-      "bytes": 4712,
-      "sha256": "ea602d97f2e647152b65a815735f93ffbff9cdf57978d5acade804a00e0571e2"
+      "bytes": 4806,
+      "sha256": "1250c0d4b20a137a3d67d726248569c9a9a9c785c80e527d6eb7f14b1f3d002e"
     },
     {
       "path": "docs/faculties/EDUCATION_ASSESSMENT.md",
-      "bytes": 3593,
-      "sha256": "ad0511bf6e68e6b05af8ecde430249ea971f4ef1b2e52e9b2bdd27e39a5d0af1"
+      "bytes": 3690,
+      "sha256": "0559ec3ea0bf5f84ed5da4be320afa0dc5753444a1022248dd539fbcc89a648e"
     },
     {
       "path": "docs/faculties/SOFTWARE_COMPUTING.md",
-      "bytes": 5847,
-      "sha256": "5587cdae7730ea1067761ccfbdcfaa9d745bf75a2616f6773140b98fa8fa9157"
+      "bytes": 5882,
+      "sha256": "d3dc60b83430412a2daa7e19c032d107b8da3c96dc75f278406e8f46ad8f6858"
     },
     {
       "path": "examples/FICTIONAL_PROFILES.md",
@@ -379,8 +409,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 832636,
-      "sha256": "6080e6fa7697be2d73a1abeb78f5309d34cc4e29e86c38a656a38ab3ff41c68f"
+      "bytes": 865389,
+      "sha256": "807a83fe827e4c3eae5d47517ba0b5d58008d64d9b26be770fa0c3765e844dc0"
     },
     {
       "path": "integrations/README.md",
@@ -499,8 +529,8 @@
     },
     {
       "path": "prompts/CONTINUITY.md",
-      "bytes": 8556,
-      "sha256": "1306c357352044ddacda136e75dfb1e6a48ee74015d95b793ebfe8974bc5bf8c"
+      "bytes": 9885,
+      "sha256": "5d49e677e08d58836d7e8bded66c434530ca478a0400f84f870752c16468056e"
     },
     {
       "path": "prompts/IMPROVE_CURRICULUM.md",
@@ -549,8 +579,8 @@
     },
     {
       "path": "quality/STATUS.md",
-      "bytes": 5446,
-      "sha256": "efaab47efa23670a21eabf5f6f9649a531546c85fc72592429b107f9a5b152bf"
+      "bytes": 5620,
+      "sha256": "be4b54a43cf15eeda6cae5ab88117ad1bddaf4f6a9cb43f436f00c19030549ae"
     },
     {
       "path": "quality/validation.json",
