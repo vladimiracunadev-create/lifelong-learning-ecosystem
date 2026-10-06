@@ -9,6 +9,8 @@
 
 El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ejecución de Calidad detectó una huella del portal dependiente de CRLF/LF en Windows. La corrección `b4b657edac8e2868bf454805800b3cf793137a48` normaliza las fuentes, añade una prueba de regresión y terminó verde en Calidad, Seguridad y Pages.
 
+La auditoría de arquitectura y repositorios reales se publicó como `b4f207f3e8a0374909d5a4c01c37065a230ed008`. También terminó verde en Calidad, Seguridad y Pages. Las cuatro actualizaciones de Actions propuestas por Dependabot se incorporaron en ese commit; sus PR se cerraron y sus ramas se eliminaron.
+
 ## Matriz de afirmaciones
 
 | Plataforma/artefacto | Afirmación | Fuente canónica | Nivel de evidencia | Resultado | Referencia |
@@ -44,6 +46,9 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 - [Calidad de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404161735): correcta en la matriz configurada.
 - [Seguridad de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404161751): CodeQL correcto para Python y JavaScript/TypeScript.
 - [Pages de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404202163): correcto después de habilitar el sitio público con despliegue por workflow.
+- [Calidad de la auditoría](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37405593947): correcta en Python 3.11 y 3.14 sobre Ubuntu, Python 3.12 sobre Windows, DOM Node 24 y paquete reproducible.
+- [Seguridad de la auditoría](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37405593992): CodeQL correcto para Python y JavaScript/TypeScript.
+- [Pages de la auditoría](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37405639483): publicación correcta del portal.
 
 ## Incidencias
 
@@ -55,7 +60,6 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 
 ## No comprobado y riesgo residual
 
-- La auditoría de arquitectura añadida después del commit verde debe ejecutar los mismos gates antes del cierre final.
 - Ruleset o protección de rama, que GitHub permite completar después de crear la rama y sus checks.
 - Enlaces externos vivos y revisión pedagógica especializada.
 
@@ -63,4 +67,4 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 
 - Portal y datos locales: evidencia local suficiente para continuar hacia la publicación.
 - Publicación remota: el repositorio es público y el commit de corrección tiene Calidad, Seguridad y Pages comprobados.
-- Global: **apto como línea base verde**; cualquier commit posterior debe correlacionarse de nuevo con sus ejecuciones antes de declararlo verde.
+- Global: **auditoría publicada y verde**; cualquier commit posterior debe correlacionarse de nuevo con sus ejecuciones antes de declararlo verde.

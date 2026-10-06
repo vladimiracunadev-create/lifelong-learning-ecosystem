@@ -27,6 +27,8 @@ El lector index.html incorpora el catálogo, las mallas, los apoyos, las rúbric
 
 Ejecución local fresca: **Windows · Python 3.12.9 · Node 24.11.1**. Las pruebas usan biblioteca estándar de Python. La comprobación de DOM usa Node y está incluida en tests/check_portal_dom.cjs. La evidencia remota se registra en [RELEASE_EVIDENCE.md](RELEASE_EVIDENCE.md); no se considera verde hasta observar el resultado final asociado al commit publicado.
 
+La auditoría publicada en `b4f207f3e8a0374909d5a4c01c37065a230ed008` terminó con Calidad, CodeQL y Pages correctos. Después de integrar las actualizaciones automáticas no quedaron pull requests abiertos ni ramas remotas distintas de `main`.
+
 El informe estructurado de validación se conserva en [validation.json](validation.json). El manifiesto de archivos se encuentra en MANIFEST.json, en la raíz del paquete.
 
 ## Límites de verificación de interfaz

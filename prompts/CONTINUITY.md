@@ -12,7 +12,7 @@
 
 **Cambios:** `docs/CURRENT_ARCHITECTURE.md`, `catalog/REPOSITORY_DISCOVERY.md`, `PROPOSED_COMPONENTS.md` y enlaces contextuales en presentación, visión, estado e historial.
 
-**Verificación:** reconstruir lector y ejecutar validador, suite, comprobación de vigencia, DOM y controles remotos antes de cerrar este bloque.
+**Verificación:** 40 pruebas correctas; validador válido con 89 Markdown y 273 enlaces locales; portal vigente con 88 documentos embebidos; DOM controlado correcto; Calidad, CodeQL y Pages verdes para `b4f207f3e8a0374909d5a4c01c37065a230ed008`.
 
 **Brechas:** los candidatos se revisaron principalmente en sus README; faltan auditorías por unidad, licencias y validadores antes de integrarlos.
 
