@@ -15,6 +15,35 @@ Una persona puede entrar en cualquier momento, reconocer lo que ya sabe, definir
 
 **Versión inicial: 0.1.0 · Fecha de revisión de fuentes: 5 de octubre de 2026 · Idioma: español.**
 
+## Por qué existe
+
+La cuenta pública contiene programas profundos de matemática, software, IA, datos, empresa, finanzas, arquitectura, educación y otras áreas. El problema es que una colección de programas no le dice a una persona **dónde comenzar**, **qué conocimientos necesita**, **cómo cruzar disciplinas** ni **qué evidencia demuestra que puede continuar**.
+
+Este repositorio convierte esa colección en una brújula:
+
+| Pregunta de la persona | Respuesta del maestro |
+| --- | --- |
+| ¿Qué puedo hacer con lo que ya sé? | diagnóstico y reconocimiento de evidencia previa |
+| ¿Qué camino responde a mi meta? | cinco mallas con seis pasos, productos y criterios |
+| ¿Dónde profundizo una competencia? | enlaces a 14 programas y laboratorios con alcance documentado |
+| ¿Qué apoyo uso si encuentro una barrera? | diez guías de apoyo vinculadas a actividades concretas |
+| ¿Cómo sé si avanzo? | evidencias, rúbricas, transferencia y continuidad |
+
+Puede imaginarse como la **capa de orientación de una universidad federada**: los repositorios especializados se parecen a facultades y las mallas conectan sus disciplinas. No es una universidad acreditada: no matricula, no asigna créditos, no entrega títulos y no homologa estudios. Lee [la explicación completa del sistema](docs/LEARNING_SYSTEM.md).
+
+## Qué puedes recorrer ahora
+
+```mermaid
+flowchart LR
+    META[Tu meta] --> ENTRADA[Diagnóstico y evidencia previa]
+    ENTRADA --> MALLA[Una malla de seis pasos]
+    MALLA --> PRODUCTO[Producto integrador]
+    PRODUCTO --> PROGRAMA[Profundización en programas]
+    PROGRAMA --> CONT[Continuar, cambiar, enseñar o pausar]
+```
+
+No tienes que comenzar por M-01 ni recorrer todo. Elige por propósito en [las rutas concretas](docs/LEARNING_ROUTES.md), consulta [el atlas de programas](docs/PROGRAM_ATLAS.md) y usa [los mapas visuales](docs/ECOSYSTEM_MAP.md) para ver las conexiones.
+
 ## Explorar
 
 1. Abre el [portal público](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/) o descarga el repositorio para usarlo sin conexión.
@@ -60,15 +89,29 @@ Los conteos y resultados técnicos se registran en [el estado de entrega](qualit
 
 ## Los cinco recorridos
 
-| ID | Propósito |
-| --- | --- |
-| M-01 | Conectar la formación escolar con intereses y especialidades |
-| M-02 | Ingresar a una especialidad reconociendo conocimientos previos |
-| M-03 | Preparar una reconversión durante la vida adulta |
-| M-04 | Desarrollar un proyecto interdisciplinario |
-| M-05 | Aprender por interés personal y transmitir experiencia |
+| Malla | Para qué sirve | Qué haces | Evidencia final | Abrir |
+| --- | --- | --- | --- | --- |
+| M-01 | recuperar bases y elegir continuidad | contrastas textos, interpretas datos, decides con un presupuesto y pruebas una propuesta | rincón lector, cálculos, revisión y portafolio breve | [M-01](curricula/M-01-continuidad-escolar.md) |
+| M-02 | entrar a software o demostrar experiencia | especificas reglas, construyes un catálogo local, pruebas fallos y preparas operación | programa, pruebas, guía y caso técnico | [M-02](curricula/M-02-ingreso-especialidad-software.md) |
+| M-03 | explorar una reconversión tecnológica | investigas un problema ficticio, defines un servicio, calculas alternativas y construyes una demostración | propuesta, demostración y caso de portafolio | [M-03](curricula/M-03-reconversion-consultoria-tecnologica.md) |
+| M-04 | aprender mediante un proyecto interdisciplinario | observas un espacio, comparas soluciones, produces y pruebas un prototipo accesible | croquis, presupuesto, prototipo y plan operativo | [M-04](curricula/M-04-proyecto-comunitario-tecnologico.md) |
+| M-05 | investigar por curiosidad y transmitir experiencia | contrastas recuerdos y fuentes, creas una pieza y diseñas una actividad para compartir | indagación, pieza expresiva y guion de enseñanza | [M-05](curricula/M-05-memoria-espacio-cultural.md) |
 
 Las mallas completas están en [curricula](curricula/README.md). Su secuencia se expresa por dependencias de conocimiento. Las edades no acreditan competencias, y los calendarios personales se pueden ajustar sin cambiar los resultados esperados.
+
+## Programas, laboratorio y apoyos
+
+Las mallas actuales utilizan 13 programas. El laboratorio neuronal está catalogado, pero todavía no está conectado a una malla; esa brecha se conserva visible.
+
+| Área | Repositorios usados |
+| --- | --- |
+| bases escolares y matemática | [Trayectoria Escolar](https://github.com/vladimiracunadev-create/chilean-school-learning-path) · [Matemática Computacional](https://github.com/vladimiracunadev-create/computational-mathematics-program) |
+| software y seguridad | [Ingeniería de Software](https://github.com/vladimiracunadev-create/modern-software-engineering-program) · [Ciberseguridad](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) |
+| datos e IA | [Python y Ciencia de Datos](https://github.com/vladimiracunadev-create/python-data-science-program) · [Evolución de la IA](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program) · [Neural Network Labs](https://github.com/vladimiracunadev-create/neural-network-training-labs) |
+| empresa y decisiones | [Creación de Empresas](https://github.com/vladimiracunadev-create/modern-business-creation-program) · [Finanzas](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program) · [Marketing](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) · [Liderazgo](https://github.com/vladimiracunadev-create/executive-leadership-founder-program) |
+| espacio, enseñanza y evaluación | [Arquitectura](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) · [Pedagogía](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program) · [Psicometría](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program) |
+
+El [atlas de programas](docs/PROGRAM_ATLAS.md) analiza uno por uno: aporte, estado observado, alcance de revisión, mallas vinculadas, enlaces y brechas. Los apoyos del maestro son guías documentales; las aplicaciones declaradas por programas externos no se consideran probadas por esta integración.
 
 ## Arquitectura
 

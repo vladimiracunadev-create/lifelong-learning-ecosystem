@@ -5,7 +5,7 @@
   "release_date": "2026-10-05",
   "hash_algorithm": "SHA-256",
   "scope": "Archivos distribuidos; MANIFEST.json se excluye de su propio hash.",
-  "file_count_excluding_manifest": 118,
+  "file_count_excluding_manifest": 121,
   "files": [
     {
       "path": ".gitattributes",
@@ -54,8 +54,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2731,
-      "sha256": "665b41ba621ac7c09cfac2a593f93e4982312efb06886643fe92562a86c35f0b"
+      "bytes": 3336,
+      "sha256": "1bf66c2e25aec50e261598087ec955ea842fd3eabed7c94c0556d5c11c1009b0"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -84,8 +84,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10546,
-      "sha256": "850a7402220c285de533979c6a31911cad085f1242c186169f9025e775fd0ad8"
+      "bytes": 15590,
+      "sha256": "b416951d1d8b37e1f13af340ab39314df8245459005aa985af660e162faa8c0d"
     },
     {
       "path": "RECONSTRUIR_PORTAL.cmd",
@@ -109,8 +109,8 @@
     },
     {
       "path": "VISION.md",
-      "bytes": 5108,
-      "sha256": "357eef47baeb5755174d90660d4e461ecc5eabc528099d8a2121be4737ab34e7"
+      "bytes": 5476,
+      "sha256": "6b2ced843b49fee93985bed5b4fcb5c41b9d09597e3a4bf6b73b83815fa07d82"
     },
     {
       "path": "assessment/README.md",
@@ -214,8 +214,8 @@
     },
     {
       "path": "curricula/README.md",
-      "bytes": 4569,
-      "sha256": "1df33c472c49f86bd2eaa073fa55ffff86e5d8fe51ba02550f3b7d4e5699940a"
+      "bytes": 4833,
+      "sha256": "2b44232cc9b02f7312e8ec6d045f79627847d62f6cae46654c5e0bca2f339332"
     },
     {
       "path": "curricula/mallas.json",
@@ -259,8 +259,8 @@
     },
     {
       "path": "docs/ECOSYSTEM_MAP.md",
-      "bytes": 3522,
-      "sha256": "286b44a31dd505dbe513e8ff542df93ee0ccde83d5474d635cc5e26df32b51ed"
+      "bytes": 8782,
+      "sha256": "bd4e7067ea9d2f17707e7eb0af098288e6d59c6ded2ed976aaf9037d3bd544c4"
     },
     {
       "path": "docs/INTEGRATION_POLICY.md",
@@ -268,9 +268,24 @@
       "sha256": "a1930820b8c5e230ca97dba03833140e25dbcec0e4bac7d288c30697f22c882d"
     },
     {
+      "path": "docs/LEARNING_ROUTES.md",
+      "bytes": 11552,
+      "sha256": "06e401ad2ca5517b5cb8edeb8f81006f276d3a738ef4ef066997dfbc1f8d88fc"
+    },
+    {
+      "path": "docs/LEARNING_SYSTEM.md",
+      "bytes": 8894,
+      "sha256": "a21e1bb5b7bd5058237c34b0292de76d40c1e20805409626a47e3f4b2a81b338"
+    },
+    {
       "path": "docs/PEDAGOGICAL_MODEL.md",
       "bytes": 5338,
       "sha256": "040e11507ecc4aaa6e60ab8cd83de2ea6636969eb1e8915f61cd60b354eaf311"
+    },
+    {
+      "path": "docs/PROGRAM_ATLAS.md",
+      "bytes": 17764,
+      "sha256": "7c806bf78ff55d197ec9b007987d37c07d21ab42255d92bf6e7445a99220f3f7"
     },
     {
       "path": "docs/PROJECT_ORIGIN.md",
@@ -279,8 +294,8 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 1769,
-      "sha256": "18a59122e95f23fc93b45fad49f6b01a3c01addb0462fe7147f250cb01e79be4"
+      "bytes": 2123,
+      "sha256": "df03d7fa42c10985301342e74d2440faae49f99a35ea6c27d7d73ce2f56985af"
     },
     {
       "path": "docs/START_WINDOWS.md",
@@ -309,13 +324,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 717876,
-      "sha256": "1610f2bf0b7b607a8a816ed019faa76d19cb6b5f21eed4f8c4312ba50093b198"
+      "bytes": 772998,
+      "sha256": "327d83dfce1d9dd5568a73431b10368c04bff89bbed16fc097bd97855b076fce"
     },
     {
       "path": "integrations/README.md",
-      "bytes": 4395,
-      "sha256": "021f77ba728acca355b9e54c32b21d5f56aa7cf1673ae2ca8c72a86dad168b67"
+      "bytes": 4581,
+      "sha256": "80390f43e1ec90b6c95ddc67cd2ce61da034c14d34881192e9259625b43a9535"
     },
     {
       "path": "integrations/UNIT_SELECTION.md",
@@ -394,8 +409,8 @@
     },
     {
       "path": "pathways/README.md",
-      "bytes": 2514,
-      "sha256": "62825b379cf24fd7c76a03bad179314fe626da18ef85d0b48bcb36a6ff6722e2"
+      "bytes": 2684,
+      "sha256": "9754622970e9f525777511dedfac1ebd282ec20124f54c3fe39a67c40c5417fe"
     },
     {
       "path": "pathways/elegir-y-retomar.md",
@@ -424,13 +439,13 @@
     },
     {
       "path": "portal/template.html",
-      "bytes": 63964,
-      "sha256": "0af2fa7fb83f169c6c3da4727561e3cf459f493ec66a9f3be817a3de3d643ab7"
+      "bytes": 65222,
+      "sha256": "a9cc29e908c8e4d54c01345d6ab7e8cddc024e84b488ad4f37ff9d30c7c9ad4d"
     },
     {
       "path": "prompts/CONTINUITY.md",
-      "bytes": 5158,
-      "sha256": "a702ad775f20336b8853401282c46720f7ef39af0906fb66cab3611d12974a5c"
+      "bytes": 6621,
+      "sha256": "f59fe2d5cb03b0e1ffc263ff20706956c1eb6b7cc66552b4b60d514bf2236bde"
     },
     {
       "path": "prompts/IMPROVE_CURRICULUM.md",
@@ -479,13 +494,13 @@
     },
     {
       "path": "quality/STATUS.md",
-      "bytes": 4848,
-      "sha256": "b925942426b2e0b1a6e3f74ecdbb597ae34c525b3437b061f1edfd5be3196c52"
+      "bytes": 4980,
+      "sha256": "923f91ae0aec1c7a0e9e89248083ae4e77ac09567fa115cb64bc8422db0a85ca"
     },
     {
       "path": "quality/validation.json",
       "bytes": 521,
-      "sha256": "e7d4b2f18f44e5d9b074281719ee9add8de645ff8fd187c970838432ea689c7d"
+      "sha256": "510cdca2b19e45e3d4867cdaf081620cd1352e2f3287c5589aa15393c7469bd1"
     },
     {
       "path": "scripts/build_portal.py",

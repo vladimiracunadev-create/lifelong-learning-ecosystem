@@ -5,6 +5,9 @@
 | [Inicio en Windows](START_WINDOWS.md) | Extraer, abrir y trabajar en el equipo del usuario |
 | [Desarrollo](DEVELOPMENT.md) | Comandos, datos canónicos y reconstrucción |
 | [Mapas del ecosistema](ECOSYSTEM_MAP.md) | Arquitectura federada, ciclo y continuidad de las mallas |
+| [La brújula de aprendizaje](LEARNING_SYSTEM.md) | Por qué existe, qué resuelve y hasta dónde llega la analogía universitaria |
+| [Rutas de aprendizaje](LEARNING_ROUTES.md) | Cinco recorridos, pasos, productos, programas y continuidad |
+| [Atlas de programas](PROGRAM_ATLAS.md) | Análisis de las 14 integraciones, evidencia, vínculos y brechas |
 | [Arquitectura actual](CURRENT_ARCHITECTURE.md) | Componentes implementados, flujo real y límites comprobados |
 | [Automatización](AUTOMATION.md) | CI, seguridad, Pages y gate recomendado para `main` |
 | [Modelo pedagógico](PEDAGOGICAL_MODEL.md) | Cómo conectar objetivos, práctica y evidencia |

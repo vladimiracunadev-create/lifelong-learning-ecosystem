@@ -2,6 +2,8 @@
 
 Una trayectoria conecta un **propósito actual**, un **punto de entrada por competencia** y unas **condiciones de participación**. Puede reunir partes de varias mallas. Las etapas vitales orientan ejemplos y acompañamiento; los resultados observados permiten decidir la profundidad de trabajo.
 
+La guía [Rutas de aprendizaje concretas](../docs/LEARNING_ROUTES.md) desarrolla las cinco opciones paso a paso, con producto final, programas vinculados y continuidad.
+
 ## Comenzar
 
 | Necesidad actual | Recurso de entrada |

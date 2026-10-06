@@ -1,6 +1,6 @@
 # Historial de cambios
 
-## Sin publicar — 2026-10-05
+## Sin publicar — 2026-10-06
 
 ### Añadido
 
@@ -11,6 +11,10 @@
 - Arquitectura actual verificada con una matriz de componentes existentes y límites explícitos.
 - Descubrimiento de los 68 repositorios públicos observados, separando integraciones canónicas, candidatos revisados, productos, presencia pública y forks.
 - `PROPOSED_COMPONENTS.md` con problema, evidencia, alternativas, arquitectura, esfuerzo, beneficio, riesgo y prioridad para cada oportunidad futura.
+- Explicación profunda del repositorio como brújula curricular federada, incluida la comparación limitada con una universidad.
+- Guía concreta de cinco rutas con entradas, seis pasos, productos, programas y opciones de continuidad.
+- Atlas de las 14 integraciones con aporte, estado observado, alcance de revisión, mallas, enlaces y brechas.
+- Mapas visuales enlazados entre metas, mallas, competencias y repositorios especializados.
 
 ### Cambiado
 
@@ -20,6 +24,7 @@
 - Las referencias a 14 programas ahora dicen 14 integraciones canónicas y dejan claro que el catálogo no es una lista cerrada.
 - Las capacidades futuras de IA, búsqueda, recomendación, API o plataforma se identifican como propuestas y no como producto implementado.
 - Las acciones de artefactos y Pages incorporan las cuatro actualizaciones propuestas por Dependabot, conservando pins SHA completos.
+- La portada y el portal ofrecen acceso directo al propósito, las rutas, el atlas y los mapas, y distinguen programas, laboratorios, guías y aplicaciones externas.
 
 ## 0.1.0 — 2026-10-05
 

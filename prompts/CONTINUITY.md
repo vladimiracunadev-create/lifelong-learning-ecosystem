@@ -1,5 +1,21 @@
 # Continuidad del trabajo
 
+## Checkpoint de guía profunda y vinculada — 2026-10-06
+
+**Objetivo atendido:** convertir la documentación pública desde una descripción general hacia una brújula concreta con propósito, rutas, programas, laboratorios, apoyos, evidencias y vínculos visuales.
+
+**Archivos revisados:** README, visión, cinco mallas canónicas, 14 entradas de programas, 36 competencias, mapas, rutas, fichas de integración, estado y portal.
+
+**Decisiones:** explicar la analogía universitaria sin afirmar acreditación; definir programa, laboratorio, aplicación, competencia, malla y ruta; analizar únicamente las 14 integraciones canónicas; mostrar `LAB-NEURAL` como brecha porque ninguna malla lo usa todavía.
+
+**Cambios:** `docs/LEARNING_SYSTEM.md`, `docs/LEARNING_ROUTES.md`, `docs/PROGRAM_ATLAS.md`; mapas enlazados; README y portal con accesos directos; índices de mallas, rutas e integraciones conectados con las nuevas guías.
+
+**Verificación local:** validador correcto con 92 Markdown, 350 enlaces locales y 388 URL externas; 40 pruebas correctas; portal con 91 documentos embebidos; DOM controlado correcto.
+
+**Brechas:** las correspondencias por unidad siguen pendientes; apps y notebooks externos continúan como declaraciones no ejecutadas; Neural Network Training Labs no tiene una malla actual.
+
+**Siguiente acción concreta:** auditar unidades reales de una sola malla y reemplazar referencias de nivel programa por selecciones fijadas a commit.
+
 ## Checkpoint de arquitectura real y descubrimiento — 2026-10-05
 
 **Objetivo atendido:** separar con evidencia el producto implementado, los repositorios especializados existentes y las ideas futuras, sin incorporar componentes por su sola mención.

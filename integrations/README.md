@@ -2,6 +2,8 @@
 
 Estas fichas describen cómo seleccionar contenido existente y conectarlo a una trayectoria. Cada programa conserva sus unidades, identificadores, licencias y estados. El maestro mantiene el catálogo, las relaciones y las actividades puente originales.
 
+El [atlas de programas](../docs/PROGRAM_ATLAS.md) ofrece una lectura transversal de las 14 integraciones: aporte, uso en mallas, estado observado, evidencia revisada y brecha concreta.
+
 ## Fichas disponibles
 
 | ID estable | Programa | Papel propuesto | Integración |

@@ -5,10 +5,10 @@
   "network_used": false,
   "counts": {
     "canonical_files": 6,
-    "markdown_files": 89,
+    "markdown_files": 92,
     "html_files": 2,
-    "local_links": 273,
-    "external_urls": 306,
+    "local_links": 350,
+    "external_urls": 388,
     "programs": 14,
     "pending": 4,
     "competencies": 36,

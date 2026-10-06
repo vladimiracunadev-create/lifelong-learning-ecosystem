@@ -2,6 +2,8 @@
 
 Esta primera versión incluye **cinco mallas, con seis pasos cada una**, que conectan objetivos, diagnósticos, actividades puente originales, evidencias y criterios de revisión. Cada malla ofrece un caso completo de práctica que se puede comenzar con los materiales del documento. Su alcance es una experiencia integradora inicial: los programas externos aportan especialidades y requieren una correspondencia por unidad todavía pendiente.
 
+Para elegir por meta y comprender el recorrido completo antes de abrir una malla, consulta [Rutas de aprendizaje concretas](../docs/LEARNING_ROUTES.md). Para saber qué aporta cada repositorio enlazado, consulta [el atlas de programas](../docs/PROGRAM_ATLAS.md).
+
 | ID | Malla | Producto o evidencia integradora | Rúbrica |
 | --- | --- | --- | --- |
 | M-01 | [Continuidad escolar](M-01-continuidad-escolar.md) | Propuesta de rincón lector con lectura contrastada, cantidades y revisión. | RUB-CORE |

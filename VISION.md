@@ -2,9 +2,11 @@
 
 ## Propósito
 
-Construir una unidad educativa que conecte los programas de aprendizaje de Vladimir Acuña y permita a cada persona comprender desde dónde comienza, qué quiere lograr, qué recursos necesita y cómo reconocer sus avances.
+Construir una brújula curricular federada que conecte los programas de aprendizaje de Vladimir Acuña y permita a cada persona comprender desde dónde comienza, qué quiere lograr, qué recursos necesita y cómo reconocer sus avances.
 
 La unidad central es la trayectoria de aprendizaje. Los programas aportan profundidad disciplinar; el maestro organiza relaciones y experiencias que atraviesan sus fronteras.
+
+Puede compararse con la capa de orientación de una universidad federada: organiza mallas, especialidades, prerrequisitos y evidencias. No es una institución acreditada y no entrega matrícula, créditos, títulos ni habilitación profesional. Su valor está en explicar conexiones, conservar procedencia y permitir decisiones de aprendizaje revisables.
 
 ## Alcance humano
 
