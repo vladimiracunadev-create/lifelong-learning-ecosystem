@@ -19,8 +19,8 @@ Una persona puede entrar en cualquier momento, reconocer lo que ya sabe, definir
 
 1. Abre el [portal público](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/) o descarga el repositorio para usarlo sin conexión.
 2. En una copia local, abre [index.html](index.html). En Windows también puedes ejecutar [ABRIR_PORTAL.cmd](ABRIR_PORTAL.cmd).
-3. Explora el catálogo, las competencias, las cinco mallas, los apoyos y las rúbricas.
-4. Consulta los [mapas del ecosistema](docs/ECOSYSTEM_MAP.md) y [cómo elegir y retomar un recorrido](pathways/README.md).
+3. Explora las 14 integraciones canónicas, las competencias, las cinco mallas, los apoyos y las rúbricas.
+4. Consulta la [arquitectura actual verificada](docs/CURRENT_ARCHITECTURE.md), el [descubrimiento de repositorios](catalog/REPOSITORY_DISCOVERY.md) y [cómo elegir y retomar un recorrido](pathways/README.md).
 5. Para continuar el desarrollo con un agente, utiliza el archivo íntegro [PROMPT_MAESTRO.md](PROMPT_MAESTRO.md).
 
 El lector local contiene los datos y documentación de esta entrega. Las clases de los programas enlazados permanecen en sus repositorios y requieren conexión para consultarlas si no se han descargado previamente.
@@ -29,7 +29,9 @@ El lector local contiene los datos y documentación de esta entrega. Las clases 
 
 ```mermaid
 flowchart LR
-    P[14 programas y laboratorios] --> I[Integración con procedencia]
+    U[68 repositorios públicos observados] --> D[Descubrimiento y clasificación]
+    D --> P[14 integraciones canónicas]
+    P --> I[Integración con procedencia]
     I --> C[36 competencias]
     C --> M[5 mallas · 30 pasos]
     A[10 apoyos] --> M
@@ -43,7 +45,8 @@ El [mapa completo](docs/ECOSYSTEM_MAP.md) explica la arquitectura federada, el c
 
 | Componente | Entrega |
 | --- | --- |
-| Programas identificados | Catálogo inicial de 14 repositorios con fuente y alcance de revisión |
+| Integraciones canónicas | Catálogo inicial de 14 repositorios con fuente y alcance de revisión; no es una lista cerrada de la cuenta |
+| Descubrimiento | Corte documentado de 68 repositorios públicos: programas, laboratorios, productos, presencia pública y 4 forks separados |
 | Competencias | 36 competencias con seis niveles descriptivos y relaciones de prerrequisitos |
 | Mallas | Cinco recorridos con actividades puente originales, diagnóstico, evidencia y continuidad |
 | Apoyos | Diez guías para lectura, escritura, matemática, estudio, idiomas, fuentes, accesibilidad, laboratorios, portafolio e IA |
@@ -71,11 +74,11 @@ Las mallas completas están en [curricula](curricula/README.md). Su secuencia se
 
 El maestro mantiene un catálogo común, competencias, mallas y correspondencias con los programas. Cada repositorio especializado sigue siendo la fuente de sus clases, prácticas y documentación.
 
-Consulta los [diagramas de arquitectura y continuidad](docs/ECOSYSTEM_MAP.md) y la [automatización de calidad y publicación](docs/AUTOMATION.md).
+Consulta la [arquitectura implementada](docs/CURRENT_ARCHITECTURE.md), los [diagramas de arquitectura y continuidad](docs/ECOSYSTEM_MAP.md), la [automatización de calidad y publicación](docs/AUTOMATION.md) y los [componentes propuestos, todavía no implementados](PROPOSED_COMPONENTS.md).
 
 | Área | Responsabilidad |
 | --- | --- |
-| [catalog](catalog/README.md) | Qué programas existen, qué declaran y qué se revisó |
+| [catalog](catalog/README.md) | Integraciones canónicas, descubrimiento externo, declaraciones y alcance de revisión |
 | [competencies](competencies/README.md) | Capacidades, progresión, evidencias y prerrequisitos |
 | [curricula](curricula/README.md) | Mallas integradoras y actividades propias del maestro |
 | [pathways](pathways/README.md) | Selección, ingreso, retorno y adaptación del recorrido |
@@ -100,7 +103,7 @@ Una misma persona puede tener niveles diferentes en áreas distintas. Las decisi
 
 Las actividades puente, mallas, descriptores y rúbricas de esta entrega son propuestas editoriales desarrolladas y utilizables para revisión y pilotaje. Su eficacia no ha sido validada en una población de estudiantes.
 
-La revisión inicial de los programas se apoya principalmente en README y enlaces observados. La correspondencia exacta de cada clase con cada competencia requiere una auditoría posterior por unidades. Cada ficha distingue la declaración del programa, el alcance de la lectura y la revisión humana pendiente.
+La revisión inicial de las integraciones canónicas se apoya principalmente en README y enlaces observados. Una segunda inspección documentó otros repositorios reales sin asignarles automáticamente IDs ni equivalencias. La correspondencia exacta de cada clase con cada competencia requiere una auditoría posterior por unidades. Cada ficha distingue la declaración del programa, el alcance de la lectura y la revisión humana pendiente.
 
 El [contrato de datos](docs/DATA_CONTRACT.md) separa estos estados. Un resultado técnico correcto comprueba coherencia de los archivos; la valoración del aprendizaje necesita evidencia y criterio educativo.
 

@@ -4,9 +4,9 @@ Fecha de cierre: 2026-10-05.
 
 ## Entrega disponible
 
-Superrepositorio federado inicial con catálogo de **14 programas**, **36 competencias y 216 descriptores**, **cinco mallas con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **86 documentos Markdown** en el árbol, prompt maestro íntegro y herramientas locales.
+Superrepositorio federado inicial con **14 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **89 documentos Markdown** en el árbol, prompt maestro íntegro y herramientas locales.
 
-El lector index.html incorpora el catálogo, las mallas, los apoyos, las rúbricas y documentación. Las clases externas siguen en sus repositorios. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
+El lector index.html incorpora el catálogo, las mallas, los apoyos, las rúbricas y documentación. Las clases externas siguen en sus repositorios. Un corte adicional observó 68 repositorios públicos —64 propios y 4 forks— y documentó candidatos sin incorporarlos automáticamente al contrato canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
 
 ## Verificaciones técnicas realizadas
 
@@ -18,11 +18,12 @@ El lector index.html incorpora el catálogo, las mallas, los apoyos, las rúbric
 | Enlaces | Rutas locales, fragmentos y navegación declarada del lector verificados |
 | Lector | Generación determinística y comprobación de vigencia |
 | JavaScript | Sintaxis comprobada con Node |
-| DOM simulado | Siete secciones, 68 vistas de detalle, 85 documentos embebidos, filtros, tablas, listas y escape de contenido |
+| DOM simulado | Siete secciones, 68 vistas de detalle, 88 documentos embebidos, filtros, tablas, listas y escape de contenido |
 | Datos personales | private y exports excluidos de la generación y de la validación documental |
 | Exportación | M-03 exportada por CLI, con resultados personales sin evaluar |
 | Paquete | El empaquetador genera un ZIP con manifiesto SHA-256 y verifica su integridad y la copia extraída; el hash final se registra fuera del propio paquete para evitar autorreferencia |
 | Automatización | Tres workflows: calidad multi-entorno, CodeQL y Pages después de calidad; acciones fijadas a SHAs completos |
+| Arquitectura pública | Maestro, catálogo canónico, candidatos y propuestas futuras separados por evidencia y madurez |
 
 Ejecución local fresca: **Windows · Python 3.12.9 · Node 24.11.1**. Las pruebas usan biblioteca estándar de Python. La comprobación de DOM usa Node y está incluida en tests/check_portal_dom.cjs. La evidencia remota se registra en [RELEASE_EVIDENCE.md](RELEASE_EVIDENCE.md); no se considera verde hasta observar el resultado final asociado al commit publicado.
 
@@ -48,6 +49,6 @@ La revisión editorial y aritmética, incluidas sus correcciones, está document
 - Auditar y ampliar experiencias de primera infancia dirigidas al niño.
 - Seleccionar unidades externas y verificar su correspondencia con una malla.
 - Realizar revisión especializada y pilotajes de uso.
-- Desarrollar planificación privada e IA cuando una tarea posterior lo requiera.
+- Evaluar por separado cualquier componente propuesto; ninguno se considera implementado por aparecer en un plan.
 
 Estas tareas amplían el alcance de la versión inicial y se organizan en ROADMAP.md. La revisión actual conserva la diferencia entre contenido original disponible, alineación candidata y evidencia educativa todavía pendiente.

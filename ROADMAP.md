@@ -11,7 +11,7 @@ La documentación describe actividades originales desarrolladas. La corresponden
 **Resultado:** cada paso de una malla identifica unidades concretas y explica qué parte de su objetivo cubre cada una.
 
 Acciones:
-- Leer los índices y muestras representativas de los 14 programas.
+- Leer los índices y muestras representativas de las 14 integraciones canónicas.
 - Seleccionar unidades por resultados y prerrequisitos.
 - Registrar IDs, rutas, versión y alcance de revisión.
 - Clasificar cobertura: suficiente para el objetivo, parcial, ausente, desactualizada o pendiente.
@@ -56,7 +56,9 @@ Acciones:
 
 **Criterio de salida:** informe de hallazgos, cambios y límites; versiones anteriores conservadas.
 
-## Prioridad 5 — Añadir planificación privada y recomendaciones explicables
+## Prioridad 5 — Evaluar planificación privada y recomendaciones explicables
+
+Esta prioridad describe trabajo **PLANIFICADO**, no una capacidad actual. Su análisis previo está en [componentes propuestos](PROPOSED_COMPONENTS.md).
 
 **Resultado:** planes personales editables y decisiones de recomendación transparentes.
 

@@ -7,7 +7,7 @@
 - Producto: superrepositorio federado y portal autocontenido, versión 0.1.0.
 - Entorno local fresco: Windows, Python 3.12.9 y Node 24.11.1.
 
-El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ejecución de Calidad detectó una huella del portal dependiente de CRLF/LF en Windows; la corrección normaliza las fuentes y añade una prueba de regresión. La evidencia verde corresponde únicamente a la ejecución final de la corrección.
+El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ejecución de Calidad detectó una huella del portal dependiente de CRLF/LF en Windows. La corrección `b4b657edac8e2868bf454805800b3cf793137a48` normaliza las fuentes, añade una prueba de regresión y terminó verde en Calidad, Seguridad y Pages.
 
 ## Matriz de afirmaciones
 
@@ -18,16 +18,16 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 | Portal | El derivado coincide con sus fuentes | `portal/template.html`, datos y docs | Ejecución local fresca | Vigente | `python scripts/build_portal.py --check` |
 | Portal | Secciones, detalles, filtros y escape funcionan en DOM controlado | `tests/check_portal_dom.cjs` | Ejecución local fresca | Correcto | 7 secciones, 68 detalles |
 | GitHub Actions | Los workflows tienen sintaxis y referencias válidas | `.github/workflows/` | Resultado remoto comprobado | GitHub aceptó y ejecutó los tres workflows | Enlaces de ejecución en la sección remota |
-| Portal público | Pages sirve el commit final | Workflow `Portal público` | No comprobada | Pendiente de primera ejecución | URL prevista en `docs/AUTOMATION.md` |
+| Portal público | Pages sirve el commit corregido | Workflow `Portal público` | Resultado remoto comprobado | Correcto | https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/ |
 
 ## Gates ejecutados
 
 | Comando | Entorno | Resultado | Duración | Evidencia |
 | --- | --- | --- | --- | --- |
-| `python scripts/validate.py --json` | Windows · Python 3.12.9 | Correcto | < 10 s | 6 JSON, 14 programas, 36 competencias, 5 mallas |
+| `python scripts/validate.py --json` | Windows · Python 3.12.9 | Correcto | < 10 s | 6 JSON, 14 integraciones, 36 competencias, 5 mallas |
 | `python -m unittest discover -s tests -v` | Windows · Python 3.12.9 | Correcto | < 10 s | 40 pruebas |
-| `python scripts/build_portal.py --check` | Windows · Python 3.12.9 | Correcto | < 10 s | 85 documentos embebidos; 680.288 bytes |
-| `node tests/check_portal_dom.cjs` | Windows · Node 24.11.1 | Correcto | < 10 s | 7 secciones, 68 detalles y 85 documentos |
+| `python scripts/build_portal.py --check` | Windows · Python 3.12.9 | Correcto | < 10 s | La cifra de documentos y bytes se actualiza en cada corte |
+| `node tests/check_portal_dom.cjs` | Windows · Node 24.11.1 | Correcto | < 10 s | 7 secciones y 68 detalles; la cifra documental se actualiza en cada corte |
 
 ## Artefactos inspeccionados
 
@@ -41,6 +41,9 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 - [Calidad del primer commit](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37403748247): fallo en Windows por huella de saltos de línea; evidencia negativa utilizada para la corrección.
 - [Seguridad del primer commit](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37403748254): ejecución iniciada para Python y JavaScript.
 - [Pages posterior al primer gate](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37403793396): omitido correctamente porque Calidad no terminó verde.
+- [Calidad de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404161735): correcta en la matriz configurada.
+- [Seguridad de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404161751): CodeQL correcto para Python y JavaScript/TypeScript.
+- [Pages de la corrección](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37404202163): correcto después de habilitar el sitio público con despliegue por workflow.
 
 ## Incidencias
 
@@ -52,12 +55,12 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 
 ## No comprobado y riesgo residual
 
-- Estado final de CI, CodeQL y Pages para el commit con la corrección multiplataforma.
+- La auditoría de arquitectura añadida después del commit verde debe ejecutar los mismos gates antes del cierre final.
 - Ruleset o protección de rama, que GitHub permite completar después de crear la rama y sus checks.
 - Enlaces externos vivos y revisión pedagógica especializada.
 
 ## Veredicto
 
 - Portal y datos locales: evidencia local suficiente para continuar hacia la publicación.
-- Publicación remota: el repositorio es público; no declarar `main` verde hasta correlacionar la corrección, sus ejecuciones y la URL de Pages.
-- Global: **no preparar una afirmación de `main` verde todavía**; falta evidencia remota del commit final.
+- Publicación remota: el repositorio es público y el commit de corrección tiene Calidad, Seguridad y Pages comprobados.
+- Global: **apto como línea base verde**; cualquier commit posterior debe correlacionarse de nuevo con sus ejecuciones antes de declararlo verde.

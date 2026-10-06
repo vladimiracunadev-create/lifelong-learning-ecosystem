@@ -2,9 +2,9 @@
 
 El catálogo permite localizar qué programa puede aportar a un objetivo y qué falta revisar antes de incorporarlo a una malla. La fuente canónica es [programs.json](programs.json); [pending.json](pending.json) conserva áreas conocidas cuya URL actual no se verificó.
 
-**Revisión:** 2026-10-05. **Cobertura inicial:** 14 repositorios identificados. Se leyeron once fragmentos iniciales de README y tres README completos; esta base no es una auditoría de todas sus clases ni un inventario exhaustivo de la cuenta.
+**Revisión:** 2026-10-05. **Cobertura canónica:** 14 repositorios integrados. Se leyeron once fragmentos iniciales de README y tres README completos; esta base no es una auditoría de todas sus clases ni un inventario exhaustivo de la cuenta. El [descubrimiento ampliado](REPOSITORY_DISCOVERY.md) registra otros repositorios sin incorporarlos automáticamente.
 
-## Programas identificados
+## Integraciones canónicas
 
 | ID estable | Programa | Papel propuesto | Integración |
 | --- | --- | --- | --- |

@@ -43,7 +43,7 @@ El número de clases es un dato de inventario. La coherencia se juzga observando
 
 Cada programa mantiene su especialidad, estructura, numeración, fuentes, herramientas y licencias. El maestro registra lo que consulta y añade relaciones propias. Las correspondencias se clasifican como propuestas o verificadas por unidad.
 
-La primera versión incluye un inventario de 14 programas y laboratorios. Las áreas todavía sin repositorio verificado se conservan en un registro de pendientes para orientar la siguiente auditoría.
+La primera versión incluye 14 integraciones canónicas. No son una lista cerrada: el [registro de descubrimiento](catalog/REPOSITORY_DISCOVERY.md) separa otros repositorios existentes de candidatos todavía no incorporados y de componentes que no son programas.
 
 ## Qué debe poder preguntar una persona
 
@@ -64,4 +64,4 @@ La calidad educativa requerirá revisión especializada, pilotajes con consentim
 
 ## Horizonte
 
-El ecosistema puede evolucionar hacia una interfaz de planificación, búsqueda, recomendaciones explicables, exportación de mallas y acompañamiento por IA. Los datos y documentos deben seguir siendo legibles, exportables y verificables con independencia de un proveedor.
+Las oportunidades de planificación, búsqueda, recomendaciones, evaluación dinámica, APIs o acompañamiento por IA no están implementadas. Se analizan, con evidencia y riesgos, en [componentes propuestos](PROPOSED_COMPONENTS.md). Cualquier evolución debe conservar datos y documentos legibles, exportables y verificables con independencia de un proveedor.

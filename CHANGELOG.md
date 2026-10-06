@@ -8,12 +8,18 @@
 - Dependabot para GitHub Actions, plantilla de pull request y política pública de seguridad.
 - Mapas Mermaid de la arquitectura federada, el ciclo de una trayectoria y la continuidad entre mallas.
 - Documentación de automatización, permisos, evidencia y protección recomendada de `main`.
+- Arquitectura actual verificada con una matriz de componentes existentes y límites explícitos.
+- Descubrimiento de los 68 repositorios públicos observados, separando integraciones canónicas, candidatos revisados, productos, presencia pública y forks.
+- `PROPOSED_COMPONENTS.md` con problema, evidencia, alternativas, arquitectura, esfuerzo, beneficio, riesgo y prioridad para cada oportunidad futura.
 
 ### Cambiado
 
 - La presentación pública define explícitamente el proyecto como superrepositorio federado y capa de integración, no como un programa adicional.
 - El portal y la guía de desarrollo reflejan la publicación web y los nuevos gates automatizados.
 - La huella de fuentes del portal normaliza saltos de línea para producir los mismos bytes en Windows y Linux.
+- Las referencias a 14 programas ahora dicen 14 integraciones canónicas y dejan claro que el catálogo no es una lista cerrada.
+- Las capacidades futuras de IA, búsqueda, recomendación, API o plataforma se identifican como propuestas y no como producto implementado.
+- Las acciones de artefactos y Pages incorporan las cuatro actualizaciones propuestas por Dependabot, conservando pins SHA completos.
 
 ## 0.1.0 — 2026-10-05
 

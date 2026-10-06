@@ -1,5 +1,23 @@
 # Continuidad del trabajo
 
+## Checkpoint de arquitectura real y descubrimiento — 2026-10-05
+
+**Objetivo atendido:** separar con evidencia el producto implementado, los repositorios especializados existentes y las ideas futuras, sin incorporar componentes por su sola mención.
+
+**Archivos revisados:** README, visión, contrato de datos, estado, historial, catálogo canónico, fichas, arquitectura, automatización y metadatos públicos de la cuenta. Para los candidatos de aprendizaje se revisaron README y estructuras raíz observables; no se auditaron todas sus unidades.
+
+**Fuentes y versiones:** API pública de GitHub para `vladimiracunadev-create`, corte de 68 repositorios públicos —64 propios y 4 forks— el 2026-10-05; árbol local de `lifelong-learning-ecosystem` en `main`.
+
+**Decisiones:** conservar 14 integraciones canónicas; documentar candidatos sin crear IDs ni equivalencias; usar existencia y madurez como dimensiones separadas; declarar como ausentes los motores, APIs, plataforma dinámica y agentes que no están implementados.
+
+**Cambios:** `docs/CURRENT_ARCHITECTURE.md`, `catalog/REPOSITORY_DISCOVERY.md`, `PROPOSED_COMPONENTS.md` y enlaces contextuales en presentación, visión, estado e historial.
+
+**Verificación:** reconstruir lector y ejecutar validador, suite, comprobación de vigencia, DOM y controles remotos antes de cerrar este bloque.
+
+**Brechas:** los candidatos se revisaron principalmente en sus README; faltan auditorías por unidad, licencias y validadores antes de integrarlos.
+
+**Siguiente acción concreta:** seleccionar un único candidato y completar una ficha reproducible fijada a commit antes de modificar los JSON canónicos.
+
 ## Checkpoint de publicación pública — 2026-10-05
 
 **Objetivo atendido:** transformar la entrega local en un superrepositorio público con documentación visual, CI robusta, análisis de seguridad y portal publicable.

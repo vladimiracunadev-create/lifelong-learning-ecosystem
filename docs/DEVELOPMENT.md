@@ -10,7 +10,7 @@ Se recomienda utilizar uv cuando esté disponible, de acuerdo con la preferencia
 
 | Archivo | Registro |
 | --- | --- |
-| catalog/programs.json | Programas identificados |
+| catalog/programs.json | Integraciones canónicas de programas y laboratorios |
 | competencies/competencies.json | Competencias y niveles |
 | curricula/mallas.json | Mallas y pasos |
 | support/resources.json | Recursos de apoyo |
