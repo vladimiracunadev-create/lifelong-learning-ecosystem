@@ -1,0 +1,1095 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-05",
+  "scope_note": "Inventario inicial de 14 repositorios identificados y leídos a nivel de README (11 fragmentos iniciales y 3 completos). No es un inventario exhaustivo de la cuenta ni una auditoría de clases. Roles, públicos y correspondencias de competencias son propuestas de integración; los estados declarados se atribuyen a cada README.",
+  "programs": [
+    {
+      "id": "PRG-SCHOOL",
+      "name": "Trayectoria Escolar Chile",
+      "repository": "vladimiracunadev-create/chilean-school-learning-path",
+      "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path",
+      "description": "Fuente curricular escolar para conectar objetivos de aprendizaje, actividades, evaluaciones y continuidad de básica a media.",
+      "role": "programa",
+      "domains": [
+        "formación escolar",
+        "lenguaje",
+        "matemática",
+        "ciencias",
+        "artes",
+        "ciudadanía"
+      ],
+      "audiences": [
+        "estudiantes de educación básica",
+        "estudiantes de educación media",
+        "familias",
+        "docentes"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md",
+        "content_sha": "14d40e9c5ca6a9795c0075afa2e699736117371b",
+        "scope": "Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README declara desarrollo pedagógico interno de 1° básico a 4° medio, 8.841 clases disciplinares y revisión humana especializada pendiente. Distingue OA, clases y experiencias transversales; estas unidades no se suman como si fueran clases equivalentes.",
+        "human_validation": "El README declara explícitamente pendiente la revisión humana especializada. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Mapa curricular",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/CURRICULUM.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Inicio de básica",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/1-basico/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Transición al cierre de básica",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/8-basico/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Ingreso a media",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/1-medio/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Cierre de media",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/4-medio/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estado de implementación",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/ESTADO_IMPLEMENTACION.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Evaluaciones",
+          "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/evaluaciones/README.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-LIT-01",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-NUM-01",
+        "C-NUM-02",
+        "C-NUM-03",
+        "C-DATA-01",
+        "C-DIG-01",
+        "C-RES-01",
+        "C-CREATE-01",
+        "C-CIV-01"
+      ],
+      "license_note": "El README distingue código MIT y contenido CC BY-NC-SA 4.0; los textos de licencia no se auditaron en esta integración.",
+      "integration_doc": "integrations/prg-school.md"
+    },
+    {
+      "id": "PRG-PEDAGOGY",
+      "name": "Pedagogía, Docencia y Ciencias del Aprendizaje",
+      "repository": "vladimiracunadev-create/education-pedagogy-learning-sciences-program",
+      "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program",
+      "description": "Base de formación para diseñar, acompañar y revisar experiencias educativas en distintos ciclos y contextos.",
+      "role": "programa",
+      "domains": [
+        "pedagogía",
+        "didáctica",
+        "aprendizaje",
+        "inclusión",
+        "evaluación"
+      ],
+      "audiences": [
+        "formadores",
+        "docentes",
+        "personas que acompañan aprendizaje",
+        "investigadores en educación"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/README.md",
+        "content_sha": "cc41536a228b561f13ce9b24bc702f6671b4ede7",
+        "scope": "Fragmento inicial del README (90 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README presenta 300 clases en 25 partes, rutas por rol y un estándar de desarrollo por clase. Son declaraciones del programa; no se leyeron todas las clases ni se comprobó el cumplimiento del estándar.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Currículo",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/CURRICULUM.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Rutas del formador",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/rutas/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Guía del formador",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/docs/GUIA_DEL_FORMADOR.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Banco de actividades",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/actividades/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Formación sobre parvularia",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/curriculum/part-03-educacion-parvularia/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Educación de adultos",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/curriculum/part-07-educacion-de-adultos-y-andragogia/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estándares de evidencia",
+          "url": "https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program/blob/main/docs/ESTANDARES_DE_EVIDENCIA.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-02",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-COM-01",
+        "C-COLLAB-01",
+        "C-TEACH-01",
+        "C-ASSESS-01",
+        "C-WELL-01",
+        "C-RES-01"
+      ],
+      "license_note": "El README indica contenido CC BY-NC-SA 4.0; comprobar el archivo de licencia y la procedencia de cada recurso antes de reproducirlo.",
+      "integration_doc": "integrations/prg-pedagogy.md"
+    },
+    {
+      "id": "PRG-MATH",
+      "name": "Matemática Computacional",
+      "repository": "vladimiracunadev-create/computational-mathematics-program",
+      "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program",
+      "description": "Recorridos cuantitativos desde fundamentos hasta las matemáticas utilizadas en computación e inteligencia artificial.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "matemática",
+        "estadística",
+        "modelación",
+        "computación"
+      ],
+      "audiences": [
+        "estudiantes de matemática",
+        "personas que retoman bases",
+        "estudiantes de datos e IA"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/README.md",
+        "content_sha": "050fd1896232292842381142a61d4bd9c3a79448",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento inicial del README anuncia 360 clases, 18 partes y 1.080 notebooks. Se observaron enlaces de rutas y guías; no se ejecutaron notebooks ni se comprobó el desarrollo de cada unidad.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Ruta de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/docs/LEARNING_PATH.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Guía del estudiante",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/docs/STUDENT_GUIDE.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Mapa matemático para IA",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/docs/AI_MATHEMATICS_MAP.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Clases",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/tree/main/classes/",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Guía del instructor",
+          "url": "https://github.com/vladimiracunadev-create/computational-mathematics-program/blob/main/docs/INSTRUCTOR_GUIDE.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-NUM-01",
+        "C-NUM-02",
+        "C-NUM-03",
+        "C-DATA-01",
+        "C-PROB-01",
+        "C-AI-02"
+      ],
+      "license_note": "El README anuncia MIT y CC BY-NC-SA 4.0. La asignación por archivo debe comprobarse en el origen antes de copiar materiales.",
+      "integration_doc": "integrations/prg-math.md"
+    },
+    {
+      "id": "PRG-SOFTWARE",
+      "name": "Ingeniería de Software Moderna",
+      "repository": "vladimiracunadev-create/modern-software-engineering-program",
+      "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program",
+      "description": "Especialización que conecta comprensión de problemas, diseño, construcción, comprobación y evolución de software.",
+      "role": "programa",
+      "domains": [
+        "ingeniería de software",
+        "arquitectura",
+        "operación",
+        "calidad"
+      ],
+      "audiences": [
+        "estudiantes de software",
+        "desarrolladores",
+        "profesionales que modernizan sistemas",
+        "responsables técnicos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md",
+        "content_sha": "2b7a3a854f1713f152af9c31fb343280120855d8",
+        "scope": "Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El README describe una arquitectura de 480 clases: SE-001–SE-012 desarrolladas; SE-013–SE-360 con material que requiere revisión cualitativa; SE-361–SE-480 con enseñanza completa aún por desarrollar. El catálogo mantiene estas diferencias y no cuenta 480 clases como terminadas.",
+        "human_validation": "El README exige revisión cualitativa del material en partes 01–29 y desarrollo de partes 30–39. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/classes/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Rutas por rol",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/roles/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Producto transversal",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/blueprints/reference-product/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estándar pedagógico",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/docs/PEDAGOGICAL-STANDARD.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Roadmap",
+          "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/ROADMAP.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-SW-01",
+        "C-SW-02",
+        "C-SW-03",
+        "C-SW-04",
+        "C-DIG-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README indica MIT. No se revisó el alcance del archivo LICENSE ni las condiciones de materiales de terceros.",
+      "integration_doc": "integrations/prg-software.md"
+    },
+    {
+      "id": "PRG-ARCH",
+      "name": "Arquitectura, Construcción y Entorno Habitado",
+      "repository": "vladimiracunadev-create/architecture-built-environment-learning-program",
+      "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program",
+      "description": "Conecta observación y representación del espacio con decisiones sobre personas, lugar, materiales y ciclo de vida.",
+      "role": "programa",
+      "domains": [
+        "arquitectura",
+        "entorno construido",
+        "representación",
+        "proyectos"
+      ],
+      "audiences": [
+        "estudiantes de arquitectura",
+        "personas interesadas en espacios habitados",
+        "formadores y diseñadores de proyectos educativos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md",
+        "content_sha": "e450ac199e26be61f881204d9e78916962303de1",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README declara 680 clases redactadas en 68 partes, 48 sesiones de taller y 12 rutas. Enlaza informes de estado y auditoría que no se leyeron en esta revisión. No se certifican clases, talleres ni ejercicio profesional.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/classes/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Talleres",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/studios/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Rutas de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/RUTAS_DE_APRENDIZAJE.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Cómo usar el programa",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/COMO_USAR_EL_PROGRAMA.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Arquitectura de evaluación",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/ARQUITECTURA_DE_EVALUACION.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estado verificable",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/ESTADO_VERIFICABLE.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Procedencia editorial",
+          "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/PROCEDENCIA_EDITORIAL.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-ARCH-01",
+        "C-CREATE-01",
+        "C-NUM-03",
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-RES-01",
+        "C-ETH-01"
+      ],
+      "license_note": "El README distingue código Apache-2.0 y contenido CC BY-NC-SA 4.0. Se observaron enlaces a licencias y procedencia editorial.",
+      "integration_doc": "integrations/prg-arch.md"
+    },
+    {
+      "id": "PRG-FINANCE",
+      "name": "Finanzas y Evolución Bancaria",
+      "repository": "vladimiracunadev-create/finance-and-banking-evolution-program",
+      "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program",
+      "description": "Apoyo cuantitativo y especialización para comprender presupuestos, contabilidad, alternativas económicas y servicios financieros.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "finanzas",
+        "contabilidad",
+        "banca",
+        "pagos"
+      ],
+      "audiences": [
+        "personas que aprenden finanzas",
+        "estudiantes de administración",
+        "emprendedores",
+        "profesionales de servicios financieros"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md",
+        "content_sha": "e0b63baed6f867abde77ab1cc336135225916889",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README anuncia 356 clases en 23 partes y enlaces a aplicaciones y manual. Se revisó la presentación inicial; no se ejecutaron aplicaciones, no se contaron clases y no se verificó normativa de sus módulos.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/SYLLABUS.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Ruta de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/docs/ruta-aprendizaje.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Glosario maestro",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/docs/glosario-maestro.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Guía docente",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/docs/guia-docente.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Contabilidad financiera",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/modules/04-contabilidad-financiera/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estado del programa",
+          "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/STATUS.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-NUM-02",
+        "C-DATA-01",
+        "C-FIN-01",
+        "C-FIN-02",
+        "C-BIZ-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README anuncia código MIT y contenido CC BY-NC-SA 4.0; las licencias deben revisarse por recurso antes de redistribuir.",
+      "integration_doc": "integrations/prg-finance.md"
+    },
+    {
+      "id": "PRG-BUSINESS",
+      "name": "Creación y Evolución de Empresas",
+      "repository": "vladimiracunadev-create/modern-business-creation-program",
+      "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program",
+      "description": "Recorrido empresarial para conectar necesidades, propuestas de valor, recursos, organización y revisión de una operación.",
+      "role": "programa",
+      "domains": [
+        "emprendimiento",
+        "gestión",
+        "operación",
+        "empresa en Chile"
+      ],
+      "audiences": [
+        "personas emprendedoras",
+        "estudiantes de administración",
+        "responsables de pequeños proyectos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md",
+        "content_sha": "ceaeb71f12e90c23af8f5ebb321726ffabff8879",
+        "scope": "Fragmento inicial del README (37 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento inicial del README presenta 336 clases en 24 partes, un flujo maestro y un archivo STATUS.md. El estado de cada clase y la vigencia de su contenido normativo no fueron comprobados.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Currículo",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/CURRICULUM.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Flujo maestro",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/docs/00_MASTER_FLOW.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estado verificable",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/STATUS.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Glosario",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/docs/19_GLOSSARY.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Mapa legal del origen",
+          "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/docs/03_LEGAL_MATRIX_CHILE.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-FIN-01",
+        "C-FIN-02",
+        "C-BIZ-01",
+        "C-BIZ-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README anuncia MIT y CC BY-NC-SA 4.0. Se conserva la referencia y se requiere comprobar el alcance antes de reproducir contenido.",
+      "integration_doc": "integrations/prg-business.md"
+    },
+    {
+      "id": "PRG-CYBER",
+      "name": "Ciberseguridad Moderna",
+      "repository": "vladimiracunadev-create/modern-cybersecurity-program",
+      "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program",
+      "description": "Especialización y apoyo para identificar riesgos digitales y justificar medidas de protección en proyectos educativos y tecnológicos.",
+      "role": "programa",
+      "domains": [
+        "ciberseguridad",
+        "riesgo digital",
+        "protección de información"
+      ],
+      "audiences": [
+        "estudiantes de seguridad",
+        "desarrolladores",
+        "responsables técnicos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md",
+        "content_sha": "c43f459cd2261c2d2ce6a17f50ddeae855a00a3c",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento inicial del README anuncia 360 clases en 20 partes y laboratorios. Se observaron enlaces a índice, prácticas, glosario y reglas de uso; no se ejecutaron laboratorios ni se verificó su preparación.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/classes/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Laboratorios",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/labs/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Glosario",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/docs/GLOSARIO-GLOBAL.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Plataformas de práctica",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/docs/PLATAFORMAS-DE-PRACTICA.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Seguridad y ética",
+          "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/SECURITY_AND_ETHICS.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-DIG-02",
+        "C-CYB-01",
+        "C-PROB-01",
+        "C-RES-01",
+        "C-ETH-01",
+        "C-SW-03"
+      ],
+      "license_note": "El README distingue código Apache-2.0 y contenido CC BY-NC-SA 4.0; comprobar archivos y terceros antes de redistribuir.",
+      "integration_doc": "integrations/prg-cyber.md"
+    },
+    {
+      "id": "PRG-AI",
+      "name": "Evolución de la Inteligencia Artificial",
+      "repository": "vladimiracunadev-create/artificial-intelligence-evolution-program",
+      "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program",
+      "description": "Conecta fundamentos e historia de IA con comprensión de modelos, experimentación y evaluación de aplicaciones.",
+      "role": "programa",
+      "domains": [
+        "inteligencia artificial",
+        "modelos",
+        "agentes",
+        "historia de la tecnología"
+      ],
+      "audiences": [
+        "estudiantes de IA",
+        "desarrolladores",
+        "profesionales que evalúan usos de IA"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md",
+        "content_sha": "49d4d842deb92e57f6991c4a973a210a7364e9b2",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README anuncia 183 clases en 15 partes, 148 papers y 705 notebooks. Se observaron rutas, glosario y bibliografía; los documentos y experimentos individuales no fueron auditados.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Ruta de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/docs/LEARNING_PATH.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Clases",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/tree/main/classes/",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Papers fundacionales",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/papers/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Especialización en agentes",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/docs/AGENTIC_SYSTEMS_TRACK.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Glosario",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/docs/GLOSSARY.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Bibliografía",
+          "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/sources/BIBLIOGRAFIA.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-AI-01",
+        "C-AI-02",
+        "C-RES-01",
+        "C-RES-02",
+        "C-PROB-01",
+        "C-ETH-01",
+        "C-DATA-01"
+      ],
+      "license_note": "El README indica licencias mixtas. Es necesario revisar la sección y la procedencia concreta de código, material y documentos antes de reproducirlos.",
+      "integration_doc": "integrations/prg-ai.md"
+    },
+    {
+      "id": "LAB-NEURAL",
+      "name": "Laboratorios de Entrenamiento de Redes Neuronales",
+      "repository": "vladimiracunadev-create/neural-network-training-labs",
+      "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs",
+      "description": "Práctica especializada para entrenar, evaluar y documentar modelos con experimentos trazables.",
+      "role": "laboratorio",
+      "domains": [
+        "redes neuronales",
+        "experimentos",
+        "evaluación de modelos"
+      ],
+      "audiences": [
+        "estudiantes de aprendizaje automático",
+        "desarrolladores de modelos",
+        "personas que reproducen experimentos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/README.md",
+        "content_sha": "459b88be496a8922f3cfccb09055b63148b8be30",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento inicial del README anuncia 31 clases en siete módulos y 93 notebooks, junto a protocolos de experimento y despliegue. No se ejecutó código ni se verificaron métricas, artefactos o dependencias.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Índice por módulos",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/parts/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Ruta de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/docs/learning-path.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Protocolo experimental",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/docs/experiment-protocol.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Datasets",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/docs/datasets.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Documentación",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/docs/index.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Exportación y edge",
+          "url": "https://github.com/vladimiracunadev-create/neural-network-training-labs/blob/main/docs/export-and-edge.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-AI-02",
+        "C-DATA-01",
+        "C-NUM-03",
+        "C-SW-03",
+        "C-RES-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README anuncia MIT. Revisar licencias específicas de datos, modelos, bibliotecas y materiales antes de su uso o distribución.",
+      "integration_doc": "integrations/lab-neural.md"
+    },
+    {
+      "id": "PRG-ASSESS",
+      "name": "Psicometría y Evaluación",
+      "repository": "vladimiracunadev-create/psychometrics-and-assessment-program",
+      "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program",
+      "description": "Formación y herramientas para estudiar cómo se construyen, puntúan, revisan y limitan instrumentos de evaluación.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "evaluación",
+        "psicometría",
+        "instrumentos",
+        "evidencia"
+      ],
+      "audiences": [
+        "personas que estudian evaluación",
+        "formadores",
+        "desarrolladores de instrumentos educativos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md",
+        "content_sha": "5e2f8f5ba3fcab7508f934cd6ebfa936b07d2032",
+        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
+        "declared_content_status": "El fragmento del README presenta una planificación de 40 clases en ocho partes y declara cinco clases escritas. También anuncia cinco instrumentos y 344 ítems; su presencia o sus pruebas de software no demuestran validación psicométrica para una población o uso.",
+        "human_validation": "La validez para usos y poblaciones concretos no se estableció mediante esta revisión. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md",
+          "verification": "recurso_leido_parcialmente"
+        },
+        {
+          "label": "Plan curricular",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/curriculum.yaml",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Clases",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/tree/main/classes/",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Instrumentos",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/tree/main/instruments/",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Validación y límites",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/docs/VALIDACION.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Bibliografía",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/sources/BIBLIOGRAFIA.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Arquitectura",
+          "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/docs/ARQUITECTURA.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-ASSESS-01",
+        "C-DATA-01",
+        "C-RES-02",
+        "C-ETH-01",
+        "C-TEACH-01"
+      ],
+      "license_note": "El README anuncia código MIT y documentación CC BY-NC-SA 4.0, con procedencia diversa de ítems. Revisar licencias y restricciones de cada instrumento.",
+      "integration_doc": "integrations/prg-assess.md"
+    },
+    {
+      "id": "PRG-MARKETING",
+      "name": "Marketing, Ventas y Crecimiento",
+      "repository": "vladimiracunadev-create/marketing-sales-growth-evolution-program",
+      "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program",
+      "description": "Integra investigación de necesidades, diseño de ofertas, comunicación y medición comercial mediante casos y evidencias.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "marketing",
+        "ventas",
+        "comunicación",
+        "analítica comercial"
+      ],
+      "audiences": [
+        "estudiantes de marketing",
+        "personas emprendedoras",
+        "profesionales comerciales"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md",
+        "content_sha": "7fb62dda0f150370785f176943d1474d45741f44",
+        "scope": "README completo recuperado mediante conector GitHub; análisis documental sin abrir sus unidades ni ejecutar herramientas.",
+        "declared_content_status": "El README completo declara 336 clases en 24 partes, 17 rutas por rol, laboratorios y un Commercial Evidence Pack. Se leyeron sus descripciones y enlaces; las clases, evaluaciones y cifras declaradas no se auditaron individualmente.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md",
+          "verification": "recurso_leido"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/curriculum/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Rutas por rol",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/rutas/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Investigación de mercado",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Propuesta de valor",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/curriculum/part-05-producto-oferta-y-propuesta-de-valor/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Fórmulas y métricas",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/docs/FORMULAS-Y-METRICAS.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Evaluación y rúbricas",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/docs/EVALUACION-Y-RUBRICAS.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Commercial Evidence Pack",
+          "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-RES-01",
+        "C-RES-02",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-DATA-01",
+        "C-BIZ-01",
+        "C-FIN-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README distingue código MIT y contenidos CC BY-NC-SA 4.0, con avisos de uso comercial y terceros. No se redistribuye el currículo en el maestro.",
+      "integration_doc": "integrations/prg-marketing.md"
+    },
+    {
+      "id": "PRG-LEADERSHIP",
+      "name": "Liderazgo Ejecutivo y Creación de Empresas",
+      "repository": "vladimiracunadev-create/executive-leadership-founder-program",
+      "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program",
+      "description": "Conecta responsabilidad personal, comunicación, coordinación y decisiones de dirección con evidencias de proyectos y operación.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "liderazgo",
+        "colaboración",
+        "gestión",
+        "decisiones"
+      ],
+      "audiences": [
+        "profesionales individuales",
+        "coordinadores de equipos",
+        "gerentes",
+        "personas emprendedoras"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/README.md",
+        "content_sha": "df145d391c904e192e2b5203e4fb12023976a95e",
+        "scope": "README completo recuperado mediante conector GitHub; análisis documental sin abrir sus unidades ni ejecutar herramientas.",
+        "declared_content_status": "El README completo declara 288 clases construidas en 24 partes y seis etapas, rutas de aprendizaje, casos y herramientas. Se revisó la presentación y sus mapas; no se auditaron las clases ni se ejecutaron simuladores.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/README.md",
+          "verification": "recurso_leido"
+        },
+        {
+          "label": "Temario",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/SYLLABUS.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Ruta de aprendizaje",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/docs/LEARNING_PATH.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Comunicación y negociación",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/modules/02-communication-influence-negotiation-basics/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Liderazgo de equipos",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/modules/04-team-leadership/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Proyectos y entrega",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/modules/06-projects-agile-delivery/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Marco de evaluación",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/docs/ASSESSMENT_FRAMEWORK.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estado",
+          "url": "https://github.com/vladimiracunadev-create/executive-leadership-founder-program/blob/main/STATUS.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-COM-01",
+        "C-COLLAB-01",
+        "C-PROJ-01",
+        "C-BIZ-02",
+        "C-ETH-01",
+        "C-LEARN-04",
+        "C-WELL-01"
+      ],
+      "license_note": "El README distingue software auxiliar MIT y currículo, casos y plantillas CC BY-NC-SA 4.0; conserva un historial de licenciamiento. Verificar cada recurso antes de su reproducción.",
+      "integration_doc": "integrations/prg-leadership.md"
+    },
+    {
+      "id": "PRG-DATA",
+      "name": "Python y Ciencia de Datos",
+      "repository": "vladimiracunadev-create/python-data-science-program",
+      "url": "https://github.com/vladimiracunadev-create/python-data-science-program",
+      "description": "Programa con currículo y herramientas locales para pasar de preguntas y datos a análisis, experimentos y comunicación de resultados.",
+      "role": "programa_y_herramienta",
+      "domains": [
+        "Python",
+        "ciencia de datos",
+        "estadística",
+        "aprendizaje automático"
+      ],
+      "audiences": [
+        "estudiantes de Python",
+        "analistas",
+        "formadores técnicos",
+        "personas que retoman formación tecnológica"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-10-05",
+        "source_url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/README.md",
+        "content_sha": "2cb1f9be12a4d665475720bebe9d9cb2e1ee00aa",
+        "scope": "README completo recuperado mediante conector GitHub; análisis documental sin abrir sus unidades ni ejecutar herramientas.",
+        "declared_content_status": "El README completo declara 232 clases y notebooks en nueve partes, aplicaciones y materiales derivados. También declara límites de su laboratorio local y distribución móvil debug. No se ejecutaron notebooks, aplicaciones, tests ni instaladores.",
+        "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/README.md",
+          "verification": "recurso_leido"
+        },
+        {
+          "label": "Índice de clases",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/classes/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Prerrequisitos",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/classes/parte-0-prerrequisitos/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Syllabus",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/docs/syllabus.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Guía del alumno",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/docs/student-guide.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Estadística inferencial",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/classes/parte-3-estadistica-inferencial/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Ética y privacidad",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/classes/parte-7-etica-fairness-privacidad/README.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Catálogo del producto",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/docs/CATALOGO_PRODUCTO.md",
+          "verification": "enlace_observado_en_readme"
+        },
+        {
+          "label": "Seguridad",
+          "url": "https://github.com/vladimiracunadev-create/python-data-science-program/blob/main/SECURITY.md",
+          "verification": "enlace_observado_en_readme"
+        }
+      ],
+      "competency_ids": [
+        "C-DATA-01",
+        "C-DIG-01",
+        "C-SW-01",
+        "C-AI-02",
+        "C-RES-02",
+        "C-ETH-01"
+      ],
+      "license_note": "El README anuncia MIT. Verificar las licencias de cada dato, obra, biblioteca y material antes de reproducirlo o incorporarlo a una aplicación.",
+      "integration_doc": "integrations/prg-data.md"
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0",
+  "project": "lifelong-learning-ecosystem",
+  "version": "0.1.0",
+  "release_date": "2026-10-05",
+  "hash_algorithm": "SHA-256",
+  "scope": "Archivos distribuidos; MANIFEST.json se excluye de su propio hash.",
+  "file_count_excluding_manifest": 115,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 104,
+      "sha256": "70aa871bdea297d46dad6474ff7482bac132d9536625b71031850201383f2e6d"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 267,
+      "sha256": "e8acfbedfbba19e14e754c504cf59a7020c7181e3c7ac8062592b967231b9a77"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 777,
+      "sha256": "935952661565ab9989180b067c291c75054444233ef63b2d947976289707862e"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1769,
+      "sha256": "4dad077a85ea953c6232a2c7fbaae51672fe402626d6f62c908d1bcfc3f90633"
+    },
+    {
+      "path": ".github/workflows/quality.yml",
+      "bytes": 2883,
+      "sha256": "d8efb1172f01fd4aed4231ff83b4d54edeb4dca8335c58d2adab1c6d54079fc0"
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "bytes": 1055,
+      "sha256": "dc3733774652caab8f6214aad4abb119ee709c738c4b7b59413f8d78934e00be"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 221,
+      "sha256": "a0d76baba3ac0fb5e06ddb06b8084afb8845f74ed392bd4d75bcbe7f9cd0e0b4"
+    },
+    {
+      "path": "ABRIR_PORTAL.cmd",
+      "bytes": 177,
+      "sha256": "2993f954ab458942699333948eeaf2391bcf3562fbf97250b6563c4050482366"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3768,
+      "sha256": "eddf3182531ba4e54bc439e0c0a529c86c7766f5fba7af4b0afef4e507bc05f4"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1808,
+      "sha256": "b3a22ae97852007dab46f724ee4f06f4d29ed5d4507860abb095aac8fb0843cb"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2134,
+      "sha256": "0bb974c185086fe807dc04cc747e257f9dc2835bc7889cf76c543ed0a87c3cfe"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1400,
+      "sha256": "6c194de232bc48be61570a9a6238f7348183f7cb8fabe69020c23e62edc60242"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "bytes": 1354,
+      "sha256": "2542fab6f549a9a8831a8f2d6424c28edb74cdfc7f1346414750dcdf55ea0964"
+    },
+    {
+      "path": "PROMPT_MAESTRO.md",
+      "bytes": 16461,
+      "sha256": "f6051bc983ded55655e43ae0d26dc702fded0c37468c0990fa5222893414f212"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9859,
+      "sha256": "99b1ae491841235200242ebd04f2807a254ff0e189a5604630d4a51c9ab40782"
+    },
+    {
+      "path": "RECONSTRUIR_PORTAL.cmd",
+      "bytes": 438,
+      "sha256": "d958076c6f0cfa91da98475d0f5b5e8b548a7c15dc0d0ef27a5846cc73dff687"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 4175,
+      "sha256": "a3332f9ac32db676e2ea81401137819b658b14a84187f9d5386cd5a023694b27"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1465,
+      "sha256": "a79d9db2bd82f156ff8528cf99c727caa341df6a1e9e408dea5a29e66b16a362"
+    },
+    {
+      "path": "VALIDAR.cmd",
+      "bytes": 430,
+      "sha256": "a5b1e575db1247e18531e3ab962242dc747a48ddca95ebba6c6a5adec6be3524"
+    },
+    {
+      "path": "VISION.md",
+      "bytes": 4960,
+      "sha256": "6d282d31e52df42ef8eec907dd8b2e8b45fb670e9a26dd0ed754557f9d48dd8b"
+    },
+    {
+      "path": "assessment/README.md",
+      "bytes": 2575,
+      "sha256": "72ffbc83279e841687810d48670e53a13f7ad0e0567caac07bad578bad356b8e"
+    },
+    {
+      "path": "assessment/guides/EVALUACION_INICIAL.md",
+      "bytes": 3456,
+      "sha256": "c1919db68156f966cdb761f6282acfc3b029c13bf955c73bf2885e8675aa84d7"
+    },
+    {
+      "path": "assessment/guides/PRIVACIDAD_EVIDENCIAS.md",
+      "bytes": 3439,
+      "sha256": "a08272670cb036666d8315e3625c3ce767d8c54bc664d5214129e4b04f5d6930"
+    },
+    {
+      "path": "assessment/guides/RECONOCIMIENTO_PREVIO.md",
+      "bytes": 3601,
+      "sha256": "cc2c423837dc7fe55b76d9bfe9f4739b3b89c620ef7320ca8f93f78259d4ca05"
+    },
+    {
+      "path": "assessment/guides/RETROALIMENTACION.md",
+      "bytes": 3295,
+      "sha256": "599115cbd4ef3601d9f805b15d457fed60f3ee9e1f4eaefbace4bb2725beee74"
+    },
+    {
+      "path": "assessment/guides/USO_RUBRICAS.md",
+      "bytes": 3721,
+      "sha256": "4b83c1cc0ca5bd3657adc6141652ede65fa7c901ccb704f6fc10d9de5a59529f"
+    },
+    {
+      "path": "assessment/rubrics.json",
+      "bytes": 14008,
+      "sha256": "f1a3fdbf2feabfb5f6d6e159afb1912f579d9a8e7aa3cf31a3c97d2e0999c201"
+    },
+    {
+      "path": "catalog/COVERAGE_AND_GAPS.md",
+      "bytes": 3049,
+      "sha256": "9398a47ba744b1b837c8bf192c3e081226f8570b3c558f4f11cc3cf1475daedf"
+    },
+    {
+      "path": "catalog/README.md",
+      "bytes": 5444,
+      "sha256": "9859ddd75b4792923e6506ba6b18b7f642f246d7efc7bcb7ee674f00037d6fae"
+    },
+    {
+      "path": "catalog/pending.json",
+      "bytes": 2600,
+      "sha256": "5980111a35f738784a616ebb396641df790b3381d64a69f30c4b19b40ff57c9f"
+    },
+    {
+      "path": "catalog/programs.json",
+      "bytes": 55229,
+      "sha256": "1313854171c1ac203891c747b8f9d1bc55e15df04cf4d7a2e96f7f8a61f865d1"
+    },
+    {
+      "path": "competencies/PRERREQUISITOS.md",
+      "bytes": 8464,
+      "sha256": "593b7c0a6ee9595a8ec256fc38e1347b9ddfbe3d8eb138c0b6c8461178b08029"
+    },
+    {
+      "path": "competencies/README.md",
+      "bytes": 4268,
+      "sha256": "2febe101765791240ac1d1337e86c435d524703b62fc6465aa7d6ba3921dac2b"
+    },
+    {
+      "path": "competencies/competencies.json",
+      "bytes": 62595,
+      "sha256": "72215b26422fd508d1dde1fb98e3330385f1cfda3b391f841c40ac8469a7941e"
+    },
+    {
+      "path": "curricula/M-01-continuidad-escolar.md",
+      "bytes": 13868,
+      "sha256": "9acd3b6d9830f6f9d8dee03b2ca2816c7ab00a6359475ad7c9eb98fa2acf7d86"
+    },
+    {
+      "path": "curricula/M-02-ingreso-especialidad-software.md",
+      "bytes": 14423,
+      "sha256": "4f2fd3fbd1878904be11e201d376fef1417d655f99624d28606563bd84868b6b"
+    },
+    {
+      "path": "curricula/M-03-reconversion-consultoria-tecnologica.md",
+      "bytes": 14703,
+      "sha256": "2829b88961d460faafc53998aa50eb44b26cf05b6a05c88ce8fd0dc149dba0f4"
+    },
+    {
+      "path": "curricula/M-04-proyecto-comunitario-tecnologico.md",
+      "bytes": 14740,
+      "sha256": "8b8bf3ef720603a78bfd27937be46d545192dd0194b097bc38392557105a3908"
+    },
+    {
+      "path": "curricula/M-05-memoria-espacio-cultural.md",
+      "bytes": 14677,
+      "sha256": "5767050d9172d004fcfca1cf18a03c267fc3eaf10c1833c61f148f6615a7f69b"
+    },
+    {
+      "path": "curricula/README.md",
+      "bytes": 4569,
+      "sha256": "1df33c472c49f86bd2eaa073fa55ffff86e5d8fe51ba02550f3b7d4e5699940a"
+    },
+    {
+      "path": "curricula/mallas.json",
+      "bytes": 78139,
+      "sha256": "9d8f2916e32a879050180eb1d6abdaea8c9ecb66ed81b955e01e048ecc03dae2"
+    },
+    {
+      "path": "docs/AI_DESIGN.md",
+      "bytes": 4761,
+      "sha256": "8efc1da5019044376b877d90a720b3dcfd07aca76e1f45b6be61bceac811f911"
+    },
+    {
+      "path": "docs/AUTOMATION.md",
+      "bytes": 2484,
+      "sha256": "c46277c443f379b3bac8939b3d180e2ca3ec06ba2dba9d95a18b1e3d51e15292"
+    },
+    {
+      "path": "docs/DATA_CONTRACT.md",
+      "bytes": 8803,
+      "sha256": "13bed220ea2a3612bdc4e98427e381828a38441534b5836737dcf7a95658cc14"
+    },
+    {
+      "path": "docs/DATA_HANDLING.md",
+      "bytes": 2207,
+      "sha256": "d339026699de0e531f49f066b99aa9076918e9ffe42e19a4a5718c673ea38f3e"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 4475,
+      "sha256": "dcdbfbf16cd3a79c7babb7c771b513990ffa1cbf7bc95c381f8abf673fdde804"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 4954,
+      "sha256": "2d35f05207f07a46c54c8c0aa423297d2aa7f60a88e6f930eb021b191313d729"
+    },
+    {
+      "path": "docs/ECOSYSTEM_MAP.md",
+      "bytes": 3522,
+      "sha256": "286b44a31dd505dbe513e8ff542df93ee0ccde83d5474d635cc5e26df32b51ed"
+    },
+    {
+      "path": "docs/INTEGRATION_POLICY.md",
+      "bytes": 3918,
+      "sha256": "a1930820b8c5e230ca97dba03833140e25dbcec0e4bac7d288c30697f22c882d"
+    },
+    {
+      "path": "docs/PEDAGOGICAL_MODEL.md",
+      "bytes": 5338,
+      "sha256": "040e11507ecc4aaa6e60ab8cd83de2ea6636969eb1e8915f61cd60b354eaf311"
+    },
+    {
+      "path": "docs/PROJECT_ORIGIN.md",
+      "bytes": 1829,
+      "sha256": "452d1d9f7a12cb35c7fe758de1234382f31ffb42fb45534117c439ab0953bb94"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1378,
+      "sha256": "f924c968322b45ec6d021bc498ec93b46f3995d4f5dda95991f932e0337e95e5"
+    },
+    {
+      "path": "docs/START_WINDOWS.md",
+      "bytes": 3671,
+      "sha256": "e90c6302e09c9dc22c8aa58b542a38b5c16d61d10aa5668622e7dbdf580ded3a"
+    },
+    {
+      "path": "docs/SUPPORT_REPOSITORIES.md",
+      "bytes": 3067,
+      "sha256": "dd50b0ba0b4485148dc338fabe990e227a90518beefe5e42da39c39e9e3c2e26"
+    },
+    {
+      "path": "examples/FICTIONAL_PROFILES.md",
+      "bytes": 2723,
+      "sha256": "57f3577ddd80f5846f21b3724b907806c833e4a048fbb3e5dacdc7e9f6764974"
+    },
+    {
+      "path": "examples/PORTFOLIO_EXAMPLE.md",
+      "bytes": 1890,
+      "sha256": "69ff500cc8f24ecabd40d7d81e230293e3d71ef7dcc8a8e0d495d456af07da25"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 523,
+      "sha256": "19be35cc4c2e73f642dfb7497e2b57711994d7fe3f04eba25c60f05f2a0d22cb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 681005,
+      "sha256": "c2edb06cd46ff3676b70195c0495ff7e5e86681af9ff5cffb7ca6f9cc91dccb5"
+    },
+    {
+      "path": "integrations/README.md",
+      "bytes": 4395,
+      "sha256": "021f77ba728acca355b9e54c32b21d5f56aa7cf1673ae2ca8c72a86dad168b67"
+    },
+    {
+      "path": "integrations/UNIT_SELECTION.md",
+      "bytes": 4269,
+      "sha256": "393046adf8ab5ebcb2c03bee4806640f7ccd17683d00d960d95f3b1e7d24fc0f"
+    },
+    {
+      "path": "integrations/lab-neural.md",
+      "bytes": 6838,
+      "sha256": "5b629caf8bcfbc54d31b6bd670014f9f7300abd6182590422e21c8712de164da"
+    },
+    {
+      "path": "integrations/prg-ai.md",
+      "bytes": 6959,
+      "sha256": "acfacf35898273f2ef8bb3433f99003c364f11880af4edb9d17b5eb4ecf5dbcd"
+    },
+    {
+      "path": "integrations/prg-arch.md",
+      "bytes": 7487,
+      "sha256": "d4c33aa5c3d2e88c7e8e55c911ce4c4dd2fc1ac570bb67859c844f13c79bc06c"
+    },
+    {
+      "path": "integrations/prg-assess.md",
+      "bytes": 6986,
+      "sha256": "bf7fa925b1bff20867d2bd0cfed1459feec3f1787df5494d734f176c082dbbb7"
+    },
+    {
+      "path": "integrations/prg-business.md",
+      "bytes": 6718,
+      "sha256": "5a972fc74e6f341bf11820935f7f1d556aa6ea2884f84e16c7fcda27d8de11e6"
+    },
+    {
+      "path": "integrations/prg-cyber.md",
+      "bytes": 6683,
+      "sha256": "443025c762ab9a7b13770a1ad6ec1104315d6e55671b171533ee2256bf1ceda9"
+    },
+    {
+      "path": "integrations/prg-data.md",
+      "bytes": 7442,
+      "sha256": "d1f0e128538d984a3065d6ceaee90c818133a5f5c6bc5b166190cefa9616ea6f"
+    },
+    {
+      "path": "integrations/prg-finance.md",
+      "bytes": 6922,
+      "sha256": "6d17f4119cc6f32f57d2b748db9c740f0bd2b78077396f163957f0f0b93ed3c4"
+    },
+    {
+      "path": "integrations/prg-leadership.md",
+      "bytes": 7348,
+      "sha256": "d0cd5850c81de0461629fae138a053ac17832063f305fd1346a1ff0bd659fcde"
+    },
+    {
+      "path": "integrations/prg-marketing.md",
+      "bytes": 7496,
+      "sha256": "65c92689c4b6f4f266b8b9b6e1d00f5cb992381c22ea64413e4f93fbfe53e1c6"
+    },
+    {
+      "path": "integrations/prg-math.md",
+      "bytes": 6618,
+      "sha256": "e821eb88447ef4550ac357f6ff4a7751c6c655bb378ac9489b2749628256ca9b"
+    },
+    {
+      "path": "integrations/prg-pedagogy.md",
+      "bytes": 7613,
+      "sha256": "5c08029be5464cade31d8787d00b953a5c4298d71dc5ccd2746d4b312b0c70a0"
+    },
+    {
+      "path": "integrations/prg-school.md",
+      "bytes": 7706,
+      "sha256": "f00bf4a5f4734a4bf7b2e2851babcc2986171565c33ebb01730fe43a8761ea62"
+    },
+    {
+      "path": "integrations/prg-software.md",
+      "bytes": 7148,
+      "sha256": "e6e25b08b2117879355e300106de1d11223edbc90a4ce4d6c61c9512979629fc"
+    },
+    {
+      "path": "pathways/README.md",
+      "bytes": 2514,
+      "sha256": "62825b379cf24fd7c76a03bad179314fe626da18ef85d0b48bcb36a6ff6722e2"
+    },
+    {
+      "path": "pathways/elegir-y-retomar.md",
+      "bytes": 6717,
+      "sha256": "5e1f4a96c483bd7048ad431ea0773baea8b463632723339d01ab4ccc4db15764"
+    },
+    {
+      "path": "pathways/matriz-tres-ejes.md",
+      "bytes": 6170,
+      "sha256": "81095c183bc5593beece26b42103c38d18e2da91a03cf218393f2222a34cc0ee"
+    },
+    {
+      "path": "pathways/plantilla-malla-personal.md",
+      "bytes": 2906,
+      "sha256": "ceb5ed0ea9b1c08ffa71fb0fa8435a9c1e061ea93992b0634983add05f277b8b"
+    },
+    {
+      "path": "pathways/primera-infancia-acompanada.md",
+      "bytes": 9175,
+      "sha256": "81be910321ac5668ef64a13f6c5ab827d6f3d263373eb79a5f04196199598d05"
+    },
+    {
+      "path": "portal/README.md",
+      "bytes": 3868,
+      "sha256": "94571c40057e3c64d452ee5d556446b95e8a5a500c6ccfb98191ce44a98500b6"
+    },
+    {
+      "path": "portal/template.html",
+      "bytes": 63942,
+      "sha256": "30bb1dac5d09d54677369aa531e5683edd39406e40ea24ee775ca57706ece01b"
+    },
+    {
+      "path": "prompts/CONTINUITY.md",
+      "bytes": 3308,
+      "sha256": "de6831b5c983c741d621c1b7b7ff6b5686d9c74462c3ac47da4cced31fea1ac2"
+    },
+    {
+      "path": "prompts/IMPROVE_CURRICULUM.md",
+      "bytes": 1021,
+      "sha256": "186fc36e7b7a0a182970d842739b179758535cb85f50d4e097257a9cc98552e6"
+    },
+    {
+      "path": "prompts/README.md",
+      "bytes": 600,
+      "sha256": "e780fc36b6d2e4211ba0766e5ca2aa8ac85a9eef1207ebf49b2a83d6d0a34473"
+    },
+    {
+      "path": "prompts/REVIEW_PROGRAM.md",
+      "bytes": 1006,
+      "sha256": "4deb70af472657f0f12ba1d52ba09d4f9db150f929e359f037287c0b2f9df6a0"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 279,
+      "sha256": "2df567679199e59e5864331d4b33ad85b1086f53b8701eddb8d2ce0e0a987299"
+    },
+    {
+      "path": "quality/EDUCATIONAL_REVIEW.md",
+      "bytes": 2241,
+      "sha256": "6dca6fd205a3d3f57b905bf37830c9b3a261c83c6eaae69f3ce90fd79d4182ca"
+    },
+    {
+      "path": "quality/README.md",
+      "bytes": 1068,
+      "sha256": "4fb7b49e2cc32cc00f461b7edffaed2c528a6ac543086fe27e5fdc4f933bb4b0"
+    },
+    {
+      "path": "quality/RELEASE_EVIDENCE.md",
+      "bytes": 4398,
+      "sha256": "c7fba266e90f9b95809a421570c2c52cbebeb29ed9b5c449e42f7b7d55959778"
+    },
+    {
+      "path": "quality/REQUIREMENTS_TRACEABILITY.md",
+      "bytes": 2618,
+      "sha256": "1665e371858a449d0eeb8eba0fa0f4a1347b004c7363cebe02774bed9e4ce6d9"
+    },
+    {
+      "path": "quality/REVIEW_NOTES.md",
+      "bytes": 2623,
+      "sha256": "ada66164cee7462c33f7b3af020c15870488a95112b1de18630b92e6513e8674"
+    },
+    {
+      "path": "quality/STATUS.md",
+      "bytes": 4281,
+      "sha256": "073ea6fcc96f1d82b2f962ca027d4dc83f8cafc4170a59eb1ff819d030061505"
+    },
+    {
+      "path": "quality/validation.json",
+      "bytes": 521,
+      "sha256": "b6e0b623b8ce21d88d1dc99c612002ba88f0956b266abd76dbd5311b3bdf7afd"
+    },
+    {
+      "path": "scripts/build_portal.py",
+      "bytes": 9005,
+      "sha256": "7532ee284ab5d996acbafb05feeb3b41dfbfdfe89120e1c6b77e4de05b45ebd6"
+    },
+    {
+      "path": "scripts/export_plan.py",
+      "bytes": 10359,
+      "sha256": "4e74c4a902ae2df25ad789166b58edf115fb3b05861bae4c0babeacfdabb6ec8"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "bytes": 4202,
+      "sha256": "60aa2e3c2c69f35235f88738e19c0bada297d779f9389939ff77574e9607027c"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 37531,
+      "sha256": "5e6f174e9726c2d63411a651be407930e79a9e10afd1fa6d0afbf31a5af38e7d"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 7649,
+      "sha256": "7be5603f1e7bf859b8ef4396d0cc267c860cfbde34331ac2197be76ff1d711af"
+    },
+    {
+      "path": "sources/evidence.json",
+      "bytes": 18109,
+      "sha256": "d62849342cf1965877e78a2ac0c5dea5688e4880013c2e67ceefc6171235b3ed"
+    },
+    {
+      "path": "support/README.md",
+      "bytes": 3808,
+      "sha256": "64267f6c9209dd677abb50b3b151855af3fc9ec87eb8b2b4deb746cd90822844"
+    },
+    {
+      "path": "support/guides/accesibilidad.md",
+      "bytes": 3115,
+      "sha256": "d24acf1932bd9f3f90db2ef6e69b25836d63c3d89304e70a8972e1940ad6a5c7"
+    },
+    {
+      "path": "support/guides/escritura.md",
+      "bytes": 2874,
+      "sha256": "fba72d442f8a40d97c61874dc81e00c04d7f4e278c616e6de476d0b72d261a5f"
+    },
+    {
+      "path": "support/guides/estudio.md",
+      "bytes": 2854,
+      "sha256": "994b4cd236c0c54194ee964c0b71c32debb9ae1231c0a711590afee701d5c8bf"
+    },
+    {
+      "path": "support/guides/ia.md",
+      "bytes": 2945,
+      "sha256": "91213d1b7d34752fca4edea529d6d175cd77334b87692c7b34507a67dec228d6"
+    },
+    {
+      "path": "support/guides/idiomas.md",
+      "bytes": 2684,
+      "sha256": "fc1dc05220585787fae42962ba1d8ab63420dabe4d536436736ba8f63251f154"
+    },
+    {
+      "path": "support/guides/investigacion.md",
+      "bytes": 2870,
+      "sha256": "e1086632032e0634d22abb6a9c53fa58aaab0912378a73a0dd91a975a87bb4df"
+    },
+    {
+      "path": "support/guides/laboratorio.md",
+      "bytes": 2887,
+      "sha256": "0ebfb31fecabf90716c0f63db397be3bc7c513b65ddc70d86f8cecc4a76375a3"
+    },
+    {
+      "path": "support/guides/lectura.md",
+      "bytes": 2999,
+      "sha256": "38662d998867d177664abc5dd3acf5ea958e0d27f72bee7fb5d0f97e929008dd"
+    },
+    {
+      "path": "support/guides/matematica.md",
+      "bytes": 2365,
+      "sha256": "84f5e99b2d724e38d1901bea6635a742b0b3f1f1ff49d23d2727e3de95170fb7"
+    },
+    {
+      "path": "support/guides/portafolio.md",
+      "bytes": 2825,
+      "sha256": "b71a7cb4fc74f2965537c61b274178885eb015cc050a602bbbc6043973d44814"
+    },
+    {
+      "path": "support/resources.json",
+      "bytes": 11117,
+      "sha256": "63b53c9d138844a2a5bdc2875239a58e31141de01fb78f895589aaaaa019dd29"
+    },
+    {
+      "path": "tests/check_portal_dom.cjs",
+      "bytes": 4170,
+      "sha256": "bb491fe1bc5779904c32b70996620348be4abe5e52ab42c4e45f5132fc26003e"
+    },
+    {
+      "path": "tests/test_portal_build.py",
+      "bytes": 1523,
+      "sha256": "f4c3343b866ee335506889dd4468c9f4ede9620f4b6eafe319c871785095cfd7"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "bytes": 19321,
+      "sha256": "6b2cad0b023fbcfb06be045678f3871523c6fed47f155d333b482d4a4688a1ca"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 147,
+      "sha256": "6d59e583f69b9c6f11c56863c15e15259f9ade7d8cf5b71f54b16d9dd02f9dff"
+    }
+  ]
+}

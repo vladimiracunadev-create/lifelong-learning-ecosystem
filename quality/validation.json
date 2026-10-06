@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "valid": true,
+  "root": "lifelong-learning-ecosystem",
+  "network_used": false,
+  "counts": {
+    "canonical_files": 6,
+    "markdown_files": 86,
+    "html_files": 2,
+    "local_links": 259,
+    "external_urls": 297,
+    "programs": 14,
+    "pending": 4,
+    "competencies": 36,
+    "support": 10,
+    "rubrics": 3,
+    "curricula": 5
+  },
+  "errors": [],
+  "scope": "Estructura, referencias y enlaces locales. No certifica calidad pedagógica ni dominio personal."
+}

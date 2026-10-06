@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "items": [
+    {
+      "id": "PENDING-LAW",
+      "topic": "Programa jurídico integral",
+      "known_context": "El usuario ha solicitado un programa de derecho chileno e internacional, roles, causas, lectura y producción de escritos jurídicos.",
+      "reason_pending": "No se verificó un repositorio actual ni sus contenidos en esta entrega.",
+      "next_action": "Identificar el repositorio exacto; leer README, índice, fuentes, jurisdicciones y estado por unidad; proponer conexiones con empresa, ciudadanía e investigación sin atribuir vigencia normativa no comprobada."
+    },
+    {
+      "id": "PENDING-PSYCHOLOGY",
+      "topic": "Programa integral de psicología",
+      "known_context": "El usuario ha solicitado formación desde fundamentos hasta profundización en psicología.",
+      "reason_pending": "No se verificó la URL del programa ni su alcance. PRG-ASSESS tiene un papel específico de psicometría y no se usa como sustituto de toda la psicología.",
+      "next_action": "Confirmar el nombre y repositorio del programa; distinguir formación disciplinar, bienestar cotidiano, investigación y práctica profesional; mapear únicamente unidades revisadas."
+    },
+    {
+      "id": "PENDING-BOOKS",
+      "topic": "Lectura, escritura, libros y edición",
+      "known_context": "El usuario ha desarrollado la idea de un programa amplio de lectura y escritura, géneros, edición, publicación, periodismo, artículos y adaptación a otros medios.",
+      "reason_pending": "No se verificó el repositorio actual ni sus unidades; se conserva el tema sin inventar un slug o URL.",
+      "next_action": "Identificar repositorio e índice; revisar rutas por lector, escritor y editor, incluyendo producción creativa y fuentes; conectarlo con C-LIT-01, C-LIT-02 y C-CREATE-01 solo después de leer unidades."
+    },
+    {
+      "id": "PENDING-EARLY-CHILDHOOD",
+      "topic": "Primera infancia: experiencias dirigidas a niños",
+      "known_context": "El maestro debe permitir continuidad desde la primera infancia. El programa de pedagogía observado incluye formación del adulto sobre parvularia.",
+      "reason_pending": "No se verificó un repositorio de actividades dirigidas directamente a niños antes de 1° básico. Una clase sobre pedagogía parvularia tiene otro destinatario.",
+      "next_action": "Localizar y revisar experiencias de juego, lenguaje, movimiento y convivencia dirigidas al niño y apoyos al adulto. Comprobar adecuación con revisión especializada antes de declarar una ruta infantil completa."
+    }
+  ]
+}

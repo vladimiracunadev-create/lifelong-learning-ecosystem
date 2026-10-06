@@ -1,0 +1,1168 @@
+{
+  "schema_version": "1.0",
+  "levels": [
+    "exploracion",
+    "fundamentos",
+    "aplicacion_acompanada",
+    "autonomia",
+    "profundizacion",
+    "creacion_investigacion"
+  ],
+  "competencies": [
+    {
+      "id": "C-LEARN-01",
+      "title": "Formular objetivos de aprendizaje",
+      "domain": "aprendizaje",
+      "description": "Definir un propósito propio y transformarlo en un resultado observable que pueda revisarse según el contexto.",
+      "prerequisites": [],
+      "outcomes": [
+        "Distingue una actividad de un resultado de aprendizaje.",
+        "Formula un resultado con acción, objeto y condiciones.",
+        "Explica la relación entre su objetivo y una necesidad o interés."
+      ],
+      "evidence": [
+        "Objetivo inicial y versión revisada con razones.",
+        "Ejemplo concreto del desempeño que se desea alcanzar."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY"
+      ],
+      "transfer_task": "Formular un objetivo para aprender una actividad cotidiana diferente y explicar qué evidencia permitiría comprobarlo.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Expresa una curiosidad y reconoce con acompañamiento una acción que desea realizar.",
+        "fundamentos": "Distingue entre estudiar un tema y poder hacer algo con lo estudiado.",
+        "aplicacion_acompanada": "Transforma una meta amplia en un resultado observable mediante ejemplos y preguntas de apoyo.",
+        "autonomia": "Formula objetivos alcanzables con condiciones y evidencia prevista, y los ajusta a sus recursos.",
+        "profundizacion": "Compara objetivos alternativos, identifica tensiones entre amplitud y profundidad y justifica prioridades.",
+        "creacion_investigacion": "Diseña y revisa un sistema de objetivos para una investigación o proyecto original, conservando trazabilidad de sus cambios."
+      }
+    },
+    {
+      "id": "C-LEARN-02",
+      "title": "Planificar y sostener la práctica",
+      "domain": "aprendizaje",
+      "description": "Organizar actividades, recursos y momentos de revisión de manera compatible con las condiciones reales de la persona.",
+      "prerequisites": [
+        "C-LEARN-01"
+      ],
+      "outcomes": [
+        "Ordena tareas según requisitos y propósito.",
+        "Reserva oportunidades de práctica y revisión.",
+        "Ajusta su plan cuando cambia la disponibilidad."
+      ],
+      "evidence": [
+        "Plan breve vinculado con un objetivo.",
+        "Registro de dos ciclos de práctica y un ajuste razonado."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY"
+      ],
+      "transfer_task": "Adaptar el plan de una semana de aprendizaje a una reducción de tiempo, conservando una evidencia significativa.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Elige una actividad de aprendizaje y reúne sus materiales con ayuda.",
+        "fundamentos": "Distingue preparación, práctica y revisión en una actividad conocida.",
+        "aplicacion_acompanada": "Organiza una secuencia breve y la contrasta con la disponibilidad junto con un acompañante.",
+        "autonomia": "Planifica tareas, registra avances y adapta la carga según los resultados y recursos disponibles.",
+        "profundizacion": "Compara estrategias de práctica para un objetivo y revisa la distribución del esfuerzo con evidencia.",
+        "creacion_investigacion": "Diseña un proceso reproducible de planificación y mejora para una trayectoria extensa y documenta sus límites."
+      }
+    },
+    {
+      "id": "C-LEARN-03",
+      "title": "Analizar errores y ajustar",
+      "domain": "aprendizaje",
+      "description": "Usar las diferencias entre un resultado esperado y uno observado para decidir una corrección y comprobarla.",
+      "prerequisites": [],
+      "outcomes": [
+        "Describe el error sin confundirlo con una valoración de la persona.",
+        "Propone una explicación comprobable.",
+        "Compara el resultado antes y después de un cambio."
+      ],
+      "evidence": [
+        "Registro de un error, hipótesis, cambio y resultado.",
+        "Producto revisado acompañado de la explicación del ajuste."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Aplicar el mismo proceso de revisión a un texto, cálculo o construcción diferente.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce que un resultado difiere de un ejemplo y prueba otra acción con apoyo.",
+        "fundamentos": "Localiza una diferencia concreta y describe qué esperaba observar.",
+        "aplicacion_acompanada": "Usa preguntas orientadoras para distinguir un error de comprensión, procedimiento o comprobación.",
+        "autonomia": "Propone una causa, cambia una variable pertinente y verifica si la corrección resuelve el problema.",
+        "profundizacion": "Examina errores recurrentes, contrasta hipótesis y adapta su estrategia para prevenirlos.",
+        "creacion_investigacion": "Investiga patrones de error en tareas nuevas y crea un procedimiento de revisión con evidencias y límites explícitos."
+      }
+    },
+    {
+      "id": "C-LEARN-04",
+      "title": "Autoevaluar y transferir aprendizajes",
+      "domain": "aprendizaje",
+      "description": "Juzgar el propio desempeño con criterios explícitos y comprobar qué se conserva al cambiar la situación.",
+      "prerequisites": [
+        "C-LEARN-01",
+        "C-LEARN-03"
+      ],
+      "outcomes": [
+        "Relaciona un producto con criterios de logro.",
+        "Distingue evidencia disponible y afirmaciones pendientes.",
+        "Aplica un aprendizaje en otra situación y explica adaptaciones."
+      ],
+      "evidence": [
+        "Autoevaluación con referencias a partes concretas de un producto.",
+        "Tarea de transferencia comparada con la tarea inicial."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-ASSESS"
+      ],
+      "transfer_task": "Resolver una variante con datos o destinatarios distintos y señalar qué principio se mantiene y qué debe cambiar.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Muestra algo que aprendió y reconoce una parte que todavía necesita ayuda.",
+        "fundamentos": "Compara su trabajo con criterios sencillos y menciona una evidencia por criterio.",
+        "aplicacion_acompanada": "Revisa su autoevaluación a partir de retroalimentación y prueba una variación cercana.",
+        "autonomia": "Justifica su nivel de desempeño con evidencia y adapta lo aprendido a un contexto diferente.",
+        "profundizacion": "Identifica límites de transferencia y explica por qué una estrategia funciona en unas condiciones y falla en otras.",
+        "creacion_investigacion": "Construye un portafolio argumentado de transferencia entre contextos y revisa los criterios con una persona competente."
+      }
+    },
+    {
+      "id": "C-LIT-01",
+      "title": "Comprender y contrastar textos",
+      "domain": "lenguaje",
+      "description": "Construir significado, distinguir afirmaciones y comparar textos según la pregunta y el contexto.",
+      "prerequisites": [],
+      "outcomes": [
+        "Identifica idea central y detalles que la sostienen.",
+        "Distingue información explícita, inferencia y opinión.",
+        "Compara acuerdos, diferencias y omisiones entre textos."
+      ],
+      "evidence": [
+        "Resumen propio con pasajes identificados.",
+        "Comparación de dos textos que responde una pregunta concreta."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL"
+      ],
+      "transfer_task": "Leer una instrucción, una noticia y un texto de estudio sobre un tema cercano y explicar cómo cambia su propósito.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Explora imágenes, relatos o textos leídos por otra persona y comenta lo que reconoce.",
+        "fundamentos": "Reconoce el propósito y recupera información explícita de un texto accesible.",
+        "aplicacion_acompanada": "Resume una idea principal y señala las pistas que apoyan una inferencia con acompañamiento.",
+        "autonomia": "Contrasta dos textos, distingue hechos y opiniones y justifica su interpretación con referencias precisas.",
+        "profundizacion": "Analiza supuestos, ambigüedades y estructuras argumentativas en textos extensos o especializados.",
+        "creacion_investigacion": "Formula una interpretación propia basada en un corpus de textos y somete sus conclusiones a contraste crítico."
+      }
+    },
+    {
+      "id": "C-LIT-02",
+      "title": "Argumentar y escribir",
+      "domain": "lenguaje",
+      "description": "Producir y revisar textos adecuados al propósito, destinatario y evidencia disponible.",
+      "prerequisites": [
+        "C-LIT-01"
+      ],
+      "outcomes": [
+        "Organiza una afirmación, razones y ejemplos o fuentes.",
+        "Adapta el lenguaje al destinatario.",
+        "Revisa claridad, coherencia y relación entre evidencia y conclusión."
+      ],
+      "evidence": [
+        "Borrador y versión final con cambios explicados.",
+        "Texto breve con afirmación, razones y un límite reconocido."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MARKETING"
+      ],
+      "transfer_task": "Convertir un informe breve en un mensaje dirigido a otro público sin alterar sus hechos ni ocultar incertidumbres.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Dicta, dibuja o escribe un mensaje y explica qué desea comunicar.",
+        "fundamentos": "Ordena ideas en una secuencia comprensible y distingue una afirmación de su razón.",
+        "aplicacion_acompanada": "Redacta un texto breve con estructura y revisa ejemplos mediante una pauta.",
+        "autonomia": "Escribe para un destinatario definido, integra evidencia y revisa coherencia y precisión.",
+        "profundizacion": "Construye argumentos que consideran objeciones y maneja convenciones de una disciplina justificando decisiones.",
+        "creacion_investigacion": "Produce una pieza original extensa o especializada, documenta su proceso editorial y responde a revisión crítica."
+      }
+    },
+    {
+      "id": "C-COM-01",
+      "title": "Escuchar y comunicar oralmente",
+      "domain": "comunicacion",
+      "description": "Comprender intervenciones, organizar una explicación e interactuar con respeto y claridad.",
+      "prerequisites": [],
+      "outcomes": [
+        "Parafrasea una idea ajena antes de responder.",
+        "Expone un mensaje con propósito y secuencia.",
+        "Ajusta ejemplos tras comprobar la comprensión del interlocutor."
+      ],
+      "evidence": [
+        "Registro o descripción de una explicación y las preguntas recibidas.",
+        "Síntesis de una conversación confirmada por sus participantes cuando corresponda."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-LEADERSHIP"
+      ],
+      "transfer_task": "Explicar el mismo procedimiento a una persona principiante y a otra con experiencia, justificando los cambios.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Expresa una idea mediante voz u otra forma de comunicación elegida y atiende turnos con apoyo.",
+        "fundamentos": "Recupera el sentido de una intervención y organiza una explicación breve.",
+        "aplicacion_acompanada": "Usa una pauta para presentar una idea, preguntar y confirmar lo comprendido.",
+        "autonomia": "Expone con estructura, escucha objeciones y adapta su explicación a señales de comprensión.",
+        "profundizacion": "Facilita conversaciones con perspectivas distintas y distingue desacuerdos de contenido y de interpretación.",
+        "creacion_investigacion": "Diseña una intervención pública o una conversación compleja, analiza su recepción y revisa su estrategia comunicativa."
+      }
+    },
+    {
+      "id": "C-NUM-01",
+      "title": "Razonar con cantidades",
+      "domain": "matematica",
+      "description": "Representar, comparar y operar cantidades manteniendo el sentido de las unidades y del contexto.",
+      "prerequisites": [],
+      "outcomes": [
+        "Representa una cantidad de más de una forma.",
+        "Elige una operación y explica su significado.",
+        "Comprueba orden de magnitud y unidades."
+      ],
+      "evidence": [
+        "Resolución explicada con objetos, dibujo, texto o notación.",
+        "Estimación y comprobación de un resultado."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MATH"
+      ],
+      "transfer_task": "Resolver un reparto cotidiano y después una versión con otra unidad, explicando qué conserva el procedimiento.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Agrupa, compara o cuenta objetos en una situación de juego o exploración.",
+        "fundamentos": "Relaciona cantidades con representaciones y explica operaciones elementales en un contexto.",
+        "aplicacion_acompanada": "Resuelve un problema guiado, conserva unidades y contrasta el resultado con una estimación.",
+        "autonomia": "Selecciona operaciones, representa cantidades y verifica de manera independiente si la respuesta tiene sentido.",
+        "profundizacion": "Compara representaciones numéricas y explica errores por precisión, unidades o elección de operación.",
+        "creacion_investigacion": "Construye y justifica un modelo cuantitativo de una situación nueva, explicitando supuestos y alcance."
+      }
+    },
+    {
+      "id": "C-NUM-02",
+      "title": "Usar proporciones y porcentajes",
+      "domain": "matematica",
+      "description": "Razonar sobre relaciones multiplicativas, tasas y porcentajes con una base de comparación explícita.",
+      "prerequisites": [
+        "C-NUM-01"
+      ],
+      "outcomes": [
+        "Identifica base, parte y tasa.",
+        "Distingue un cambio absoluto de uno relativo.",
+        "Resuelve y comprueba una situación proporcional."
+      ],
+      "evidence": [
+        "Tabla o representación de una proporción con unidades.",
+        "Comparación explicada de porcentajes con distintas bases."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MATH",
+        "PRG-FINANCE"
+      ],
+      "transfer_task": "Adaptar una receta o escala y comparar después dos variaciones porcentuales, indicando la base de cada cálculo.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Observa relaciones como doble, mitad o reparto equivalente con materiales concretos.",
+        "fundamentos": "Explica una razón y un porcentaje en relación con su base.",
+        "aplicacion_acompanada": "Completa tablas de proporción y calcula tasas en situaciones guiadas.",
+        "autonomia": "Resuelve comparaciones proporcionales y comprueba bases, unidades y coherencia del resultado.",
+        "profundizacion": "Analiza variaciones sucesivas y detecta comparaciones engañosas por cambio de base.",
+        "creacion_investigacion": "Formula y evalúa un modelo de tasas para un problema nuevo, incluyendo sensibilidad a los supuestos."
+      }
+    },
+    {
+      "id": "C-NUM-03",
+      "title": "Modelar relaciones matemáticas",
+      "domain": "matematica",
+      "description": "Representar relaciones mediante tablas, expresiones o gráficos y evaluar su correspondencia con una situación.",
+      "prerequisites": [
+        "C-NUM-02"
+      ],
+      "outcomes": [
+        "Identifica variables y relaciones.",
+        "Traduce entre una descripción, una tabla y una expresión o gráfico.",
+        "Explica supuestos y condiciones de aplicación."
+      ],
+      "evidence": [
+        "Modelo acompañado de unidades, variables y supuestos.",
+        "Comprobación con un caso conocido y otro distinto."
+      ],
+      "program_ids": [
+        "PRG-MATH",
+        "PRG-SCHOOL"
+      ],
+      "transfer_task": "Usar el modelo construido con nuevos datos y explicar en qué condiciones dejaría de representar la situación.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce y continúa un patrón, y explica qué cambia entre ejemplos.",
+        "fundamentos": "Relaciona dos cantidades en una tabla o gráfico sencillo.",
+        "aplicacion_acompanada": "Construye una expresión o representación con ayuda y la comprueba con casos dados.",
+        "autonomia": "Elige variables, construye un modelo y compara sus predicciones con observaciones.",
+        "profundizacion": "Compara modelos alternativos, analiza sensibilidad e identifica condiciones de ruptura.",
+        "creacion_investigacion": "Desarrolla o adapta un modelo para una pregunta original y documenta su validación, incertidumbre y límites."
+      }
+    },
+    {
+      "id": "C-DATA-01",
+      "title": "Interpretar datos y variabilidad",
+      "domain": "datos",
+      "description": "Organizar datos, interpretar distribuciones y sostener conclusiones proporcionadas a su calidad y alcance.",
+      "prerequisites": [
+        "C-NUM-01"
+      ],
+      "outcomes": [
+        "Describe qué representa cada dato y cómo se obtuvo.",
+        "Interpreta valores centrales y variación sin ocultar casos.",
+        "Distingue una asociación de una explicación causal."
+      ],
+      "evidence": [
+        "Tabla y gráfico con unidades, fuente y explicación.",
+        "Conclusión con una limitación por cobertura o calidad de los datos."
+      ],
+      "program_ids": [
+        "PRG-MATH",
+        "PRG-DATA",
+        "PRG-ASSESS"
+      ],
+      "transfer_task": "Comparar dos grupos de datos distintos, revisar si son comparables y ajustar la conclusión al tamaño y origen de las muestras.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Ordena observaciones y describe semejanzas y diferencias visibles.",
+        "fundamentos": "Lee tablas y gráficos sencillos identificando variable, unidad y casos representados.",
+        "aplicacion_acompanada": "Organiza un conjunto pequeño y describe centro y dispersión con ayuda.",
+        "autonomia": "Elige representaciones pertinentes y justifica conclusiones que reconocen variabilidad y límites de cobertura.",
+        "profundizacion": "Examina sesgos de recolección, incertidumbre y explicaciones alternativas de una asociación.",
+        "creacion_investigacion": "Diseña un análisis reproducible para una pregunta original y comunica decisiones, incertidumbres y limitaciones."
+      }
+    },
+    {
+      "id": "C-DIG-01",
+      "title": "Usar herramientas digitales",
+      "domain": "digital",
+      "description": "Elegir y operar herramientas para crear, organizar y recuperar información conservando control sobre los archivos.",
+      "prerequisites": [],
+      "outcomes": [
+        "Crea, guarda y vuelve a localizar un archivo.",
+        "Elige un formato acorde con su uso.",
+        "Explica cómo conservar una copia recuperable."
+      ],
+      "evidence": [
+        "Artefacto abierto en la herramienta prevista y en un formato de intercambio.",
+        "Demostración de organización, búsqueda y recuperación de un archivo de prueba."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Continuar una tarea con otra herramienta o dispositivo, comprobando integridad y compatibilidad del archivo.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Explora una herramienta con acompañamiento y reconoce acciones que cambian su trabajo.",
+        "fundamentos": "Crea y guarda un archivo, reconoce su ubicación y diferencia original y copia.",
+        "aplicacion_acompanada": "Completa una tarea guiada que incluye organización, exportación y recuperación.",
+        "autonomia": "Selecciona herramientas y formatos, organiza versiones y resuelve incidencias comunes consultando ayuda pertinente.",
+        "profundizacion": "Compara interoperabilidad, accesibilidad y dependencia de herramientas según requisitos del proyecto.",
+        "creacion_investigacion": "Diseña un flujo digital reproducible y documenta cómo otra persona puede ejecutarlo y recuperar sus resultados."
+      }
+    },
+    {
+      "id": "C-DIG-02",
+      "title": "Cuidar información y accesos",
+      "domain": "digital",
+      "description": "Identificar información sensible y aplicar medidas proporcionales al contexto usando cuentas y datos propios o de prueba.",
+      "prerequisites": [
+        "C-DIG-01"
+      ],
+      "outcomes": [
+        "Distingue información pública, privada y credenciales.",
+        "Revisa permisos antes de compartir un archivo.",
+        "Demuestra recuperación de una copia de prueba."
+      ],
+      "evidence": [
+        "Clasificación razonada de datos ficticios.",
+        "Demostración de permisos y recuperación en un entorno autorizado."
+      ],
+      "program_ids": [
+        "PRG-CYBER",
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Revisar el paso de un trabajo local a una carpeta compartida, identificando quién necesita acceso y qué datos deben retirarse.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce que cierta información debe consultarse con una persona responsable antes de compartirse.",
+        "fundamentos": "Distingue una contraseña, un dato personal y un contenido destinado a publicación.",
+        "aplicacion_acompanada": "Configura acceso y copia de prueba con una pauta y explica cada decisión.",
+        "autonomia": "Controla permisos, credenciales y respaldos de un trabajo propio y comprueba recuperación.",
+        "profundizacion": "Analiza riesgos de un flujo de información y justifica medidas según exposición e impacto.",
+        "creacion_investigacion": "Diseña y revisa un procedimiento de manejo de información con verificación, responsabilidades y límites claros."
+      }
+    },
+    {
+      "id": "C-RES-01",
+      "title": "Buscar y evaluar fuentes",
+      "domain": "investigacion",
+      "description": "Formular búsquedas y valorar la pertinencia, procedencia y límites de fuentes para una pregunta.",
+      "prerequisites": [
+        "C-LIT-01"
+      ],
+      "outcomes": [
+        "Transforma una pregunta en términos de búsqueda.",
+        "Identifica autoría, fecha, propósito y evidencia de una fuente.",
+        "Contrasta una afirmación relevante con otra fuente independiente."
+      ],
+      "evidence": [
+        "Registro de búsquedas y criterios de selección.",
+        "Matriz de dos fuentes con afirmaciones, evidencias y límites."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-DATA",
+        "PRG-ASSESS"
+      ],
+      "transfer_task": "Investigar una pregunta en otro dominio y señalar qué conocimientos especializados necesitaría para juzgar las fuentes.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce de dónde proviene una información y formula una pregunta sobre ella.",
+        "fundamentos": "Localiza autoría, fecha y propósito de una fuente accesible.",
+        "aplicacion_acompanada": "Realiza una búsqueda guiada y selecciona fuentes explicando su relación con la pregunta.",
+        "autonomia": "Contrasta afirmaciones, verifica procedencia y cita los materiales utilizados con precisión suficiente para localizarlos.",
+        "profundizacion": "Compara calidad de métodos, conflictos de interés y alcance de fuentes especializadas con apoyo experto cuando procede.",
+        "creacion_investigacion": "Diseña y documenta una estrategia de búsqueda reproducible, explica exclusiones y revisa conclusiones frente a evidencia nueva."
+      }
+    },
+    {
+      "id": "C-RES-02",
+      "title": "Diseñar una indagación",
+      "domain": "investigacion",
+      "description": "Convertir una pregunta delimitada en un procedimiento de obtención y análisis de evidencia que pueda revisarse.",
+      "prerequisites": [
+        "C-RES-01",
+        "C-DATA-01"
+      ],
+      "outcomes": [
+        "Delimita una pregunta que puede explorarse con los recursos disponibles.",
+        "Describe un procedimiento y sus limitaciones.",
+        "Relaciona conclusiones con observaciones y considera alternativas."
+      ],
+      "evidence": [
+        "Plan de indagación con pregunta, procedimiento y registro.",
+        "Informe breve que diferencia resultados, interpretación y limitaciones."
+      ],
+      "program_ids": [
+        "PRG-DATA",
+        "PRG-ASSESS",
+        "PRG-MATH"
+      ],
+      "transfer_task": "Adaptar el procedimiento a una nueva pregunta y explicar qué cambios afectan la comparabilidad de los resultados.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Propone una pregunta observable y comenta qué necesitaría mirar o comparar.",
+        "fundamentos": "Distingue pregunta, observación e interpretación en un ejemplo.",
+        "aplicacion_acompanada": "Sigue un procedimiento guiado y registra datos sin sustituirlos por expectativas.",
+        "autonomia": "Diseña una indagación acotada, conserva registros y justifica conclusiones proporcionales a la evidencia.",
+        "profundizacion": "Compara métodos, analiza sesgos y mejora el diseño para distinguir explicaciones alternativas.",
+        "creacion_investigacion": "Desarrolla una indagación original reproducible y somete método, resultados y límites a revisión competente."
+      }
+    },
+    {
+      "id": "C-ETH-01",
+      "title": "Deliberar sobre responsabilidades",
+      "domain": "etica",
+      "description": "Examinar decisiones considerando a las personas afectadas, sus posibles consecuencias y la información que falta.",
+      "prerequisites": [],
+      "outcomes": [
+        "Identifica participantes y efectos posibles de una decisión.",
+        "Distingue hechos, valores y supuestos.",
+        "Justifica una decisión y reconoce una objeción razonable."
+      ],
+      "evidence": [
+        "Análisis de un caso ficticio con alternativas y afectados.",
+        "Decisión revisada tras considerar una objeción."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-LEADERSHIP",
+        "PRG-CYBER"
+      ],
+      "transfer_task": "Analizar una decisión similar con otros participantes y explicar si cambia la responsabilidad asumida.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce que una acción puede afectar a otra persona y escucha cómo la vive.",
+        "fundamentos": "Describe alternativas y distingue una preferencia de una razón sobre sus consecuencias.",
+        "aplicacion_acompanada": "Analiza un caso guiado identificando afectados, beneficios, perjuicios e información faltante.",
+        "autonomia": "Justifica una decisión considerando derechos, compromisos y consecuencias sin presentar supuestos como hechos.",
+        "profundizacion": "Examina conflictos entre responsabilidades y compara alternativas con objeciones y límites explícitos.",
+        "creacion_investigacion": "Construye y revisa un marco de deliberación para decisiones nuevas con participación de las personas implicadas."
+      }
+    },
+    {
+      "id": "C-CREATE-01",
+      "title": "Crear y revisar una expresión artística",
+      "domain": "creacion",
+      "description": "Explorar medios de expresión y desarrollar una obra o pieza propia mediante decisiones y revisión conscientes.",
+      "prerequisites": [],
+      "outcomes": [
+        "Explora materiales o recursos expresivos.",
+        "Relaciona decisiones de forma con una intención.",
+        "Revisa una pieza a partir de observación y retroalimentación."
+      ],
+      "evidence": [
+        "Pieza, bocetos o registro del proceso.",
+        "Explicación de dos decisiones y una revisión."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL"
+      ],
+      "transfer_task": "Reinterpretar una misma intención en otro medio, preservando su sentido o explicando la transformación.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Explora sonidos, formas, movimientos o palabras y comparte lo que le interesa.",
+        "fundamentos": "Reconoce recursos expresivos y elige uno para comunicar una idea.",
+        "aplicacion_acompanada": "Desarrolla una pieza guiada y describe cómo una elección cambia su efecto.",
+        "autonomia": "Produce y revisa una obra coherente con su intención, reconociendo referencias utilizadas.",
+        "profundizacion": "Compara tradiciones o técnicas, experimenta con restricciones y argumenta decisiones de composición.",
+        "creacion_investigacion": "Desarrolla una propuesta original documentada, dialoga con referentes y revisa su trabajo mediante crítica situada."
+      }
+    },
+    {
+      "id": "C-PROB-01",
+      "title": "Formular problemas",
+      "domain": "resolucion_de_problemas",
+      "description": "Delimitar una situación problemática distinguiendo observaciones, necesidades, causas posibles y restricciones.",
+      "prerequisites": [],
+      "outcomes": [
+        "Describe una situación con hechos identificables.",
+        "Formula una necesidad sin prescribir de inmediato una solución.",
+        "Explicita restricciones y criterios de mejora."
+      ],
+      "evidence": [
+        "Enunciado del problema y evidencia de la situación.",
+        "Comparación de al menos dos interpretaciones posibles."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-BUSINESS",
+        "PRG-ARCH"
+      ],
+      "transfer_task": "Reformular un problema cotidiano desde el punto de vista de otro participante y comprobar qué criterios cambian.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Expresa una dificultad observada y reconoce quién la experimenta.",
+        "fundamentos": "Distingue lo que ocurre, lo que se desea y una posible solución.",
+        "aplicacion_acompanada": "Formula un problema guiado con evidencia, afectados y restricciones.",
+        "autonomia": "Delimita un problema comprobable y distingue síntomas, causas hipotéticas y criterios de mejora.",
+        "profundizacion": "Contrasta perspectivas, examina interdependencias y revisa la formulación frente a nueva evidencia.",
+        "creacion_investigacion": "Construye un marco de investigación de un problema complejo y justifica sus límites con participantes pertinentes."
+      }
+    },
+    {
+      "id": "C-PROJ-01",
+      "title": "Organizar y ejecutar proyectos",
+      "domain": "proyectos",
+      "description": "Convertir un objetivo compartido en entregables, tareas, decisiones y revisiones verificables.",
+      "prerequisites": [
+        "C-LEARN-02",
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Define entregables y criterios de aceptación.",
+        "Ordena tareas con dependencias y responsables.",
+        "Registra cambios, riesgos y comprobaciones."
+      ],
+      "evidence": [
+        "Plan de proyecto y registro de seguimiento.",
+        "Entregable comprobado contra criterios acordados."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-BUSINESS",
+        "PRG-LEADERSHIP"
+      ],
+      "transfer_task": "Adaptar un proyecto a un cambio de alcance, indicando efectos en tareas, recursos y criterios de aceptación.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Participa en una tarea con un resultado concreto y reconoce su contribución.",
+        "fundamentos": "Distingue propósito, tarea y entregable en un proyecto sencillo.",
+        "aplicacion_acompanada": "Organiza un proyecto breve con una pauta de tareas, recursos y revisión.",
+        "autonomia": "Coordina entregables, dependencias y decisiones, y comprueba resultados con criterios acordados.",
+        "profundizacion": "Gestiona cambios y riesgos en un proyecto de varias áreas, justificando prioridades con evidencia.",
+        "creacion_investigacion": "Diseña un sistema de gestión y aprendizaje de proyectos, analiza resultados y mejora sus mecanismos de decisión."
+      }
+    },
+    {
+      "id": "C-COLLAB-01",
+      "title": "Colaborar y resolver desacuerdos",
+      "domain": "colaboracion",
+      "description": "Trabajar con otras personas mediante acuerdos explícitos, contribuciones visibles y tratamiento razonado de los desacuerdos.",
+      "prerequisites": [
+        "C-COM-01",
+        "C-ETH-01"
+      ],
+      "outcomes": [
+        "Acuerda tareas y criterios de trabajo conjunto.",
+        "Explica y escucha desacuerdos sobre una decisión.",
+        "Registra acuerdos y contribuciones sin apropiarse del trabajo ajeno."
+      ],
+      "evidence": [
+        "Acuerdo de colaboración y registro de una decisión.",
+        "Revisión de aportes y de una mejora del proceso conjunto."
+      ],
+      "program_ids": [
+        "PRG-LEADERSHIP",
+        "PRG-PEDAGOGY",
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Colaborar con una persona que usa otro procedimiento y establecer un acuerdo para comprobar ambos enfoques.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Comparte una actividad y expresa una necesidad o preferencia con acompañamiento.",
+        "fundamentos": "Reconoce acuerdos, turnos y aportes propios y ajenos.",
+        "aplicacion_acompanada": "Participa en un reparto de tareas y usa preguntas para aclarar un desacuerdo.",
+        "autonomia": "Negocia acuerdos verificables, cumple o renegocia compromisos y aborda desacuerdos con razones.",
+        "profundizacion": "Facilita decisiones entre perspectivas distintas y revisa desigualdades de participación o información.",
+        "creacion_investigacion": "Diseña un modo de colaboración para un proyecto complejo y evalúa su funcionamiento con quienes participan."
+      }
+    },
+    {
+      "id": "C-SW-01",
+      "title": "Construir programas básicos",
+      "domain": "software",
+      "description": "Traducir un problema acotado en instrucciones ejecutables, comprobar su comportamiento y explicar su funcionamiento.",
+      "prerequisites": [
+        "C-DIG-01",
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Define entradas, proceso y salidas.",
+        "Construye un programa pequeño comprensible.",
+        "Prueba casos habituales y condiciones límite pertinentes."
+      ],
+      "evidence": [
+        "Código ejecutable y explicación de sus decisiones.",
+        "Ejemplos de entrada y salida con resultados comprobados."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-DATA"
+      ],
+      "transfer_task": "Modificar el programa para otra entrada o requisito y explicar qué partes pueden reutilizarse.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Ordena instrucciones de una tarea y observa cómo un cambio altera el resultado.",
+        "fundamentos": "Explica variables, decisiones y repeticiones mediante ejemplos pequeños.",
+        "aplicacion_acompanada": "Construye un programa guiado y localiza un error usando entradas concretas.",
+        "autonomia": "Resuelve un problema acotado con código legible, maneja entradas previstas y comprueba resultados.",
+        "profundizacion": "Compara alternativas de implementación y analiza complejidad, mantenibilidad y casos límite.",
+        "creacion_investigacion": "Desarrolla una solución original acotada y documenta cómo otras personas pueden ejecutarla, comprobarla y ampliarla."
+      }
+    },
+    {
+      "id": "C-SW-02",
+      "title": "Especificar y diseñar software",
+      "domain": "software",
+      "description": "Convertir necesidades y restricciones en requisitos comprobables y decisiones de diseño trazables.",
+      "prerequisites": [
+        "C-SW-01",
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Formula requisitos y criterios de aceptación.",
+        "Modela responsabilidades, datos e interacciones relevantes.",
+        "Justifica una decisión de diseño frente a alternativas."
+      ],
+      "evidence": [
+        "Especificación breve y modelo comprensible.",
+        "Registro de decisión con alternativas, razones y consecuencias."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Revisar el diseño ante un requisito nuevo y localizar qué decisiones y componentes deben cambiar.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce funciones de una aplicación y comenta para qué sirven a una persona.",
+        "fundamentos": "Distingue necesidad, requisito y decisión de implementación en un ejemplo.",
+        "aplicacion_acompanada": "Escribe requisitos y representa componentes con una pauta y revisión.",
+        "autonomia": "Diseña una solución acotada y mantiene trazabilidad entre requisitos, componentes y comprobaciones.",
+        "profundizacion": "Compara arquitecturas y analiza compromisos de rendimiento, seguridad, operación y evolución.",
+        "creacion_investigacion": "Propone y valida una arquitectura para un problema nuevo, documentando incertidumbres y decisiones revisables."
+      }
+    },
+    {
+      "id": "C-SW-03",
+      "title": "Comprobar software",
+      "domain": "software",
+      "description": "Obtener evidencia del comportamiento de un sistema mediante comprobaciones derivadas de requisitos y riesgos.",
+      "prerequisites": [
+        "C-SW-01"
+      ],
+      "outcomes": [
+        "Deriva casos de prueba de un comportamiento esperado.",
+        "Incluye errores y límites relevantes.",
+        "Interpreta un fallo y registra sus condiciones de reproducción."
+      ],
+      "evidence": [
+        "Conjunto de pruebas con propósito y resultados.",
+        "Informe reproducible de un fallo y verificación de su corrección."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-CYBER"
+      ],
+      "transfer_task": "Diseñar comprobaciones para una función desconocida a partir de su contrato y explicar qué queda sin cubrir.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Compara el comportamiento de un programa con un ejemplo esperado.",
+        "fundamentos": "Distingue entrada, resultado esperado y resultado observado.",
+        "aplicacion_acompanada": "Construye casos de prueba guiados e identifica las condiciones de un fallo.",
+        "autonomia": "Diseña comprobaciones pertinentes a requisitos y riesgos, y reproduce y verifica correcciones.",
+        "profundizacion": "Evalúa cobertura útil, fragilidad y costo de las pruebas e incorpora escenarios de integración.",
+        "creacion_investigacion": "Diseña una estrategia de verificación para un sistema nuevo y documenta evidencia, incertidumbres y riesgos residuales."
+      }
+    },
+    {
+      "id": "C-SW-04",
+      "title": "Operar y evolucionar software",
+      "domain": "software",
+      "description": "Mantener un sistema utilizable y mejorarlo mediante cambios controlados, observación y recuperación.",
+      "prerequisites": [
+        "C-SW-02",
+        "C-SW-03",
+        "C-DIG-02"
+      ],
+      "outcomes": [
+        "Describe cómo ejecutar y observar un sistema.",
+        "Prepara un cambio con verificación y recuperación.",
+        "Registra una incidencia y propone una mejora comprobable."
+      ],
+      "evidence": [
+        "Guía de ejecución y recuperación en un entorno de prueba.",
+        "Cambio documentado con comprobaciones y resultado observado."
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-CYBER"
+      ],
+      "transfer_task": "Trasladar una solución a otro entorno autorizado, identificando configuraciones, dependencias y procedimientos que cambian.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce que una aplicación necesita condiciones y recursos para funcionar.",
+        "fundamentos": "Describe ejecución, configuración, registro y copia de recuperación en un ejemplo.",
+        "aplicacion_acompanada": "Realiza un cambio guiado en un entorno de prueba y verifica su funcionamiento.",
+        "autonomia": "Opera una solución acotada, observa fallos y ejecuta cambios con comprobación y recuperación ensayada.",
+        "profundizacion": "Analiza incidentes, deuda técnica y dependencias para priorizar mejoras de continuidad y mantenibilidad.",
+        "creacion_investigacion": "Diseña un proceso de evolución de un sistema complejo con evidencia operativa y decisiones de migración verificables."
+      }
+    },
+    {
+      "id": "C-AI-01",
+      "title": "Comprender y evaluar usos de IA",
+      "domain": "inteligencia_artificial",
+      "description": "Examinar qué puede aportar una herramienta de IA a una tarea y verificar sus resultados y condiciones de uso.",
+      "prerequisites": [
+        "C-DIG-02",
+        "C-RES-01",
+        "C-ETH-01"
+      ],
+      "outcomes": [
+        "Distingue una salida plausible de una afirmación verificada.",
+        "Contrasta respuestas con evidencia externa pertinente.",
+        "Explica datos compartidos, errores posibles y responsabilidad de revisión."
+      ],
+      "evidence": [
+        "Comparación de una tarea realizada con y sin asistencia.",
+        "Registro de errores detectados, verificaciones y decisión de uso."
+      ],
+      "program_ids": [
+        "PRG-AI",
+        "PRG-CYBER"
+      ],
+      "transfer_task": "Evaluar la utilidad de una herramienta de IA en otro dominio e identificar qué verificación humana adicional se necesita.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce ejemplos de salidas generadas y pregunta cómo comprobarlas con acompañamiento.",
+        "fundamentos": "Explica que una salida generada puede contener errores y distingue uso de herramienta y evidencia.",
+        "aplicacion_acompanada": "Realiza una tarea guiada con datos ficticios y verifica afirmaciones en fuentes pertinentes.",
+        "autonomia": "Selecciona usos acotados, contrasta resultados y documenta aportes, errores, datos compartidos y revisión humana.",
+        "profundizacion": "Compara herramientas y procedimientos según calidad, costo, privacidad, reproducibilidad y consecuencias del error.",
+        "creacion_investigacion": "Diseña y evalúa un flujo original con IA, documentando criterios, controles, límites y resultados frente a una referencia."
+      }
+    },
+    {
+      "id": "C-AI-02",
+      "title": "Evaluar modelos con datos",
+      "domain": "inteligencia_artificial",
+      "description": "Definir una tarea de modelado y evaluar resultados con datos y métricas coherentes, evitando conclusiones fuera del alcance de la evaluación.",
+      "prerequisites": [
+        "C-AI-01",
+        "C-DATA-01",
+        "C-SW-01"
+      ],
+      "outcomes": [
+        "Define tarea, datos y una referencia de comparación.",
+        "Separa datos según el propósito de evaluación.",
+        "Interpreta métricas y errores en relación con el uso previsto."
+      ],
+      "evidence": [
+        "Experimento reproducible con procedencia de datos y configuración.",
+        "Comparación de resultados y análisis de errores y limitaciones."
+      ],
+      "program_ids": [
+        "PRG-AI",
+        "LAB-NEURAL",
+        "PRG-DATA"
+      ],
+      "transfer_task": "Evaluar el mismo modelo con datos de un contexto distinto y explicar si los resultados respaldan su reutilización.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Observa cómo cambian predicciones al variar ejemplos o entradas en una demostración.",
+        "fundamentos": "Distingue datos, modelo, predicción y evaluación mediante un caso pequeño.",
+        "aplicacion_acompanada": "Ejecuta un experimento guiado y describe qué mide cada resultado reportado.",
+        "autonomia": "Define una referencia, evita reutilizar datos de evaluación para ajustar decisiones y analiza errores relevantes.",
+        "profundizacion": "Examina fuga de información, desbalance y cambio de distribución y compara métricas según consecuencias.",
+        "creacion_investigacion": "Diseña una evaluación reproducible de un modelo para una pregunta original y delimita afirmaciones de desempeño."
+      }
+    },
+    {
+      "id": "C-CYB-01",
+      "title": "Analizar y reducir riesgos digitales",
+      "domain": "ciberseguridad",
+      "description": "Identificar activos, amenazas y posibles daños, y comprobar controles en entornos propios o expresamente autorizados.",
+      "prerequisites": [
+        "C-DIG-02",
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Identifica activos y escenarios de riesgo.",
+        "Prioriza medidas con razones sobre exposición e impacto.",
+        "Comprueba un control y registra sus límites."
+      ],
+      "evidence": [
+        "Análisis de riesgos de un caso ficticio o entorno autorizado.",
+        "Demostración de un control y su verificación."
+      ],
+      "program_ids": [
+        "PRG-CYBER",
+        "PRG-SOFTWARE"
+      ],
+      "transfer_task": "Adaptar un análisis de riesgos al uso compartido de una herramienta, revisando participantes, permisos y consecuencias.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce una situación digital que requiere pedir ayuda antes de actuar.",
+        "fundamentos": "Distingue activo, amenaza, vulnerabilidad y medida de protección en un caso cotidiano.",
+        "aplicacion_acompanada": "Analiza un escenario guiado y comprueba un control en un entorno de práctica.",
+        "autonomia": "Prioriza riesgos, implementa medidas autorizadas y documenta verificación y límites.",
+        "profundizacion": "Compara controles y escenarios de fallo considerando operación, personas y dependencias.",
+        "creacion_investigacion": "Diseña una evaluación de riesgos y una mejora verificable para un sistema nuevo con autorización y alcance documentados."
+      }
+    },
+    {
+      "id": "C-FIN-01",
+      "title": "Elaborar y revisar presupuestos",
+      "domain": "finanzas",
+      "description": "Representar entradas, salidas y supuestos de un escenario económico educativo y revisar diferencias con datos observados.",
+      "prerequisites": [
+        "C-NUM-02"
+      ],
+      "outcomes": [
+        "Distingue ingresos, costos y disponibilidad en un caso ficticio.",
+        "Conserva unidades, período y supuestos.",
+        "Revisa un presupuesto ante cambios de datos."
+      ],
+      "evidence": [
+        "Presupuesto de un caso ficticio con fórmulas o cálculos explicados.",
+        "Comparación entre escenario inicial y variante."
+      ],
+      "program_ids": [
+        "PRG-FINANCE",
+        "PRG-BUSINESS"
+      ],
+      "transfer_task": "Adaptar un presupuesto de proyecto a una actividad distinta y justificar las nuevas categorías y supuestos.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Clasifica recursos y necesidades de una actividad ficticia con apoyo.",
+        "fundamentos": "Distingue entradas, salidas y saldo en un ejemplo con unidad y período explícitos.",
+        "aplicacion_acompanada": "Construye un presupuesto guiado y verifica operaciones y categorías.",
+        "autonomia": "Elabora un presupuesto trazable, reconoce incertidumbres y lo actualiza ante cambios.",
+        "profundizacion": "Analiza escenarios y sensibilidad de las variables que más afectan el resultado.",
+        "creacion_investigacion": "Diseña y documenta un modelo presupuestario para un proyecto nuevo y explica sus límites de uso."
+      }
+    },
+    {
+      "id": "C-FIN-02",
+      "title": "Comparar alternativas económicas",
+      "domain": "finanzas",
+      "description": "Comparar opciones de un caso formativo mediante criterios, costos, supuestos y riesgos explícitos.",
+      "prerequisites": [
+        "C-FIN-01",
+        "C-DATA-01"
+      ],
+      "outcomes": [
+        "Define criterios comparables entre alternativas.",
+        "Distingue costo inicial, recurrente y efectos del horizonte temporal.",
+        "Explica cómo cambian conclusiones al variar supuestos."
+      ],
+      "evidence": [
+        "Tabla comparativa de alternativas ficticias con cálculos.",
+        "Decisión argumentada y análisis de un escenario adverso."
+      ],
+      "program_ids": [
+        "PRG-FINANCE",
+        "PRG-BUSINESS"
+      ],
+      "transfer_task": "Comparar dos alternativas con otra duración o restricción y revisar si se mantiene la decisión.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce que dos opciones usan recursos de manera distinta.",
+        "fundamentos": "Compara costos y beneficios explícitos en un caso sencillo.",
+        "aplicacion_acompanada": "Completa una comparación guiada con criterios y supuestos comunes.",
+        "autonomia": "Compara alternativas con horizonte y unidades consistentes y justifica una decisión condicionada.",
+        "profundizacion": "Analiza sensibilidad, incertidumbre y costos omitidos que pueden invertir la preferencia.",
+        "creacion_investigacion": "Construye un marco de comparación reproducible para un proyecto nuevo y delimita su alcance educativo."
+      }
+    },
+    {
+      "id": "C-BIZ-01",
+      "title": "Diseñar una propuesta de valor",
+      "domain": "empresa",
+      "description": "Relacionar una necesidad observada con una propuesta que pueda contrastarse mediante evidencia y criterios definidos.",
+      "prerequisites": [
+        "C-PROB-01",
+        "C-RES-01"
+      ],
+      "outcomes": [
+        "Describe participantes, necesidad y contexto.",
+        "Distingue evidencia disponible e hipótesis sobre valor.",
+        "Diseña una prueba pequeña de la propuesta."
+      ],
+      "evidence": [
+        "Propuesta con problema, destinatario, alternativa actual y beneficio esperado.",
+        "Plan y resultado de una prueba con datos ficticios o participación autorizada."
+      ],
+      "program_ids": [
+        "PRG-BUSINESS",
+        "PRG-MARKETING"
+      ],
+      "transfer_task": "Adaptar una propuesta a otro grupo y explicar qué supuestos necesitan nueva evidencia.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce una necesidad y propone una manera de ayudar a resolverla.",
+        "fundamentos": "Describe para quién es una propuesta y qué resultado espera aportar.",
+        "aplicacion_acompanada": "Formula una propuesta guiada y separa hechos de hipótesis sobre sus destinatarios.",
+        "autonomia": "Diseña una propuesta y una prueba acotada con criterios que puedan confirmarla o cuestionarla.",
+        "profundizacion": "Contrasta alternativas, segmentación y evidencia de uso y revisa las hipótesis principales.",
+        "creacion_investigacion": "Desarrolla una propuesta original, documenta sus iteraciones y justifica continuidad o cambio mediante evidencia."
+      }
+    },
+    {
+      "id": "C-BIZ-02",
+      "title": "Organizar una operación",
+      "domain": "empresa",
+      "description": "Describir procesos, recursos, responsabilidades y controles necesarios para entregar una propuesta de manera consistente.",
+      "prerequisites": [
+        "C-BIZ-01",
+        "C-FIN-01",
+        "C-PROJ-01"
+      ],
+      "outcomes": [
+        "Representa el flujo de una operación y sus responsables.",
+        "Relaciona recursos y costos con actividades.",
+        "Define un control y una medida de funcionamiento."
+      ],
+      "evidence": [
+        "Mapa de proceso de un caso ficticio con recursos y roles.",
+        "Simulación de una incidencia y ajuste del procedimiento."
+      ],
+      "program_ids": [
+        "PRG-BUSINESS",
+        "PRG-LEADERSHIP",
+        "PRG-FINANCE"
+      ],
+      "transfer_task": "Adaptar una operación a un aumento o reducción de demanda, identificando restricciones y controles que cambian.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce tareas y recursos que permiten entregar un producto o servicio.",
+        "fundamentos": "Ordena un proceso sencillo e identifica entradas y resultados.",
+        "aplicacion_acompanada": "Describe una operación guiada con roles, recursos y comprobaciones.",
+        "autonomia": "Organiza un flujo operativo y verifica tiempos, costos y calidad con datos de un caso acotado.",
+        "profundizacion": "Analiza cuellos de botella, dependencias y escenarios de interrupción y prioriza mejoras.",
+        "creacion_investigacion": "Diseña una operación original y documenta su simulación, resultados, decisiones y condiciones de viabilidad."
+      }
+    },
+    {
+      "id": "C-ARCH-01",
+      "title": "Observar y representar espacios habitados",
+      "domain": "arquitectura",
+      "description": "Describir relaciones entre personas, actividades y espacios mediante observación y representaciones comprensibles.",
+      "prerequisites": [
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Registra medidas y usos sin recopilar datos personales innecesarios.",
+        "Representa un espacio con escala o proporción explícita.",
+        "Justifica una propuesta de mejora en relación con necesidades observadas."
+      ],
+      "evidence": [
+        "Croquis, maqueta o representación con leyenda y medidas.",
+        "Comparación de alternativas para un espacio ficticio o de observación autorizada."
+      ],
+      "program_ids": [
+        "PRG-ARCH",
+        "PRG-MATH"
+      ],
+      "transfer_task": "Representar un espacio destinado a otra actividad y explicar qué criterios de uso deben cambiar.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Explora cómo objetos y personas ocupan un espacio y representa una observación con dibujo o construcción.",
+        "fundamentos": "Describe posiciones, recorridos y dimensiones relativas en un espacio conocido.",
+        "aplicacion_acompanada": "Elabora un croquis o maqueta guiada y relaciona medidas con una escala.",
+        "autonomia": "Representa un espacio y justifica decisiones de uso, circulación y accesibilidad dentro del alcance de un ejercicio.",
+        "profundizacion": "Compara soluciones considerando entorno, materiales, actividades y restricciones documentadas.",
+        "creacion_investigacion": "Desarrolla una propuesta espacial original de alcance educativo, registra iteraciones y solicita revisión especializada de aspectos técnicos."
+      }
+    },
+    {
+      "id": "C-TEACH-01",
+      "title": "Diseñar y acompañar aprendizaje",
+      "domain": "educacion",
+      "description": "Diseñar experiencias acordes con objetivos, conocimientos previos y formas accesibles de participación, revisándolas con evidencia.",
+      "prerequisites": [
+        "C-LEARN-04",
+        "C-COM-01",
+        "C-ETH-01"
+      ],
+      "outcomes": [
+        "Relaciona objetivo, actividad y evidencia.",
+        "Ofrece apoyos que conservan el propósito del aprendizaje.",
+        "Ajusta una explicación tras observar el desempeño."
+      ],
+      "evidence": [
+        "Secuencia breve con actividad, apoyos y criterios.",
+        "Registro de una prueba de enseñanza y sus revisiones."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-ASSESS"
+      ],
+      "transfer_task": "Adaptar una explicación a otro contexto o destinatario sin atribuir estilos de aprendizaje fijos.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Comparte un procedimiento conocido y observa qué comprende otra persona.",
+        "fundamentos": "Distingue objetivo, actividad y evidencia en una experiencia de aprendizaje.",
+        "aplicacion_acompanada": "Prepara una explicación guiada con ejemplo, práctica y una comprobación de comprensión.",
+        "autonomia": "Diseña una secuencia accesible, recoge evidencia y adapta el apoyo al desempeño observado.",
+        "profundizacion": "Compara estrategias didácticas según propósito y contexto y analiza resultados sin atribuir causalidad sin sustento.",
+        "creacion_investigacion": "Diseña y revisa una propuesta educativa original con fundamentos explícitos, participación y evaluación de sus límites."
+      }
+    },
+    {
+      "id": "C-ASSESS-01",
+      "title": "Evaluar mediante evidencia",
+      "domain": "evaluacion",
+      "description": "Definir criterios observables, reunir evidencia pertinente y emitir juicios revisables dentro del alcance de una tarea.",
+      "prerequisites": [
+        "C-LEARN-04",
+        "C-ETH-01"
+      ],
+      "outcomes": [
+        "Relaciona criterios con un resultado esperado.",
+        "Sustenta cada juicio en una evidencia concreta.",
+        "Distingue desempeño observado, evidencia insuficiente y aspectos no evaluados."
+      ],
+      "evidence": [
+        "Rúbrica aplicada a un producto con anotaciones específicas.",
+        "Comparación de dos valoraciones y razones de revisión."
+      ],
+      "program_ids": [
+        "PRG-ASSESS",
+        "PRG-PEDAGOGY"
+      ],
+      "transfer_task": "Adaptar los criterios a otra tarea manteniendo la competencia evaluada y explicar los cambios necesarios.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce ejemplos de un resultado esperado y describe una diferencia visible.",
+        "fundamentos": "Distingue criterio, evidencia y opinión sobre una persona.",
+        "aplicacion_acompanada": "Aplica criterios sencillos con acompañamiento y señala partes del trabajo que sustentan su juicio.",
+        "autonomia": "Valora un producto con evidencia, registra incertidumbre y propone una siguiente tarea para comprobar progreso.",
+        "profundizacion": "Revisa coherencia entre evaluadores y posibles barreras de la tarea, sin convertir descriptores editoriales en cortes clínicos.",
+        "creacion_investigacion": "Diseña y revisa un sistema de evaluación educativa con alcance, procedimientos y límites explícitos y revisión competente."
+      }
+    },
+    {
+      "id": "C-WELL-01",
+      "title": "Organizar hábitos y condiciones de aprendizaje",
+      "domain": "condiciones_de_aprendizaje",
+      "description": "Reconocer condiciones prácticas que facilitan estudiar y ajustar el entorno y la carga mediante observación personal no clínica.",
+      "prerequisites": [],
+      "outcomes": [
+        "Identifica recursos y obstáculos de su entorno de estudio.",
+        "Prueba un ajuste factible y registra su efecto sobre una tarea.",
+        "Solicita apoyo cuando una barrera excede sus recursos."
+      ],
+      "evidence": [
+        "Registro de condiciones de dos sesiones sin datos de salud.",
+        "Ajuste del entorno o de la tarea con resultado observado."
+      ],
+      "program_ids": [],
+      "transfer_task": "Trasladar una rutina a otro lugar o disponibilidad de tiempo y comprobar qué elementos siguen siendo útiles.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Expresa qué necesita para participar en una actividad y reconoce cuándo pedir apoyo.",
+        "fundamentos": "Identifica condiciones de materiales, lugar y tiempo que facilitan una tarea.",
+        "aplicacion_acompanada": "Prueba un ajuste guiado, como preparar materiales o dividir una tarea, y describe su efecto.",
+        "autonomia": "Organiza condiciones realistas, observa interrupciones y adapta la carga sin convertir el registro en un juicio personal.",
+        "profundizacion": "Compara ajustes del entorno y revisa cómo influyen recursos, responsabilidades y barreras de participación.",
+        "creacion_investigacion": "Diseña y documenta un procedimiento personal de revisión de condiciones, explicando qué funcionó para sí y sin generalizarlo como tratamiento."
+      }
+    },
+    {
+      "id": "C-CIV-01",
+      "title": "Participar en iniciativas de la comunidad",
+      "domain": "ciudadania",
+      "description": "Colaborar en una iniciativa común mediante comprensión del problema, diálogo y acciones de alcance explícito.",
+      "prerequisites": [
+        "C-COLLAB-01",
+        "C-PROB-01"
+      ],
+      "outcomes": [
+        "Escucha perspectivas de participantes.",
+        "Propone una acción con propósito y responsabilidades.",
+        "Revisa resultados y efectos no previstos con evidencia."
+      ],
+      "evidence": [
+        "Propuesta para un caso comunitario ficticio con participantes y acuerdos.",
+        "Registro de una simulación o actividad autorizada y su revisión."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-LEADERSHIP"
+      ],
+      "transfer_task": "Adaptar una iniciativa a otra comunidad y explicar por qué deben revisarse necesidades, acuerdos y participantes.",
+      "review_status": "propuesta_editorial",
+      "level_descriptors": {
+        "exploracion": "Reconoce una necesidad compartida y participa en una acción acompañada.",
+        "fundamentos": "Describe participantes, acuerdos y efectos de una iniciativa cercana.",
+        "aplicacion_acompanada": "Diseña una propuesta guiada escuchando perspectivas distintas.",
+        "autonomia": "Participa con responsabilidades claras y revisa los resultados con quienes corresponda.",
+        "profundizacion": "Analiza inclusión, representación y efectos no previstos y adapta la iniciativa con evidencia.",
+        "creacion_investigacion": "Diseña una iniciativa colaborativa original, documenta decisiones y promueve revisión por sus participantes."
+      }
+    }
+  ]
+}

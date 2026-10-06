@@ -1,0 +1,1714 @@
+{
+  "schema_version": "1.0",
+  "curricula": [
+    {
+      "id": "M-01",
+      "title": "Continuidad escolar: del interés a una propuesta fundamentada",
+      "purpose": "Conectar lectura, matemática, expresión y aprendizaje autónomo mediante el diseño de un rincón de lectura móvil, y usar sus evidencias para elegir una continuidad.",
+      "audience": [
+        "Personas en educación básica o media",
+        "Personas que retoman bases escolares",
+        "Acompañantes que adaptan el lenguaje y los medios"
+      ],
+      "life_contexts": [
+        "basica",
+        "media",
+        "reconversion",
+        "aprendizaje_personal"
+      ],
+      "entry_profile": "Entrada flexible: se puede leer de forma autónoma, escuchar un texto o trabajar con representación visual. El diagnóstico selecciona apoyos por competencia. Esta malla no cubre por sí sola la trayectoria escolar ni la primera infancia.",
+      "entry_competencies": [],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-02",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-LIT-01",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-NUM-01",
+        "C-NUM-02",
+        "C-DATA-01",
+        "C-DIG-01",
+        "C-RES-01",
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-WELL-01"
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MATH"
+      ],
+      "support_ids": [
+        "SUP-READ",
+        "SUP-WRITE",
+        "SUP-MATH",
+        "SUP-STUDY",
+        "SUP-ACCESS",
+        "SUP-PORTFOLIO"
+      ],
+      "diagnostic": [
+        "Explica, dibuja o relata qué tema te gustaría leer y una pregunta que quisieras responder.",
+        "Con el texto A del documento, identifica cuántas personas participaron y qué preferencia obtuvo más votos; permite lectura en voz alta.",
+        "Resuelve una compra de dos libros de 4.500 pesos y muestra cómo decides si 10.000 pesos alcanzan. Registra el procedimiento, las ayudas y lo todavía incierto.",
+        "Revisa una actividad escolar o cotidiana previa y señala qué podrías reutilizar, siempre con una demostración breve y voluntaria."
+      ],
+      "objectives": [
+        "Formular una pregunta de aprendizaje y ajustar un plan de trabajo a condiciones reales.",
+        "Contrastar afirmaciones de dos textos originales usando su evidencia.",
+        "Comparar cantidades, representar preferencias y justificar una selección dentro de un presupuesto ficticio.",
+        "Producir una propuesta comprensible, probarla con otra persona y mejorarla.",
+        "Relacionar evidencias propias con competencias y escoger una continuidad."
+      ],
+      "steps": [
+        {
+          "id": "M-01-S1",
+          "title": "Elegir la pregunta y acordar el punto de entrada",
+          "outcomes": [
+            "Definir un problema concreto y un resultado observable."
+          ],
+          "competency_ids": [
+            "C-LEARN-01",
+            "C-PROB-01",
+            "C-COM-01",
+            "C-WELL-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL"
+          ],
+          "support_ids": [
+            "SUP-STUDY",
+            "SUP-ACCESS"
+          ],
+          "requires": [],
+          "activities": [
+            "Elige el caso del rincón de lectura móvil o describe una necesidad equivalente que puedas explorar sin datos privados.",
+            "Completa cuatro frases: quiero comprender; ya puedo; necesito ayuda para; mostraré mi aprendizaje mediante.",
+            "Escoge un lugar, materiales y una señal para pedir ayuda o pausar. Conserva la primera versión para compararla al final."
+          ],
+          "evidence": [
+            "Pregunta inicial, resultado esperado y condiciones de participación."
+          ],
+          "acceptance_criteria": [
+            "La pregunta se puede abordar con los materiales disponibles.",
+            "La persona explica o representa qué desea lograr y cómo podrá mostrarlo."
+          ],
+          "alternatives": [
+            "Dictar, dibujar o usar objetos en lugar de escribir.",
+            "Si hay evidencia previa, verificarla con una pequeña variación del problema y continuar en el paso pertinente."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-01-S2",
+          "title": "Leer, contrastar y separar datos de opiniones",
+          "outcomes": [
+            "Distinguir lo que el texto informa de lo que alguien interpreta."
+          ],
+          "competency_ids": [
+            "C-LIT-01",
+            "C-RES-01",
+            "C-COM-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL"
+          ],
+          "support_ids": [
+            "SUP-READ",
+            "SUP-WRITE",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-01-S1"
+          ],
+          "activities": [
+            "Lee o escucha los textos A y B incluidos en el documento. Subraya una afirmación respaldada, una incorrecta y una que requiera información adicional.",
+            "Organiza una tabla con afirmación, fragmento o dato que la apoya y decisión razonada.",
+            "Reescribe la afirmación «todos prefieren historias» para que represente los 12 votos ficticios con precisión."
+          ],
+          "evidence": [
+            "Tabla de tres afirmaciones contrastadas y una reformulación."
+          ],
+          "acceptance_criteria": [
+            "La justificación usa datos del caso y diferencia la opinión de la evidencia.",
+            "Se reconoce que cinco de doce personas no equivalen a todas ni a la mitad exacta."
+          ],
+          "alternatives": [
+            "Entregar tarjetas con las afirmaciones y escuchar los textos.",
+            "Quien ya domina esta tarea compara una fuente elegida por su cuenta y registra autor, fecha y límites."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-01-S3",
+          "title": "Interpretar preferencias y decidir con cantidades",
+          "outcomes": [
+            "Representar datos y revisar una decisión con un presupuesto limitado."
+          ],
+          "competency_ids": [
+            "C-NUM-01",
+            "C-NUM-02",
+            "C-DATA-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-MATH"
+          ],
+          "support_ids": [
+            "SUP-MATH",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-01-S2"
+          ],
+          "activities": [
+            "Representa los votos: historias 5, ciencias 3, arte 2, juegos 2. Comprueba el total mediante un procedimiento que puedas explicar.",
+            "Usa el presupuesto ficticio de 22.000 pesos y los precios del documento para crear dos selecciones de materiales.",
+            "Calcula el gasto y saldo de cada selección. Explica qué preferencia atiende cada una y qué necesidad deja fuera.",
+            "Si las fracciones son un objetivo adecuado, expresa cinco de doce como fracción y porcentaje aproximado. En una entrada inicial, representa la parte con fichas y deja el porcentaje como continuidad."
+          ],
+          "evidence": [
+            "Dos selecciones con sus cálculos, una representación de votos y decisión fundamentada."
+          ],
+          "acceptance_criteria": [
+            "Las cantidades coinciden con los datos y el saldo se comprueba.",
+            "La representación conserva la relación entre categorías.",
+            "Se distingue una preferencia frecuente de una decisión que atienda a todas las personas."
+          ],
+          "alternatives": [
+            "Usar monedas ficticias, objetos, calculadora o una tabla ampliada, registrando el apoyo.",
+            "C-NUM-02 queda en exploración si se trabaja solo con agrupaciones; no se declara dominio del porcentaje sin evidencia."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-01-S4",
+          "title": "Diseñar y comunicar la propuesta",
+          "outcomes": [
+            "Organizar una solución y explicar sus decisiones."
+          ],
+          "competency_ids": [
+            "C-LIT-02",
+            "C-PROJ-01",
+            "C-DIG-01",
+            "C-COM-01",
+            "C-LEARN-02"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL"
+          ],
+          "support_ids": [
+            "SUP-WRITE",
+            "SUP-STUDY",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-01-S3"
+          ],
+          "activities": [
+            "Produce una ficha, cartel, maqueta o presentación con propósito, selección, presupuesto y forma de utilizar el rincón.",
+            "Describe qué ocurre cuando alguien toma un libro, lo devuelve o necesita ayuda. Usa códigos de libros en el registro de prueba.",
+            "Divide lo que falta en acciones pequeñas y ordena las que dependen de otras. Decide cómo retomar si una acción se interrumpe."
+          ],
+          "evidence": [
+            "Prototipo de propuesta y lista de acciones con dependencias."
+          ],
+          "acceptance_criteria": [
+            "Otra persona puede localizar el propósito, el costo y el funcionamiento.",
+            "La propuesta contempla una forma de participación disponible con los materiales del caso."
+          ],
+          "alternatives": [
+            "Producir una versión en papel o audio. C-DIG-01 solo se registra si efectivamente se utiliza una herramienta digital.",
+            "Aumentar profundidad comparando ventajas de dos formatos para públicos distintos."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-01-S5",
+          "title": "Probar, escuchar y revisar",
+          "outcomes": [
+            "Usar observaciones para mejorar una producción propia."
+          ],
+          "competency_ids": [
+            "C-LEARN-03",
+            "C-COM-01",
+            "C-LIT-02"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL"
+          ],
+          "support_ids": [
+            "SUP-WRITE",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-01-S4"
+          ],
+          "activities": [
+            "Pide a una persona o acompañante que encuentre un material y explique cómo devolverlo usando únicamente el prototipo. Si no hay otra persona, realiza una revisión diferida y declara esa limitación.",
+            "Anota dónde encontró una dificultad, qué entendió y qué pregunta hizo; separa observaciones de interpretaciones.",
+            "Elige una mejora, aplícala y repite la tarea para observar si la dificultad disminuye."
+          ],
+          "evidence": [
+            "Registro de prueba, primera versión y versión revisada con motivo del cambio."
+          ],
+          "acceptance_criteria": [
+            "El cambio responde a una observación identificable.",
+            "Se conserva evidencia del antes y después sin convertir una prueba pequeña en una conclusión universal."
+          ],
+          "alternatives": [
+            "Retroalimentación oral, pictográfica o escrita.",
+            "El acompañante puede anotar lo que la persona decide, haciendo visible esa ayuda."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-01-S6",
+          "title": "Mostrar lo aprendido y elegir continuidad",
+          "outcomes": [
+            "Relacionar evidencias con competencias y transferir una decisión."
+          ],
+          "competency_ids": [
+            "C-LEARN-04",
+            "C-LEARN-01",
+            "C-COM-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-MATH"
+          ],
+          "support_ids": [
+            "SUP-PORTFOLIO",
+            "SUP-STUDY"
+          ],
+          "requires": [
+            "M-01-S5"
+          ],
+          "activities": [
+            "Selecciona tres evidencias y explica qué muestran, qué ayuda utilizaste y qué necesitas practicar.",
+            "Resuelve una variación: el presupuesto cambia a 18.000 pesos o aumenta el interés por ciencias. Decide qué modificar sin rehacer todo.",
+            "Elige una pregunta siguiente: profundizar lectura, datos, creación cultural o un proyecto compartido, y enlaza la evidencia de entrada."
+          ],
+          "evidence": [
+            "Portafolio breve, respuesta a una variación y decisión de continuidad."
+          ],
+          "acceptance_criteria": [
+            "La reflexión se apoya en productos concretos y reconoce lo pendiente.",
+            "La persona explica al menos una decisión ante el nuevo contexto."
+          ],
+          "alternatives": [
+            "Conversación grabada localmente con consentimiento, relato oral sin grabación o carpeta de papel.",
+            "El reconocimiento se hace por competencia y alcance de la evidencia, con ayuda explícita."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        }
+      ],
+      "assessment": {
+        "rubric_id": "RUB-CORE",
+        "evidence": [
+          "Comparación de textos",
+          "Cálculos y representación de preferencias",
+          "Propuesta y revisión",
+          "Variación final y reflexión"
+        ],
+        "criteria": [
+          "Coherencia entre objetivo, actividad y evidencia.",
+          "Exactitud de los datos utilizados y explicación del procedimiento.",
+          "Mejora apoyada en observaciones y transferencia a una variación.",
+          "Registro explícito de ayudas y de resultados todavía pendientes."
+        ]
+      },
+      "next_routes": [
+        "M-04",
+        "M-05",
+        "M-02"
+      ],
+      "status": "diseno_inicial",
+      "content_readiness": "Seis actividades puente originales disponibles; cubren una experiencia integradora acotada. La correspondencia con objetivos curriculares chilenos, unidades específicas y validación con estudiantes está pendiente.",
+      "doc_path": "curricula/M-01-continuidad-escolar.md"
+    },
+    {
+      "id": "M-02",
+      "title": "Entrada a ingeniería de software reconociendo conocimientos previos",
+      "purpose": "Reconocer experiencia demostrable y construir una ruta hacia diseño, construcción, comprobación y evolución de software mediante un pequeño catálogo local.",
+      "audience": [
+        "Personas autodidactas",
+        "Estudiantes que ingresan a una especialidad",
+        "Personas con experiencia técnica que desean ordenar sus fundamentos"
+      ],
+      "life_contexts": [
+        "media",
+        "formacion_especializada",
+        "vida_laboral",
+        "reconversion",
+        "aprendizaje_personal"
+      ],
+      "entry_profile": "Se explora la capacidad de leer una especificación y manejar archivos. Las competencias iniciales son orientativas y admiten apoyo. La experiencia previa permite omitir práctica redundante cuando una demostración cubre el resultado y una variación.",
+      "entry_competencies": [
+        "C-LIT-01",
+        "C-DIG-01"
+      ],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-LIT-01",
+        "C-LIT-02",
+        "C-DIG-01",
+        "C-DIG-02",
+        "C-PROB-01",
+        "C-SW-01",
+        "C-SW-02",
+        "C-SW-03",
+        "C-SW-04",
+        "C-AI-01",
+        "C-CYB-01"
+      ],
+      "program_ids": [
+        "PRG-SOFTWARE",
+        "PRG-CYBER",
+        "PRG-AI"
+      ],
+      "support_ids": [
+        "SUP-READ",
+        "SUP-WRITE",
+        "SUP-STUDY",
+        "SUP-LANG",
+        "SUP-ACCESS",
+        "SUP-LAB",
+        "SUP-PORTFOLIO",
+        "SUP-AI"
+      ],
+      "diagnostic": [
+        "Explica un producto técnico propio o autorizado, o resuelve el caso ficticio del documento. Distingue qué hiciste tú y qué hicieron otras personas o herramientas.",
+        "Lee la regla de préstamo y propón un caso válido, uno inválido y una condición que siempre deba mantenerse.",
+        "Ejecuta un programa sencillo o demuestra cómo inspeccionarías entradas, resultados y errores. Si hace falta, inicia con SUP-LAB.",
+        "Modifica un ejemplo pequeño para una condición nueva y explica el cambio sin apoyarte únicamente en la familiaridad con la herramienta."
+      ],
+      "objectives": [
+        "Reconocer fortalezas y vacíos con evidencias específicas.",
+        "Convertir una necesidad acotada en reglas y criterios comprobables.",
+        "Construir un programa local coherente con sus reglas.",
+        "Comprobar casos relevantes y explicar errores.",
+        "Preparar instrucciones de uso, recuperación y una modificación controlada.",
+        "Valorar una propuesta de IA contrastándola con reglas y pruebas."
+      ],
+      "steps": [
+        {
+          "id": "M-02-S1",
+          "title": "Reconocer experiencia y elegir la profundidad",
+          "outcomes": [
+            "Separar experiencia declarada, demostrada y pendiente."
+          ],
+          "competency_ids": [
+            "C-LEARN-01",
+            "C-LEARN-04",
+            "C-DIG-01"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-STUDY",
+            "SUP-PORTFOLIO",
+            "SUP-ACCESS"
+          ],
+          "requires": [],
+          "activities": [
+            "Construye una tabla: competencia, evidencia, aporte propio, ayuda utilizada y vacío observado. Usa un ejemplo ficticio si no puedes compartir trabajo previo.",
+            "Demuestra una decisión de diseño y resuelve una variación breve. Registra qué pasos puedes abordar directamente y cuáles necesitan práctica.",
+            "Acuerda un producto final pequeño: catálogo local con operaciones de préstamo y devolución, ejecutable en tu entorno."
+          ],
+          "evidence": [
+            "Mapa de entrada con evidencias y decisión de recorrido."
+          ],
+          "acceptance_criteria": [
+            "Cada reconocimiento cita una evidencia observable y su alcance.",
+            "No se confunde antigüedad laboral, certificado o lectura con demostración de todas las competencias."
+          ],
+          "alternatives": [
+            "Entrevista técnica oral acompañada de una demostración.",
+            "Una persona principiante recorre todos los pasos con apoyos; una experimentada aporta evidencia equivalente de cada resultado."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-02-S2",
+          "title": "Especificar comportamientos e invariantes",
+          "outcomes": [
+            "Definir entradas, resultados y estados válidos."
+          ],
+          "competency_ids": [
+            "C-PROB-01",
+            "C-LIT-01",
+            "C-SW-02"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-READ",
+            "SUP-WRITE",
+            "SUP-LANG"
+          ],
+          "requires": [
+            "M-02-S1"
+          ],
+          "activities": [
+            "Lee la especificación Colección del documento y escribe ejemplos para cada operación.",
+            "Dibuja los estados disponible y prestado, sus transiciones válidas y lo que debe pasar ante un identificador ausente.",
+            "Define mensajes útiles y explica qué significa que una operación rechazada no modifique la colección."
+          ],
+          "evidence": [
+            "Especificación breve, tabla de ejemplos e invariantes."
+          ],
+          "acceptance_criteria": [
+            "Los casos cubren creación, préstamo, devolución y rechazo de identificadores duplicados.",
+            "Se distinguen reglas del dominio y decisiones de interfaz."
+          ],
+          "alternatives": [
+            "Modelar con tarjetas antes de programar.",
+            "Quien ya domina el caso amplía la especificación con búsqueda, sin añadir cuentas personales o redes de forma automática."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-02-S3",
+          "title": "Construir una primera versión local",
+          "outcomes": [
+            "Implementar las reglas y hacer visible su funcionamiento."
+          ],
+          "competency_ids": [
+            "C-SW-01",
+            "C-SW-02",
+            "C-DIG-01"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-LAB",
+            "SUP-LANG",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-02-S2"
+          ],
+          "activities": [
+            "Elige un lenguaje disponible; si usas Python, utiliza uv cuando esté disponible y mantén dependencias justificadas.",
+            "Implementa primero una operación y comprueba su resultado; añade las demás conservando una representación clara del estado.",
+            "Carga únicamente los datos ficticios B01 y B02. Ofrece una forma de consultar la colección y mensajes de error comprensibles."
+          ],
+          "evidence": [
+            "Programa ejecutable, datos ficticios e instrucciones mínimas para iniciarlo."
+          ],
+          "acceptance_criteria": [
+            "Las operaciones válidas producen el estado esperado.",
+            "El código expresa las reglas de forma localizable y acepta entradas controladas."
+          ],
+          "alternatives": [
+            "El pseudocódigo sirve de preparación, pero no demuestra por sí mismo construcción de software ejecutable.",
+            "Si no hay entorno local, usa un entorno accesible disponible o registra la construcción como pendiente; no declares una implementación inexistente."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-02-S4",
+          "title": "Comprobar cambios de estado y rechazos",
+          "outcomes": [
+            "Diseñar pruebas que puedan detectar una implementación incorrecta."
+          ],
+          "competency_ids": [
+            "C-SW-03",
+            "C-LEARN-03"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-LAB",
+            "SUP-STUDY"
+          ],
+          "requires": [
+            "M-02-S3"
+          ],
+          "activities": [
+            "Ejecuta la secuencia de cinco operaciones y resultados esperados del documento.",
+            "Añade una prueba con título vacío y otra con un identificador ausente; comprueba también que la colección queda intacta tras un rechazo.",
+            "Introduce temporalmente un error controlado en una copia y verifica que una prueba falla por la razón esperada. Corrige y vuelve a ejecutar."
+          ],
+          "evidence": [
+            "Casos con resultado esperado y observado; registro de un fallo detectado y corregido."
+          ],
+          "acceptance_criteria": [
+            "Al menos una prueba verifica una regla del dominio y otra la conservación de estado ante rechazo.",
+            "La evidencia muestra que una prueba detecta un error, además de mostrar ejecuciones exitosas."
+          ],
+          "alternatives": [
+            "Usar pruebas manuales reproducibles como entrada; automatizarlas cuando ese sea el objetivo.",
+            "Se evalúa el razonamiento y la cobertura pertinente, sin imponer una cifra artificial de pruebas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-02-S5",
+          "title": "Operar, proteger y cambiar con control",
+          "outcomes": [
+            "Preparar uso reproducible y una evolución que preserve reglas."
+          ],
+          "competency_ids": [
+            "C-SW-04",
+            "C-DIG-02",
+            "C-CYB-01",
+            "C-AI-01"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE",
+            "PRG-CYBER",
+            "PRG-AI"
+          ],
+          "support_ids": [
+            "SUP-LAB",
+            "SUP-AI",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-02-S4"
+          ],
+          "activities": [
+            "Documenta inicio, datos de ejemplo, limitaciones y cómo restablecer la colección ficticia. Si añades persistencia, verifica guardado y recuperación.",
+            "Identifica dos riesgos pertinentes al alcance local, como sobrescribir el archivo o aceptar datos inválidos, y comprueba un control para cada uno.",
+            "Añade una búsqueda por título o evalúa una propuesta hipotética de IA para esa mejora. Contrasta la propuesta con las reglas y repite las pruebas pertinentes."
+          ],
+          "evidence": [
+            "Guía de operación, cambio explicado y comprobación de recuperación o restablecimiento."
+          ],
+          "acceptance_criteria": [
+            "Otra persona puede reproducir el caso usando la guía.",
+            "El cambio conserva invariantes y los riesgos descritos corresponden al producto real.",
+            "Las aportaciones de IA, si se utilizan, se revisan y se identifican."
+          ],
+          "alternatives": [
+            "La revisión de una propuesta de IA puede hacerse con una respuesta ficticia incluida o escrita por el acompañante, sin cuenta de un proveedor.",
+            "Si el producto no guarda datos, explicar ese alcance y demostrar reinicio con datos iniciales."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-02-S6",
+          "title": "Transferir y seleccionar la siguiente especialización",
+          "outcomes": [
+            "Explicar decisiones y aplicar lo aprendido a un dominio próximo."
+          ],
+          "competency_ids": [
+            "C-LEARN-04",
+            "C-LIT-02",
+            "C-SW-02",
+            "C-SW-03"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-PORTFOLIO",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-02-S5"
+          ],
+          "activities": [
+            "Presenta el programa, una decisión y una limitación mediante productos reproducibles.",
+            "Cambia el contexto a préstamo de herramientas: identifica las reglas reutilizables y propone una nueva, sin implementarla si está fuera de alcance.",
+            "Elige profundización en datos, seguridad, arquitectura de software o proyecto comunitario según las evidencias y requisitos pendientes."
+          ],
+          "evidence": [
+            "Portafolio técnico, análisis de transferencia y decisión de continuidad."
+          ],
+          "acceptance_criteria": [
+            "Se explica qué evidencia respalda cada competencia y en qué alcance.",
+            "La nueva regla se expresa como comportamiento comprobable y se identifican los conocimientos que faltan."
+          ],
+          "alternatives": [
+            "Demostración oral con código accesible, documento o grabación local autorizada.",
+            "Reconocer evidencia equivalente y pedir práctica solo para la diferencia no demostrada."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        }
+      ],
+      "assessment": {
+        "rubric_id": "RUB-PROJECT",
+        "evidence": [
+          "Especificación e invariantes",
+          "Código y datos ficticios",
+          "Pruebas pertinentes",
+          "Guía de operación",
+          "Cambio y transferencia"
+        ],
+        "criteria": [
+          "Correspondencia entre necesidad, reglas y funcionamiento.",
+          "Pruebas que detectan fallos y preservación del estado.",
+          "Reproducibilidad, límites del producto y atribución del trabajo propio.",
+          "Transferencia justificada y reconocimiento de lo pendiente."
+        ]
+      },
+      "next_routes": [
+        "M-03",
+        "M-04",
+        "M-05"
+      ],
+      "status": "diseno_inicial",
+      "content_readiness": "Caso original completo como especificación de práctica; el estudiante construye su solución. No se incluye ni se afirma una aplicación Colección implementada. La selección exacta de clases externas está pendiente.",
+      "doc_path": "curricula/M-02-ingreso-especialidad-software.md"
+    },
+    {
+      "id": "M-03",
+      "title": "Reconversión adulta: preparar una propuesta de consultoría tecnológica",
+      "purpose": "Transformar experiencia transferible en una propuesta acotada de servicio, demostrar su utilidad con un caso ficticio y decidir qué aprendizaje profesional continuar.",
+      "audience": [
+        "Personas que exploran una reconversión",
+        "Profesionales que ordenan experiencia de distintos ámbitos",
+        "Personas que evalúan prestar un servicio tecnológico"
+      ],
+      "life_contexts": [
+        "vida_laboral",
+        "reconversion",
+        "formacion_especializada",
+        "aprendizaje_personal"
+      ],
+      "entry_profile": "La ruta admite experiencia laboral, doméstica, comunitaria o autodidacta. El caso es ficticio y no utiliza datos del usuario. Las actividades comerciales son de simulación y no requieren contactar clientes, efectuar compras ni prometer resultados.",
+      "entry_competencies": [
+        "C-COM-01",
+        "C-LIT-01"
+      ],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-02",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-LIT-01",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-NUM-02",
+        "C-DATA-01",
+        "C-DIG-01",
+        "C-DIG-02",
+        "C-RES-01",
+        "C-ETH-01",
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-CYB-01",
+        "C-FIN-01",
+        "C-FIN-02",
+        "C-BIZ-01",
+        "C-BIZ-02",
+        "C-WELL-01"
+      ],
+      "program_ids": [
+        "PRG-BUSINESS",
+        "PRG-FINANCE",
+        "PRG-SOFTWARE",
+        "PRG-CYBER",
+        "PRG-MARKETING",
+        "PRG-LEADERSHIP"
+      ],
+      "support_ids": [
+        "SUP-READ",
+        "SUP-WRITE",
+        "SUP-MATH",
+        "SUP-STUDY",
+        "SUP-RESEARCH",
+        "SUP-ACCESS",
+        "SUP-LAB",
+        "SUP-PORTFOLIO",
+        "SUP-AI"
+      ],
+      "diagnostic": [
+        "Describe dos situaciones en las que organizaste, explicaste o resolviste algo. Identifica la acción propia y una evidencia que puedas mostrar sin datos confidenciales.",
+        "Escucha o lee el caso Cooperativa Brújula y formula tres preguntas antes de proponer una herramienta.",
+        "Calcula el costo total con los importes ficticios y señala qué costos faltan para evaluar una propuesta real.",
+        "Elige una capacidad que ya puedes demostrar, una que requiera práctica y una condición de aprendizaje que debas organizar."
+      ],
+      "objectives": [
+        "Traducir experiencia en capacidades demostrables y límites explícitos.",
+        "Investigar una necesidad con preguntas y evidencia.",
+        "Definir una propuesta de valor, alcance, aceptación y presupuesto ilustrativo.",
+        "Construir una demostración proporcionada al problema.",
+        "Interpretar resultados de un ensayo pequeño sin prometer efectos no demostrados.",
+        "Preparar un portafolio y una siguiente acción profesional simulada o privada."
+      ],
+      "steps": [
+        {
+          "id": "M-03-S1",
+          "title": "Inventariar experiencia transferible y condiciones",
+          "outcomes": [
+            "Formular un objetivo profesional sustentado en experiencia y un plan viable."
+          ],
+          "competency_ids": [
+            "C-LEARN-01",
+            "C-LEARN-02",
+            "C-LEARN-04",
+            "C-WELL-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-LEADERSHIP"
+          ],
+          "support_ids": [
+            "SUP-STUDY",
+            "SUP-PORTFOLIO",
+            "SUP-ACCESS"
+          ],
+          "requires": [],
+          "activities": [
+            "Elabora tres fichas: situación, acción propia, resultado observado, evidencia y capacidad transferible. Se aceptan ejemplos comunitarios o personales.",
+            "Escoge una capacidad para el servicio ficticio y define qué no puedes todavía realizar sin ayuda.",
+            "Define un objetivo pequeño, los recursos disponibles y una alternativa para retomar si cambian tus condiciones."
+          ],
+          "evidence": [
+            "Inventario de capacidades y objetivo de reconversión con apoyos."
+          ],
+          "acceptance_criteria": [
+            "La capacidad elegida se vincula a una evidencia y a una necesidad del caso.",
+            "Se reconoce el límite del aporte propio y se ajusta el plan a recursos disponibles."
+          ],
+          "alternatives": [
+            "Entrevista oral y dictado de fichas.",
+            "Si existe un portafolio previo, reconocer sus evidencias y producir solo la demostración que falte."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-03-S2",
+          "title": "Descubrir el problema antes de diseñar la oferta",
+          "outcomes": [
+            "Separar síntomas, hipótesis y hechos disponibles."
+          ],
+          "competency_ids": [
+            "C-COM-01",
+            "C-PROB-01",
+            "C-RES-01",
+            "C-DATA-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-MARKETING"
+          ],
+          "support_ids": [
+            "SUP-READ",
+            "SUP-RESEARCH"
+          ],
+          "requires": [
+            "M-03-S1"
+          ],
+          "activities": [
+            "Usa el caso Cooperativa Brújula del documento. Formula preguntas sobre quién registra pedidos, dónde aparecen errores, cómo se corrigen y qué sería una mejora útil.",
+            "Revisa las seis filas ficticias: identifica la referencia repetida y explica por qué no debes eliminar automáticamente información conflictiva.",
+            "Dibuja el flujo actual y elige una necesidad comprobable. Distingue lo observado de lo supuesto."
+          ],
+          "evidence": [
+            "Mapa del proceso, preguntas y tabla de hechos, hipótesis e incógnitas."
+          ],
+          "acceptance_criteria": [
+            "La necesidad se formula sin asumir que ya se conoce su causa.",
+            "Se reconoce que una muestra breve no describe toda la operación."
+          ],
+          "alternatives": [
+            "Simular una entrevista con un acompañante usando únicamente las fichas del caso.",
+            "Analizar un proceso cotidiano propio sin registrar datos de otras personas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-03-S3",
+          "title": "Definir un servicio acotado y sus números",
+          "outcomes": [
+            "Relacionar problema, propuesta, alcance y costos."
+          ],
+          "competency_ids": [
+            "C-BIZ-01",
+            "C-FIN-01",
+            "C-FIN-02",
+            "C-LIT-02",
+            "C-ETH-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-FINANCE",
+            "PRG-MARKETING"
+          ],
+          "support_ids": [
+            "SUP-WRITE",
+            "SUP-MATH"
+          ],
+          "requires": [
+            "M-03-S2"
+          ],
+          "activities": [
+            "Redacta una oferta de práctica con necesidad, entregables, exclusiones, aportes que requiere del cliente ficticio y criterios de aceptación.",
+            "Usa los costos ilustrativos: materiales y herramientas 24.000, operación 6.000 y contingencia 10.000 pesos. Compara el total con un ingreso supuesto de 90.000.",
+            "Explica por qué la diferencia de 50.000 pesos no equivale automáticamente a utilidad neta: el ejercicio no incluye todas las cargas ni valora tu trabajo.",
+            "Compara dos alcances: revisión con guía manual y demostración con validaciones. Decide cuál permite sostener lo prometido."
+          ],
+          "evidence": [
+            "Propuesta de una página, cálculo verificable y comparación de dos alcances."
+          ],
+          "acceptance_criteria": [
+            "Los entregables son comprobables y proporcionales a la evidencia disponible.",
+            "Los importes se identifican como ficticios y los costos ausentes quedan explícitos."
+          ],
+          "alternatives": [
+            "Usar una plantilla de tabla y calculadora.",
+            "Profundizar con escenarios propios sin convertirlos en asesoría tributaria ni cotizaciones de mercado verificadas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-03-S4",
+          "title": "Construir una demostración pequeña y comprobable",
+          "outcomes": [
+            "Materializar una mejora y proteger los datos del ensayo."
+          ],
+          "competency_ids": [
+            "C-DIG-01",
+            "C-DIG-02",
+            "C-PROJ-01",
+            "C-CYB-01",
+            "C-BIZ-02"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE",
+            "PRG-CYBER",
+            "PRG-BUSINESS"
+          ],
+          "support_ids": [
+            "SUP-LAB",
+            "SUP-ACCESS",
+            "SUP-AI"
+          ],
+          "requires": [
+            "M-03-S3"
+          ],
+          "activities": [
+            "Crea una hoja de cálculo, un formulario local, tarjetas estructuradas o un prototipo con las seis filas ficticias.",
+            "Haz visible la referencia repetida, separa el caso conflictivo y añade una instrucción para revisarlo antes de consolidar los pedidos.",
+            "Demuestra qué pasa con una entrada válida y una ambigua. Conserva una copia inicial y un modo de restablecer el ensayo."
+          ],
+          "evidence": [
+            "Demostración, casos de prueba y guía breve de uso."
+          ],
+          "acceptance_criteria": [
+            "La mejora responde al problema elegido y no borra silenciosamente la información ambigua.",
+            "Se usan datos ficticios y se puede reproducir el estado inicial."
+          ],
+          "alternatives": [
+            "Un procedimiento en papel puede demostrar organización operativa; la competencia digital se reconoce solo si se utilizó la herramienta.",
+            "La programación es una extensión opcional que requiere evidencias específicas para competencias de software."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-03-S5",
+          "title": "Interpretar resultados y ajustar la propuesta",
+          "outcomes": [
+            "Usar mediciones acotadas y retroalimentación para decidir una mejora."
+          ],
+          "competency_ids": [
+            "C-DATA-01",
+            "C-NUM-02",
+            "C-LEARN-03",
+            "C-COM-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-FINANCE"
+          ],
+          "support_ids": [
+            "SUP-MATH",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-03-S4"
+          ],
+          "activities": [
+            "Analiza las observaciones ficticias de duración incluidas en el documento. Calcula media y mediana cuando esos procedimientos formen parte del objetivo.",
+            "Explica qué sugieren los datos, qué no demuestran y qué factores habría que revisar antes de atribuir una mejora al prototipo.",
+            "Pide a un acompañante que siga la guía o revisa una ejecución propia. Ajusta una instrucción o regla y conserva el motivo."
+          ],
+          "evidence": [
+            "Tabla de resultados, límites del ensayo y mejora justificada."
+          ],
+          "acceptance_criteria": [
+            "La interpretación distingue una comparación exploratoria de una garantía de desempeño.",
+            "El cambio se apoya en una dificultad observada y su nueva versión puede revisarse."
+          ],
+          "alternatives": [
+            "Comenzar ordenando y comparando duraciones visualmente; avanzar a medidas solo cuando haya base suficiente.",
+            "Si no hay colaborador, declarar que la revisión fue propia y dejar pendiente la prueba con otra persona."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-03-S6",
+          "title": "Preparar evidencias y decidir el siguiente movimiento",
+          "outcomes": [
+            "Comunicar una capacidad profesional y sus límites mediante un caso."
+          ],
+          "competency_ids": [
+            "C-LIT-02",
+            "C-COM-01",
+            "C-LEARN-04",
+            "C-BIZ-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-MARKETING",
+            "PRG-LEADERSHIP"
+          ],
+          "support_ids": [
+            "SUP-PORTFOLIO",
+            "SUP-WRITE",
+            "SUP-STUDY"
+          ],
+          "requires": [
+            "M-03-S5"
+          ],
+          "activities": [
+            "Construye una ficha de caso: problema ficticio, decisiones, producto, resultado del ensayo, límites y siguiente aprendizaje.",
+            "Prepara una presentación breve y preguntas para una posible conversación profesional. La actividad termina en borrador; no exige enviar mensajes.",
+            "Elige entre fortalecer fundamentos técnicos, explorar una necesidad distinta o participar en un proyecto acompañado, justificándolo con la evidencia."
+          ],
+          "evidence": [
+            "Caso de portafolio identificado como simulación, presentación y plan de continuidad."
+          ],
+          "acceptance_criteria": [
+            "La persona puede explicar lo que hizo y distinguirlo de lo que todavía no demuestra.",
+            "La siguiente acción responde a una brecha concreta o una oportunidad definida."
+          ],
+          "alternatives": [
+            "Presentación oral, texto, demostración accesible o combinación.",
+            "La decisión puede ser continuar aprendiendo antes de ofrecer el servicio."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        }
+      ],
+      "assessment": {
+        "rubric_id": "RUB-PROJECT",
+        "evidence": [
+          "Inventario de capacidades",
+          "Descubrimiento del problema",
+          "Propuesta y presupuesto ficticio",
+          "Demostración y ensayo",
+          "Portafolio con límites"
+        ],
+        "criteria": [
+          "Relación entre necesidad observada y alcance ofrecido.",
+          "Trazabilidad de cálculos, supuestos y decisiones.",
+          "Reproducibilidad de la demostración y manejo de casos ambiguos.",
+          "Comunicación honesta de resultados y decisión fundamentada de continuidad."
+        ]
+      },
+      "next_routes": [
+        "M-02",
+        "M-04",
+        "M-05"
+      ],
+      "status": "diseno_inicial",
+      "content_readiness": "Caso ficticio, datos de práctica y seis actividades originales disponibles. No constituye acreditación profesional, promesa comercial ni revisión de requisitos legales para ejercer un servicio. Unidades externas y prueba pedagógica pendientes.",
+      "doc_path": "curricula/M-03-reconversion-consultoria-tecnologica.md"
+    },
+    {
+      "id": "M-04",
+      "title": "Proyecto interdisciplinario: información accesible para un espacio comunitario",
+      "purpose": "Integrar observación de espacios, participación, datos, diseño, presupuesto y operación en un prototipo que permita conocer actividades de un espacio comunitario ficticio.",
+      "audience": [
+        "Personas que quieren aprender mediante un proyecto compartido",
+        "Estudiantes de distintas disciplinas",
+        "Equipos comunitarios en fase de simulación o preparación"
+      ],
+      "life_contexts": [
+        "media",
+        "formacion_especializada",
+        "vida_laboral",
+        "reconversion",
+        "aprendizaje_personal",
+        "transmision_experiencia"
+      ],
+      "entry_profile": "Entrada por distintos roles: observar, escuchar, organizar, diseñar, construir o evaluar. Los datos y el espacio de partida son ficticios. Una implementación real requiere acordar alcance y responsabilidades con la comunidad correspondiente.",
+      "entry_competencies": [
+        "C-COM-01",
+        "C-LIT-01"
+      ],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-NUM-01",
+        "C-DATA-01",
+        "C-DIG-01",
+        "C-DIG-02",
+        "C-RES-02",
+        "C-ETH-01",
+        "C-PROB-01",
+        "C-PROJ-01",
+        "C-COLLAB-01",
+        "C-SW-02",
+        "C-CYB-01",
+        "C-FIN-01",
+        "C-FIN-02",
+        "C-BIZ-02",
+        "C-ARCH-01",
+        "C-CIV-01"
+      ],
+      "program_ids": [
+        "PRG-ARCH",
+        "PRG-SOFTWARE",
+        "PRG-CYBER",
+        "PRG-BUSINESS",
+        "PRG-FINANCE",
+        "PRG-DATA",
+        "PRG-LEADERSHIP"
+      ],
+      "support_ids": [
+        "SUP-READ",
+        "SUP-WRITE",
+        "SUP-MATH",
+        "SUP-STUDY",
+        "SUP-RESEARCH",
+        "SUP-ACCESS",
+        "SUP-LAB",
+        "SUP-PORTFOLIO"
+      ],
+      "diagnostic": [
+        "Explica cómo encontrarías una actividad si tuvieras conexión inestable o prefirieras una explicación oral.",
+        "Lee las tres fichas del espacio ficticio y encuentra una ambigüedad o dato que falta.",
+        "Dibuja el recorrido entre entrada y sala y propone una manera de verificar que otra persona lo comprende.",
+        "Identifica una contribución propia al equipo y una tarea para la que necesitas apoyo."
+      ],
+      "objectives": [
+        "Formular una necesidad comunitaria desde distintas condiciones de participación.",
+        "Diseñar una indagación acotada y representar un espacio.",
+        "Comparar alternativas mediante criterios y costos ficticios.",
+        "Especificar y construir un prototipo accesible con datos mínimos.",
+        "Evaluar tareas concretas, revisar el producto y proponer una operación sostenible.",
+        "Reconocer contribuciones individuales y colectivas."
+      ],
+      "steps": [
+        {
+          "id": "M-04-S1",
+          "title": "Delimitar el propósito y acordar colaboración",
+          "outcomes": [
+            "Definir una necesidad pública concreta y responsabilidades de trabajo."
+          ],
+          "competency_ids": [
+            "C-PROB-01",
+            "C-COM-01",
+            "C-COLLAB-01",
+            "C-CIV-01",
+            "C-LEARN-01"
+          ],
+          "program_ids": [
+            "PRG-LEADERSHIP",
+            "PRG-BUSINESS"
+          ],
+          "support_ids": [
+            "SUP-STUDY",
+            "SUP-ACCESS"
+          ],
+          "requires": [],
+          "activities": [
+            "Lee el caso Punto Abierto y acuerda una pregunta: cómo ayudar a encontrar una actividad, su lugar y su estado de actualización.",
+            "Distribuye responsabilidades por interés y evidencia disponible; permite que una misma persona cubra varios roles.",
+            "Define cómo se escuchan desacuerdos, cómo se decide un cambio y cómo se registra una tarea pendiente."
+          ],
+          "evidence": [
+            "Problema delimitado y acuerdo de colaboración."
+          ],
+          "acceptance_criteria": [
+            "La necesidad se expresa desde lo que una persona necesita hacer.",
+            "Los aportes, responsabilidades y decisiones quedan identificables."
+          ],
+          "alternatives": [
+            "Proyecto individual con revisión de un acompañante.",
+            "Los roles pueden cambiar a medida que se aprende; no se asignan por edad o estereotipo."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-04-S2",
+          "title": "Observar el espacio y reunir evidencia mínima",
+          "outcomes": [
+            "Diseñar preguntas, representar el entorno y distinguir datos de supuestos."
+          ],
+          "competency_ids": [
+            "C-RES-02",
+            "C-ARCH-01",
+            "C-DATA-01",
+            "C-ETH-01",
+            "C-CIV-01"
+          ],
+          "program_ids": [
+            "PRG-ARCH",
+            "PRG-DATA"
+          ],
+          "support_ids": [
+            "SUP-RESEARCH",
+            "SUP-ACCESS"
+          ],
+          "requires": [
+            "M-04-S1"
+          ],
+          "activities": [
+            "Dibuja el plano ficticio con entrada, patio, sala norte y tablón; indica relaciones y recorridos sin afirmar que sea una medición real.",
+            "Usa las tres condiciones de participación del documento para anticipar dificultades y convertirlas en preguntas comprobables.",
+            "Elabora un plan de consulta de tres preguntas y una ficha de observación sin nombres ni datos sensibles. En esta versión, simula las respuestas o trabaja con una persona que acepte colaborar."
+          ],
+          "evidence": [
+            "Croquis, plan de indagación y tabla de observaciones e hipótesis."
+          ],
+          "acceptance_criteria": [
+            "El plano permite explicar un recorrido y declara su carácter esquemático.",
+            "Cada pregunta aporta información pertinente a una decisión de diseño."
+          ],
+          "alternatives": [
+            "Representación táctil, descripción oral o lista secuencial del recorrido.",
+            "Si no es posible observar un espacio real, todo el ejercicio conserva su condición de simulación."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-04-S3",
+          "title": "Comparar soluciones y sus costos",
+          "outcomes": [
+            "Justificar una alternativa con criterios explícitos y límites."
+          ],
+          "competency_ids": [
+            "C-FIN-01",
+            "C-FIN-02",
+            "C-NUM-01",
+            "C-PROJ-01",
+            "C-ETH-01"
+          ],
+          "program_ids": [
+            "PRG-FINANCE",
+            "PRG-BUSINESS"
+          ],
+          "support_ids": [
+            "SUP-MATH",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-04-S2"
+          ],
+          "activities": [
+            "Compara tablón, sitio sencillo y solución mixta con los costos ficticios de 18.000, 30.000 y 42.000 pesos frente a un presupuesto de 45.000.",
+            "Evalúa encontrar información, mantenerla vigente, acceso con conexión inestable y trabajo de actualización. Explica prioridades antes de decidir.",
+            "Calcula el saldo y declara qué gastos operativos o recursos existentes no están representados."
+          ],
+          "evidence": [
+            "Comparación razonada, presupuesto y alcance elegido."
+          ],
+          "acceptance_criteria": [
+            "La elección se puede rastrear hasta criterios acordados y necesidades del caso.",
+            "Los costos se identifican como datos de práctica y se reconocen sus omisiones."
+          ],
+          "alternatives": [
+            "Comparación cualitativa con fichas y apoyo para el cálculo.",
+            "Profundizar con ponderaciones propias, dejando visible que son decisiones del equipo y no mediciones objetivas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-04-S4",
+          "title": "Especificar y producir un prototipo",
+          "outcomes": [
+            "Representar un servicio de información con contenido consistente."
+          ],
+          "competency_ids": [
+            "C-SW-02",
+            "C-DIG-01",
+            "C-DIG-02",
+            "C-CYB-01",
+            "C-LIT-02",
+            "C-ARCH-01"
+          ],
+          "program_ids": [
+            "PRG-SOFTWARE",
+            "PRG-CYBER",
+            "PRG-ARCH"
+          ],
+          "support_ids": [
+            "SUP-LAB",
+            "SUP-ACCESS",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-04-S3"
+          ],
+          "activities": [
+            "Produce tarjetas, una maqueta navegable o una página local con las tres actividades ficticias del documento.",
+            "Define campos mínimos: actividad, jornada de ejemplo, lugar, acceso, estado y versión de actualización. Añade cómo actuar ante información sin confirmar.",
+            "Incluye un recorrido comprensible y una versión usable sin conexión cuando la alternativa elegida la requiera. No se necesitan cuentas personales ni inscripciones reales."
+          ],
+          "evidence": [
+            "Prototipo, reglas de actualización y ejemplos de información vigente y pendiente."
+          ],
+          "acceptance_criteria": [
+            "Una misma actividad mantiene datos coherentes en los formatos ofrecidos.",
+            "El diseño permite reconocer el estado de la información y encontrar el lugar."
+          ],
+          "alternatives": [
+            "La maqueta en papel demuestra especificación; el software ejecutable requiere desarrollo y evidencia adicionales.",
+            "Ofrecer lectura en voz alta o versión de texto estructurado según las condiciones elegidas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-04-S5",
+          "title": "Probar tareas y revisar con evidencia",
+          "outcomes": [
+            "Observar el uso y corregir una dificultad concreta."
+          ],
+          "competency_ids": [
+            "C-LEARN-03",
+            "C-DATA-01",
+            "C-COM-01",
+            "C-COLLAB-01"
+          ],
+          "program_ids": [
+            "PRG-DATA",
+            "PRG-SOFTWARE"
+          ],
+          "support_ids": [
+            "SUP-ACCESS",
+            "SUP-PORTFOLIO"
+          ],
+          "requires": [
+            "M-04-S4"
+          ],
+          "activities": [
+            "Prueba tres tareas: encontrar lectura compartida, explicar el acceso a sala norte y reconocer una actividad sin confirmación.",
+            "Registra logro, ayuda necesaria, dificultad y cambio propuesto; usa códigos de sesión, no nombres. Declara si la prueba fue simulada o realizada con un colaborador.",
+            "Aplica una mejora y repite la tarea correspondiente. Si hay varios ensayos, informa su número y contexto sin extrapolar a toda la comunidad."
+          ],
+          "evidence": [
+            "Guion de prueba, observaciones y versiones antes y después."
+          ],
+          "acceptance_criteria": [
+            "La prueba evalúa una tarea del usuario y permite detectar una dificultad.",
+            "La revisión se justifica con evidencia y conserva los límites del ensayo."
+          ],
+          "alternatives": [
+            "La persona puede responder oralmente, señalando o mediante un medio accesible.",
+            "Con un solo participante, analizar cualitativamente la dificultad y evitar porcentajes que aparenten representatividad."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-04-S6",
+          "title": "Organizar la continuidad y presentar el proyecto",
+          "outcomes": [
+            "Definir mantenimiento, rendición de decisiones y transferencia."
+          ],
+          "competency_ids": [
+            "C-BIZ-02",
+            "C-PROJ-01",
+            "C-CIV-01",
+            "C-LEARN-04",
+            "C-COM-01"
+          ],
+          "program_ids": [
+            "PRG-BUSINESS",
+            "PRG-LEADERSHIP"
+          ],
+          "support_ids": [
+            "SUP-PORTFOLIO",
+            "SUP-STUDY"
+          ],
+          "requires": [
+            "M-04-S5"
+          ],
+          "activities": [
+            "Define quién podría revisar cambios, cómo retirar información vencida, cómo recibir una corrección y cómo conservar una copia de referencia. Usa roles ficticios.",
+            "Presenta problema, evidencia, alternativa elegida, producto, pruebas y asuntos pendientes. Diferencia contribuciones individuales y colectivas.",
+            "Resuelve una variación: la sala norte cambia temporalmente de uso. Describe cómo actualizas todas las versiones y avisas la incertidumbre."
+          ],
+          "evidence": [
+            "Plan operativo, presentación y resolución de una variación."
+          ],
+          "acceptance_criteria": [
+            "El mantenimiento incluye responsables por rol, estado de información y procedimiento de corrección.",
+            "Se explica qué se puede transferir y qué debe revisarse antes de una aplicación real."
+          ],
+          "alternatives": [
+            "Entrega oral con carpeta de apoyo, cartel o demostración local.",
+            "La continuidad puede ser profundizar una disciplina o mejorar el mismo prototipo con otro contexto."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        }
+      ],
+      "assessment": {
+        "rubric_id": "RUB-PROJECT",
+        "evidence": [
+          "Necesidad y colaboración",
+          "Indagación y croquis",
+          "Comparación de alternativas",
+          "Prototipo",
+          "Pruebas y operación"
+        ],
+        "criteria": [
+          "Relación entre condiciones de participación y decisiones de diseño.",
+          "Consistencia del contenido, accesibilidad elegida y manejo de incertidumbre.",
+          "Uso de observaciones para revisar el producto.",
+          "Viabilidad del mantenimiento y explicación de contribuciones."
+        ]
+      },
+      "next_routes": [
+        "M-02",
+        "M-03",
+        "M-05"
+      ],
+      "status": "diseno_inicial",
+      "content_readiness": "Caso, fichas ficticias y actividades de diseño disponibles. Es un proyecto de aprendizaje; no se entrega una plataforma comunitaria desplegada ni se han validado condiciones de un espacio real. Alineaciones externas pendientes por unidad.",
+      "doc_path": "curricula/M-04-proyecto-comunitario-tecnologico.md"
+    },
+    {
+      "id": "M-05",
+      "title": "Interés personal y transmisión: memoria de un espacio cultural",
+      "purpose": "Convertir una curiosidad sobre un espacio o experiencia cultural en una indagación, una creación propia y una actividad para compartir lo aprendido.",
+      "audience": [
+        "Personas que aprenden por curiosidad",
+        "Personas que desean transmitir experiencia",
+        "Familias o grupos intergeneracionales con acompañamiento acordado"
+      ],
+      "life_contexts": [
+        "basica",
+        "media",
+        "vida_laboral",
+        "aprendizaje_personal",
+        "transmision_experiencia"
+      ],
+      "entry_profile": "No exige experiencia profesional ni herramientas digitales. Se elige un alcance compatible con intereses y medios disponibles. Se puede usar el caso ficticio o un espacio propio con fuentes autorizadas. La tarea combina investigación y creación, diferenciando sus afirmaciones.",
+      "entry_competencies": [],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-03",
+        "C-LEARN-04",
+        "C-LIT-01",
+        "C-LIT-02",
+        "C-COM-01",
+        "C-DIG-01",
+        "C-RES-01",
+        "C-RES-02",
+        "C-ETH-01",
+        "C-CREATE-01",
+        "C-COLLAB-01",
+        "C-ARCH-01",
+        "C-TEACH-01",
+        "C-ASSESS-01",
+        "C-WELL-01"
+      ],
+      "program_ids": [
+        "PRG-ARCH",
+        "PRG-SCHOOL",
+        "PRG-PEDAGOGY",
+        "PRG-ASSESS"
+      ],
+      "support_ids": [
+        "SUP-READ",
+        "SUP-WRITE",
+        "SUP-STUDY",
+        "SUP-LANG",
+        "SUP-RESEARCH",
+        "SUP-ACCESS",
+        "SUP-PORTFOLIO",
+        "SUP-AI"
+      ],
+      "diagnostic": [
+        "Describe un lugar, objeto, oficio o experiencia cultural que te produzca curiosidad, o elige el caso ficticio Plaza del Cedro.",
+        "Lee o escucha dos tarjetas de memoria del documento e identifica en qué coinciden y en qué difieren.",
+        "Explica algo que ya sabes a un acompañante o a un público imaginado; registra qué ejemplo utilizarías para que pudiera practicar.",
+        "Elige un medio de expresión que quieras explorar y las condiciones que permitirán disfrutar y sostener la actividad."
+      ],
+      "objectives": [
+        "Formular una pregunta personal e investigar con fuentes y límites claros.",
+        "Distinguir memoria, documento, inferencia y creación propia.",
+        "Observar y representar relaciones espaciales o culturales.",
+        "Crear una pieza expresiva, revisarla y atribuir sus materiales.",
+        "Diseñar una actividad de transmisión en la que otra persona pueda actuar y mostrar comprensión.",
+        "Conservar el proceso y elegir una continuidad abierta."
+      ],
+      "steps": [
+        {
+          "id": "M-05-S1",
+          "title": "Elegir una curiosidad y un destinatario",
+          "outcomes": [
+            "Definir una pregunta significativa y una forma de compartirla."
+          ],
+          "competency_ids": [
+            "C-LEARN-01",
+            "C-COM-01",
+            "C-WELL-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-ARCH"
+          ],
+          "support_ids": [
+            "SUP-STUDY",
+            "SUP-ACCESS"
+          ],
+          "requires": [],
+          "activities": [
+            "Elige el caso ficticio Plaza del Cedro o una experiencia propia que puedas trabajar respetando a quienes aparecen en ella.",
+            "Completa: me interesa; quisiera saber; ya recuerdo o conozco; no puedo asegurar todavía; me gustaría compartirlo con.",
+            "Define un producto posible y una condición de participación que facilite hacerlo, como audio, papel, pausas o acompañamiento."
+          ],
+          "evidence": [
+            "Pregunta de indagación, destinatario y medio inicial."
+          ],
+          "acceptance_criteria": [
+            "La pregunta permite explorar algo concreto con recursos disponibles.",
+            "Se distinguen intereses personales de afirmaciones todavía por verificar."
+          ],
+          "alternatives": [
+            "Relato oral, selección de imágenes propias o dibujo.",
+            "Una experiencia previa puede servir como entrada cuando se explican su procedencia y límites."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-05-S2",
+          "title": "Reunir recuerdos y contrastar fuentes",
+          "outcomes": [
+            "Clasificar afirmaciones y mantener visibles las incertidumbres."
+          ],
+          "competency_ids": [
+            "C-LIT-01",
+            "C-RES-01",
+            "C-RES-02",
+            "C-ETH-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-ARCH"
+          ],
+          "support_ids": [
+            "SUP-READ",
+            "SUP-RESEARCH",
+            "SUP-LANG"
+          ],
+          "requires": [
+            "M-05-S1"
+          ],
+          "activities": [
+            "Lee las tarjetas A, B y C del documento. Organiza una tabla con afirmación, fuente, tipo, coincidencia y duda.",
+            "Explica por qué dos recuerdos diferentes no permiten fijar una fecha solo por mayoría o confianza personal.",
+            "Escribe una frase que conserve la incertidumbre y otra pregunta que una fuente adicional ayudaría a resolver. Si usas recuerdos reales, acuerda qué puede compartirse."
+          ],
+          "evidence": [
+            "Tabla de fuentes y redacción de una conclusión limitada."
+          ],
+          "acceptance_criteria": [
+            "Los materiales ficticios se identifican como tales y los reales conservan procedencia.",
+            "La conclusión distingue dato documentado, recuerdo e inferencia."
+          ],
+          "alternatives": [
+            "Escuchar las tarjetas o usar una versión con vocabulario simplificado.",
+            "La indagación puede mantenerse enteramente ficticia sin entrevistar a otras personas."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-05-S3",
+          "title": "Observar y representar el espacio o la práctica",
+          "outcomes": [
+            "Crear una representación que comunique relaciones relevantes."
+          ],
+          "competency_ids": [
+            "C-ARCH-01",
+            "C-CREATE-01",
+            "C-COM-01"
+          ],
+          "program_ids": [
+            "PRG-ARCH",
+            "PRG-SCHOOL"
+          ],
+          "support_ids": [
+            "SUP-ACCESS",
+            "SUP-WRITE"
+          ],
+          "requires": [
+            "M-05-S2"
+          ],
+          "activities": [
+            "Con el croquis textual del caso, representa la relación entre entrada, árbol, banco y pequeña sala. Indica que el dibujo es esquemático.",
+            "Selecciona tres detalles significativos y explica qué preguntas o recuerdos provocan.",
+            "Pide a alguien que reconstruya una relación a partir de tu representación o realiza una segunda versión desde otro punto de vista."
+          ],
+          "evidence": [
+            "Croquis, descripción sonora, maqueta sencilla o representación equivalente con comentario."
+          ],
+          "acceptance_criteria": [
+            "La representación permite reconocer relaciones que la persona quiere comunicar.",
+            "Se aclara qué parte procede del material y qué parte es una elección expresiva."
+          ],
+          "alternatives": [
+            "Descripción oral, representación táctil con materiales grandes o secuencia de escenas.",
+            "Una práctica cultural puede representarse por sus acciones y objetos si no requiere un lugar específico."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-05-S4",
+          "title": "Crear una pieza con voz propia y atribución",
+          "outcomes": [
+            "Integrar indagación y expresión diferenciando sus aportes."
+          ],
+          "competency_ids": [
+            "C-CREATE-01",
+            "C-LIT-02",
+            "C-DIG-01",
+            "C-ETH-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-ARCH"
+          ],
+          "support_ids": [
+            "SUP-WRITE",
+            "SUP-ACCESS",
+            "SUP-AI"
+          ],
+          "requires": [
+            "M-05-S3"
+          ],
+          "activities": [
+            "Crea un relato, pequeño cuaderno, audio, exposición de objetos o presentación que responda a la pregunta inicial dentro de su alcance.",
+            "Incluye una nota que distinga fuentes, recuerdos, incertidumbres y pasajes inventados. Una pieza enteramente ficticia debe declararlo.",
+            "Revisa la coherencia y legibilidad o escucha de la pieza. Si interviene IA, comprueba sus afirmaciones y declara el uso que tuvo."
+          ],
+          "evidence": [
+            "Primera pieza, nota de procedencia y revisión."
+          ],
+          "acceptance_criteria": [
+            "El destinatario puede comprender qué se sabe y qué se creó para expresarlo.",
+            "Las decisiones expresivas apoyan el propósito y el acceso elegido."
+          ],
+          "alternatives": [
+            "La producción puede ser oral o material; C-DIG-01 solo se reconoce con una actividad digital efectiva.",
+            "La extensión y el formato se acuerdan según el propósito, sin exigir un estándar editorial profesional."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-05-S5",
+          "title": "Diseñar una experiencia para transmitir lo aprendido",
+          "outcomes": [
+            "Acompañar una actividad y observar qué comprende quien participa."
+          ],
+          "competency_ids": [
+            "C-TEACH-01",
+            "C-ASSESS-01",
+            "C-COM-01",
+            "C-COLLAB-01"
+          ],
+          "program_ids": [
+            "PRG-PEDAGOGY",
+            "PRG-ASSESS"
+          ],
+          "support_ids": [
+            "SUP-ACCESS",
+            "SUP-PORTFOLIO"
+          ],
+          "requires": [
+            "M-05-S4"
+          ],
+          "activities": [
+            "Diseña una invitación, una explicación breve, una actividad y una pregunta de cierre para un acompañante o público ficticio.",
+            "Propón que la otra persona ordene tarjetas de fuentes, dibuje el recorrido o diferencie un recuerdo de un dato documentado. Evita limitar la participación a escuchar la presentación.",
+            "Observa una respuesta y ajusta una instrucción. Registra las ayudas y el contexto; si no hay participante, realiza un ensayo y deja la observación de aprendizaje pendiente."
+          ],
+          "evidence": [
+            "Guion de transmisión, actividad, observación o ensayo y ajuste."
+          ],
+          "acceptance_criteria": [
+            "La actividad permite al destinatario hacer algo que muestra comprensión.",
+            "La interpretación de la respuesta reconoce sus límites y evita diagnósticos personales."
+          ],
+          "alternatives": [
+            "Encuentro oral, material para leer acompañado o actividad que se intercambia sin coincidir en horario.",
+            "Los programas de pedagogía y evaluación orientan a quien acompaña; no se asignan como cursos infantiles al destinatario."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        },
+        {
+          "id": "M-05-S6",
+          "title": "Conservar la experiencia y abrir una nueva pregunta",
+          "outcomes": [
+            "Revisar el proceso y preparar continuidad o transferencia."
+          ],
+          "competency_ids": [
+            "C-LEARN-03",
+            "C-LEARN-04",
+            "C-CREATE-01",
+            "C-TEACH-01"
+          ],
+          "program_ids": [
+            "PRG-SCHOOL",
+            "PRG-PEDAGOGY"
+          ],
+          "support_ids": [
+            "SUP-PORTFOLIO",
+            "SUP-STUDY"
+          ],
+          "requires": [
+            "M-05-S5"
+          ],
+          "activities": [
+            "Conserva producto, fuentes, versiones y una nota sobre lo aprendido en un formato que puedas volver a abrir. Usa datos ficticios en cualquier publicación de ejemplo.",
+            "Explica una decisión que cambió durante el proceso y qué evidencia motivó el cambio.",
+            "Elige otra pregunta, un destinatario diferente o una conexión con un proyecto comunitario; describe qué habría que adaptar."
+          ],
+          "evidence": [
+            "Carpeta de proceso, reflexión y propuesta de continuidad."
+          ],
+          "acceptance_criteria": [
+            "La pieza conserva procedencia y una historia de revisión comprensible.",
+            "La siguiente propuesta identifica una adaptación concreta, no solo un cambio de tema."
+          ],
+          "alternatives": [
+            "Carpeta física con índice o archivos locales.",
+            "La continuidad puede consistir en explorar por gusto, compartir de nuevo o profundizar investigación y creación."
+          ],
+          "availability": "Actividad puente original desarrollada en el documento de esta malla. La alineación con programas externos es candidata a nivel de programa; sus unidades y clases concretas no han sido auditadas para esta ruta."
+        }
+      ],
+      "assessment": {
+        "rubric_id": "RUB-TEACH",
+        "evidence": [
+          "Pregunta y fuentes",
+          "Representación",
+          "Pieza expresiva y atribución",
+          "Actividad para compartir",
+          "Observación, revisión y continuidad"
+        ],
+        "criteria": [
+          "Coherencia entre propósito, destinatario, actividad y evidencia.",
+          "Distinción de fuentes, memoria, incertidumbre y creación.",
+          "Participación accesible y retroalimentación pertinente.",
+          "Reflexión sobre ayudas y límites de lo observado."
+        ]
+      },
+      "next_routes": [
+        "M-01",
+        "M-04",
+        "M-03"
+      ],
+      "status": "diseno_inicial",
+      "content_readiness": "Materiales ficticios y seis actividades originales disponibles. Su uso permite practicar indagación, expresión y transmisión en alcance inicial; no acredita investigación histórica profesional ni eficacia de enseñanza. Alineaciones externas y validación con participantes pendientes.",
+      "doc_path": "curricula/M-05-memoria-espacio-cultural.md"
+    }
+  ]
+}

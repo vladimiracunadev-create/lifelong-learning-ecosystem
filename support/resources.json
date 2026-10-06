@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "resources": [
+    {
+      "id": "SUP-READ",
+      "title": "Comprender y contrastar una lectura",
+      "purpose": "Recuperar el sentido de un texto y distinguir hechos, inferencias y opiniones.",
+      "trigger": "El lector puede localizar palabras o frases, pero la síntesis no responde a la pregunta o atribuye al texto afirmaciones que no contiene.",
+      "activities": [
+        "Leer o escuchar un texto breve y formular su idea central.",
+        "Separar una afirmación explícita, una inferencia y un dato ausente.",
+        "Comparar dos versiones y revisar una conclusión."
+      ],
+      "success_criteria": [
+        "La síntesis conserva el cambio descrito y su alcance.",
+        "Cada afirmación se vincula con una frase o con una inferencia identificada.",
+        "La conclusión reconoce qué información falta."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL"
+      ],
+      "competency_ids": [
+        "C-LIT-01",
+        "C-RES-01"
+      ],
+      "doc_path": "support/guides/lectura.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-WRITE",
+      "title": "Escribir un argumento comprensible",
+      "purpose": "Organizar una idea, sus razones y sus límites para un destinatario real o ficticio.",
+      "trigger": "El texto enumera ideas sin sostener una conclusión, mezcla propósitos o necesita demasiada explicación adicional para entenderse.",
+      "activities": [
+        "Definir propósito y destinatario de un mensaje.",
+        "Construir una afirmación con evidencia y una objeción pertinente.",
+        "Revisar una versión con cambios justificados."
+      ],
+      "success_criteria": [
+        "El lector puede identificar la propuesta y sus razones.",
+        "Los datos ficticios se distinguen de opiniones o supuestos.",
+        "La revisión mejora una dificultad concreta de claridad o coherencia."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MARKETING"
+      ],
+      "competency_ids": [
+        "C-LIT-02",
+        "C-COM-01"
+      ],
+      "doc_path": "support/guides/escritura.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-MATH",
+      "title": "Revisar cantidades, bases y porcentajes",
+      "purpose": "Resolver comparaciones cuantitativas haciendo visibles unidades, bases y comprobaciones.",
+      "trigger": "La operación parece correcta, pero mezcla unidades, omite la base de un porcentaje o produce una conclusión incompatible con los datos.",
+      "activities": [
+        "Representar una proporción con objetos, tabla o cálculo.",
+        "Resolver una variación porcentual con base explícita.",
+        "Comparar un aumento y una disminución sucesivos."
+      ],
+      "success_criteria": [
+        "Cada cantidad tiene unidad y base de comparación.",
+        "Se distingue diferencia absoluta y cambio porcentual.",
+        "Se explica por qué dos cambios porcentuales sucesivos no siempre se cancelan."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL",
+        "PRG-MATH"
+      ],
+      "competency_ids": [
+        "C-NUM-01",
+        "C-NUM-02",
+        "C-DATA-01"
+      ],
+      "doc_path": "support/guides/matematica.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-STUDY",
+      "title": "Planificar una práctica y revisar un error",
+      "purpose": "Organizar una tarea alcanzable, practicarla y decidir el siguiente paso a partir del resultado.",
+      "trigger": "La persona acumula materiales sin producir una evidencia, repite tareas sin revisar errores o su plan excede la disponibilidad real.",
+      "activities": [
+        "Convertir una intención de estudio en un resultado pequeño.",
+        "Realizar una práctica y localizar una dificultad concreta.",
+        "Ajustar la siguiente práctica y comparar resultados."
+      ],
+      "success_criteria": [
+        "El plan incluye un resultado observable y recursos disponibles.",
+        "El ajuste responde a un error o dificultad identificado.",
+        "Se conserva un producto antes y después de la revisión."
+      ],
+      "program_ids": [],
+      "competency_ids": [
+        "C-LEARN-01",
+        "C-LEARN-02",
+        "C-LEARN-03",
+        "C-WELL-01"
+      ],
+      "doc_path": "support/guides/estudio.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-LANG",
+      "title": "Comprender una instrucción en otra lengua",
+      "purpose": "Usar contexto, ejemplos y comprobaciones para comprender y reformular una instrucción breve en otro idioma.",
+      "trigger": "La dificultad lingüística impide participar en una actividad cuyo objetivo principal está en otra disciplina.",
+      "activities": [
+        "Reconocer el propósito y las acciones de una instrucción breve.",
+        "Relacionar términos con ejemplos o representaciones.",
+        "Parafrasear y ejecutar una variante para comprobar comprensión."
+      ],
+      "success_criteria": [
+        "Se identifican las acciones y su orden.",
+        "La paráfrasis conserva la condición que debe cumplirse.",
+        "La comprensión se demuestra con una variante y se distingue del dominio general del idioma."
+      ],
+      "program_ids": [
+        "PRG-SCHOOL"
+      ],
+      "competency_ids": [
+        "C-LIT-01",
+        "C-COM-01",
+        "C-LEARN-04"
+      ],
+      "doc_path": "support/guides/idiomas.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-RESEARCH",
+      "title": "Construir una búsqueda y un registro de fuentes",
+      "purpose": "Relacionar una pregunta con fuentes identificables y conclusiones de alcance explícito.",
+      "trigger": "Aparecen enlaces sin autoría o fecha, citas que no sostienen la afirmación, o conclusiones basadas en una única fuente inadecuada.",
+      "activities": [
+        "Delimitar una pregunta y escribir términos de búsqueda.",
+        "Registrar autoría, fecha, evidencia y alcance de dos fuentes.",
+        "Redactar una conclusión que reconozca incertidumbres."
+      ],
+      "success_criteria": [
+        "Las fuentes pueden localizarse a partir del registro.",
+        "Se distingue afirmación de la fuente y conclusión propia.",
+        "La conclusión se limita a la evidencia consultada e identifica un dato pendiente."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY",
+        "PRG-ASSESS",
+        "PRG-DATA"
+      ],
+      "competency_ids": [
+        "C-RES-01",
+        "C-RES-02"
+      ],
+      "doc_path": "support/guides/investigacion.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-ACCESS",
+      "title": "Adaptar participación y acceso",
+      "purpose": "Identificar una barrera de una tarea y ofrecer una alternativa que mantenga visible el objetivo de aprendizaje.",
+      "trigger": "La forma de presentación o respuesta impide participar o mezcla la competencia evaluada con una barrera de acceso.",
+      "activities": [
+        "Separar objetivo de aprendizaje y formato de la actividad.",
+        "Probar una alternativa de acceso o respuesta acordada con la persona.",
+        "Revisar si la alternativa conserva la evidencia necesaria."
+      ],
+      "success_criteria": [
+        "La adaptación responde a una barrera descrita y a una preferencia consultada.",
+        "El objetivo se mantiene o el cambio se registra explícitamente.",
+        "Se comprueba que la persona puede acceder y demostrar el resultado previsto."
+      ],
+      "program_ids": [
+        "PRG-PEDAGOGY"
+      ],
+      "competency_ids": [
+        "C-TEACH-01",
+        "C-ETH-01"
+      ],
+      "doc_path": "support/guides/accesibilidad.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-LAB",
+      "title": "Preparar y comprobar una práctica de laboratorio",
+      "purpose": "Transformar una práctica en una experiencia reproducible con objetivo, materiales, pasos y evidencia.",
+      "trigger": "La actividad se ejecuta siguiendo instrucciones, pero no permite explicar resultados, repetir el procedimiento o distinguir cambios relevantes.",
+      "activities": [
+        "Definir una pregunta y las condiciones de una práctica.",
+        "Ejecutar y registrar una comparación pequeña.",
+        "Repetir una variante y explicar diferencias."
+      ],
+      "success_criteria": [
+        "Se registran materiales, condiciones y pasos suficientes para repetir la práctica.",
+        "Los resultados observados se distinguen de las expectativas.",
+        "La conclusión reconoce el alcance del ensayo y una limitación."
+      ],
+      "program_ids": [
+        "LAB-NEURAL",
+        "PRG-DATA",
+        "PRG-SOFTWARE"
+      ],
+      "competency_ids": [
+        "C-RES-02",
+        "C-LEARN-03",
+        "C-SW-03"
+      ],
+      "doc_path": "support/guides/laboratorio.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-PORTFOLIO",
+      "title": "Construir una evidencia y un portafolio",
+      "purpose": "Conservar productos y explicaciones que permitan revisar el aprendizaje sin confundir actividad realizada con dominio demostrado.",
+      "trigger": "Hay certificados, capturas o archivos acumulados, pero no se puede explicar qué competencia muestran ni bajo qué condiciones se realizaron.",
+      "activities": [
+        "Seleccionar un producto vinculado con un objetivo.",
+        "Anotar contexto, autoría, apoyos, criterios y límites.",
+        "Añadir una revisión y una tarea de transferencia."
+      ],
+      "success_criteria": [
+        "La evidencia puede vincularse con un criterio observable.",
+        "Se indican apoyos, autoría y condiciones relevantes.",
+        "La publicación o conservación respeta la decisión de compartir y elimina datos innecesarios."
+      ],
+      "program_ids": [
+        "PRG-ASSESS",
+        "PRG-PEDAGOGY"
+      ],
+      "competency_ids": [
+        "C-LEARN-04",
+        "C-ASSESS-01",
+        "C-DIG-02"
+      ],
+      "doc_path": "support/guides/portafolio.md",
+      "status": "guia_inicial"
+    },
+    {
+      "id": "SUP-AI",
+      "title": "Usar asistencia de IA con comprobación",
+      "purpose": "Integrar una herramienta de IA en una tarea acotada conservando la trazabilidad de sus aportes y la verificación humana.",
+      "trigger": "Una respuesta generada se incorpora sin comprobar hechos, fuentes, cálculo o adecuación al objetivo.",
+      "activities": [
+        "Definir una tarea y los datos que puede recibir la herramienta.",
+        "Comparar la salida con criterios y evidencia disponible.",
+        "Registrar errores, correcciones y aportes propios."
+      ],
+      "success_criteria": [
+        "Se separa salida generada, evidencia verificada y decisión propia.",
+        "Se comprueban las afirmaciones decisivas y los cálculos.",
+        "El registro permite entender la asistencia utilizada sin incluir datos personales innecesarios."
+      ],
+      "program_ids": [
+        "PRG-AI",
+        "PRG-CYBER"
+      ],
+      "competency_ids": [
+        "C-AI-01",
+        "C-RES-01",
+        "C-DIG-02"
+      ],
+      "doc_path": "support/guides/ia.md",
+      "status": "guia_inicial"
+    }
+  ]
+}

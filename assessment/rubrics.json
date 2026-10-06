@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "scale": [
+    {
+      "value": 0,
+      "label": "Evidencia insuficiente en la tarea"
+    },
+    {
+      "value": 1,
+      "label": "Evidencia parcial"
+    },
+    {
+      "value": 2,
+      "label": "Resultado observable en el contexto"
+    },
+    {
+      "value": 3,
+      "label": "Resultado justificado y ampliado"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "RUB-CORE",
+      "title": "Evidencia de aprendizaje",
+      "purpose": "Revisar un producto o actuación y formular una decisión de continuidad sustentada en evidencias observables.",
+      "criteria": [
+        {
+          "id": "CORE-01",
+          "title": "Comprensión del objetivo y del contenido",
+          "descriptors": {
+            "0": "El producto no permite identificar una idea pertinente al objetivo o presenta una contradicción central sin revisar.",
+            "1": "Identifica parte de la idea, pero omite una relación necesaria o necesita preguntas de contenido para explicarla.",
+            "2": "Explica la idea central con precisión suficiente y la relaciona con el objetivo de la tarea.",
+            "3": "Explica la idea, sus relaciones y una condición o límite, y distingue su uso de un caso parecido donde no se aplica."
+          }
+        },
+        {
+          "id": "CORE-02",
+          "title": "Relación entre afirmaciones y evidencia",
+          "descriptors": {
+            "0": "Las afirmaciones decisivas no se vinculan con datos, ejemplos o fuentes localizables.",
+            "1": "Incluye evidencia pertinente, pero una conclusión excede su alcance o no se identifica de dónde procede.",
+            "2": "Vincula cada afirmación decisiva con evidencia localizable y distingue datos, inferencias y opinión.",
+            "3": "Contrasta evidencia, reconoce una limitación y ajusta la conclusión ante una explicación o dato alternativo."
+          }
+        },
+        {
+          "id": "CORE-03",
+          "title": "Procedimiento y comprobación",
+          "descriptors": {
+            "0": "No hay pasos o registro suficientes para comprender cómo se obtuvo el resultado.",
+            "1": "Muestra parte del procedimiento, pero falta una comprobación necesaria o una condición relevante.",
+            "2": "Describe un procedimiento coherente y comprueba el resultado mediante un criterio o caso pertinente.",
+            "3": "Justifica la elección del procedimiento, compara una alternativa y comprueba una condición límite relevante."
+          }
+        },
+        {
+          "id": "CORE-04",
+          "title": "Revisión a partir de retroalimentación",
+          "descriptors": {
+            "0": "No se conserva una revisión ni una explicación de qué se decidió frente a la retroalimentación disponible.",
+            "1": "Realiza un cambio, pero no lo relaciona claramente con el problema señalado o no comprueba su efecto.",
+            "2": "Corrige una dificultad concreta y explica cómo comprobó la mejora.",
+            "3": "Analiza la causa de la dificultad, justifica aceptar o descartar la sugerencia y modifica su procedimiento para una tarea futura."
+          }
+        },
+        {
+          "id": "CORE-05",
+          "title": "Transferencia y alcance",
+          "descriptors": {
+            "0": "No hay evidencia de aplicación a una variante o se repite un procedimiento que no responde a sus condiciones.",
+            "1": "Resuelve parte de una variante cercana, pero necesita ayuda de contenido para reconocer qué cambió.",
+            "2": "Resuelve una variante y explica qué principio se conserva y qué dato o condición se modificó.",
+            "3": "Adapta el aprendizaje a otro contexto, justifica los cambios y señala un límite de transferencia."
+          }
+        }
+      ],
+      "decision_rule": "Antes de la tarea, seleccionar y explicar los criterios pertinentes al objetivo. Registrar un juicio por criterio con evidencia específica; no sumar para producir un nivel global. Acordar continuar, realizar un apoyo o reunir nueva evidencia, justificando la decisión según los requisitos del siguiente paso. Si no hubo oportunidad de observar un criterio, consignar sin valoración fuera de la escala, no asignar 0 automáticamente.",
+      "limitations": "Propuesta editorial inicial pendiente de revisión humana pedagógica. Los valores describen el desempeño en esta tarea y no equivalen a edades, cursos, percentiles, diagnósticos, títulos ni los seis niveles del catálogo. Una única evidencia no permite generalizar dominio. Los apoyos de accesibilidad no reducen automáticamente la valoración.",
+      "doc_path": "assessment/guides/USO_RUBRICAS.md"
+    },
+    {
+      "id": "RUB-PROJECT",
+      "title": "Proyecto integrador",
+      "purpose": "Revisar un proyecto que combina disciplinas, atendiendo a problema, decisiones, ejecución, comprobación y responsabilidad.",
+      "criteria": [
+        {
+          "id": "PROJECT-01",
+          "title": "Problema y criterios de aceptación",
+          "descriptors": {
+            "0": "No se identifica un problema concreto ni un resultado que pueda comprobarse.",
+            "1": "El problema es reconocible, pero faltan evidencia de la situación, restricciones o criterios observables de mejora.",
+            "2": "Delimita el problema con evidencia, participantes pertinentes, restricciones y criterios de aceptación comprobables.",
+            "3": "Contrasta perspectivas, justifica los límites del problema y revisa criterios ante nueva evidencia."
+          }
+        },
+        {
+          "id": "PROJECT-02",
+          "title": "Integración de conocimientos y diseño",
+          "descriptors": {
+            "0": "Los contenidos seleccionados no se relacionan con las decisiones del proyecto.",
+            "1": "Utiliza conocimientos de varias áreas, pero sus relaciones o decisiones quedan sin explicar.",
+            "2": "Relaciona aportes de las disciplinas con decisiones concretas y justifica una alternativa elegida.",
+            "3": "Compara diseños, analiza tensiones entre disciplinas y documenta consecuencias y supuestos de la elección."
+          }
+        },
+        {
+          "id": "PROJECT-03",
+          "title": "Ejecución y trazabilidad",
+          "descriptors": {
+            "0": "No hay un entregable comprobable ni registros que permitan seguir las decisiones principales.",
+            "1": "Existe un entregable parcial, pero faltan dependencias, cambios o responsabilidades necesarias para comprenderlo.",
+            "2": "Entrega un resultado utilizable dentro del alcance y registra tareas, decisiones, responsabilidades y cambios relevantes.",
+            "3": "Reorganiza la ejecución ante un cambio justificado y explica sus efectos en recursos, dependencias y resultados."
+          }
+        },
+        {
+          "id": "PROJECT-04",
+          "title": "Verificación de resultados",
+          "descriptors": {
+            "0": "El resultado se presenta como logrado sin comprobaciones relacionadas con los criterios acordados.",
+            "1": "Comprueba algunas funciones o resultados, pero omite un criterio esencial o no conserva evidencia suficiente.",
+            "2": "Contrasta el entregable con los criterios acordados y distingue logros, fallos y pendientes mediante registros.",
+            "3": "Incluye casos adversos o variantes relevantes, analiza fallos y verifica una mejora con evidencia comparativa."
+          }
+        },
+        {
+          "id": "PROJECT-05",
+          "title": "Responsabilidades y efectos",
+          "descriptors": {
+            "0": "No identifica datos, recursos, participantes o consecuencias pertinentes al alcance del proyecto.",
+            "1": "Enumera riesgos o responsabilidades, pero no los relaciona con decisiones o acciones concretas.",
+            "2": "Identifica responsabilidades y riesgos pertinentes, aplica medidas proporcionadas y documenta autorizaciones cuando corresponden.",
+            "3": "Revisa efectos no previstos y compromisos entre alternativas y ajusta medidas explicando riesgos que permanecen."
+          }
+        },
+        {
+          "id": "PROJECT-06",
+          "title": "Comunicación y continuidad",
+          "descriptors": {
+            "0": "La presentación no permite entender el resultado ni cómo revisarlo o utilizarlo dentro de su alcance.",
+            "1": "Explica el producto, pero omite instrucciones, limitaciones o un paso siguiente sustentado en resultados.",
+            "2": "Comunica propósito, funcionamiento, evidencia y limitaciones, y propone un siguiente paso relacionado con lo observado.",
+            "3": "Adapta la comunicación a otro destinatario y justifica continuidad, ampliación o cierre a partir de resultados y recursos."
+          }
+        }
+      ],
+      "decision_rule": "Definir alcance, entregables y criterios antes de ejecutar. Revisar cada criterio con productos y registros, identificando evidencia suficiente, pendiente o contradictoria. La decisión sobre continuidad se fundamenta en los requisitos del proyecto y los riesgos concretos del siguiente paso; no usar una media que oculte un fallo relevante. Un proyecto individual puede demostrar responsabilidades y trazabilidad sin simular un equipo.",
+      "limitations": "Rúbrica editorial pendiente de revisión humana y prueba de uso. No certifica aptitud profesional, seguridad de un producto ni cumplimiento técnico o normativo. La complejidad se ajusta a la malla; comparar productos de alcances distintos exige revisar primero criterios y condiciones.",
+      "doc_path": "assessment/guides/USO_RUBRICAS.md"
+    },
+    {
+      "id": "RUB-TEACH",
+      "title": "Transmisión de experiencia",
+      "purpose": "Revisar una experiencia de enseñanza breve que permita a otra persona comprender, practicar y mostrar un aprendizaje.",
+      "criteria": [
+        {
+          "id": "TEACH-01",
+          "title": "Objetivo y coherencia de la secuencia",
+          "descriptors": {
+            "0": "La sesión no presenta un resultado observable ni permite identificar su relación con las actividades.",
+            "1": "Formula un objetivo, pero alguna actividad o comprobación no permite observarlo.",
+            "2": "Relaciona un objetivo observable con una explicación, una práctica y una evidencia de aprendizaje.",
+            "3": "Justifica la secuencia según conocimientos previos y ajusta su alcance tras examinar la evidencia obtenida."
+          }
+        },
+        {
+          "id": "TEACH-02",
+          "title": "Explicación y ejemplos",
+          "descriptors": {
+            "0": "La explicación contiene una contradicción central o no incluye un ejemplo pertinente que pueda seguirse.",
+            "1": "Presenta una idea y un ejemplo, pero deja sin explicar una relación necesaria para realizar la práctica.",
+            "2": "Explica la idea con un ejemplo comprensible y comprueba mediante preguntas o acciones qué se entendió.",
+            "3": "Contrasta un ejemplo y un contraejemplo, recoge interpretaciones del participante y adapta la explicación con precisión."
+          }
+        },
+        {
+          "id": "TEACH-03",
+          "title": "Participación y acceso",
+          "descriptors": {
+            "0": "La forma de la actividad impide participar y no se examina la barrera observada.",
+            "1": "Ofrece una alternativa, pero no verifica si elimina la barrera o conserva el objetivo.",
+            "2": "Consulta necesidades de acceso, ofrece una alternativa pertinente y comprueba participación y evidencia del objetivo.",
+            "3": "Revisa el efecto de la adaptación junto con el participante y documenta qué debe mantenerse o cambiarse en otra situación."
+          }
+        },
+        {
+          "id": "TEACH-04",
+          "title": "Retroalimentación basada en evidencia",
+          "descriptors": {
+            "0": "Los comentarios califican a la persona o dan un juicio sin referencia al desempeño observado.",
+            "1": "Señala una dificultad del producto, pero la sugerencia es demasiado general o no se comprueba su resultado.",
+            "2": "Describe una evidencia, explica la diferencia respecto del criterio y propone una acción que el participante puede intentar.",
+            "3": "Usa la revisión del participante para comprobar la utilidad del comentario y ajusta el acompañamiento sin resolver toda la tarea por él."
+          }
+        },
+        {
+          "id": "TEACH-05",
+          "title": "Revisión y límites de la experiencia",
+          "descriptors": {
+            "0": "Afirma que hubo aprendizaje sin una evidencia pertinente o no registra qué ocurrió.",
+            "1": "Conserva una evidencia, pero confunde participación o satisfacción con el resultado de aprendizaje.",
+            "2": "Distingue actividad realizada, evidencia de aprendizaje y aspectos pendientes, y propone una mejora concreta de la sesión.",
+            "3": "Contrasta evidencia inicial y final o una tarea de transferencia, revisa su diseño y delimita qué conclusiones permite la experiencia."
+          }
+        }
+      ],
+      "decision_rule": "Acordar el objetivo y la forma de recoger evidencia con quienes participen. Valorar criterios con observaciones y productos concretos; usar una simulación con adultos o ejemplos ficticios cuando todavía no exista un contexto real autorizado. La revisión conduce a una mejora de la secuencia o una comprobación adicional, sin convertir los valores en una acreditación docente.",
+      "limitations": "Descriptores editoriales pendientes de revisión humana pedagógica. Una sesión breve no demuestra eficacia causal de un método. Los programas de pedagogía apoyan al formador y requieren adaptación para actividades infantiles. No se asignan estilos de aprendizaje fijos ni se penalizan apoyos de accesibilidad.",
+      "doc_path": "assessment/guides/USO_RUBRICAS.md"
+    }
+  ]
+}

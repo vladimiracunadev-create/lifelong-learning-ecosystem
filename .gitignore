@@ -1,0 +1,16 @@
+# Entornos y cache local
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+# Datos personales y exportaciones locales
+private/
+exports/
+*.local.json
+# Artefactos de desarrollo
+dist/
+build/
+*.zip
+.DS_Store
+Thumbs.db
