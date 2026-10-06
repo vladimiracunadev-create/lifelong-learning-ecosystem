@@ -14,7 +14,9 @@
 
 **Brechas:** los 30 flujos están respaldados principalmente por README e índices; las transiciones curriculares entre repositorios requieren auditoría por unidad. No se ejecutaron todas las apps, notebooks y laboratorios externos.
 
-**Siguiente acción concreta:** publicar en `main`, observar Calidad, Seguridad y Pages para el commit exacto, actualizar la evidencia remota y confirmar que no queden ramas ni pull requests pendientes.
+**Publicación observada:** `cd4a3a50a3b6686d4613875658b616c8426dc3df` terminó correctamente en Calidad, Seguridad y Pages; los enlaces se registraron en `quality/RELEASE_EVIDENCE.md`.
+
+**Siguiente acción concreta:** cerrar la publicación con la actualización de evidencia, verificar los gates del último commit y confirmar que no queden ramas ni pull requests pendientes.
 
 ## Checkpoint de guía profunda y vinculada — 2026-10-06
 

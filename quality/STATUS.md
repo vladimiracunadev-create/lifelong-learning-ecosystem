@@ -29,7 +29,7 @@ El lector index.html abre por el campus y los flujos reales; incorpora los tres 
 
 Ejecución local fresca: **Windows · Python 3.12.9 · Node 24.11.1**. Las pruebas usan biblioteca estándar de Python. La comprobación de DOM usa Node y está incluida en tests/check_portal_dom.cjs. La evidencia remota se registra en [RELEASE_EVIDENCE.md](RELEASE_EVIDENCE.md); no se considera verde hasta observar el resultado final asociado al commit publicado.
 
-La auditoría publicada en `b4f207f3e8a0374909d5a4c01c37065a230ed008` terminó con Calidad, CodeQL y Pages correctos. Después de integrar las actualizaciones automáticas no quedaron pull requests abiertos ni ramas remotas distintas de `main`.
+El campus y los flujos nativos publicados en `cd4a3a50a3b6686d4613875658b616c8426dc3df` terminaron con [Calidad](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411555424), [CodeQL](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411555532) y [Pages](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411599516) correctos. La comprobación de ramas y pull requests se repite al cerrar la publicación.
 
 El informe estructurado de validación se conserva en [validation.json](validation.json). El manifiesto de archivos se encuentra en MANIFEST.json, en la raíz del paquete.
 

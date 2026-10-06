@@ -11,6 +11,8 @@ El primer commit publicado fue `dea81af5b0ec4740afb9ed787e73676f3cdefd79`. Su ej
 
 La auditoría de arquitectura y repositorios reales se publicó como `b4f207f3e8a0374909d5a4c01c37065a230ed008`. También terminó verde en Calidad, Seguridad y Pages. Las cuatro actualizaciones de Actions propuestas por Dependabot se incorporaron en ese commit; sus PR se cerraron y sus ramas se eliminaron.
 
+El campus federado, los 30 flujos nativos y los SVG embebidos se publicaron como `cd4a3a50a3b6686d4613875658b616c8426dc3df`. La matriz de Calidad, CodeQL para ambos lenguajes y Pages terminaron correctamente.
+
 ## Matriz de afirmaciones
 
 | Plataforma/artefacto | Afirmación | Fuente canónica | Nivel de evidencia | Resultado | Referencia |
@@ -39,6 +41,10 @@ La auditoría de arquitectura y repositorios reales se publicó como `b4f207f3e8
 | ZIP local preliminar | Árbol local previo al commit público | 0.1.0 | Manifiesto SHA-256 e integridad de copia extraída | Correcto; el artefacto del commit final lo construirá CI |
 
 ## Resultados remotos
+
+- [Calidad del campus y los flujos nativos](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411555424): correcta en Python 3.11 y 3.14 sobre Ubuntu, Python 3.12 sobre Windows, DOM Node 24 y paquete reproducible.
+- [Seguridad del campus y los flujos nativos](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411555532): CodeQL correcto para Python y JavaScript/TypeScript.
+- [Pages del campus y los flujos nativos](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37411599516): publicación correcta después del gate de Calidad.
 
 - [Calidad del primer commit](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37403748247): fallo en Windows por huella de saltos de línea; evidencia negativa utilizada para la corrección.
 - [Seguridad del primer commit](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/runs/37403748254): ejecución iniciada para Python y JavaScript.

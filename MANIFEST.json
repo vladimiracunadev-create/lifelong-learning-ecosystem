@@ -379,8 +379,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 831334,
-      "sha256": "ff4c3c55fcb04e3eb334e1f09f9cd4f65000820ec28d4f734f87b9109fa89ef2"
+      "bytes": 832636,
+      "sha256": "6080e6fa7697be2d73a1abeb78f5309d34cc4e29e86c38a656a38ab3ff41c68f"
     },
     {
       "path": "integrations/README.md",
@@ -499,8 +499,8 @@
     },
     {
       "path": "prompts/CONTINUITY.md",
-      "bytes": 8381,
-      "sha256": "375a7db4353e1470f387652ce25d9a591e4542da6a70afa52da099664169311d"
+      "bytes": 8556,
+      "sha256": "1306c357352044ddacda136e75dfb1e6a48ee74015d95b793ebfe8974bc5bf8c"
     },
     {
       "path": "prompts/IMPROVE_CURRICULUM.md",
@@ -534,8 +534,8 @@
     },
     {
       "path": "quality/RELEASE_EVIDENCE.md",
-      "bytes": 6727,
-      "sha256": "a6ca1b8025cf41154e52b9d47234fcc4e905ac29347b451897003300f9a90b68"
+      "bytes": 7577,
+      "sha256": "bef9b64b7896b821df90e82f40dd10e6807b053395365c3edc03a6d04fd71c24"
     },
     {
       "path": "quality/REQUIREMENTS_TRACEABILITY.md",
@@ -549,13 +549,13 @@
     },
     {
       "path": "quality/STATUS.md",
-      "bytes": 5177,
-      "sha256": "154f96a7edeb45c6e6a7cb95cb2f916dd60b7f1f460fa755428c9c0b83ff64da"
+      "bytes": 5446,
+      "sha256": "efaab47efa23670a21eabf5f6f9649a531546c85fc72592429b107f9a5b152bf"
     },
     {
       "path": "quality/validation.json",
       "bytes": 522,
-      "sha256": "4c28a8d52a01e20ce91e96444cbd79d991df365d5075108ed9d3ea561af95114"
+      "sha256": "d1e2f6ca61d17550dcc177ae9d939a108594e042134a3bcd3b3060de483dab1a"
     },
     {
       "path": "scripts/build_portal.py",
