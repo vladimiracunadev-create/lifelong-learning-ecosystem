@@ -2,7 +2,7 @@
 
 ## Entrega 0.1.0: base integrada y revisable
 
-Esta entrega establece identidad, contrato de datos, catálogo inicial, mapa de competencias, cinco mallas, apoyos, rúbricas, fichas de integración, lector local y herramientas de coherencia.
+Esta entrega establece identidad, campus de seis áreas, 30 flujos nativos revisados, contrato de registros técnicos, catálogo inicial, mapa de competencias, cinco mallas editoriales experimentales, apoyos, rúbricas, fichas de integración, lector local y herramientas de coherencia.
 
 La documentación describe actividades originales desarrolladas. La correspondencia detallada con todas las clases externas y la validación pedagógica con participantes pertenecen a etapas posteriores.
 

@@ -1,6 +1,6 @@
-# Atlas de programas, laboratorios y herramientas vinculadas
+# Atlas canónico de programas, laboratorios y herramientas vinculadas
 
-Este atlas explica los **14 repositorios que usa actualmente el catálogo canónico**. Cada ficha responde: qué aporta, dónde se conecta, qué evidencia se revisó y qué no se puede afirmar todavía.
+Este atlas explica los **14 repositorios que ya tienen ID e integración canónica**. No es el atlas completo de la cuenta ni la puerta principal del ecosistema. Para consultar los 30 repositorios educativos revisados y sus rutas reales, abre [el campus](CAMPUS.md) y [los flujos nativos](NATIVE_LEARNING_FLOWS.md).
 
 Los conteos y estados siguientes son declaraciones observadas en README el 2026-10-05. No equivalen a una auditoría de todas las clases ni a eficacia educativa demostrada.
 

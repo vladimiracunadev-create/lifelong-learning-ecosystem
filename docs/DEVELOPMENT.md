@@ -6,7 +6,7 @@ El proyecto utiliza Python 3.11 o superior y biblioteca estándar. El lector se 
 
 Se recomienda utilizar uv cuando esté disponible, de acuerdo con la preferencia del proyecto. Los comandos directos con Python realizan las mismas tareas.
 
-## Datos canónicos
+## Registros técnicos canónicos
 
 | Archivo | Registro |
 | --- | --- |

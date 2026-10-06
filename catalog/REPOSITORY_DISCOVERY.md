@@ -1,8 +1,8 @@
 # Descubrimiento verificable de repositorios
 
-Fecha de corte: **2026-10-05** · cuenta: `vladimiracunadev-create`.
+Fecha de corte: **2026-10-06** · cuenta: `vladimiracunadev-create`.
 
-Este registro amplía el inventario sin alterar los JSON canónicos. La API pública de GitHub mostró **68 repositorios públicos**, incluidos **4 forks**. Se revisaron metadatos de toda la superficie y, para los candidatos de aprendizaje que siguen, el README y la estructura raíz observables. No se auditaron todas sus clases ni se ejecutaron sus aplicaciones.
+Este registro amplía el inventario sin alterar los índices JSON. La API pública de GitHub confirmó **68 repositorios públicos**, incluidos **4 forks**. Se revisaron metadatos de toda la superficie y **30 README educativos** para reconocer secuencias, rutas, niveles, módulos, casos, laboratorios y academias existentes. El mapa navegable está en [flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). No se auditaron todas sus clases ni se ejecutaron todas sus aplicaciones.
 
 ## Estados usados
 

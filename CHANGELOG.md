@@ -4,6 +4,10 @@
 
 ### Añadido
 
+- Campus federado en Markdown con seis áreas, análisis por repositorio y enlaces directos a rutas, índices, laboratorios, aplicaciones y portales reales.
+- Inventario de 30 flujos nativos observados: secuencias, rutas por rol o perfil, niveles, módulos, casos, laboratorios y academias en aplicaciones.
+- Tres mapas SVG versionables para el campus, los tipos de flujo y los niveles de evidencia.
+- Renderizado seguro de SVG locales dentro del portal autocontenido, con rechazo de contenido activo y cobertura de pruebas.
 - Tres workflows con responsabilidades separadas: calidad multi-entorno, análisis CodeQL y publicación de GitHub Pages después de un gate exitoso.
 - Dependabot para GitHub Actions, plantilla de pull request y política pública de seguridad.
 - Mapas Mermaid de la arquitectura federada, el ciclo de una trayectoria y la continuidad entre mallas.
@@ -18,6 +22,9 @@
 
 ### Cambiado
 
+- La navegación principal comienza por áreas y repositorios reales; M-01…M-05 pasan a una sección experimental, opcional y sin selección predeterminada.
+- Markdown y SVG quedan definidos como fuente de contenido y análisis; JSON se limita a índices técnicos, relaciones y validación.
+- Las conexiones entre repositorios distinguen enlaces declarados por las fuentes de prerrequisitos o continuidades todavía no verificados.
 - La presentación pública define explícitamente el proyecto como superrepositorio federado y capa de integración, no como un programa adicional.
 - El portal y la guía de desarrollo reflejan la publicación web y los nuevos gates automatizados.
 - La huella de fuentes del portal normaliza saltos de línea para producir los mismos bytes en Windows y Linux.

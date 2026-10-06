@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">Niveles de evidencia para conectar repositorios</title>
+  <desc id="desc">Una escalera distingue metadato, README revisado, índice revisado, unidad revisada y relación verificada.</desc>
+  <defs><style>.t{font-family:system-ui,sans-serif}.h{font-weight:700;fill:#17392d}.p{font-weight:500;fill:#4b6258}.step{stroke:#fff;stroke-width:3}</style></defs>
+  <rect width="1100" height="420" rx="28" fill="#f4f8f5"/>
+  <text class="t h" x="55" y="58" font-size="27">Antes de unir dos programas</text>
+  <text class="t p" x="55" y="88" font-size="16">La fuerza de una relación depende de lo que realmente se leyó y comprobó.</text>
+  <path class="step" fill="#dce9e2" d="M55 325h190v-52H55z"/><text class="t h" x="75" y="300" font-size="17">1 · Metadato</text>
+  <path class="step" fill="#c2ddcf" d="M245 325h190V229H245z"/><text class="t h" x="265" y="258" font-size="17">2 · README</text><text class="t p" x="265" y="285" font-size="14">alcance declarado</text>
+  <path class="step" fill="#9fcbb5" d="M435 325h190V185H435z"/><text class="t h" x="455" y="216" font-size="17">3 · Índice</text><text class="t p" x="455" y="243" font-size="14">partes y rutas</text>
+  <path class="step" fill="#62a584" d="M625 325h190V141H625z"/><text class="t h" x="645" y="172" font-size="17">4 · Unidad</text><text class="t p" x="645" y="199" font-size="14">práctica y evidencia</text>
+  <path class="step" fill="#1f6b49" d="M815 325h230V97H815z"/><text class="t" x="835" y="129" font-size="17" font-weight="700" fill="white">5 · Relación verificada</text><text class="t" x="835" y="157" font-size="14" font-weight="500" fill="#dceee4">objetivo + prerrequisito</text><text class="t" x="835" y="180" font-size="14" font-weight="500" fill="#dceee4">+ transferencia revisados</text>
+  <text class="t p" x="55" y="375" font-size="15">Estado actual desigual por repositorio: el mapa muestra el alcance y evita convertir candidatos en equivalencias.</text>
+</svg>

@@ -1,9 +1,13 @@
 # Contrato de datos — versión 1.0
 
-Este contrato describe los registros del repositorio maestro. Los archivos JSON son UTF-8, usan `schema_version: "1.0"` y constituyen los datos canónicos. Las páginas y resúmenes se generan a partir de ellos. La versión editorial del proyecto comienza en `0.1.0`.
+Este contrato describe los **registros técnicos estructurados** del repositorio maestro. Los archivos JSON son UTF-8, usan `schema_version: "1.0"` y son canónicos únicamente para IDs, relaciones, estados y campos que valida el software. **No son el formato de autoría del contenido educativo.**
+
+Las explicaciones, análisis de repositorios, rutas, mallas legibles, actividades, gráficos y decisiones pedagógicas se escriben en Markdown y SVG. El portal combina esos documentos con los índices técnicos; no genera el contenido educativo a partir de JSON ni debe obligar a programarlo dentro de esos archivos. La versión editorial del proyecto comienza en `0.1.0`.
 
 ## Principios
 
+- Markdown es la fuente legible del contenido y del análisis; JSON actúa como índice técnico y contrato de relaciones.
+- Una persona debe poder comprender los programas y sus rutas desde los documentos sin leer JSON.
 - El maestro referencia programas independientes y mantiene sus propias mallas, actividades puente y reglas de integración.
 - Una revisión de README demuestra lo que declara ese documento; no certifica el desarrollo o eficacia de todas sus clases.
 - Cada identificador es único y estable. Los cambios de nombre conservan el identificador y registran la migración.
@@ -131,4 +135,4 @@ Contextos vitales para filtros: `primera_infancia`, `basica`, `media`, `formacio
 
 La comprobación local valida estructura, referencias, unicidad, URLs bien formadas, rutas internas y ausencia de ciclos en prerrequisitos. No realiza peticiones de red, no certifica calidad pedagógica y no equivale a una auditoría externa. Las fuentes externas registran el alcance de lo leído.
 
-Los cambios incompatibles de contrato incrementan la versión y requieren un plan de migración. El portal es un derivado regenerable; los datos canónicos se editan antes de reconstruirlo.
+Los cambios incompatibles de contrato incrementan la versión y requieren un plan de migración. El portal es un derivado regenerable: se actualiza primero la fuente correspondiente —Markdown/SVG para contenido y JSON para registros— y después se reconstruye.

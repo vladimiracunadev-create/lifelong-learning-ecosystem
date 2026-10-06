@@ -6,7 +6,7 @@ Nada en este documento forma parte del producto actual. Cada propuesta parte de 
 
 ## Criterios comunes
 
-- Conservar JSON y Markdown legibles como fuente de verdad.
+- Conservar Markdown y SVG como fuente de contenido legible, y JSON como índice técnico de registros y relaciones.
 - Extender scripts y portal existentes antes de crear un servicio.
 - No copiar cursos completos ni homogeneizar licencias o numeración.
 - Exigir procedencia, alcance de lectura y estado de madurez en toda salida.
@@ -28,7 +28,7 @@ Nada en este documento forma parte del producto actual. Cada propuesta parte de 
 ## Visualizador de mallas
 
 - **Problema:** el portal muestra recorridos, pero no permite explorar todas las dependencias como grafo interactivo.
-- **Evidencia:** existen cinco mallas y relaciones validadas; la visualización actual es estática.
+- **Evidencia:** existen 30 flujos nativos documentados, cinco mallas editoriales y relaciones con distintos niveles de evidencia; la visualización actual es estática.
 - **Límite actual:** navegación por secciones y detalles, sin análisis gráfico transversal.
 - **Alternativas:** Mermaid generado, tablas de dependencias y exportaciones estáticas.
 - **Sin software nuevo:** sí; primero ampliar diagramas generados en documentación.
@@ -41,8 +41,8 @@ Nada en este documento forma parte del producto actual. Cada propuesta parte de 
 
 ## Generador de rutas
 
-- **Problema:** las cinco mallas son editoriales y no cubren todas las metas posibles.
-- **Evidencia:** el portal solo filtra y presenta rutas existentes; `export_plan.py` exporta, no genera.
+- **Problema:** los flujos nativos y las cinco mallas editoriales no componen automáticamente una trayectoria transversal.
+- **Evidencia:** el portal presenta rutas existentes y `export_plan.py` exporta una malla editorial; ninguno genera una transición verificada entre repositorios.
 - **Límite actual:** no existe composición automática ni justificación calculada.
 - **Alternativas:** plantillas manuales, entrevistas guiadas y copia editable de una malla.
 - **Sin software nuevo:** sí; se pueden añadir mallas revisadas conforme aparezcan necesidades reales.

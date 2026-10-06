@@ -20,13 +20,13 @@ Que un repositorio exista no prueba que todas las funciones descritas en su road
 ```mermaid
 flowchart TB
     subgraph M[Maestro existente]
-        J[JSON canónico]
-        D[Documentación y fichas]
+        D[Contenido y análisis<br/>Markdown + SVG]
+        J[Índices técnicos JSON]
         T[Scripts Python]
         P[Portal estático autocontenido]
         W[Workflows de calidad, seguridad y Pages]
-        J --> T --> P
-        D --> T
+        D --> T --> P
+        J --> T
         J --> W
         D --> W
     end
@@ -43,10 +43,12 @@ flowchart TB
 
 | Componente | Estado | Evidencia local | Alcance comprobable |
 | --- | --- | --- | --- |
+| Campus documental | EXISTENTE | `docs/CAMPUS.md`, `docs/faculties/`, `docs/assets/` | seis áreas, gráficos y enlaces directos a repositorios reales |
+| Flujos nativos | EXISTENTE | `docs/NATIVE_LEARNING_FLOWS.md` | 30 README educativos revisados y clasificados por su forma de avance |
 | Catálogo federado | EXISTENTE | `catalog/programs.json` | 14 integraciones canónicas con `owner/name`, URL, alcance de revisión y fichas |
 | Competencias | EXISTENTE | `competencies/competencies.json` | 36 competencias y relaciones validadas |
-| Mallas | EXISTENTE | `curricula/curricula.json` | 5 recorridos y 30 pasos validados |
-| Apoyos | EXISTENTE | `support/support.json` | 10 apoyos referenciables |
+| Mallas editoriales | EXPERIMENTAL | `curricula/mallas.json` y cinco Markdown | 5 prototipos opcionales y 30 pasos validados; no representan todos los flujos |
+| Apoyos | EXISTENTE | `support/resources.json` | 10 apoyos referenciables |
 | Rúbricas | EXISTENTE | `assessment/rubrics.json` | 3 rúbricas editoriales; no son acreditación ni validación psicométrica |
 | Fichas de integración | EXISTENTE | `integrations/` | 14 fichas; la mayor parte de las correspondencias siguen siendo candidatas |
 | Portal | EXISTENTE | `index.html`, `portal/template.html` | lector estático y autocontenido, utilizable desde archivo local y publicado en Pages |
@@ -79,11 +81,12 @@ flowchart LR
 
 ## Flujo implementado de datos
 
-1. Los JSON canónicos registran los datos aceptados por el maestro.
-2. El validador comprueba tipos, IDs, enlaces locales y ciclos prohibidos.
-3. El constructor combina datos y documentación para regenerar `index.html`.
-4. Las pruebas comprueban el contrato, la privacidad, la construcción y el DOM controlado.
-5. GitHub Actions repite los gates y Pages publica solo después de Calidad.
+1. Markdown y SVG conservan el contenido, los análisis, las rutas legibles y los mapas.
+2. Los JSON registran IDs, relaciones y campos técnicos aceptados por el maestro.
+3. El validador comprueba tipos, IDs, enlaces locales y ciclos prohibidos.
+4. El constructor combina documentación, gráficos e índices para regenerar `index.html`.
+5. Las pruebas comprueban el contrato, la privacidad, la construcción y el DOM controlado.
+6. GitHub Actions repite los gates y Pages publica solo después de Calidad.
 
 Este flujo no descubre ni integra repositorios de forma automática. El inventario de la cuenta se obtuvo mediante la API de GitHub y se revisó editorialmente; convertir esa consulta en un proceso mantenido sería trabajo futuro.
 
@@ -93,7 +96,7 @@ Este flujo no descubre ni integra repositorios de forma automática. El inventar
 - El maestro no audita automáticamente clases, licencias, prerrequisitos o evaluaciones de un repositorio externo.
 - La mayoría de las correspondencias se basan en README y necesitan revisión por unidad.
 - El portal permite navegar el contenido del maestro; no indexa el contenido completo de los repositorios externos.
-- Las cinco mallas son editoriales y no se adaptan mediante un motor de recomendación.
+- Las cinco mallas del maestro son prototipos editoriales opcionales; el ecosistema contiene muchos más flujos nativos.
 - La validación estructural no demuestra eficacia educativa.
 - Un repositorio externo puede cambiar después de la fecha de corte.
 

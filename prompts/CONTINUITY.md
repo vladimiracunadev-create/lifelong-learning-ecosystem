@@ -1,5 +1,21 @@
 # Continuidad del trabajo
 
+## Checkpoint de campus y flujos nativos — 2026-10-06
+
+**Objetivo atendido:** dejar de presentar M-01 como entrada principal y reconstruir la navegación desde los repositorios educativos reales, sus mallas internas y sus flujos declarados.
+
+**Archivos y fuentes revisados:** README y metadatos públicos de 68 repositorios; 30 README educativos; portada, visión, contrato, arquitectura, atlas, rutas, mapas, portal, generador, pruebas, estado e historial del maestro.
+
+**Decisiones:** Markdown y SVG contienen el análisis y contenido legible; JSON se limita a índices técnicos. Las secuencias, rutas, niveles, módulos, casos, laboratorios y academias de cada fuente se conservan sin convertir afinidad temática en prerrequisito. M-01…M-05 quedan como prototipos opcionales.
+
+**Cambios:** campus de seis áreas; inventario de 30 flujos nativos; seis fichas de área; tres SVG; README y portal centrados en repositorios; SVG seguros embebidos en el lector; documentación de sistema, rutas, mapas, contrato y arquitectura reconciliada.
+
+**Verificación local:** 41 pruebas correctas; validador correcto con 387 enlaces locales; portal vigente con 99 documentos y tres SVG; DOM controlado correcto; revisión visual local de portada, navegación móvil y documento del campus; consola del navegador sin errores.
+
+**Brechas:** los 30 flujos están respaldados principalmente por README e índices; las transiciones curriculares entre repositorios requieren auditoría por unidad. No se ejecutaron todas las apps, notebooks y laboratorios externos.
+
+**Siguiente acción concreta:** publicar en `main`, observar Calidad, Seguridad y Pages para el commit exacto, actualizar la evidencia remota y confirmar que no queden ramas ni pull requests pendientes.
+
 ## Checkpoint de guía profunda y vinculada — 2026-10-06
 
 **Objetivo atendido:** convertir la documentación pública desde una descripción general hacia una brújula concreta con propósito, rutas, programas, laboratorios, apoyos, evidencias y vínculos visuales.

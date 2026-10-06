@@ -1,8 +1,8 @@
-# Mallas de referencia
+# Mallas editoriales experimentales
 
-Esta primera versión incluye **cinco mallas, con seis pasos cada una**, que conectan objetivos, diagnósticos, actividades puente originales, evidencias y criterios de revisión. Cada malla ofrece un caso completo de práctica que se puede comenzar con los materiales del documento. Su alcance es una experiencia integradora inicial: los programas externos aportan especialidades y requieren una correspondencia por unidad todavía pendiente.
+Esta carpeta conserva **cinco prototipos editoriales, con seis pasos cada uno**, que conectan objetivos, diagnósticos, actividades puente originales, evidencias y criterios de revisión. No son las únicas mallas del ecosistema, no representan las numerosas rutas internas de los repositorios y ninguna se selecciona por defecto. Su alcance es una experiencia integradora inicial: las correspondencias con programas externos permanecen candidatas hasta revisar unidades concretas.
 
-Para elegir por meta y comprender el recorrido completo antes de abrir una malla, consulta [Rutas de aprendizaje concretas](../docs/LEARNING_ROUTES.md). Para saber qué aporta cada repositorio enlazado, consulta [el atlas de programas](../docs/PROGRAM_ATLAS.md).
+Para entrar por los programas reales, consulta el [campus](../docs/CAMPUS.md) y los [30 flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). Para comprender cuándo puede justificarse una transición entre repositorios, consulta [rutas de aprendizaje](../docs/LEARNING_ROUTES.md).
 
 | ID | Malla | Producto o evidencia integradora | Rúbrica |
 | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ No hay obligación de recorrer las cinco mallas, comenzar por M-01 ni respetar u
 
 ## Qué contiene cada malla
 
-Los [datos canónicos](mallas.json) registran propósito, destinatarios, contexto, competencias de entrada, objetivos, diagnóstico, pasos y relaciones. Cada paso contiene resultados, programas candidatos, apoyos, actividades, evidencias, aceptación, alternativas y estado de disponibilidad.
+Los documentos Markdown son la fuente legible del contenido de cada malla. El archivo [mallas.json](mallas.json) es un índice técnico para IDs, referencias, filtros y validación; no es el formato de autoría del contenido educativo.
 
 Los documentos añaden el material de práctica: textos originales, especificaciones, datos ficticios, preguntas, puntos de comprobación y notas para interpretar resultados. La actividad digital, programación o participación de otra persona se evalúan solo cuando efectivamente se realizan. Una alternativa cambia las evidencias disponibles; no concede automáticamente el mismo reconocimiento.
 
@@ -34,7 +34,7 @@ Los documentos añaden el material de práctica: textos originales, especificaci
 
 Las cinco mallas tienen estado `diseno_inicial`. Ese estado convive con actividades originales ya redactadas. La elaboración editorial no acredita que hayan sido probadas con estudiantes ni que cada unidad externa esté terminada. Consulta el [catálogo de programas](../catalog/programs.json) para conocer qué fuentes se revisaron y con qué alcance.
 
-Una integración nueva debe seleccionar unidades reales, verificar prerrequisitos y objetivos, registrar la versión examinada, explicar las diferencias y revisar cómo se evalúa la transferencia. Las coincidencias de título sirven como pistas de búsqueda; no demuestran equivalencia curricular.
+Una integración nueva debe seleccionar unidades reales, verificar prerrequisitos y objetivos, registrar la versión examinada, explicar las diferencias y revisar cómo se evalúa la transferencia. Las coincidencias de título sirven como pistas de búsqueda; no demuestran equivalencia curricular. El número de mallas del ecosistema se obtiene de sus fuentes, no se limita a estas cinco.
 
 Los ejemplos económicos son ficticios; los ejemplos escolares no declaran cobertura completa de objetivos curriculares nacionales. La ruta de [primera infancia acompañada](../pathways/primera-infancia-acompanada.md) es un recurso transversal inicial, cuya integración infantil completa permanece pendiente.
 

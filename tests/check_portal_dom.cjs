@@ -15,8 +15,8 @@ class Element {
  querySelector(selector){if(selector==='h1'){const m=this._html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);return m?{textContent:m[1].replace(/<[^>]*>/g,' ')}:null;}return null;}
  querySelectorAll(){return [];}
 }
-for(const id of ['main-content','main-nav','sidebar-version','footer-version','reading-mode','print-view','portal-data','portal-docs','portal-build'])elements.set(id,new Element(id));
-for(const id of ['portal-data','portal-docs','portal-build'])elements.get(id).textContent=html.match(new RegExp('<script id="'+id+'" type="application/json">([\\s\\S]*?)<\\/script>'))[1];
+for(const id of ['main-content','main-nav','sidebar-version','footer-version','reading-mode','print-view','portal-data','portal-docs','portal-assets','portal-build'])elements.set(id,new Element(id));
+for(const id of ['portal-data','portal-docs','portal-assets','portal-build'])elements.get(id).textContent=html.match(new RegExp('<script id="'+id+'" type="application/json">([\\s\\S]*?)<\\/script>'))[1];
 const document={getElementById(id){const el=elements.get(id);if(!el)throw new Error('Missing element '+id);return el;},querySelectorAll(){return [];},addEventListener(){},documentElement:new Element('html')};
 const sandbox={document,location:{hash:''},window:{addEventListener(){},scrollTo(){},print(){}},requestAnimationFrame(f){f();},URL,URLSearchParams,console,Event:class{},Set,Map};
 const context=vm.createContext(sandbox);vm.runInContext(html.match(/<script>\s*([\s\S]*?)<\/script>/)[1],context,{timeout:2000});
@@ -27,8 +27,8 @@ for(const section of ['inicio','mallas','programas','competencias','apoyos','eva
 const maps=check('Object.fromEntries(Object.entries(MAP).map(([k,v])=>[k,Object.keys(v)]))');
 for(const [kind,ids] of Object.entries(maps))for(const id of ids){sandbox.location.hash='#'+kind+'/'+id;check('renderRoute()');assert(!main.innerHTML.includes('undefined'),id+' undefined');assert(!main.innerHTML.includes('[object Object]'),id+' object leak');assert(main.innerHTML.includes(id),id+' rendered');details++;}
 for(const path of check('Object.keys(DOCS)')){sandbox.location.hash='#doc/'+encodeURIComponent(path);check('renderRoute()');assert(main.innerHTML.includes('class="markdown"'),path+' rendered');assert(!main.innerHTML.includes('<script'),path+' unsafe HTML');docs++;}
-sandbox.location.hash='#inicio';check('renderRoute()');elements.get('context-filter').value='reconversion';elements.get('context-filter').listeners.input();assert(elements.get('home-results').innerHTML.includes('Reconversión profesional'));
-elements.get('purpose-filter').value='zzzz-unlikely-no-match';elements.get('purpose-filter').listeners.input();assert(elements.get('home-results').innerHTML.includes('No hay coincidencias'));
+sandbox.location.hash='#inicio';check('renderRoute()');assert(main.innerHTML.includes('30 flujos nativos'));assert(main.innerHTML.includes('Software y computación'));assert(main.innerHTML.includes('hero-visual'));
 const hostile=check("inlineMarkdown('<script>alert(1)</script> [clic](javascript:alert(1)) ![imagen](https://example.com/image.png)', 'README.md')");assert(!hostile.includes('<script'));assert(!hostile.includes('href="javascript:'));assert(!hostile.includes('<img'));
+const localImage=check("inlineMarkdown('![Mapa](docs/assets/campus-federado.svg)', 'README.md')");assert(localImage.includes('<img'));assert(localImage.includes('data:image/svg+xml;base64,'));
 const list=check("renderMarkdown('# Prueba\\n\\n- Uno\\n  - Dos\\n- Tres\\n\\n| A | B |\\n| --- | --- |\\n| C | D |', 'README.md').html");assert(list.includes('<table>'));assert(list.includes('<ul>'));
-console.log(JSON.stringify({method:'Controlled DOM stubs in Node vm; not a browser or visual QA',sections:7,detail_views:details,documents:docs,filters:'OK',safe_markdown:'OK',markdown_table_and_lists:'OK'}));
+console.log(JSON.stringify({method:'Controlled DOM stubs in Node vm; not a browser or visual QA',sections:7,detail_views:details,documents:docs,campus:'OK',local_svg:'OK',safe_markdown:'OK',markdown_table_and_lists:'OK'}));

@@ -4,7 +4,7 @@
 
 Construir una brújula curricular federada que conecte los programas de aprendizaje de Vladimir Acuña y permita a cada persona comprender desde dónde comienza, qué quiere lograr, qué recursos necesita y cómo reconocer sus avances.
 
-La unidad central es la trayectoria de aprendizaje. Los programas aportan profundidad disciplinar; el maestro organiza relaciones y experiencias que atraviesan sus fronteras.
+La unidad humana es la trayectoria de aprendizaje; la unidad verificable de contenido es el repositorio especializado y su flujo nativo. Los programas aportan profundidad disciplinar; el maestro permite descubrirlos, comparar sus entradas y organizar relaciones que atraviesan sus fronteras cuando existe evidencia suficiente.
 
 Puede compararse con la capa de orientación de una universidad federada: organiza mallas, especialidades, prerrequisitos y evidencias. No es una institución acreditada y no entrega matrícula, créditos, títulos ni habilitación profesional. Su valor está en explicar conexiones, conservar procedencia y permitir decisiones de aprendizaje revisables.
 
@@ -22,7 +22,7 @@ La UNESCO describe el aprendizaje a lo largo de toda la vida como una integraci�
 
 Fuentes: [enfoque de UNESCO](https://www.uil.unesco.org/es/unesco-instituto/mandato/aprendizaje-largo-de-vida?hub=78) y [definición y rutas flexibles](https://lifelonglearning-toolkit.uil.unesco.org/es/node/177). Consulta [fuentes y alcance](sources/README.md).
 
-El proyecto traduce esa visión a un diseño propio: catálogo, competencias, mallas, apoyos, evidencias y mantenimiento. La referencia institucional respalda el concepto general; no supone aval a las rúbricas o a las mallas de este repositorio.
+El proyecto traduce esa visión a un diseño propio: campus documental, flujos nativos, catálogo técnico, competencias, mallas editoriales, apoyos, evidencias y mantenimiento. La referencia institucional respalda el concepto general; no supone aval a las rúbricas o a las mallas de este repositorio.
 
 ## Compromisos de diseño
 

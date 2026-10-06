@@ -40,6 +40,24 @@ class PortalBoundaryTests(unittest.TestCase):
         self.assertNotIn("&", serialized)
         self.assertEqual(json.loads(serialized), original)
 
+    def test_only_inert_local_svg_assets_are_embedded(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            assets = root / "docs" / "assets"
+            assets.mkdir(parents=True)
+            safe = assets / "map.svg"
+            safe.write_text('<svg xmlns="http://www.w3.org/2000/svg"><text>Mapa</text></svg>', encoding="utf-8")
+            with patch.dict(BUILD["embedded_assets"].__globals__, {"ROOT": root, "ASSET_ROOT": assets}):
+                observed, paths = BUILD["embedded_assets"]()
+            self.assertEqual(paths, [safe])
+            self.assertTrue(observed["docs/assets/map.svg"].startswith("data:image/svg+xml;base64,"))
+
+            unsafe = assets / "unsafe.svg"
+            unsafe.write_text('<svg xmlns="http://www.w3.org/2000/svg"><script>alert(1)</script></svg>', encoding="utf-8")
+            with patch.dict(BUILD["embedded_assets"].__globals__, {"ROOT": root, "ASSET_ROOT": assets}):
+                with self.assertRaises(BUILD["BuildError"]):
+                    BUILD["embedded_assets"]()
+
 
 if __name__ == "__main__":
     unittest.main()

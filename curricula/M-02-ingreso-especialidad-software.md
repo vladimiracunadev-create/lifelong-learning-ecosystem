@@ -196,4 +196,4 @@ Caso original completo como especificación de práctica; el estudiante construy
 
 **Continuidades sugeridas:** M-03, M-04, M-05. Elige una según el nuevo objetivo y sus conocimientos de entrada; no es obligatorio recorrer todas. Consulta [cómo elegir y retomar](../pathways/elegir-y-retomar.md).
 
-**Datos canónicos:** [mallas.json](mallas.json). Las competencias se describen en [competencies.json](../competencies/competencies.json). Los casos y materiales de este documento son originales del repositorio maestro; no son copias de clases externas.
+**Fuente de contenido:** este documento Markdown. [mallas.json](mallas.json) y [competencies.json](../competencies/competencies.json) son índices técnicos de IDs y relaciones. Los casos y materiales son originales del repositorio maestro; no son copias de clases externas.

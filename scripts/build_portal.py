@@ -8,10 +8,12 @@ Uso: python scripts/build_portal.py [--check]
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import sys
 import tempfile
 import tomllib
@@ -26,6 +28,8 @@ CANONICAL = {
     "curricula": ("curricula/mallas.json", "curricula"),
 }
 SKIP_DIRS = {"node_modules", "__pycache__", "dist", "build", "venv", "private", "exports"}
+ASSET_ROOT = ROOT / "docs" / "assets"
+SAFE_SVG_PATTERN = re.compile(r"<\s*(?:script|foreignObject)\b|\bon\w+\s*=|javascript:", re.IGNORECASE)
 
 
 class BuildError(Exception):
@@ -74,6 +78,25 @@ def document_paths() -> list[Path]:
     return sorted(found, key=lambda p: p.relative_to(ROOT).as_posix())
 
 
+def embedded_assets() -> tuple[dict[str, str], list[Path]]:
+    """Embebe solo los SVG locales revisables que acompañan la documentación."""
+    assets: dict[str, str] = {}
+    paths: list[Path] = []
+    if not ASSET_ROOT.is_dir():
+        return assets, paths
+    for path in sorted(ASSET_ROOT.glob("*.svg")):
+        if path.is_symlink() or path.stat().st_size > 512_000:
+            raise BuildError(f"Activo SVG no permitido: {path.relative_to(ROOT)}")
+        source = read_utf8(path)
+        if SAFE_SVG_PATTERN.search(source):
+            raise BuildError(f"SVG con contenido activo no permitido: {path.relative_to(ROOT)}")
+        relative = path.relative_to(ROOT).as_posix()
+        encoded = base64.b64encode(source.encode("utf-8")).decode("ascii")
+        assets[relative] = f"data:image/svg+xml;base64,{encoded}"
+        paths.append(path)
+    return assets, paths
+
+
 def embedded_json(value: object) -> str:
     # El contenido de los datos nunca puede cerrar el elemento <script>.
     return (
@@ -119,6 +142,9 @@ def generate() -> tuple[str, dict]:
         documents[relative] = {"title": title, "content": content}
         digest_paths.append(path)
 
+    assets, asset_paths = embedded_assets()
+    digest_paths.extend(asset_paths)
+
     # Estas rutas deben ser legibles en el propio portal, no solo enlaces de intención.
     for group, collection, field in [
         ("programs", "programs", "integration_doc"),
@@ -157,6 +183,7 @@ def generate() -> tuple[str, dict]:
             "support": len(payload["support"]["resources"]),
             "rubrics": len(payload["rubrics"]["rubrics"]),
             "documents": len(documents),
+            "assets": len(assets),
         },
     }
 
@@ -168,6 +195,7 @@ def generate() -> tuple[str, dict]:
     replacements = {
         "__PORTAL_DATA__": embedded_json(payload),
         "__PORTAL_DOCS__": embedded_json(documents),
+        "__PORTAL_ASSETS__": embedded_json(assets),
         "__PORTAL_BUILD__": embedded_json(info),
     }
     for marker, value in replacements.items():
@@ -205,7 +233,8 @@ def main() -> int:
         print(
             f"{action} | {counts['curricula']} mallas · {counts['programs']} programas · "
             f"{counts['competencies']} competencias · {counts['support']} apoyos · "
-            f"{counts['rubrics']} rúbricas · {counts['documents']} documentos | {len(encoded):,} bytes"
+            f"{counts['rubrics']} rúbricas · {counts['documents']} documentos · "
+            f"{counts['assets']} gráficos | {len(encoded):,} bytes"
         )
         return 0
     except (BuildError, OSError) as exc:

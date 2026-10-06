@@ -5,7 +5,7 @@
   "release_date": "2026-10-05",
   "hash_algorithm": "SHA-256",
   "scope": "Archivos distribuidos; MANIFEST.json se excluye de su propio hash.",
-  "file_count_excluding_manifest": 121,
+  "file_count_excluding_manifest": 132,
   "files": [
     {
       "path": ".gitattributes",
@@ -54,8 +54,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3336,
-      "sha256": "1bf66c2e25aec50e261598087ec955ea842fd3eabed7c94c0556d5c11c1009b0"
+      "bytes": 4296,
+      "sha256": "52af3551d3313fb2b5ce9bb72369ee641dead145334c24a21886cfa923c743df"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -74,18 +74,18 @@
     },
     {
       "path": "PROMPT_MAESTRO.md",
-      "bytes": 16461,
-      "sha256": "f6051bc983ded55655e43ae0d26dc702fded0c37468c0990fa5222893414f212"
+      "bytes": 16835,
+      "sha256": "6774772b2c0bc1a89902c32949daef3a60f3b9e8f27e2d71935baad522ff00d0"
     },
     {
       "path": "PROPOSED_COMPONENTS.md",
-      "bytes": 12212,
-      "sha256": "c43726e81e6373e4095b37174eba71c4e4f8bfa35bb8871411eec98ea6f5260b"
+      "bytes": 12433,
+      "sha256": "5e8018592b0db9ab425e2dfc746e8f41807ef52d9682408d5559214a25cd6b9a"
     },
     {
       "path": "README.md",
-      "bytes": 15590,
-      "sha256": "b416951d1d8b37e1f13af340ab39314df8245459005aa985af660e162faa8c0d"
+      "bytes": 10908,
+      "sha256": "5adfeb56c3f84691b84b39d9a3abf4a5464a558914c4f04ce4ac647586e5afdf"
     },
     {
       "path": "RECONSTRUIR_PORTAL.cmd",
@@ -94,8 +94,8 @@
     },
     {
       "path": "ROADMAP.md",
-      "bytes": 4344,
-      "sha256": "d5d74f26fb6ad7271e3faa7c73e550de5ab3b6b702e0f7fd039f3f00bd87ccf7"
+      "bytes": 4437,
+      "sha256": "ce18ff1d346b0c44bafde0d9666e02d8cb0cd6112c20182b09d650fd49637bd3"
     },
     {
       "path": "SECURITY.md",
@@ -109,8 +109,8 @@
     },
     {
       "path": "VISION.md",
-      "bytes": 5476,
-      "sha256": "6b2ced843b49fee93985bed5b4fcb5c41b9d09597e3a4bf6b73b83815fa07d82"
+      "bytes": 5684,
+      "sha256": "3e24f5eb18c16749030b739beecb179769ef70ac387dc85e94ed0240b5f8fd49"
     },
     {
       "path": "assessment/README.md",
@@ -159,8 +159,8 @@
     },
     {
       "path": "catalog/REPOSITORY_DISCOVERY.md",
-      "bytes": 10559,
-      "sha256": "df4a896a628210c10d4950dfb55e45224e412304fd598edfa4207fc8a87f0a00"
+      "bytes": 10673,
+      "sha256": "9f0806c57733c8c07678f03c171d68ab62a29b5c9fd54bd8ab19e5e782c8fb04"
     },
     {
       "path": "catalog/pending.json",
@@ -189,33 +189,33 @@
     },
     {
       "path": "curricula/M-01-continuidad-escolar.md",
-      "bytes": 13868,
-      "sha256": "9acd3b6d9830f6f9d8dee03b2ca2816c7ab00a6359475ad7c9eb98fa2acf7d86"
+      "bytes": 13889,
+      "sha256": "a6d0c1301f3eb25de805c388afb23c4a5072c0c18fb0e2e9d29abac99d4d0d95"
     },
     {
       "path": "curricula/M-02-ingreso-especialidad-software.md",
-      "bytes": 14423,
-      "sha256": "4f2fd3fbd1878904be11e201d376fef1417d655f99624d28606563bd84868b6b"
+      "bytes": 14444,
+      "sha256": "7f2ff50e2b3cec0c031b1acefa7b2db0db38932f14ce05134340d4397b5c8a60"
     },
     {
       "path": "curricula/M-03-reconversion-consultoria-tecnologica.md",
-      "bytes": 14703,
-      "sha256": "2829b88961d460faafc53998aa50eb44b26cf05b6a05c88ce8fd0dc149dba0f4"
+      "bytes": 14724,
+      "sha256": "855973552d09c6d696d96c72fef1559c9e4fd13402676a9bf91d4fa80cbd5574"
     },
     {
       "path": "curricula/M-04-proyecto-comunitario-tecnologico.md",
-      "bytes": 14740,
-      "sha256": "8b8bf3ef720603a78bfd27937be46d545192dd0194b097bc38392557105a3908"
+      "bytes": 14761,
+      "sha256": "6d37e343a2a36ba6803d6fc6799c30db8a2187f51e18c69a49b96cf66ab097b3"
     },
     {
       "path": "curricula/M-05-memoria-espacio-cultural.md",
-      "bytes": 14677,
-      "sha256": "5767050d9172d004fcfca1cf18a03c267fc3eaf10c1833c61f148f6615a7f69b"
+      "bytes": 14698,
+      "sha256": "dae9b82219a09cf536bc6c054fca212de39eea9f172e909789f7904a407a229a"
     },
     {
       "path": "curricula/README.md",
-      "bytes": 4833,
-      "sha256": "2b44232cc9b02f7312e8ec6d045f79627847d62f6cae46654c5e0bca2f339332"
+      "bytes": 4934,
+      "sha256": "b7c3a79e5d7ec563001dfd11372c624ed5eccb548c58ed73816e6b78941fbe4a"
     },
     {
       "path": "curricula/mallas.json",
@@ -230,17 +230,22 @@
     {
       "path": "docs/AUTOMATION.md",
       "bytes": 2484,
-      "sha256": "c2b81ea46acdb5df8c0a898eede3c13e39480710b4a041caeda2108062af5c99"
+      "sha256": "557891431eaa20b06f62a8640d46b951f1810041f8a3092966b85cef4247cc92"
+    },
+    {
+      "path": "docs/CAMPUS.md",
+      "bytes": 10412,
+      "sha256": "9b66e315bb270fb00c7d0789179ba228f3bbe7d09db46a1cb450eee8ac8473bc"
     },
     {
       "path": "docs/CURRENT_ARCHITECTURE.md",
-      "bytes": 6212,
-      "sha256": "261d63a339405beb8783f81bfaeaf573a038cdbe89d1ee171225965928534e31"
+      "bytes": 6753,
+      "sha256": "e45bd4a4065dd14321757868e681103b6e4d32dfa7e664f2d9cbd5b7f6ef5330"
     },
     {
       "path": "docs/DATA_CONTRACT.md",
-      "bytes": 8803,
-      "sha256": "13bed220ea2a3612bdc4e98427e381828a38441534b5836737dcf7a95658cc14"
+      "bytes": 9504,
+      "sha256": "f099e25cb015306e50764917d992a743a3ae601c33b031335cf514da50daad3a"
     },
     {
       "path": "docs/DATA_HANDLING.md",
@@ -254,13 +259,13 @@
     },
     {
       "path": "docs/DEVELOPMENT.md",
-      "bytes": 4983,
-      "sha256": "64811fe37d36ceba8ee53f07b163353cbcb2c49152859975bcc919c677ad85c5"
+      "bytes": 4997,
+      "sha256": "252abf7520f0e11ffbf9f610a902875af8a8cbc932ba1663bc552badede36d05"
     },
     {
       "path": "docs/ECOSYSTEM_MAP.md",
-      "bytes": 8782,
-      "sha256": "bd4e7067ea9d2f17707e7eb0af098288e6d59c6ded2ed976aaf9037d3bd544c4"
+      "bytes": 5114,
+      "sha256": "0f730a11039cb16f7ab44436192a39f065b1ade3f34575585fd6bdcdba013c8f"
     },
     {
       "path": "docs/INTEGRATION_POLICY.md",
@@ -269,13 +274,18 @@
     },
     {
       "path": "docs/LEARNING_ROUTES.md",
-      "bytes": 11552,
-      "sha256": "06e401ad2ca5517b5cb8edeb8f81006f276d3a738ef4ef066997dfbc1f8d88fc"
+      "bytes": 4921,
+      "sha256": "da803a36de34bc91ae785ee9042674750413f339bd4489df0eba8adbaa4acf51"
     },
     {
       "path": "docs/LEARNING_SYSTEM.md",
-      "bytes": 8894,
-      "sha256": "a21e1bb5b7bd5058237c34b0292de76d40c1e20805409626a47e3f4b2a81b338"
+      "bytes": 5443,
+      "sha256": "1fcc7af982fac73b69f79fa093b6e19518973d5fda64f07a2fb75c0db46ec1ec"
+    },
+    {
+      "path": "docs/NATIVE_LEARNING_FLOWS.md",
+      "bytes": 16508,
+      "sha256": "b2457813b97cf3f8d085b4ad1bf661c8da10bb7c0896069b7669eaf7e1833048"
     },
     {
       "path": "docs/PEDAGOGICAL_MODEL.md",
@@ -284,8 +294,8 @@
     },
     {
       "path": "docs/PROGRAM_ATLAS.md",
-      "bytes": 17764,
-      "sha256": "7c806bf78ff55d197ec9b007987d37c07d21ab42255d92bf6e7445a99220f3f7"
+      "bytes": 17887,
+      "sha256": "d94d0a8a54a6cd3fe55fd145c65f8bc66e0684f522ed450260dc2084a9250d90"
     },
     {
       "path": "docs/PROJECT_ORIGIN.md",
@@ -294,8 +304,8 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 2123,
-      "sha256": "df03d7fa42c10985301342e74d2440faae49f99a35ea6c27d7d73ce2f56985af"
+      "bytes": 2345,
+      "sha256": "d77f41d643be9fbbcac17fee44b62c387aa5d5cf6a38c94af66247d7954df230"
     },
     {
       "path": "docs/START_WINDOWS.md",
@@ -306,6 +316,51 @@
       "path": "docs/SUPPORT_REPOSITORIES.md",
       "bytes": 3067,
       "sha256": "dd50b0ba0b4485148dc338fabe990e227a90518beefe5e42da39c39e9e3c2e26"
+    },
+    {
+      "path": "docs/assets/campus-federado.svg",
+      "bytes": 4546,
+      "sha256": "2e0270f9dc88b66441fe986ed40a906bf9a1804f3ecf76de34b1d2edf7b4748c"
+    },
+    {
+      "path": "docs/assets/niveles-de-evidencia.svg",
+      "bytes": 2071,
+      "sha256": "714c827c3fb0d7f7c6a659a0a98df125f9faed93e093a3a83f98704b076dfe02"
+    },
+    {
+      "path": "docs/assets/tipos-de-flujo.svg",
+      "bytes": 3658,
+      "sha256": "b4cf7d46f723ba2d854e89a826c5b3031d6c304bea6cb0d727b044a7763774a7"
+    },
+    {
+      "path": "docs/faculties/ARTS_SPACE_TRADES.md",
+      "bytes": 4110,
+      "sha256": "82b60fe8e11276cffb6c20f641696e78df56503d44268b7043c9f587dfd7844a"
+    },
+    {
+      "path": "docs/faculties/BUSINESS_FINANCE_LEADERSHIP.md",
+      "bytes": 5423,
+      "sha256": "b4e1b3c905b0b45dc0062687e29e9ffe9672d9eee59fa5abf13bf4729aa0eeb0"
+    },
+    {
+      "path": "docs/faculties/CLOUD_SYSTEMS_SECURITY.md",
+      "bytes": 4898,
+      "sha256": "442604b6809d44a1f0219ee8657d809ec96ff30fe58ec66d2cbefc43ffb34e38"
+    },
+    {
+      "path": "docs/faculties/DATA_AI_SCIENCE.md",
+      "bytes": 4712,
+      "sha256": "ea602d97f2e647152b65a815735f93ffbff9cdf57978d5acade804a00e0571e2"
+    },
+    {
+      "path": "docs/faculties/EDUCATION_ASSESSMENT.md",
+      "bytes": 3593,
+      "sha256": "ad0511bf6e68e6b05af8ecde430249ea971f4ef1b2e52e9b2bdd27e39a5d0af1"
+    },
+    {
+      "path": "docs/faculties/SOFTWARE_COMPUTING.md",
+      "bytes": 5847,
+      "sha256": "5587cdae7730ea1067761ccfbdcfaa9d745bf75a2616f6773140b98fa8fa9157"
     },
     {
       "path": "examples/FICTIONAL_PROFILES.md",
@@ -324,8 +379,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 772998,
-      "sha256": "327d83dfce1d9dd5568a73431b10368c04bff89bbed16fc097bd97855b076fce"
+      "bytes": 831334,
+      "sha256": "ff4c3c55fcb04e3eb334e1f09f9cd4f65000820ec28d4f734f87b9109fa89ef2"
     },
     {
       "path": "integrations/README.md",
@@ -409,8 +464,8 @@
     },
     {
       "path": "pathways/README.md",
-      "bytes": 2684,
-      "sha256": "9754622970e9f525777511dedfac1ebd282ec20124f54c3fe39a67c40c5417fe"
+      "bytes": 2888,
+      "sha256": "a6aaf4cd6a18d80d17a9e70dc589c5da9676e6476a7b55eea7ed973af16c2bb6"
     },
     {
       "path": "pathways/elegir-y-retomar.md",
@@ -434,18 +489,18 @@
     },
     {
       "path": "portal/README.md",
-      "bytes": 3868,
-      "sha256": "94571c40057e3c64d452ee5d556446b95e8a5a500c6ccfb98191ce44a98500b6"
+      "bytes": 3929,
+      "sha256": "3450fa36f83716b7927540389f1b7af6264b9430add52d2e514643d4a444b0a2"
     },
     {
       "path": "portal/template.html",
-      "bytes": 65222,
-      "sha256": "a9cc29e908c8e4d54c01345d6ab7e8cddc024e84b488ad4f37ff9d30c7c9ad4d"
+      "bytes": 65832,
+      "sha256": "867d3e0dc77c8484cf9305f56f9f89c595e67f0d65d10da9d6d84cdbc3cfdc03"
     },
     {
       "path": "prompts/CONTINUITY.md",
-      "bytes": 6621,
-      "sha256": "f59fe2d5cb03b0e1ffc263ff20706956c1eb6b7cc66552b4b60d514bf2236bde"
+      "bytes": 8381,
+      "sha256": "375a7db4353e1470f387652ce25d9a591e4542da6a70afa52da099664169311d"
     },
     {
       "path": "prompts/IMPROVE_CURRICULUM.md",
@@ -479,8 +534,8 @@
     },
     {
       "path": "quality/RELEASE_EVIDENCE.md",
-      "bytes": 6583,
-      "sha256": "4e461fe33983b277946403ded3154f49ca60ec36acde5064bafdeb80c2b20701"
+      "bytes": 6727,
+      "sha256": "a6ca1b8025cf41154e52b9d47234fcc4e905ac29347b451897003300f9a90b68"
     },
     {
       "path": "quality/REQUIREMENTS_TRACEABILITY.md",
@@ -494,18 +549,18 @@
     },
     {
       "path": "quality/STATUS.md",
-      "bytes": 4980,
-      "sha256": "923f91ae0aec1c7a0e9e89248083ae4e77ac09567fa115cb64bc8422db0a85ca"
+      "bytes": 5177,
+      "sha256": "154f96a7edeb45c6e6a7cb95cb2f916dd60b7f1f460fa755428c9c0b83ff64da"
     },
     {
       "path": "quality/validation.json",
-      "bytes": 521,
-      "sha256": "510cdca2b19e45e3d4867cdaf081620cd1352e2f3287c5589aa15393c7469bd1"
+      "bytes": 522,
+      "sha256": "4c28a8d52a01e20ce91e96444cbd79d991df365d5075108ed9d3ea561af95114"
     },
     {
       "path": "scripts/build_portal.py",
-      "bytes": 9196,
-      "sha256": "d6a8fe0a7bc6bb95f6877e42f247f2fe95e8f5ad0abf8404645bfd1e42532b95"
+      "bytes": 10460,
+      "sha256": "4d7fdc5dcb70ce6f977e64295df3f850d68148eea0ee67127bb9ed808f826d55"
     },
     {
       "path": "scripts/export_plan.py",
@@ -594,13 +649,13 @@
     },
     {
       "path": "tests/check_portal_dom.cjs",
-      "bytes": 4170,
-      "sha256": "bb491fe1bc5779904c32b70996620348be4abe5e52ab42c4e45f5132fc26003e"
+      "bytes": 4190,
+      "sha256": "44a24ecd97c08ec4f2799b24574a85641fd800109f44a64be5c9fd76048779bd"
     },
     {
       "path": "tests/test_portal_build.py",
-      "bytes": 2022,
-      "sha256": "94aaf9f3e3f67bcdf94eaa61a547aa1c37fafa8122a4d5fc3a262e9f61bcec61"
+      "bytes": 3104,
+      "sha256": "ffe2ad4c1a253434e5e42aa7e528ac114255c333d8e6f2f025fcf6cfa84ca070"
     },
     {
       "path": "tests/test_validation.py",

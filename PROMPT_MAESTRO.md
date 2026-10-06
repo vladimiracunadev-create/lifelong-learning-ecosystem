@@ -25,7 +25,7 @@ Antes de proponer cambios, inspecciona el árbol actual y lee:
 9. prompts/CONTINUITY.md.
 10. Los archivos concretos afectados por la tarea.
 
-Comprueba los datos canónicos y la documentación existente. Utiliza el estado real del repositorio como fuente de implementación. La memoria de una conversación puede orientar la búsqueda, pero debe contrastarse con archivos y fuentes.
+Comprueba los registros técnicos y la documentación Markdown existente. Utiliza el estado real del repositorio como fuente de implementación. La memoria de una conversación puede orientar la búsqueda, pero debe contrastarse con archivos y fuentes.
 
 Presenta brevemente qué encontraste, cuál es el objetivo del bloque y qué incertidumbre importa. Continúa con el trabajo autorizado; una propuesta o plan no sustituye la implementación pedida.
 
@@ -118,9 +118,11 @@ Cuando se introduzca un concepto, explica su sentido, relaciones, ejemplo, aplic
 
 La secuencia se organiza por dependencias de conocimiento. Evita imponer semanas, agendas o horas obligatorias como sustituto de comprensión. Las estimaciones útiles se presentan como orientaciones ajustables.
 
-## 7. Mallas iniciales y ampliación
+## 7. Flujos nativos, mallas iniciales y ampliación
 
-Preserva y mejora las cinco mallas de la entrega:
+Descubre primero las secuencias, rutas, niveles, módulos, laboratorios y academias que los repositorios reales publican. Documéntalos en Markdown con su URL y alcance. No limites el ecosistema a cinco recorridos ni conviertas una afinidad temática en prerrequisito.
+
+Preserva las cinco mallas editoriales de la entrega como prototipos opcionales:
 
 - M-01: continuidad escolar hacia intereses y especialidades.
 - M-02: ingreso a especialidad reconociendo experiencia.
@@ -128,7 +130,7 @@ Preserva y mejora las cinco mallas de la entrega:
 - M-04: proyecto interdisciplinario.
 - M-05: aprendizaje por interés y transmisión de experiencia.
 
-Antes de agregar una sexta, revisa si puede ser una variante o una ampliación de una existente. Una ruta nueva debe resolver un propósito distinto y disponer de recursos y evaluación propios.
+Una ruta federada nueva debe resolver un propósito distinto, identificar unidades reales y disponer de recursos, práctica, evidencia y evaluación propios. No necesita encajar como variante de M-01…M-05; necesita fundamento verificable.
 
 Las actividades puente originales de esta versión se pueden realizar o revisar desde su documentación. Las correspondencias exactas con clases externas se consideran candidatas hasta que se lea evidencia específica. Conserva visible esa diferencia.
 

@@ -1,201 +1,165 @@
-# Lifelong Learning Ecosystem
+# 🧭 Lifelong Learning Ecosystem
 
-## Ecosistema Integral de Aprendizaje a lo Largo de la Vida
+## Una brújula para recorrer programas, laboratorios y aplicaciones de aprendizaje reales
 
 [![Calidad](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/workflows/quality.yml/badge.svg)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/workflows/quality.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/lifelong-learning-ecosystem/actions/workflows/security.yml)
 [![Portal público](https://img.shields.io/badge/portal-GitHub%20Pages-1f6b49)](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/)
 [![Licencia de código](https://img.shields.io/badge/código-MIT-2d3748)](LICENSE)
 
-**Superrepositorio de Vladimir Acuña para conectar programas independientes, competencias, mallas de estudio, apoyos y criterios de evidencia desde la infancia y durante toda la vida.**
+![Campus federado de aprendizaje](docs/assets/campus-federado.svg)
 
-Esta es la capa de integración del ecosistema. Cada programa conserva su repositorio, identidad, numeración, licencia y profundidad disciplinar; el maestro registra procedencia, hace visibles las relaciones y construye recorridos que atraviesan varios programas. No duplica cursos completos ni se presenta como un programa adicional.
+La cuenta pública [`vladimiracunadev-create`](https://github.com/vladimiracunadev-create) contiene programas completos, laboratorios, aplicaciones educativas y herramientas de práctica en muchas disciplinas. Este repositorio los **descubre, clasifica, explica y conecta sin copiar sus cursos ni inventar componentes**.
 
-Una persona puede entrar en cualquier momento, reconocer lo que ya sabe, definir lo que desea alcanzar y construir un recorrido coherente entre distintas fuentes. Las mallas articulan objetivos observables, fundamento, práctica, evidencia, retroalimentación y continuidad.
+Su propósito es responder con enlaces concretos:
 
-**Versión inicial: 0.1.0 · Fecha de revisión de fuentes: 5 de octubre de 2026 · Idioma: español.**
+- **qué repositorios de aprendizaje existen;**
+- **qué enseña cada uno y a quién se dirige;**
+- **cómo se recorre realmente:** secuencia, ruta por rol, nivel, módulo, caso, laboratorio o academia en una app;
+- **dónde están sus clases, prácticas, evaluaciones, aplicaciones y portales;**
+- **qué relaciones declara cada fuente;**
+- **qué conexiones siguen pendientes de revisión.**
 
-## Por qué existe
+Puede pensarse como el **mapa de un campus federado**. Los repositorios especializados conservan su identidad, profundidad, fuentes, licencias y forma de avance. El maestro funciona como guía y brújula. No es una universidad acreditada y no entrega matrícula, créditos, títulos ni habilitación profesional.
 
-La cuenta pública contiene programas profundos de matemática, software, IA, datos, empresa, finanzas, arquitectura, educación y otras áreas. El problema es que una colección de programas no le dice a una persona **dónde comenzar**, **qué conocimientos necesita**, **cómo cruzar disciplinas** ni **qué evidencia demuestra que puede continuar**.
+> **No hay una malla elegida por defecto.** `M-01` no es la puerta de entrada del sistema. Las cinco mallas editoriales iniciales permanecen como propuestas opcionales; la navegación principal parte de los repositorios y de sus flujos nativos.
 
-Este repositorio convierte esa colección en una brújula:
+## 🚪 Abrir el ecosistema
 
-| Pregunta de la persona | Respuesta del maestro |
+| Entrada | Para qué sirve |
 | --- | --- |
-| ¿Qué puedo hacer con lo que ya sé? | diagnóstico y reconocimiento de evidencia previa |
-| ¿Qué camino responde a mi meta? | cinco mallas con seis pasos, productos y criterios |
-| ¿Dónde profundizo una competencia? | enlaces a 14 programas y laboratorios con alcance documentado |
-| ¿Qué apoyo uso si encuentro una barrera? | diez guías de apoyo vinculadas a actividades concretas |
-| ¿Cómo sé si avanzo? | evidencias, rúbricas, transferencia y continuidad |
+| [🌐 Portal público](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/) | recorrer la edición actual desde el navegador |
+| [🏫 Campus federado](docs/CAMPUS.md) | elegir un área y llegar a repositorios reales |
+| [🛤️ 30 flujos nativos revisados](docs/NATIVE_LEARNING_FLOWS.md) | comparar rutas, secuencias, módulos, casos, labs y apps que las fuentes sí declaran |
+| [🗺️ Mapa de relaciones](docs/ECOSYSTEM_MAP.md) | entender arquitectura, evidencia y conexiones |
+| [📚 Atlas canónico](docs/PROGRAM_ATLAS.md) | revisar las 14 integraciones que ya tienen ID y ficha técnica |
+| [🔎 Descubrimiento completo](catalog/REPOSITORY_DISCOVERY.md) | ver el corte de 68 repositorios públicos, incluidos candidatos, productos y forks |
 
-Puede imaginarse como la **capa de orientación de una universidad federada**: los repositorios especializados se parecen a facultades y las mallas conectan sus disciplinas. No es una universidad acreditada: no matricula, no asigna créditos, no entrega títulos y no homologa estudios. Lee [la explicación completa del sistema](docs/LEARNING_SYSTEM.md).
+El lector también funciona sin conexión: descarga el repositorio y abre [index.html](index.html). En Windows puedes ejecutar [ABRIR_PORTAL.cmd](ABRIR_PORTAL.cmd).
 
-## Qué puedes recorrer ahora
+## 🏫 Seis áreas, muchos puntos de entrada
 
-```mermaid
-flowchart LR
-    META[Tu meta] --> ENTRADA[Diagnóstico y evidencia previa]
-    ENTRADA --> MALLA[Una malla de seis pasos]
-    MALLA --> PRODUCTO[Producto integrador]
-    PRODUCTO --> PROGRAMA[Profundización en programas]
-    PROGRAMA --> CONT[Continuar, cambiar, enseñar o pausar]
+| Área | Qué reúne | Abrir |
+| --- | --- | --- |
+| 💻 Software y computación | software, lenguajes, frameworks, bases de datos, videojuegos y sistemas | [explorar área](docs/faculties/SOFTWARE_COMPUTING.md) |
+| 🧠 Datos, IA y ciencia | matemática, datos, IA, redes neuronales y genómica | [explorar área](docs/faculties/DATA_AI_SCIENCE.md) |
+| ☁️ Cloud, sistemas y seguridad | cloud, ciberseguridad, virtualización, contenedores, aislamiento y pagos | [explorar área](docs/faculties/CLOUD_SYSTEMS_SECURITY.md) |
+| 📈 Empresa, finanzas y liderazgo | empresa, operación, banca, marketing, dirección, blockchain y pagos | [explorar área](docs/faculties/BUSINESS_FINANCE_LEADERSHIP.md) |
+| 🎓 Escuela, pedagogía y evaluación | trayectoria escolar, formación docente e instrumentos | [explorar área](docs/faculties/EDUCATION_ASSESSMENT.md) |
+| 🎨 Arte, espacio y oficios | arquitectura, maquinaria, guitarra, violín y cueca | [explorar área](docs/faculties/ARTS_SPACE_TRADES.md) |
+
+## 🛤️ Las mallas que existen no tienen una sola forma
+
+![Seis tipos de flujo observados](docs/assets/tipos-de-flujo.svg)
+
+La revisión de 30 README educativos encontró seis formas reales de organizar el aprendizaje:
+
+1. **Secuencias:** partes y clases en un orden declarado.
+2. **Rutas:** selecciones por rol, perfil, objetivo o especialidad.
+3. **Niveles:** cursos escolares, mundos, semanas o habilidades.
+4. **Módulos:** agrupaciones temáticas con prerrequisitos o resultados.
+5. **Casos y laboratorios:** problemas ejecutables con evidencia.
+6. **Academias en aplicaciones:** contenido, práctica y progreso local u offline.
+
+El [mapa de flujos nativos](docs/NATIVE_LEARNING_FLOWS.md) enlaza directamente a las entradas publicadas por cada fuente. Entre ellas hay:
+
+- **12 rutas** de arquitectura y entorno construido;
+- **14 rutas por rol** de pedagogía;
+- **17 rutas por rol** de marketing, ventas y growth;
+- rutas profesionales de software, datos, bases de datos, videojuegos, cloud, ciberseguridad y blockchain;
+- **12 niveles escolares** de 1.º básico a 4.º medio;
+- módulos de redes neuronales, maquinaria y genómica;
+- laboratorios progresivos de QEMU/KVM, pagos y otros sistemas;
+- academias de empresa, guitarra, violín y cueca.
+
+Estos números proceden de los README revisados el 6 de octubre de 2026. Son declaraciones de las fuentes y no sustituyen una auditoría de cada clase.
+
+## 🔗 Cómo se conectan los repositorios
+
+![Niveles de evidencia para aceptar una conexión](docs/assets/niveles-de-evidencia.svg)
+
+Una relación puede tener cinco alcances:
+
+| Evidencia | Uso permitido en este maestro |
+| --- | --- |
+| metadato público | afirmar que el repositorio existe y declara un tema |
+| README revisado | describir alcance, estado y entradas publicadas |
+| índice revisado | representar partes, rutas, módulos y orden interno |
+| unidad revisada | proponer una correspondencia concreta de aprendizaje |
+| relación verificada | justificar prerrequisito, continuidad y transferencia entre unidades |
+
+Varios README enlazan explícitamente otros repositorios del ecosistema. Esos enlaces aparecen como **navegación declarada**, no como prerrequisitos automáticos. La lista y su fuente están en [vínculos entre repositorios](docs/NATIVE_LEARNING_FLOWS.md#-vínculos-entre-repositorios-que-sí-están-declarados).
+
+## 📦 Qué existe en esta edición
+
+| Componente | Estado y alcance real |
+| --- | --- |
+| Campus documental | EXISTENTE · seis áreas con gráficos, fichas y enlaces directos |
+| Flujos nativos | EXISTENTE · 30 README revisados y clasificados por su forma de avance |
+| Descubrimiento | EXISTENTE · 68 repositorios públicos observados: 64 propios y 4 forks |
+| Integraciones canónicas | EXISTENTE · 14 repositorios con ID, procedencia y ficha |
+| Competencias | EXISTENTE como propuesta editorial · 36 competencias y seis niveles descriptivos |
+| Mallas `M-01`…`M-05` | EXPERIMENTALES · diseños iniciales opcionales, sin selección predeterminada |
+| Apoyos | EXISTENTES como guías · diez documentos transversales |
+| Rúbricas | EXPERIMENTALES · tres instrumentos editoriales sin validación psicométrica |
+| Portal offline | EXISTENTE · un archivo HTML autocontenido, sin CDN ni cuenta |
+| Automatización | EXISTENTE · validación, pruebas, CodeQL y publicación en Pages |
+| Buscador, recomendador, API o agente | PROPUESTOS · no forman parte del producto actual |
+
+Los componentes futuros se evalúan en [PROPOSED_COMPONENTS.md](PROPOSED_COMPONENTS.md); aparecer en ese documento no significa que estén implementados.
+
+## 🧱 Arquitectura documental y técnica
+
+El contenido explicativo se escribe en **Markdown**. Los SVG aportan los mapas visuales. Los JSON conservan solamente registros estructurados para validación y navegación del portal; **no son el formato de autoría del contenido educativo**.
+
+```text
+README.md y docs/*.md         contenido, análisis, rutas y decisiones legibles
+docs/assets/*.svg            mapas visuales versionables
+repositorios externos        clases, laboratorios, apps y fuentes originales
+catalog/*.json y otros JSON  índices técnicos y relaciones estructuradas
+scripts/build_portal.py      combina documentos e índices en index.html
+index.html                   lector público y offline generado
 ```
 
-No tienes que comenzar por M-01 ni recorrer todo. Elige por propósito en [las rutas concretas](docs/LEARNING_ROUTES.md), consulta [el atlas de programas](docs/PROGRAM_ATLAS.md) y usa [los mapas visuales](docs/ECOSYSTEM_MAP.md) para ver las conexiones.
+Consulta el [contrato de datos](docs/DATA_CONTRACT.md), la [arquitectura implementada](docs/CURRENT_ARCHITECTURE.md), la [política de integración](docs/INTEGRATION_POLICY.md) y la [automatización](docs/AUTOMATION.md).
 
-## Explorar
+## 🧪 Verificar y reconstruir
 
-1. Abre el [portal público](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/) o descarga el repositorio para usarlo sin conexión.
-2. En una copia local, abre [index.html](index.html). En Windows también puedes ejecutar [ABRIR_PORTAL.cmd](ABRIR_PORTAL.cmd).
-3. Explora las 14 integraciones canónicas, las competencias, las cinco mallas, los apoyos y las rúbricas.
-4. Consulta la [arquitectura actual verificada](docs/CURRENT_ARCHITECTURE.md), el [descubrimiento de repositorios](catalog/REPOSITORY_DISCOVERY.md) y [cómo elegir y retomar un recorrido](pathways/README.md).
-5. Para continuar el desarrollo con un agente, utiliza el archivo íntegro [PROMPT_MAESTRO.md](PROMPT_MAESTRO.md).
+Se requiere Python 3.11 o posterior para las herramientas. Leer el portal no requiere Python.
 
-El lector local contiene los datos y documentación de esta entrega. Las clases de los programas enlazados permanecen en sus repositorios y requieren conexión para consultarlas si no se han descargado previamente.
-
-## Mapa rápido
-
-```mermaid
-flowchart LR
-    U[68 repositorios públicos observados] --> D[Descubrimiento y clasificación]
-    D --> P[14 integraciones canónicas]
-    P --> I[Integración con procedencia]
-    I --> C[36 competencias]
-    C --> M[5 mallas · 30 pasos]
-    A[10 apoyos] --> M
-    R[3 rúbricas] --> M
-    M --> L[Portal público y lector local]
-```
-
-El [mapa completo](docs/ECOSYSTEM_MAP.md) explica la arquitectura federada, el ciclo de aprendizaje y la continuidad exacta entre las cinco mallas.
-
-## Qué contiene esta versión
-
-| Componente | Entrega |
-| --- | --- |
-| Integraciones canónicas | Catálogo inicial de 14 repositorios con fuente y alcance de revisión; no es una lista cerrada de la cuenta |
-| Descubrimiento | Corte documentado de 68 repositorios públicos: programas, laboratorios, productos, presencia pública y 4 forks separados |
-| Competencias | 36 competencias con seis niveles descriptivos y relaciones de prerrequisitos |
-| Mallas | Cinco recorridos con actividades puente originales, diagnóstico, evidencia y continuidad |
-| Apoyos | Diez guías para lectura, escritura, matemática, estudio, idiomas, fuentes, accesibilidad, laboratorios, portafolio e IA |
-| Evaluación | Tres rúbricas editoriales, reconocimiento previo y orientaciones de retroalimentación |
-| Integración | Fichas por repositorio y reglas para seleccionar unidades respetando su estructura |
-| Herramientas | Validador local, exportación de mallas, constructor del lector y empaquetado reproducible |
-| Automatización | Calidad multi-entorno, CodeQL, actualización de acciones y publicación en GitHub Pages |
-| Continuidad | Prompt maestro completo, instrucciones de agentes, decisiones y hoja de ruta |
-
-Los conteos y resultados técnicos se registran en [el estado de entrega](quality/STATUS.md) y en el manifiesto de archivos. El catálogo es un inventario inicial; las áreas pendientes se registran explícitamente en [catalog/pending.json](catalog/pending.json).
-
-## Los cinco recorridos
-
-| Malla | Para qué sirve | Qué haces | Evidencia final | Abrir |
-| --- | --- | --- | --- | --- |
-| M-01 | recuperar bases y elegir continuidad | contrastas textos, interpretas datos, decides con un presupuesto y pruebas una propuesta | rincón lector, cálculos, revisión y portafolio breve | [M-01](curricula/M-01-continuidad-escolar.md) |
-| M-02 | entrar a software o demostrar experiencia | especificas reglas, construyes un catálogo local, pruebas fallos y preparas operación | programa, pruebas, guía y caso técnico | [M-02](curricula/M-02-ingreso-especialidad-software.md) |
-| M-03 | explorar una reconversión tecnológica | investigas un problema ficticio, defines un servicio, calculas alternativas y construyes una demostración | propuesta, demostración y caso de portafolio | [M-03](curricula/M-03-reconversion-consultoria-tecnologica.md) |
-| M-04 | aprender mediante un proyecto interdisciplinario | observas un espacio, comparas soluciones, produces y pruebas un prototipo accesible | croquis, presupuesto, prototipo y plan operativo | [M-04](curricula/M-04-proyecto-comunitario-tecnologico.md) |
-| M-05 | investigar por curiosidad y transmitir experiencia | contrastas recuerdos y fuentes, creas una pieza y diseñas una actividad para compartir | indagación, pieza expresiva y guion de enseñanza | [M-05](curricula/M-05-memoria-espacio-cultural.md) |
-
-Las mallas completas están en [curricula](curricula/README.md). Su secuencia se expresa por dependencias de conocimiento. Las edades no acreditan competencias, y los calendarios personales se pueden ajustar sin cambiar los resultados esperados.
-
-## Programas, laboratorio y apoyos
-
-Las mallas actuales utilizan 13 programas. El laboratorio neuronal está catalogado, pero todavía no está conectado a una malla; esa brecha se conserva visible.
-
-| Área | Repositorios usados |
-| --- | --- |
-| bases escolares y matemática | [Trayectoria Escolar](https://github.com/vladimiracunadev-create/chilean-school-learning-path) · [Matemática Computacional](https://github.com/vladimiracunadev-create/computational-mathematics-program) |
-| software y seguridad | [Ingeniería de Software](https://github.com/vladimiracunadev-create/modern-software-engineering-program) · [Ciberseguridad](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) |
-| datos e IA | [Python y Ciencia de Datos](https://github.com/vladimiracunadev-create/python-data-science-program) · [Evolución de la IA](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program) · [Neural Network Labs](https://github.com/vladimiracunadev-create/neural-network-training-labs) |
-| empresa y decisiones | [Creación de Empresas](https://github.com/vladimiracunadev-create/modern-business-creation-program) · [Finanzas](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program) · [Marketing](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) · [Liderazgo](https://github.com/vladimiracunadev-create/executive-leadership-founder-program) |
-| espacio, enseñanza y evaluación | [Arquitectura](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) · [Pedagogía](https://github.com/vladimiracunadev-create/education-pedagogy-learning-sciences-program) · [Psicometría](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program) |
-
-El [atlas de programas](docs/PROGRAM_ATLAS.md) analiza uno por uno: aporte, estado observado, alcance de revisión, mallas vinculadas, enlaces y brechas. Los apoyos del maestro son guías documentales; las aplicaciones declaradas por programas externos no se consideran probadas por esta integración.
-
-## Arquitectura
-
-El maestro mantiene un catálogo común, competencias, mallas y correspondencias con los programas. Cada repositorio especializado sigue siendo la fuente de sus clases, prácticas y documentación.
-
-Consulta la [arquitectura implementada](docs/CURRENT_ARCHITECTURE.md), los [diagramas de arquitectura y continuidad](docs/ECOSYSTEM_MAP.md), la [automatización de calidad y publicación](docs/AUTOMATION.md) y los [componentes propuestos, todavía no implementados](PROPOSED_COMPONENTS.md).
-
-| Área | Responsabilidad |
-| --- | --- |
-| [catalog](catalog/README.md) | Integraciones canónicas, descubrimiento externo, declaraciones y alcance de revisión |
-| [competencies](competencies/README.md) | Capacidades, progresión, evidencias y prerrequisitos |
-| [curricula](curricula/README.md) | Mallas integradoras y actividades propias del maestro |
-| [pathways](pathways/README.md) | Selección, ingreso, retorno y adaptación del recorrido |
-| [assessment](assessment/README.md) | Evaluación, rúbricas y reconocimiento de experiencia |
-| [support](support/README.md) | Apoyos a dificultades o necesidades concretas |
-| [integrations](integrations/README.md) | Correspondencias con programas independientes |
-| [sources](sources/README.md) | Fuentes y trazabilidad de las decisiones |
-| [quality](quality/README.md) | Coherencia, revisión, brechas y estado |
-| [docs](docs/README.md) | Diseño, uso local y evolución del proyecto |
-| [examples](examples/README.md) | Ejemplos ficticios y portafolio local |
-| [prompts](prompts/README.md) | Continuidad con agentes y registro de avances |
-
-## Tres ejes de personalización
-
-- **Etapa y contexto:** primera infancia acompañada, escolaridad, formación especializada, trabajo, reconversión, intereses personales y transmisión de experiencia.
-- **Dominio por competencia:** exploración, fundamentos, aplicación acompañada, autonomía, profundización, creación e investigación.
-- **Propósito:** comprender, crear, trabajar, investigar, emprender, convivir, enseñar o participar.
-
-Una misma persona puede tener niveles diferentes en áreas distintas. Las decisiones de ingreso se basan en evidencias pertinentes y se revisan cuando aparece nueva información.
-
-## Estado pedagógico
-
-Las actividades puente, mallas, descriptores y rúbricas de esta entrega son propuestas editoriales desarrolladas y utilizables para revisión y pilotaje. Su eficacia no ha sido validada en una población de estudiantes.
-
-La revisión inicial de las integraciones canónicas se apoya principalmente en README y enlaces observados. Una segunda inspección documentó otros repositorios reales sin asignarles automáticamente IDs ni equivalencias. La correspondencia exacta de cada clase con cada competencia requiere una auditoría posterior por unidades. Cada ficha distingue la declaración del programa, el alcance de la lectura y la revisión humana pendiente.
-
-El [contrato de datos](docs/DATA_CONTRACT.md) separa estos estados. Un resultado técnico correcto comprueba coherencia de los archivos; la valoración del aprendizaje necesita evidencia y criterio educativo.
-
-## Validar y reconstruir
-
-Se requiere Python 3.11 o superior para las herramientas. Leer el portal no requiere Python.
-
-Con uv, si ya está instalado:
-
-~~~bash
-uv run --offline python scripts/validate.py
-uv run --offline python -m unittest discover -s tests -v
-uv run --offline python scripts/build_portal.py --check
-~~~
-
-Con Python disponible en el equipo:
-
-~~~bash
+```bash
 python scripts/validate.py
 python -m unittest discover -s tests -v
 python scripts/build_portal.py --check
-~~~
+node tests/check_portal_dom.cjs
+```
 
-Para regenerar el lector tras cambios:
+Después de editar datos, Markdown o SVG:
 
-~~~bash
+```bash
 python scripts/build_portal.py
-~~~
+```
 
-En Windows se puede usar `py -3` en lugar de `python`. Consulta [el inicio en Windows](docs/START_WINDOWS.md) y [las instrucciones técnicas](docs/DEVELOPMENT.md).
+Los resultados reales y sus límites se registran en [quality/STATUS.md](quality/STATUS.md) y [quality/RELEASE_EVIDENCE.md](quality/RELEASE_EVIDENCE.md).
 
-## Continuar sin romper los programas
+## 🧑‍🏫 Principios pedagógicos
 
-Antes de modificar un repositorio conectado, el agente debe leer sus instrucciones y fuentes actuales. Las decisiones sobre clases, numeración, licencias, estructura y derivados se realizan en ese programa y se documentan. La consulta del catálogo no autoriza modificaciones remotas.
+- La etapa vital orienta el acompañamiento; no demuestra dominio.
+- Los prerrequisitos se justifican y se distinguen entre necesarios y recomendados.
+- La experiencia previa puede acreditarse mediante evidencia pertinente.
+- Cada recorrido debe unir objetivo, fundamento, práctica, evidencia, retroalimentación y continuidad.
+- El currículo de un formador no se presenta automáticamente como currículo del estudiante.
+- Ningún contenido declara eficacia, diagnóstico, acreditación o habilitación profesional sin evidencia aplicable.
+- Una persona puede pausar, regresar, cambiar de objetivo o estudiar por interés.
 
-El maestro incorpora actividades puente, equivalencias candidatas y mallas, y deja registro de su procedencia. Véase [AGENTS.md](AGENTS.md), [el prompt maestro](PROMPT_MAESTRO.md) y [la política de integración](docs/INTEGRATION_POLICY.md).
+## 📌 Alcance de la revisión
 
-## Datos personales y licencias
+El corte actual confirma la existencia pública de 68 repositorios y revisa 30 README educativos para reconocer sus flujos. No se ejecutaron todas las apps, notebooks y clases. La auditoría por unidades y la validación pedagógica especializada siguen siendo necesarias para convertir conexiones candidatas en mallas federadas verificadas.
 
-El repositorio distribuido contiene ejemplos ficticios. Los planes y evidencias reales deben guardarse en una carpeta local privada; se incluyen exclusiones para `private/` y `exports/`.
+La [visión](VISION.md) explica el propósito humano; el [estado de entrega](quality/STATUS.md) registra los controles ejecutados; el [historial](CHANGELOG.md) conserva los cambios.
 
-Código original: [MIT](LICENSE). Contenido curricular original: [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Los programas y recursos enlazados conservan sus propias licencias.
+## ⚖️ Licencias y datos
 
-## Fundamento y decisiones
+Código original: [MIT](LICENSE). Contenido curricular original: [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Cada repositorio enlazado conserva su propia licencia.
 
-La visión toma como referencia el aprendizaje durante toda la vida y las rutas flexibles descritos por UNESCO. El modelo de seis niveles, las mallas y las rúbricas concretas son decisiones propias de este proyecto, registradas para revisión.
-
-- [Visión](VISION.md)
-- [Diseño pedagógico](docs/PEDAGOGICAL_MODEL.md)
-- [Decisiones de arquitectura](docs/DECISIONS.md)
-- [Hoja de ruta](ROADMAP.md)
-- [Historial](CHANGELOG.md)
+El repositorio público usa ejemplos ficticios. Los planes y evidencias personales deben mantenerse fuera del árbol distribuido.

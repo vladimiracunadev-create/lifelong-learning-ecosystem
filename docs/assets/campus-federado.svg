@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Campus federado de repositorios de aprendizaje</title>
+  <desc id="desc">Una brújula central conecta seis áreas con programas, laboratorios y aplicaciones reales.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbf7"/><stop offset="1" stop-color="#e8f2ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17392d" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .area{fill:#fff;stroke:#c6d8cf;stroke-width:2;filter:url(#shadow)}
+      .line{fill:none;stroke:#83aa98;stroke-width:3;stroke-dasharray:8 8}
+      .title{font:700 25px system-ui,sans-serif;fill:#17392d}
+      .copy{font:500 16px system-ui,sans-serif;fill:#4b6258}
+      .count{font:700 14px system-ui,sans-serif;fill:#1f6b49;letter-spacing:.08em}
+      .icon{font:34px system-ui,sans-serif}
+      .center{fill:#1f6b49;stroke:#174f39;stroke-width:3;filter:url(#shadow)}
+      .centerTitle{font:700 25px system-ui,sans-serif;fill:#fff;text-anchor:middle}
+      .centerCopy{font:500 15px system-ui,sans-serif;fill:#dceee4;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg)"/>
+  <path class="line" d="M600 360 280 160M600 360 920 160M600 360 230 370M600 360 970 370M600 360 300 585M600 360 900 585"/>
+
+  <g transform="translate(85 65)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">💻</text><text class="count" x="82" y="38">6 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Software y computación</text>
+    <text class="copy" x="28" y="114">Ingeniería · lenguajes · datos</text><text class="copy" x="28" y="138">frameworks · videojuegos · sistemas</text>
+  </g>
+  <g transform="translate(725 65)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">🧠</text><text class="count" x="82" y="38">5 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Datos, IA y ciencia</text>
+    <text class="copy" x="28" y="114">Matemática · ciencia de datos · IA</text><text class="copy" x="28" y="138">redes neuronales · genómica</text>
+  </g>
+  <g transform="translate(35 295)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">☁️</text><text class="count" x="82" y="38">7 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Cloud, sistemas y seguridad</text>
+    <text class="copy" x="28" y="114">Cloud · ciberseguridad · contenedores</text><text class="copy" x="28" y="138">virtualización · aislamiento · pagos</text>
+  </g>
+  <g transform="translate(775 295)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">📈</text><text class="count" x="82" y="38">7 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Empresa, finanzas y liderazgo</text>
+    <text class="copy" x="28" y="114">Creación · operación · banca · ventas</text><text class="copy" x="28" y="138">dirección · blockchain · pagos</text>
+  </g>
+  <g transform="translate(105 510)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">🎓</text><text class="count" x="82" y="38">3 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Escuela, pedagogía y evaluación</text>
+    <text class="copy" x="28" y="114">12 niveles escolares · 14 rutas por rol</text><text class="copy" x="28" y="138">instrumentos y evidencia</text>
+  </g>
+  <g transform="translate(705 510)">
+    <rect class="area" width="390" height="150" rx="20"/>
+    <text class="icon" x="28" y="48">🎨</text><text class="count" x="82" y="38">5 REPOSITORIOS REVISADOS</text>
+    <text class="title" x="28" y="83">Arte, espacio y oficios</text>
+    <text class="copy" x="28" y="114">Arquitectura · maquinaria · guitarra</text><text class="copy" x="28" y="138">violín · cueca</text>
+  </g>
+
+  <g transform="translate(478 268)">
+    <circle class="center" cx="122" cy="92" r="106"/>
+    <text class="centerTitle" x="122" y="69">BRÚJULA</text>
+    <text class="centerTitle" x="122" y="101">FEDERADA</text>
+    <text class="centerCopy" x="122" y="131">descubre · compara</text>
+    <text class="centerCopy" x="122" y="153">conecta · permite volver</text>
+  </g>
+</svg>
