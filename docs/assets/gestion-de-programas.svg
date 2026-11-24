@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Esquema de aprendizaje y gestión de programas</title>
+  <desc id="desc">Parte A: cinco etapas para aprender a gestionar programas. Parte B: ciclo de siete pasos para operar el portafolio, con retorno a la revisión.</desc>
+  <defs><style>
+    .bg{fill:#f6f8fb}.card{fill:#fff;stroke:#d5dde8;stroke-width:2}.title{font:800 34px system-ui,sans-serif;fill:#1b2b3f}.lead{font:500 17px system-ui,sans-serif;fill:#52627a}.band{font:800 13px system-ui,sans-serif;letter-spacing:1.4px;fill:#52627a}.repo{font:800 18px system-ui,sans-serif;fill:#1b2b3f}.meta{font:500 14px system-ui,sans-serif;fill:#52627a}.num{font:800 16px system-ui,sans-serif;fill:#fff;text-anchor:middle}.step{fill:#e8f0fb;stroke:#b9cbe6;stroke-width:2}.num2{font:800 18px system-ui,sans-serif;fill:#2563a8;text-anchor:middle}.steptext{font:700 14px system-ui,sans-serif;fill:#1b2b3f;text-anchor:middle}.line{fill:none;stroke:#8aa0be;stroke-width:3;stroke-dasharray:8 8}.rule{font:700 16px system-ui,sans-serif;fill:#fff;text-anchor:middle}
+  </style></defs>
+  <rect class="bg" width="1200" height="640" rx="30"/>
+  <text class="title" x="60" y="68">Aprender y operar la gestión de programas</text>
+  <text class="lead" x="60" y="104">Una ruta personal de cinco etapas y un ciclo de siete pasos para el portafolio.</text>
+  <text class="band" x="40" y="138">PARTE A · APRENDER A GESTIONAR</text>
+  <g transform="translate(40 150)"><rect class="card" width="210" height="140" rx="18"/><circle cx="34" cy="38" r="18" fill="#0f6a5a"/><text class="num" x="34" y="44">1</text><text class="repo" x="62" y="44">Diseñar</text><text class="meta" x="20" y="88">objetivo · práctica · evidencia</text></g>
+  <g transform="translate(266 150)"><rect class="card" width="210" height="140" rx="18"/><circle cx="34" cy="38" r="18" fill="#2563a8"/><text class="num" x="34" y="44">2</text><text class="repo" x="62" y="44">Evaluar</text><text class="meta" x="20" y="88">rúbricas y límites</text></g>
+  <g transform="translate(492 150)"><rect class="card" width="210" height="140" rx="18"/><circle cx="34" cy="38" r="18" fill="#5b3a9a"/><text class="num" x="34" y="44">3</text><text class="repo" x="62" y="44">Organizar</text><text class="meta" x="20" y="88">proyectos y personas</text></g>
+  <g transform="translate(718 150)"><rect class="card" width="210" height="140" rx="18"/><circle cx="34" cy="38" r="18" fill="#a1561f"/><text class="num" x="34" y="44">4</text><text class="repo" x="62" y="44">Datos y calidad</text><text class="meta" x="20" y="88">estado verificable</text></g>
+  <g transform="translate(944 150)"><rect class="card" width="210" height="140" rx="18"/><circle cx="34" cy="38" r="18" fill="#9b2c3f"/><text class="num" x="34" y="44">5</text><text class="repo" x="62" y="44">Gobierno</text><text class="meta" x="20" y="88">riesgo y licencias</text></g>
+  <text class="band" x="40" y="388">PARTE B · OPERAR EL PORTAFOLIO</text>
+  <g transform="translate(40 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">1</text><text class="steptext" x="71" y="62">Descubrir</text></g>
+  <g transform="translate(200 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">2</text><text class="steptext" x="71" y="62">Registrar evidencia</text></g>
+  <g transform="translate(360 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">3</text><text class="steptext" x="71" y="62">Integrar</text></g>
+  <g transform="translate(520 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">4</text><text class="steptext" x="71" y="62">Alinear</text></g>
+  <g transform="translate(680 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">5</text><text class="steptext" x="71" y="62">Verificar</text></g>
+  <g transform="translate(840 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">6</text><text class="steptext" x="71" y="62">Publicar</text></g>
+  <g transform="translate(1000 405)"><rect class="step" width="142" height="86" rx="16"/><text class="num2" x="71" y="34">7</text><text class="steptext" x="71" y="62">Revisar</text></g>
+  <path class="line" d="M1111 505 Q1111 545 600 545 Q89 545 89 505"/>
+  <text class="meta" x="600" y="535" text-anchor="middle">un cambio de SHA, cifra o enlace reinicia el ciclo</text>
+  <rect x="40" y="590" width="1120" height="36" rx="16" fill="#1b2b3f"/><text class="rule" x="600" y="613">Propuesta editorial: unidades candidatas, sin pilotaje ni revisión especializada todavía.</text>
+</svg>

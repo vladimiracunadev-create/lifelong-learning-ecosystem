@@ -4,9 +4,9 @@ Fecha de revisión local: 2026-11-24 (cifras de programas actualizadas; versión
 
 ## Entrega disponible
 
-Campus federado con **seis áreas documentadas**, **31 flujos nativos revisados**, **nueve mapas SVG**, **15 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **100 documentos Markdown** embebidos y herramientas locales.
+Campus federado con **seis áreas documentadas**, **31 flujos nativos revisados**, **once mapas SVG**, **15 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **102 documentos Markdown** embebidos y herramientas locales.
 
-El lector index.html abre por el campus y los flujos reales; incorpora los nueve SVG de forma autocontenida, incluidas cabeceras propias para las seis áreas, además del catálogo, las mallas editoriales, los apoyos, las rúbricas y la documentación. Las clases externas siguen en sus repositorios. La API pública confirmó 68 repositorios —64 propios y 4 forks—; los candidatos no reciben automáticamente un ID canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
+El lector index.html abre por el campus y los flujos reales; incorpora los once SVG de forma autocontenida, incluidas cabeceras propias para las seis áreas, además del catálogo, las mallas editoriales, los apoyos, las rúbricas y la documentación. Las clases externas siguen en sus repositorios. La API pública confirmó 68 repositorios —64 propios y 4 forks—; los candidatos no reciben automáticamente un ID canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
 
 ## Verificaciones técnicas realizadas
 
@@ -19,7 +19,7 @@ El lector index.html abre por el campus y los flujos reales; incorpora los nueve
 | Enlaces de aprendizaje | 52 rutas directas a índices, clases, módulos, laboratorios y currículos confirmadas mediante la API de GitHub |
 | Lector | Generación determinística y comprobación de vigencia |
 | JavaScript | Sintaxis comprobada con Node |
-| DOM simulado | Siete secciones, 69 vistas de detalle, 100 documentos embebidos, campus, SVG local seguro, tablas, listas y escape de contenido |
+| DOM simulado | Siete secciones, 69 vistas de detalle, 102 documentos embebidos, campus, SVG local seguro, tablas, listas y escape de contenido |
 | Datos personales | private y exports excluidos de la generación y de la validación documental |
 | Exportación | M-03 exportada por CLI, con resultados personales sin evaluar |
 | Paquete | El empaquetador genera un ZIP con manifiesto SHA-256 y verifica su integridad y la copia extraída; el hash final se registra fuera del propio paquete para evitar autorreferencia |

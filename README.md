@@ -32,6 +32,8 @@ Puede pensarse como el **mapa de un campus federado**. Los repositorios especial
 | [🏫 Campus federado](docs/CAMPUS.md) | elegir un área y llegar a repositorios reales |
 | [🛤️ 31 flujos nativos revisados](docs/NATIVE_LEARNING_FLOWS.md) | usar las rutas, secuencias, módulos, casos, labs y apps que las fuentes sí declaran |
 | [🗺️ Mapa de relaciones](docs/ECOSYSTEM_MAP.md) | entender arquitectura, evidencia y conexiones |
+| [👥 Atlas de roles y cargos](docs/ROLES_ATLAS.md) | ver los roles que describen los programas, por familia y función |
+| [🧭 Gestión de programas](docs/PROGRAM_MANAGEMENT.md) | aprender y operar la gestión del portafolio de programas |
 | [📚 Atlas canónico](docs/PROGRAM_ATLAS.md) | revisar las 15 integraciones que ya tienen ID y ficha técnica |
 | [🔎 Descubrimiento completo](catalog/REPOSITORY_DISCOVERY.md) | ver el corte de 128 repositorios públicos, incluidos candidatos, productos y forks |
 

@@ -1,5 +1,21 @@
 # Continuidad del trabajo
 
+## Checkpoint de roles y gestión de programas — 2026-11-24
+
+**Objetivo atendido:** aclarar de forma global los cargos y roles establecidos en los programas y proponer un esquema para aprender y operar la gestión de programas.
+
+**Archivos y fuentes revisados:** directorios e índices de roles de software, ciberseguridad, marketing, pedagogía, astronomía, arquitectura y bases de datos; READMEs de liderazgo y datos; documentos y mapas del maestro.
+
+**Decisiones:** las ocho familias son una taxonomía propia del maestro; los roles se enlazan y no se redefinen; «resuelto» significa descrito en origen, no verificado. La gestión se separa en aprender (Parte A) y operar el portafolio (Parte B).
+
+**Cambios:** `docs/ROLES_ATLAS.md`, `docs/PROGRAM_MANAGEMENT.md`, dos SVG, enlaces en README y centro documental, STATUS y CHANGELOG.
+
+**Verificación:** validador correcto (423 enlaces locales); 41 pruebas; portal vigente (102 documentos, 11 gráficos); DOM controlado correcto; revisión visual de ambos SVG.
+
+**Brechas:** no se leyó cada guía de rol; las equivalencias entre roles de programas distintos son candidatas; la ruta de gestión no se ha piloteado ni revisado por especialistas; los programas de liderazgo y datos no se leyeron más allá del README.
+
+**Siguiente acción concreta:** leer una guía por familia y verificar sus ejemplos de la matriz antes de afirmar equivalencias.
+
 ## Checkpoint de actualización de programas — 2026-11-24
 
 **Objetivo atendido:** actualizar la documentación del maestro respecto de los cambios en los programas de aprendizaje y usar programas que no estaban integrados.

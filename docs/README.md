@@ -3,12 +3,14 @@
 | Documento | Uso |
 | --- | --- |
 | [Campus federado](CAMPUS.md) | Seis áreas, repositorios reales, estados y entradas directas |
-| [Mallas y flujos nativos](NATIVE_LEARNING_FLOWS.md) | Treinta flujos declarados por sus repositorios fuente |
+| [Mallas y flujos nativos](NATIVE_LEARNING_FLOWS.md) | Treinta y un flujos declarados por sus repositorios fuente |
 | [Inicio en Windows](START_WINDOWS.md) | Extraer, abrir y trabajar en el equipo del usuario |
 | [Desarrollo](DEVELOPMENT.md) | Comandos, registros técnicos y reconstrucción |
 | [Mapas del ecosistema](ECOSYSTEM_MAP.md) | Campus, arquitectura, flujos y niveles de evidencia |
 | [La brújula de aprendizaje](LEARNING_SYSTEM.md) | Por qué existe, qué resuelve y hasta dónde llega la analogía universitaria |
 | [Rutas de aprendizaje](LEARNING_ROUTES.md) | Elegir un flujo real y justificar transiciones entre repositorios |
+| [Atlas de roles y cargos](ROLES_ATLAS.md) | Roles de los programas agrupados por familia y función |
+| [Gestión de programas](PROGRAM_MANAGEMENT.md) | Esquema para aprender y operar la gestión del portafolio |
 | [Atlas de programas](PROGRAM_ATLAS.md) | Análisis de las 15 integraciones, evidencia, vínculos y brechas |
 | [Arquitectura actual](CURRENT_ARCHITECTURE.md) | Componentes implementados, flujo real y límites comprobados |
 | [Automatización](AUTOMATION.md) | CI, seguridad, Pages y gate recomendado para `main` |

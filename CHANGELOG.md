@@ -4,6 +4,9 @@
 
 ### Añadido
 
+- [Atlas global de roles y cargos](docs/ROLES_ATLAS.md): 177 guías de ruta de siete programas agrupadas en ocho familias, con matriz por función, roles de nombre parecido y estado de resolución.
+- [Esquema de gestión de programas](docs/PROGRAM_MANAGEMENT.md): ruta de cinco etapas para aprender a gestionar programas y ciclo de siete pasos para operar el portafolio.
+- Dos mapas SVG nuevos (roles y gestión) y enlaces desde README y centro documental.
 - `PRG-ASTRO`: integración canónica del programa de astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial (2.077 clases declaradas, texto en nivel E0), con ficha, evidencia y atlas.
 - Astronomía como flujo nativo número 31 y como cuarta entrada del área «Arte, espacio y oficios».
 - Sección «Novedades del corte 2026-11-24» en el descubrimiento de repositorios, con `learning-path-datasets` y `spherex-releases` como candidatos de apoyo.
