@@ -1,8 +1,8 @@
 # Atlas canónico de programas, laboratorios y herramientas vinculadas
 
-Este atlas explica los **14 repositorios que ya tienen ID e integración canónica**. No es el atlas completo de la cuenta ni la puerta principal del ecosistema. Para consultar los 30 repositorios educativos revisados y sus rutas reales, abre [el campus](CAMPUS.md) y [los flujos nativos](NATIVE_LEARNING_FLOWS.md).
+Este atlas explica los **15 repositorios que ya tienen ID e integración canónica**. No es el atlas completo de la cuenta ni la puerta principal del ecosistema. Para consultar los 31 repositorios educativos revisados y sus rutas reales, abre [el campus](CAMPUS.md) y [los flujos nativos](NATIVE_LEARNING_FLOWS.md).
 
-Los conteos y estados siguientes son declaraciones observadas en README el 2026-10-05. No equivalen a una auditoría de todas las clases ni a eficacia educativa demostrada.
+Los conteos y estados siguientes son declaraciones observadas en README entre el 2026-10-05 y el 2026-11-24 (nueve programas y `PRG-ASTRO` se recuperaron completos en esta última fecha). No equivalen a una auditoría de todas las clases ni a eficacia educativa demostrada.
 
 ## Vista general
 
@@ -22,6 +22,7 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 | `PRG-MARKETING` | [marketing-sales-growth-evolution-program](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) | programa y herramienta | M-03 |
 | `PRG-LEADERSHIP` | [executive-leadership-founder-program](https://github.com/vladimiracunadev-create/executive-leadership-founder-program) | programa y herramienta | M-03, M-04 |
 | `PRG-DATA` | [python-data-science-program](https://github.com/vladimiracunadev-create/python-data-science-program) | programa y herramienta | M-04 |
+| `PRG-ASTRO` | [astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program) | programa | ninguna todavía |
 
 ## Formación escolar
 
@@ -29,8 +30,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** continuidad desde educación básica a media en lenguaje, matemática, ciencias, artes y ciudadanía.
 - **Uso en el maestro:** M-01 utiliza lectura, cantidades, comunicación y proyecto; M-05 utiliza investigación, creación y transmisión.
-- **Estado observado:** el fragmento revisado declara 8.841 clases disciplinares y 2.823 objetivos de aprendizaje; distingue OA, clases y experiencias transversales.
-- **Evidencia revisada:** 89 líneas iniciales del README. No se revisaron todas las clases y el propio programa declara revisión humana especializada pendiente.
+- **Estado observado:** el README declara 14.826 clases desarrolladas en total: 8.841 disciplinares en doce niveles, 1.680 de EPJA y otras capas; distingue OA, clases y experiencias transversales.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24. No se revisaron todas las clases y el propio programa declara revisión humana especializada pendiente.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/chilean-school-learning-path) · [ficha de integración](../integrations/prg-school.md) · [M-01](../curricula/M-01-continuidad-escolar.md) · [M-05](../curricula/M-05-memoria-espacio-cultural.md).
 - **Brecha:** seleccionar objetivos y unidades concretas para cada paso de M-01 y M-05.
 
@@ -49,8 +50,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** estudio de instrumentos, criterios, puntuación, evidencia y límites de interpretación.
 - **Uso en el maestro:** M-05 lo relaciona con el diseño y revisión de una actividad de transmisión.
-- **Estado observado:** el fragmento presenta 40 clases planificadas y declara cinco escritas, además de cinco instrumentos, 344 ítems y 81 escalas.
-- **Evidencia revisada:** 38 líneas iniciales del README. La existencia de tests o instrumentos no prueba validación psicométrica para una población.
+- **Estado observado:** el README declara 200 clases en 20 partes, 140 fichas y cinco instrumentos ejecutables con 344 ítems; solo algunas clases tienen el formato pedagógico completo.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24. La existencia de tests o instrumentos no prueba validación psicométrica para una población.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program) · [ficha](../integrations/prg-assess.md) · [M-05](../curricula/M-05-memoria-espacio-cultural.md).
 - **Brecha:** escoger contenido ya escrito y evitar referenciar como disponible lo que sigue planificado.
 
@@ -78,8 +79,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** historia, fundamentos, modelos, evaluación y usos de IA.
 - **Uso en el maestro:** M-02 lo vincula al análisis de una propuesta de IA frente a reglas y pruebas de software.
-- **Estado observado:** el fragmento revisado declara 183 clases, 15 partes, 148 papers y 705 notebooks.
-- **Evidencia revisada:** 38 líneas iniciales del README; no se auditaron papers, clases ni experimentos individuales.
+- **Estado observado:** el README declara 184 clases, 15 partes, 148 papers y 708 notebooks.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; no se auditaron papers, clases ni experimentos individuales.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program) · [ficha](../integrations/prg-ai.md) · [M-02](../curricula/M-02-ingreso-especialidad-software.md).
 - **Brecha:** revisar el estado actual del repositorio y seleccionar unidades de evaluación responsable de IA.
 
@@ -98,8 +99,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** análisis de problemas, diseño, construcción, pruebas, arquitectura, operación y evolución.
 - **Uso en el maestro:** es la especialidad central de M-02 y aporta prototipos a M-03 y M-04.
-- **Estado observado:** el README distingue 12 clases desarrolladas, material SE-013–SE-360 que requiere revisión cualitativa y enseñanza completa SE-361–SE-480 aún por desarrollar.
-- **Evidencia revisada:** 89 líneas iniciales del README. El atlas conserva esas diferencias y no trata 480 como clases terminadas.
+- **Estado observado:** el README declara 612 clases desarrolladas en 51 partes (SE-001–SE-612) y 47 rutas por rol, sin revisión editorial humana independiente.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24. El atlas conserva la salvedad: una clase publicada no es aprendizaje verificado.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/modern-software-engineering-program) · [ficha](../integrations/prg-software.md) · [M-02](../curricula/M-02-ingreso-especialidad-software.md) · [M-03](../curricula/M-03-reconversion-consultoria-tecnologica.md) · [M-04](../curricula/M-04-proyecto-comunitario-tecnologico.md).
 - **Brecha:** seleccionar unidades realmente desarrolladas para especificación, pruebas y operación.
 
@@ -107,8 +108,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** identificación de activos, riesgos, controles y verificación en entornos propios o autorizados.
 - **Uso en el maestro:** protege el producto de M-02, la demostración de M-03 y el prototipo de M-04.
-- **Estado observado:** el fragmento declara 360 clases en 20 partes, laboratorios, CTF y plataforma de práctica.
-- **Evidencia revisada:** 38 líneas iniciales del README; no se ejecutaron laboratorios ni se verificó su preparación.
+- **Estado observado:** el README declara 381 clases en 22 partes, laboratorios, rutas por rol y app offline.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; no se ejecutaron laboratorios ni se verificó su preparación.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) · [ficha](../integrations/prg-cyber.md) · [M-02](../curricula/M-02-ingreso-especialidad-software.md) · [M-03](../curricula/M-03-reconversion-consultoria-tecnologica.md) · [M-04](../curricula/M-04-proyecto-comunitario-tecnologico.md).
 - **Brecha:** identificar prácticas seguras y autorizadas que correspondan al alcance de cada prototipo.
 
@@ -118,8 +119,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** problema, propuesta de valor, recursos, operación, obligaciones y evolución de una empresa en Chile.
 - **Uso en el maestro:** estructura el servicio ficticio de M-03 y la operación del proyecto M-04.
-- **Estado observado:** el fragmento declara 336 clases en 24 partes, flujo maestro y documentación de estado.
-- **Evidencia revisada:** 37 líneas iniciales del README; no se verificó cada clase ni la vigencia de contenido normativo.
+- **Estado observado:** el README declara 336 clases en 24 partes y 6 etapas, con 61 fuentes citadas.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; no se verificó cada clase ni la vigencia de contenido normativo.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/modern-business-creation-program) · [ficha](../integrations/prg-business.md) · [M-03](../curricula/M-03-reconversion-consultoria-tecnologica.md) · [M-04](../curricula/M-04-proyecto-comunitario-tecnologico.md).
 - **Brecha:** seleccionar unidades de propuesta y operación y revalidar fuentes oficiales antes de uso real.
 
@@ -127,8 +128,8 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** presupuestos, contabilidad, alternativas económicas, pagos, banca y control.
 - **Uso en el maestro:** permite calcular y comparar alcances en M-03 y presupuestar alternativas en M-04.
-- **Estado observado:** el fragmento declara 356 clases en 23 partes, aplicaciones y manual.
-- **Evidencia revisada:** 38 líneas iniciales; no se ejecutaron aplicaciones ni se verificó normativa.
+- **Estado observado:** el README declara 356 clases en 23 partes y 534 horas, con aplicaciones y manual.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; no se ejecutaron aplicaciones ni se verificó normativa.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program) · [ficha](../integrations/prg-finance.md) · [M-03](../curricula/M-03-reconversion-consultoria-tecnologica.md) · [M-04](../curricula/M-04-proyecto-comunitario-tecnologico.md).
 - **Brecha:** escoger unidades de presupuesto y comparación apropiadas para casos educativos ficticios.
 
@@ -136,7 +137,7 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** investigación de necesidades, oferta, comunicación, ventas y medición comercial.
 - **Uso en el maestro:** M-03 lo usa para formular una oferta y comunicar un caso de portafolio.
-- **Estado observado:** el README completo declara 336 clases, 24 partes, 17 rutas por rol, laboratorios y Commercial Evidence Pack.
+- **Estado observado:** el README completo declara 336 clases, 24 partes, 17 rutas por rol, laboratorios y Commercial Evidence Pack (ampliación de 14 clases el 2026-10-13).
 - **Evidencia revisada:** README completo; clases y evaluaciones no auditadas individualmente.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) · [ficha](../integrations/prg-marketing.md) · [M-03](../curricula/M-03-reconversion-consultoria-tecnologica.md).
 - **Brecha:** seleccionar unidades de investigación y oferta que no conviertan la simulación en promesa comercial.
@@ -156,10 +157,19 @@ Los conteos y estados siguientes son declaraciones observadas en README el 2026-
 
 - **Qué aporta:** observación, representación, proyecto, ciudad, materiales, construcción, operación y ciclo de vida.
 - **Uso en el maestro:** M-04 representa un espacio comunitario; M-05 investiga y comunica memoria de un espacio cultural.
-- **Estado observado:** el fragmento declara 680 clases en 68 partes, 48 sesiones de taller y 12 rutas.
-- **Evidencia revisada:** 38 líneas iniciales; los informes de estado y auditoría enlazados no se leyeron en el corte canónico.
+- **Estado observado:** el README declara 840 clases en 84 partes, 60 sesiones de taller y 35 rutas.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; los informes de estado y auditoría enlazados no se leyeron.
 - **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) · [ficha](../integrations/prg-arch.md) · [M-04](../curricula/M-04-proyecto-comunitario-tecnologico.md) · [M-05](../curricula/M-05-memoria-espacio-cultural.md).
 - **Brecha:** verificar talleres y unidades de observación, representación y accesibilidad antes de referenciarlos.
+
+### `PRG-ASTRO` · Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+
+- **Qué aporta:** observación del cielo, matemática y física para el espacio, astrofísica, instrumentación, mecánica orbital, ingeniería de misiones y comunicación científica, en 12 áreas y 24 rutas profesionales.
+- **Uso en el maestro:** ninguna malla lo usa todavía; la ficha propone una actividad puente de observación con registro de incertidumbre.
+- **Estado observado:** el README completo declara 2.077 clases en 133 bloques, 10 talleres de misión y 23 simuladores; todo el texto está redactado en nivel E0, pendiente de revisión disciplinar.
+- **Evidencia revisada:** README completo recuperado el 2026-11-24; se comprobó con la API que nueve destinos enlazados existen, sin leerlos.
+- **Enlaces:** [repositorio](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program) · [ficha](../integrations/prg-astro.md).
+- **Brecha:** elegir un bloque inicial, leerlo y verificar su laboratorio antes de proponer una malla; el programa no habilita decisiones de vuelo, seguridad, médicas ni jurídicas.
 
 ## Aplicaciones y superficies de apoyo
 

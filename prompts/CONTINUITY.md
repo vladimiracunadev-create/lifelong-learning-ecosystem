@@ -1,5 +1,21 @@
 # Continuidad del trabajo
 
+## Checkpoint de actualización de programas — 2026-11-24
+
+**Objetivo atendido:** actualizar la documentación del maestro respecto de los cambios en los programas de aprendizaje y usar programas que no estaban integrados.
+
+**Archivos y fuentes revisados:** README completos de diez programas (API de GitHub), metadatos públicos de la cuenta, catálogo, evidencia, fichas, atlas, campus, flujos, descubrimiento, SVG y portal.
+
+**Decisiones:** nueve README cambiaron de SHA y se releyeron; astronomía se integra como `PRG-ASTRO` con competencias candidatas y sin malla; `learning-path-datasets` y `spherex-releases` quedan como candidatos; un repositorio privado observado no se registra. Se evita presentar la relación entre programas como comparación.
+
+**Cambios:** `programs.json`, `evidence.json`, 10 fichas de integración, atlas, campus, flujos, áreas, descubrimiento, README/portal, cuatro SVG y CHANGELOG/STATUS.
+
+**Verificación:** validador correcto (15 programas, 398 enlaces locales); 41 pruebas correctas; portal vigente (100 documentos, 9 gráficos); DOM controlado correcto; revisión visual del SVG de arte y espacio.
+
+**Brechas:** no se leyeron clases ni destinos enlazados; el resto de los SVG no se revisó visualmente; pedagogía, matemática y laboratorio neural conservan fragmentos de octubre; las cifras de candidatos no se releyeron; nada está publicado ni confirmado en CI.
+
+**Siguiente acción concreta:** revisar visualmente los demás SVG en el portal, releer los tres README pendientes y decidir si se integra `learning-path-datasets` como herramienta de apoyo.
+
 ## Checkpoint de cabeceras visuales por área — 2026-10-06
 
 **Objetivo atendido:** corregir la inconsistencia por la que Software tenía cabecera gráfica y las demás fichas no, y comprobar el patrón completo en las seis áreas.

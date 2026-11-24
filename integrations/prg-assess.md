@@ -1,6 +1,6 @@
 # Integración: Psicometría y Evaluación
 
-**ID estable:** `PRG-ASSESS` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-ASSESS` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/psychometrics-and-assessment-program](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program)
 
@@ -18,11 +18,11 @@ Las rúbricas formativas del maestro describen desempeños observables. No deben
 
 ## Estado realmente observado
 
-El fragmento del README presenta una planificación de 40 clases en ocho partes y declara cinco clases escritas. También anuncia cinco instrumentos y 344 ítems; su presencia o sus pruebas de software no demuestran validación psicométrica para una población o uso.
+El README completo declara 200 clases en 20 partes, 140 fichas de instrumentos y 5 instrumentos ejecutables con 344 ítems (216 de dominio público IPIP). Aclara que las clases existen pero solo algunas tienen el formato pedagógico completo y que las demás se reescriben. Su presencia o sus pruebas de software no demuestran validación psicométrica para una población o uso.
 
-**Alcance de la lectura:** Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `5e2f8f5ba3fcab7508f934cd6ebfa936b07d2032`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `d8d2e0fa2ec059f8e7cdfd5d2a48dd9f62966149`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La validez para usos y poblaciones concretos no se estableció mediante esta revisión. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Plan curricular](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/curriculum.yaml) | Enlace observado; destino sin leer |
 | [Clases](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/tree/main/classes/) | Enlace observado; destino sin leer |
 | [Instrumentos](https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/tree/main/instruments/) | Enlace observado; destino sin leer |

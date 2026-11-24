@@ -1,10 +1,10 @@
 # Estado de entrega — 0.1.0
 
-Fecha de revisión local: 2026-10-06.
+Fecha de revisión local: 2026-11-24 (cifras de programas actualizadas; versión inicial revisada el 2026-10-06).
 
 ## Entrega disponible
 
-Campus federado con **seis áreas documentadas**, **30 flujos nativos revisados**, **nueve mapas SVG**, **14 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **99 documentos Markdown** embebidos y herramientas locales.
+Campus federado con **seis áreas documentadas**, **31 flujos nativos revisados**, **nueve mapas SVG**, **15 integraciones canónicas**, **36 competencias y 216 descriptores**, **cinco mallas editoriales experimentales con 30 pasos**, **diez apoyos**, **tres rúbricas con 16 criterios**, **14 fichas de integración**, guía de primera infancia con **seis experiencias acompañadas**, **100 documentos Markdown** embebidos y herramientas locales.
 
 El lector index.html abre por el campus y los flujos reales; incorpora los nueve SVG de forma autocontenida, incluidas cabeceras propias para las seis áreas, además del catálogo, las mallas editoriales, los apoyos, las rúbricas y la documentación. Las clases externas siguen en sus repositorios. La API pública confirmó 68 repositorios —64 propios y 4 forks—; los candidatos no reciben automáticamente un ID canónico. Hay cuatro registros pendientes para derecho, psicología, libros y continuidad infantil completa.
 
@@ -19,13 +19,13 @@ El lector index.html abre por el campus y los flujos reales; incorpora los nueve
 | Enlaces de aprendizaje | 52 rutas directas a índices, clases, módulos, laboratorios y currículos confirmadas mediante la API de GitHub |
 | Lector | Generación determinística y comprobación de vigencia |
 | JavaScript | Sintaxis comprobada con Node |
-| DOM simulado | Siete secciones, 68 vistas de detalle, 99 documentos embebidos, campus, SVG local seguro, tablas, listas y escape de contenido |
+| DOM simulado | Siete secciones, 69 vistas de detalle, 100 documentos embebidos, campus, SVG local seguro, tablas, listas y escape de contenido |
 | Datos personales | private y exports excluidos de la generación y de la validación documental |
 | Exportación | M-03 exportada por CLI, con resultados personales sin evaluar |
 | Paquete | El empaquetador genera un ZIP con manifiesto SHA-256 y verifica su integridad y la copia extraída; el hash final se registra fuera del propio paquete para evitar autorreferencia |
 | Automatización | Tres workflows: calidad multi-entorno, CodeQL y Pages después de calidad; acciones fijadas a SHAs completos |
 | Arquitectura pública | Maestro, catálogo canónico, candidatos y propuestas futuras separados por evidencia y madurez |
-| Guía de aprendizaje | Campus de seis áreas, 30 flujos nativos, atlas de 14 integraciones y mapas con enlaces directos |
+| Guía de aprendizaje | Campus de seis áreas, 31 flujos nativos, atlas de 15 integraciones y mapas con enlaces directos |
 | Cabeceras de área | Las seis fichas poseen un SVG propio; revisión visual completa en el ancho real del portal |
 
 Ejecución local fresca: **Windows · Python 3.12.9 · Node 24.11.1**. Las pruebas usan biblioteca estándar de Python. La comprobación de DOM usa Node y está incluida en tests/check_portal_dom.cjs. La evidencia remota se registra en [RELEASE_EVIDENCE.md](RELEASE_EVIDENCE.md); no se considera verde hasta observar el resultado final asociado al commit publicado.

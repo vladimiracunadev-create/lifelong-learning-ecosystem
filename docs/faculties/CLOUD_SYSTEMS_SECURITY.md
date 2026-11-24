@@ -11,7 +11,7 @@ Esta área mezcla programas extensos y laboratorios acotados. La infraestructura
 | Propósito | Repositorio | Flujo existente |
 | --- | --- | --- |
 | formarse en ingeniería multicloud | [`multi-cloud-engineering-program`](https://github.com/vladimiracunadev-create/multi-cloud-engineering-program) | 288 clases, 24 partes, 288 labs y rutas profesionales |
-| recorrer ciberseguridad paso a paso | [`modern-cybersecurity-program`](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) | 360 clases, 20 partes, rutas y laboratorios |
+| recorrer ciberseguridad paso a paso | [`modern-cybersecurity-program`](https://github.com/vladimiracunadev-create/modern-cybersecurity-program) | 381 clases, 22 partes, rutas y laboratorios |
 | dominar virtualización Linux | [`qemu-kvm-labs`](https://github.com/vladimiracunadev-create/qemu-kvm-labs) | 12 labs progresivos y proyecto final |
 | practicar contenedores por stack | [`docker-labs`](https://github.com/vladimiracunadev-create/docker-labs) | colección de laboratorios Docker/Compose |
 | aprender AWS por proyectos | [`proyectos-aws`](https://github.com/vladimiracunadev-create/proyectos-aws) | casos en evolución |
@@ -29,7 +29,7 @@ Esta área mezcla programas extensos y laboratorios acotados. La infraestructura
 
 ## 🛡️ Ciberseguridad moderna
 
-**Estado:** EXISTENTE. Programa modular y secuencial de 360 clases en 20 partes.
+**Estado:** EXISTENTE. Programa modular y secuencial de 381 clases en 22 partes.
 
 - [Índice de clases](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/tree/main/classes)
 - [Rutas por rol](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/tree/main/rutas)

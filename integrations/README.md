@@ -2,7 +2,7 @@
 
 Estas fichas describen cómo seleccionar contenido existente y conectarlo a una trayectoria. Cada programa conserva sus unidades, identificadores, licencias y estados. El maestro mantiene el catálogo, las relaciones y las actividades puente originales.
 
-El [atlas de programas](../docs/PROGRAM_ATLAS.md) ofrece una lectura transversal de las 14 integraciones: aporte, uso en mallas, estado observado, evidencia revisada y brecha concreta.
+El [atlas de programas](../docs/PROGRAM_ATLAS.md) ofrece una lectura transversal de las 15 integraciones: aporte, uso en mallas, estado observado, evidencia revisada y brecha concreta.
 
 ## Fichas disponibles
 
@@ -22,10 +22,11 @@ El [atlas de programas](../docs/PROGRAM_ATLAS.md) ofrece una lectura transversal
 | `PRG-MARKETING` | [Marketing, Ventas y Crecimiento](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program) | programa_y_herramienta | [Ficha](prg-marketing.md) |
 | `PRG-LEADERSHIP` | [Liderazgo Ejecutivo y Creación de Empresas](https://github.com/vladimiracunadev-create/executive-leadership-founder-program) | programa_y_herramienta | [Ficha](prg-leadership.md) |
 | `PRG-DATA` | [Python y Ciencia de Datos](https://github.com/vladimiracunadev-create/python-data-science-program) | programa_y_herramienta | [Ficha](prg-data.md) |
+| `PRG-ASTRO` | [Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program) | programa | [Ficha](prg-astro.md) |
 
 ## Estado de esta versión
 
-Hay catorce fichas elaboradas a partir de README. Contienen un papel propuesto, límites, puntos de entrada observados, criterios para elegir unidades, objetivos candidatos, dependencias y una actividad puente original. No son catorce integraciones automáticas de todos los contenidos.
+Hay quince fichas elaboradas a partir de README. Contienen un papel propuesto, límites, puntos de entrada observados, criterios para elegir unidades, objetivos candidatos, dependencias y una actividad puente original. No son quince integraciones automáticas de todos los contenidos.
 
 Los enlaces de destino no se abrieron salvo donde lo indique el catálogo. Ninguna correspondencia de competencia equivale por sí sola a revisión pedagógica o a reconocimiento académico oficial.
 

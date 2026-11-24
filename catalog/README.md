@@ -2,7 +2,7 @@
 
 El catálogo permite localizar qué programa puede aportar a un objetivo y qué falta revisar antes de incorporarlo a una malla. La fuente canónica es [programs.json](programs.json); [pending.json](pending.json) conserva áreas conocidas cuya URL actual no se verificó.
 
-**Revisión:** 2026-10-05. **Cobertura canónica:** 14 repositorios integrados. Se leyeron once fragmentos iniciales de README y tres README completos; esta base no es una auditoría de todas sus clases ni un inventario exhaustivo de la cuenta. El [descubrimiento ampliado](REPOSITORY_DISCOVERY.md) registra otros repositorios sin incorporarlos automáticamente.
+**Revisión:** 2026-11-24 (cifras de nueve programas actualizadas y `PRG-ASTRO` incorporado). **Cobertura canónica:** 15 repositorios integrados. Hay 12 README recuperados completos (diez de ellos el 2026-11-24, con lectura enfocada en cifras, estado y enlaces) y tres fragmentos iniciales (pedagogía, matemática y laboratorio neural); esta base no es una auditoría de todas sus clases ni un inventario exhaustivo de la cuenta. El [descubrimiento ampliado](REPOSITORY_DISCOVERY.md) registra otros repositorios sin incorporarlos automáticamente.
 
 ## Integraciones canónicas
 

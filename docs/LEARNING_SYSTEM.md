@@ -40,10 +40,10 @@ La analogía termina allí. Este proyecto no matricula, no acredita, no entrega 
 
 ```mermaid
 flowchart TB
-    GH[68 repositorios públicos observados] --> DISC[Descubrimiento y clasificación]
+    GH[128 repositorios públicos observados] --> DISC[Descubrimiento y clasificación]
     DISC --> CAMPUS[Campus documental por áreas]
-    DISC --> FLOWS[30 flujos nativos revisados]
-    DISC --> CANON[14 integraciones canónicas]
+    DISC --> FLOWS[31 flujos nativos revisados]
+    DISC --> CANON[15 integraciones canónicas]
     FLOWS --> SOURCE[Clases · rutas · módulos · labs · apps en su repositorio]
     CANON --> INDEX[Índices técnicos JSON]
     CAMPUS --> MD[Contenido y análisis Markdown + SVG]
@@ -82,7 +82,7 @@ Un enlace en un README prueba que la fuente reconoce otro repositorio como parte
 
 1. leer el índice de ambos programas;
 2. seleccionar las unidades de salida y entrada;
-3. comparar sus objetivos y prerrequisitos;
+3. contrastar sus objetivos y prerrequisitos con tu meta;
 4. revisar la práctica y la evidencia;
 5. definir una tarea de transferencia;
 6. registrar la relación y su alcance.
@@ -92,10 +92,10 @@ Mientras falte esa revisión, el portal presenta el vínculo como navegación, n
 ## Qué puede hacer una persona hoy
 
 - elegir una de [seis áreas](CAMPUS.md#-áreas-del-campus);
-- comparar [30 flujos nativos](NATIVE_LEARNING_FLOWS.md);
+- usar los [31 flujos nativos](NATIVE_LEARNING_FLOWS.md);
 - abrir directamente la ruta, currículo, índice, laboratorio o app de un repositorio;
 - distinguir programas existentes, contenido en desarrollo y laboratorios experimentales;
-- revisar las 14 integraciones con ID en el [atlas](PROGRAM_ATLAS.md);
+- revisar las 15 integraciones con ID en el [atlas](PROGRAM_ATLAS.md);
 - utilizar apoyos y criterios editoriales sin confundirlos con acreditación;
 - descargar el portal y leerlo sin conexión.
 

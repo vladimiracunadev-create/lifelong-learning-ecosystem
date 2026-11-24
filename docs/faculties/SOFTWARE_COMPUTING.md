@@ -10,7 +10,7 @@ Esta área contiene seis repositorios revisados. No forman una carrera única: c
 
 | Necesidad | Repositorio | Flujo existente |
 | --- | --- | --- |
-| recorrer el ciclo completo de construir y operar software | [`modern-software-engineering-program`](https://github.com/vladimiracunadev-create/modern-software-engineering-program) | 480 clases, 40 partes, 8 etapas y rutas por rol |
+| recorrer el ciclo completo de construir y operar software | [`modern-software-engineering-program`](https://github.com/vladimiracunadev-create/modern-software-engineering-program) | 612 clases, 51 partes, 8 etapas y 47 rutas por rol |
 | comparar paradigmas y lenguajes | [`polyglot-programming-labs`](https://github.com/vladimiracunadev-create/polyglot-programming-labs) | 176 clases, 12 partes y rutas por perfil |
 | comparar frameworks con el mismo contrato | [`framework-ecosystems-labs`](https://github.com/vladimiracunadev-create/framework-ecosystems-labs) | 149 clases previstas; 70 construidas |
 | comprender motores y operación de datos | [`database-systems-labs`](https://github.com/vladimiracunadev-create/database-systems-labs) | 74 clases, 15 partes, base común y 7 rutas por rol |
@@ -19,7 +19,7 @@ Esta área contiene seis repositorios revisados. No forman una carrera única: c
 
 ## 🧱 Ingeniería de software moderna
 
-**Estado:** EXISTENTE. El README declara 480 clases en 40 partes y ocho etapas, desde fundamentos hasta producto, arquitectura, DevOps e IA.
+**Estado:** EXISTENTE. El README declara 612 clases desarrolladas en 51 partes y ocho etapas, desde fundamentos hasta producto, arquitectura, DevOps e IA, aún sin revisión editorial humana independiente.
 
 - **Entrada general:** [índice de clases](https://github.com/vladimiracunadev-create/modern-software-engineering-program/tree/main/classes).
 - **Entrada por objetivo profesional:** [rutas por rol](https://github.com/vladimiracunadev-create/modern-software-engineering-program/tree/main/roles).

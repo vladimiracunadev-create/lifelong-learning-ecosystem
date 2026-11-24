@@ -4,13 +4,14 @@
 
 ![Mapa de arte, espacio y oficios](../assets/arts-space-trades.svg)
 
-Esta área muestra la amplitud del ecosistema: una formación extensa en entorno construido, módulos técnicos por máquina y tres experiencias culturales guiadas por aplicaciones.
+Esta área muestra la amplitud del ecosistema (el 24 de noviembre de 2026 se sumó astronomía): una formación extensa en entorno construido, otra en ciencias espaciales, módulos técnicos por máquina y tres experiencias culturales guiadas por aplicaciones.
 
 ## 🧭 Mapa de elección
 
 | Propósito | Repositorio | Flujo existente |
 | --- | --- | --- |
-| estudiar arquitectura y entorno construido | [`architecture-built-environment-learning-program`](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) | 680 clases, 68 partes, 8 talleres y 12 rutas |
+| estudiar arquitectura y entorno construido | [`architecture-built-environment-learning-program`](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program) | 840 clases, 84 partes, 60 sesiones y 35 rutas |
+| estudiar astronomía, ciencias espaciales e ingeniería aeroespacial | [`astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program) | 2.077 clases, 12 áreas, 24 rutas y 10 talleres de misión |
 | comprender sistemas y seguridad de maquinaria | [`machine-operator-program`](https://github.com/vladimiracunadev-create/machine-operator-program) | 41 módulos y 451 clases |
 | iniciarse en guitarra | [`guitarra-adventure`](https://github.com/vladimiracunadev-create/guitarra-adventure) | 24 lecciones en 6 mundos |
 | iniciarse en violín | [`violin-adventure`](https://github.com/vladimiracunadev-create/violin-adventure) | 24 lecciones en 6 mundos |
@@ -25,6 +26,16 @@ Esta área muestra la amplitud del ecosistema: una formación extensa en entorno
 - [Talleres](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/tree/main/studios)
 - **Cadena declarada por clase:** necesidad → fundamento → fuente → prerrequisitos → contenido → actividad → evidencia → continuidad.
 - **Límite:** no procede de una carrera oficial ni declara acreditación profesional.
+
+## 🌌 Astronomía y ciencias espaciales
+
+**Estado:** EXISTENTE; el propio README declara el texto en nivel E0, redactado y pendiente de revisión disciplinar.
+
+- [Repositorio](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program)
+- [Mapa de rutas profesionales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/documentacion/MAPA_DE_RUTAS_PROFESIONALES.md)
+- [Talleres de misión](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/talleres/README.md) · [Simuladores](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/simuladores/README.md)
+- **Estructura declarada:** 12 áreas (A01–A12) → 133 bloques → 2.077 clases; los 24 roles son rutas que reordenan clases, no programas separados.
+- **Límite:** formación independiente; no otorga títulos ni habilita decisiones de vuelo, seguridad, médicas o jurídicas.
 
 ## 🕹️ Operación de maquinaria
 

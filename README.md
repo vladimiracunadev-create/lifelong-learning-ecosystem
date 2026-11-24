@@ -30,10 +30,10 @@ Puede pensarse como el **mapa de un campus federado**. Los repositorios especial
 | --- | --- |
 | [🌐 Portal público](https://vladimiracunadev-create.github.io/lifelong-learning-ecosystem/) | recorrer la edición actual desde el navegador |
 | [🏫 Campus federado](docs/CAMPUS.md) | elegir un área y llegar a repositorios reales |
-| [🛤️ 30 flujos nativos revisados](docs/NATIVE_LEARNING_FLOWS.md) | comparar rutas, secuencias, módulos, casos, labs y apps que las fuentes sí declaran |
+| [🛤️ 31 flujos nativos revisados](docs/NATIVE_LEARNING_FLOWS.md) | usar las rutas, secuencias, módulos, casos, labs y apps que las fuentes sí declaran |
 | [🗺️ Mapa de relaciones](docs/ECOSYSTEM_MAP.md) | entender arquitectura, evidencia y conexiones |
-| [📚 Atlas canónico](docs/PROGRAM_ATLAS.md) | revisar las 14 integraciones que ya tienen ID y ficha técnica |
-| [🔎 Descubrimiento completo](catalog/REPOSITORY_DISCOVERY.md) | ver el corte de 68 repositorios públicos, incluidos candidatos, productos y forks |
+| [📚 Atlas canónico](docs/PROGRAM_ATLAS.md) | revisar las 15 integraciones que ya tienen ID y ficha técnica |
+| [🔎 Descubrimiento completo](catalog/REPOSITORY_DISCOVERY.md) | ver el corte de 128 repositorios públicos, incluidos candidatos, productos y forks |
 
 El lector también funciona sin conexión: descarga el repositorio y abre [index.html](index.html). En Windows puedes ejecutar [ABRIR_PORTAL.cmd](ABRIR_PORTAL.cmd).
 
@@ -52,7 +52,7 @@ El lector también funciona sin conexión: descarga el repositorio y abre [index
 
 ![Seis tipos de flujo observados](docs/assets/tipos-de-flujo.svg)
 
-La revisión de 30 README educativos encontró seis formas reales de organizar el aprendizaje:
+La revisión de 31 README educativos encontró seis formas reales de organizar el aprendizaje:
 
 1. **Secuencias:** partes y clases en un orden declarado.
 2. **Rutas:** selecciones por rol, perfil, objetivo o especialidad.
@@ -72,7 +72,7 @@ El [mapa de flujos nativos](docs/NATIVE_LEARNING_FLOWS.md) enlaza directamente a
 - laboratorios progresivos de QEMU/KVM, pagos y otros sistemas;
 - academias de empresa, guitarra, violín y cueca.
 
-Estos números proceden de los README revisados el 6 de octubre de 2026. Son declaraciones de las fuentes y no sustituyen una auditoría de cada clase.
+Estos números proceden de los README revisados el 24 de noviembre de 2026. Son declaraciones de las fuentes y no sustituyen una auditoría de cada clase.
 
 ## 🔗 Cómo se conectan los repositorios
 
@@ -95,9 +95,9 @@ Varios README enlazan explícitamente otros repositorios del ecosistema. Esos en
 | Componente | Estado y alcance real |
 | --- | --- |
 | Campus documental | EXISTENTE · seis áreas con gráficos, fichas y enlaces directos |
-| Flujos nativos | EXISTENTE · 30 README revisados y clasificados por su forma de avance |
-| Descubrimiento | EXISTENTE · 68 repositorios públicos observados: 64 propios y 4 forks |
-| Integraciones canónicas | EXISTENTE · 14 repositorios con ID, procedencia y ficha |
+| Flujos nativos | EXISTENTE · 31 README revisados y clasificados por su forma de avance |
+| Descubrimiento | EXISTENTE · 128 repositorios públicos observados: 68 propios y 60 forks |
+| Integraciones canónicas | EXISTENTE · 15 repositorios con ID, procedencia y ficha |
 | Competencias | EXISTENTE como propuesta editorial · 36 competencias y seis niveles descriptivos |
 | Mallas `M-01`…`M-05` | EXPERIMENTALES · diseños iniciales opcionales, sin selección predeterminada |
 | Apoyos | EXISTENTES como guías · diez documentos transversales |
@@ -154,7 +154,7 @@ Los resultados reales y sus límites se registran en [quality/STATUS.md](quality
 
 ## 📌 Alcance de la revisión
 
-El corte actual confirma la existencia pública de 68 repositorios y revisa 30 README educativos para reconocer sus flujos. No se ejecutaron todas las apps, notebooks y clases. La auditoría por unidades y la validación pedagógica especializada siguen siendo necesarias para convertir conexiones candidatas en mallas federadas verificadas.
+El corte actual confirma la existencia pública de 128 repositorios y revisa 31 README educativos para reconocer sus flujos. No se ejecutaron todas las apps, notebooks y clases. La auditoría por unidades y la validación pedagógica especializada siguen siendo necesarias para convertir conexiones candidatas en mallas federadas verificadas.
 
 La [visión](VISION.md) explica el propósito humano; el [estado de entrega](quality/STATUS.md) registra los controles ejecutados; el [historial](CHANGELOG.md) conserva los cambios.
 

@@ -2,7 +2,7 @@
 
 ## Qué representa esta cobertura
 
-El inventario inicial reúne catorce repositorios identificados en lectura documental. Permite construir rutas de referencia y descubrir conexiones. No demuestra que estén integradas todas las clases ni que todas las áreas del aprendizaje humano estén cubiertas.
+El inventario inicial reúne quince repositorios identificados en lectura documental. Permite construir rutas de referencia y descubrir conexiones. No demuestra que estén integradas todas las clases ni que todas las áreas del aprendizaje humano estén cubiertas.
 
 | Dimensión | Base identificada | Trabajo pendiente para integrarla |
 | --- | --- | --- |

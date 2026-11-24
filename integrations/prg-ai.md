@@ -1,6 +1,6 @@
 # Integración: Evolución de la Inteligencia Artificial
 
-**ID estable:** `PRG-AI` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-AI` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/artificial-intelligence-evolution-program](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program)
 
@@ -18,11 +18,11 @@ El papel de la IA dentro del maestro es una propuesta de diseño: orientar con r
 
 ## Estado realmente observado
 
-El fragmento del README anuncia 183 clases en 15 partes, 148 papers y 705 notebooks. Se observaron rutas, glosario y bibliografía; los documentos y experimentos individuales no fueron auditados.
+El README completo declara 184 clases en 15 partes, 148 papers fundacionales, 708 notebooks (156 asociados a papers), bibliografía por clase y apps Windows/Android y PWA. Los documentos y experimentos individuales no fueron auditados.
 
-**Alcance de la lectura:** Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `49d4d842deb92e57f6991c4a973a210a7364e9b2`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `1592c0d6e33ad7e44aee0f9ca5a72518636b6f5a`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Ruta de aprendizaje](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/docs/LEARNING_PATH.md) | Enlace observado; destino sin leer |
 | [Clases](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/tree/main/classes/) | Enlace observado; destino sin leer |
 | [Papers fundacionales](https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/papers/README.md) | Enlace observado; destino sin leer |

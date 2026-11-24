@@ -4,7 +4,7 @@
 
 Este repositorio existe para **orientar dentro de los programas, laboratorios y aplicaciones educativas que ya existen** en la cuenta pública [`vladimiracunadev-create`](https://github.com/vladimiracunadev-create). No reemplaza sus clases ni transforma toda relación temática en un prerrequisito. Su trabajo es mostrar qué hay, cómo se recorre en su fuente, qué vínculos declara y qué falta revisar.
 
-La comparación con un campus ayuda a navegar:
+La analogía con un campus ayuda a navegar:
 
 - cada **repositorio especializado** conserva sus clases, laboratorios, apps, fuentes, licencia y forma de avance;
 - cada **área** reúne repositorios que comparten un campo, sin afirmar equivalencia entre ellos;
@@ -18,7 +18,7 @@ No es una universidad acreditada y no entrega matrícula, créditos, títulos ni
 | Si buscas… | Empieza aquí | Qué encontrarás |
 | --- | --- | --- |
 | un área completa | una de las seis áreas de abajo | programas, laboratorios, apps y entradas directas |
-| una secuencia ya definida | [flujos nativos](NATIVE_LEARNING_FLOWS.md) | rutas que existen dentro de 30 repositorios revisados |
+| una secuencia ya definida | [flujos nativos](NATIVE_LEARNING_FLOWS.md) | rutas que existen dentro de 31 repositorios revisados |
 | clases y profundidad disciplinar | el repositorio fuente | su índice, partes, módulos, prácticas y evaluación |
 | una conexión entre repositorios | [vínculos explícitos](NATIVE_LEARNING_FLOWS.md#-vínculos-entre-repositorios-que-sí-están-declarados) | enlaces publicados por los propios programas, con su alcance |
 | criterios para aceptar una relación | [niveles de evidencia](#-cómo-se-acepta-una-conexión) | diferencia entre metadato, README, índice, unidad y relación verificada |
@@ -28,7 +28,7 @@ No es una universidad acreditada y no entrega matrícula, créditos, títulos ni
 
 ### 💻 [Software y computación](faculties/SOFTWARE_COMPUTING.md)
 
-Ingeniería de software, lenguajes, frameworks, bases de datos, videojuegos y resolución de problemas de sistemas. Incluye secuencias de **74 a 480 clases**, rutas por rol y laboratorios ejecutables.
+Ingeniería de software, lenguajes, frameworks, bases de datos, videojuegos y resolución de problemas de sistemas. Incluye secuencias de **74 a 612 clases**, rutas por rol y laboratorios ejecutables.
 
 Repositorios principales: [`modern-software-engineering-program`](https://github.com/vladimiracunadev-create/modern-software-engineering-program), [`polyglot-programming-labs`](https://github.com/vladimiracunadev-create/polyglot-programming-labs), [`framework-ecosystems-labs`](https://github.com/vladimiracunadev-create/framework-ecosystems-labs), [`database-systems-labs`](https://github.com/vladimiracunadev-create/database-systems-labs), [`modern-gamedev-program`](https://github.com/vladimiracunadev-create/modern-gamedev-program) y [`problem-driven-systems-lab`](https://github.com/vladimiracunadev-create/problem-driven-systems-lab).
 
@@ -58,15 +58,15 @@ Repositorios principales: [`chilean-school-learning-path`](https://github.com/vl
 
 ### 🎨 [Arte, espacio y oficios](faculties/ARTS_SPACE_TRADES.md)
 
-Arquitectura y entorno construido, operación de maquinaria, guitarra, violín y cueca. Los flujos van desde 680 clases y 12 rutas hasta experiencias breves guiadas por mundos, niveles y habilidades.
+Arquitectura y entorno construido, astronomía y ciencias espaciales, operación de maquinaria, guitarra, violín y cueca. Los flujos van desde 2.077 clases y 24 rutas profesionales hasta experiencias breves guiadas por mundos, niveles y habilidades.
 
-Repositorios principales: [`architecture-built-environment-learning-program`](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program), [`machine-operator-program`](https://github.com/vladimiracunadev-create/machine-operator-program), [`guitarra-adventure`](https://github.com/vladimiracunadev-create/guitarra-adventure), [`violin-adventure`](https://github.com/vladimiracunadev-create/violin-adventure) y [`panuelo-al-viento-cueca-app`](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app).
+Repositorios principales: [`architecture-built-environment-learning-program`](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program), [`astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program), [`machine-operator-program`](https://github.com/vladimiracunadev-create/machine-operator-program), [`guitarra-adventure`](https://github.com/vladimiracunadev-create/guitarra-adventure), [`violin-adventure`](https://github.com/vladimiracunadev-create/violin-adventure) y [`panuelo-al-viento-cueca-app`](https://github.com/vladimiracunadev-create/panuelo-al-viento-cueca-app).
 
 ## 🛤️ Qué significa “malla” en este ecosistema
 
 ![Tipos de flujo existentes](assets/tipos-de-flujo.svg)
 
-La cuenta no usa una sola forma de organizar el aprendizaje. En la revisión de 30 README aparecen seis estructuras reales:
+La cuenta no usa una sola forma de organizar el aprendizaje. En la revisión de 31 README aparecen seis estructuras reales:
 
 1. **Secuencia:** partes y clases numeradas que la fuente pide recorrer en orden.
 2. **Ruta:** selección por rol, perfil, objetivo o especialidad dentro de un programa.
@@ -89,13 +89,13 @@ Por eso este maestro presenta primero los **flujos nativos**. Las cinco mallas `
 | 4 · unidad | clase, práctica, laboratorio y criterios | correspondencia candidata con resultados concretos |
 | 5 · relación verificada | unidades de ambos lados y transferencia | prerrequisito o continuidad defendible y revisada |
 
-La revisión actual llega a README en los 30 repositorios del [mapa de flujos](NATIVE_LEARNING_FLOWS.md), a índices en una parte de ellos y a unidad solo en integraciones puntuales. Por eso los vínculos temáticos se muestran como navegación y no como equivalencias académicas.
+La revisión actual llega a README en los 31 repositorios del [mapa de flujos](NATIVE_LEARNING_FLOWS.md), a índices en una parte de ellos y a unidad solo en integraciones puntuales. Por eso los vínculos temáticos se muestran como navegación y no como equivalencias académicas.
 
 ## 📌 Alcance actual
 
-- **68 repositorios públicos observados:** 64 propios y 4 forks, según la API pública de GitHub el 6 de octubre de 2026.
-- **30 README educativos revisados** en este bloque para identificar su flujo nativo.
-- **14 integraciones canónicas** con IDs técnicos, competencias y fichas ya incorporadas.
+- **128 repositorios públicos observados:** 64 propios y 4 forks, según la API pública de GitHub el 24 de noviembre de 2026.
+- **31 README educativos revisados** en este bloque para identificar su flujo nativo.
+- **15 integraciones canónicas** con IDs técnicos, competencias y fichas ya incorporadas.
 - **16 repositorios educativos adicionales** documentados sin asignarles automáticamente un ID canónico.
 - **5 mallas editoriales iniciales** conservadas como experimentales y opcionales.
 

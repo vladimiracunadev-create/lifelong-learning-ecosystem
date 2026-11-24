@@ -1,6 +1,6 @@
 # Integración: Trayectoria Escolar Chile
 
-**ID estable:** `PRG-SCHOOL` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-SCHOOL` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/chilean-school-learning-path](https://github.com/vladimiracunadev-create/chilean-school-learning-path)
 
@@ -18,11 +18,11 @@ El alcance observado comienza en 1° básico. La formación parvularia dirigida 
 
 ## Estado realmente observado
 
-El fragmento del README declara desarrollo pedagógico interno de 1° básico a 4° medio, 8.841 clases disciplinares y revisión humana especializada pendiente. Distingue OA, clases y experiencias transversales; estas unidades no se suman como si fueran clases equivalentes.
+El README completo declara 14.826 clases desarrolladas en total. Dentro de ellas, los doce niveles de 1° básico a 4° medio suman 8.841 clases disciplinares (por ejemplo 691 en 1° básico y 466 en 4° medio) y la EPJA publica 1.680 clases en 17 asignaturas; la descripción del repositorio añade integraciones, OA, electivos y especialidades técnico-profesionales. La revisión humana especializada sigue pendiente. Distingue OA, clases y experiencias transversales; estas unidades no se suman como si fueran equivalentes.
 
-**Alcance de la lectura:** Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `14d40e9c5ca6a9795c0075afa2e699736117371b`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `c7c48333ad8854817a9839fb4541e3ba8adf6654`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** El README declara explícitamente pendiente la revisión humana especializada. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Mapa curricular](https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/CURRICULUM.md) | Enlace observado; destino sin leer |
 | [Inicio de básica](https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/1-basico/README.md) | Enlace observado; destino sin leer |
 | [Transición al cierre de básica](https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/docs/8-basico/README.md) | Enlace observado; destino sin leer |

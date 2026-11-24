@@ -1,6 +1,6 @@
 # Integración: Finanzas y Evolución Bancaria
 
-**ID estable:** `PRG-FINANCE` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-FINANCE` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/finance-and-banking-evolution-program](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 
@@ -18,11 +18,11 @@ La integración usa presupuestos y escenarios educativos con datos ficticios. El
 
 ## Estado realmente observado
 
-El fragmento del README anuncia 356 clases en 23 partes y enlaces a aplicaciones y manual. Se revisó la presentación inicial; no se ejecutaron aplicaciones, no se contaron clases y no se verificó normativa de sus módulos.
+El README completo declara 356 clases en 23 partes y 5 etapas, 534 horas, glosario de 2.232 conceptos, manual consolidado y aplicaciones (portal y APK). Afirma que todas las partes están construidas y que la integración continua comprueba estructura y enlaces; no se ejecutaron aplicaciones ni se verificó normativa.
 
-**Alcance de la lectura:** Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `e0b63baed6f867abde77ab1cc336135225916889`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `06e2acfc4b511c503fc04fd7a028435cbf1c4ad9`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Índice de clases](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/SYLLABUS.md) | Enlace observado; destino sin leer |
 | [Ruta de aprendizaje](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/docs/ruta-aprendizaje.md) | Enlace observado; destino sin leer |
 | [Glosario maestro](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/docs/glosario-maestro.md) | Enlace observado; destino sin leer |

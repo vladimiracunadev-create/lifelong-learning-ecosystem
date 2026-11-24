@@ -9,7 +9,7 @@ La guía [Rutas de aprendizaje](../docs/LEARNING_ROUTES.md) explica cómo elegir
 | Necesidad actual | Recurso de entrada |
 | --- | --- |
 | Explorar por área y abrir un repositorio real | [Campus federado](../docs/CAMPUS.md) |
-| Comparar secuencias, rutas, módulos, laboratorios y apps existentes | [30 flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md) |
+| Usar secuencias, rutas, módulos, laboratorios y apps existentes | [31 flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md) |
 | Elegir qué estudiar o retomar después de una pausa | [Elegir y retomar](elegir-y-retomar.md) |
 | Comprender cómo se combinan etapa, dominio y propósito | [Matriz de los tres ejes](matriz-tres-ejes.md) |
 | Organizar una combinación personal con evidencias | [Plantilla de malla personal](plantilla-malla-personal.md) |
@@ -20,7 +20,7 @@ La guía [Rutas de aprendizaje](../docs/LEARNING_ROUTES.md) explica cómo elegir
 
 - Elige primero un área y revisa el flujo declarado por el repositorio fuente.
 - Usa una ruta por rol o perfil cuando la fuente la publique; no fabriques una por semejanza de títulos.
-- Si el repositorio ofrece secuencia y rutas, compara el perfil de entrada antes de elegir.
+- Si el repositorio ofrece secuencia y rutas, revisa el perfil de entrada antes de elegir.
 - En laboratorios por casos, comprueba si existe un orden o si cada caso es independiente.
 - Para primera infancia, usa el recurso acompañado y las fuentes dirigidas al niño; una ruta para docentes no se convierte automáticamente en currículo infantil.
 - Consulta M-01…M-05 solo si necesitas revisar sus actividades puente editoriales; ninguna es obligatoria ni predeterminada.

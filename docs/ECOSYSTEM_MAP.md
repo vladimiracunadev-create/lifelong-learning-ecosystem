@@ -12,10 +12,10 @@ Las áreas permiten orientarse; no sustituyen la estructura de cada repositorio.
 
 ```mermaid
 flowchart TB
-    GH[Cuenta pública<br/>68 repositorios observados] --> D[Descubrimiento verificable]
+    GH[Cuenta pública<br/>128 repositorios observados] --> D[Descubrimiento verificable]
     D --> C[Campus Markdown<br/>6 áreas]
-    D --> F[30 flujos nativos<br/>README revisado]
-    D --> K[14 integraciones canónicas<br/>IDs y fichas]
+    D --> F[31 flujos nativos<br/>README revisado]
+    D --> K[15 integraciones canónicas<br/>IDs y fichas]
     D --> O[Otros productos y herramientas<br/>sin clasificación educativa suficiente]
 
     C --> DOC[Documentación humana<br/>Markdown + SVG]
@@ -31,9 +31,9 @@ flowchart TB
 ### Enlaces de la arquitectura
 
 - [Campus humano](CAMPUS.md)
-- [30 flujos nativos](NATIVE_LEARNING_FLOWS.md)
-- [14 integraciones canónicas](PROGRAM_ATLAS.md)
-- [68 repositorios observados](../catalog/REPOSITORY_DISCOVERY.md)
+- [31 flujos nativos](NATIVE_LEARNING_FLOWS.md)
+- [15 integraciones canónicas](PROGRAM_ATLAS.md)
+- [128 repositorios observados](../catalog/REPOSITORY_DISCOVERY.md)
 - [Arquitectura implementada](CURRENT_ARCHITECTURE.md)
 - [Componentes propuestos, todavía no implementados](../PROPOSED_COMPONENTS.md)
 

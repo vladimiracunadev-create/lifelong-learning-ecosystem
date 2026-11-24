@@ -4,7 +4,7 @@ El archivo `index.html`, en la raíz del repositorio, es un lector autocontenido
 
 ## Qué permite
 
-- Abrir el campus por seis áreas y consultar 30 flujos nativos documentados con enlaces directos.
+- Abrir el campus por seis áreas y consultar 31 flujos nativos documentados con enlaces directos.
 - Ver mapas SVG del ecosistema dentro de la documentación, incluso sin conexión.
 - Revisar por separado las cinco mallas editoriales experimentales y sus límites.
 - Consultar programas identificados, el alcance de su revisión y sus puntos de entrada.

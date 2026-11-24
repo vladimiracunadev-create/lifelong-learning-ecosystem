@@ -43,7 +43,7 @@
 
     <line x1="26" y1="145" x2="324" y2="145" stroke="#e2edf3"/>
     <text class="repo" x="26" y="181">Ciberseguridad moderna</text>
-    <text class="meta" x="26" y="205">360 clases · rutas · laboratorios</text>
+    <text class="meta" x="26" y="205">381 clases · 22 partes · laboratorios</text>
     <rect class="existing" x="244" y="166" width="82" height="25" rx="12"/><text class="pill existing-text" x="285" y="183">EXISTENTE</text>
 
     <rect x="24" y="238" width="302" height="44" rx="12" fill="#edf6fb"/>

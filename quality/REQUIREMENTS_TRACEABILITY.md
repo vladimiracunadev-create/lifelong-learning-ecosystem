@@ -18,7 +18,7 @@ Crear un ZIP descargable del repositorio maestro propuesto con todo lo indicado:
 | Recursos de apoyo | support/resources.json y guías | Diez desarrollados |
 | Evaluación y portafolio | assessment y examples | Tres rúbricas y ejemplos ficticios |
 | Primera infancia | pathways | Experiencias acompañadas; malla completa pendiente de auditoría |
-| Integración federada | integrations y política | 14 fichas; mapeo por unidad pendiente |
+| Integración federada | integrations y política | 15 fichas; mapeo por unidad pendiente |
 | Fuentes y versiones | sources/evidence.json | Fuentes, fechas, SHA y alcance |
 | Estados reales | catálogo, readiness y quality | Diferenciados |
 | Repositorios de apoyo nuevos | docs/SUPPORT_REPOSITORIES.md | Criterios para reutilizar o crear |

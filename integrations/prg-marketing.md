@@ -1,6 +1,6 @@
 # Integración: Marketing, Ventas y Crecimiento
 
-**ID estable:** `PRG-MARKETING` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-MARKETING` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/marketing-sales-growth-evolution-program](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program)
 
@@ -18,11 +18,11 @@ El caso de empresa y los escenarios del programa son materiales educativos. Una 
 
 ## Estado realmente observado
 
-El README completo declara 336 clases en 24 partes, 17 rutas por rol, laboratorios y un Commercial Evidence Pack. Se leyeron sus descripciones y enlaces; las clases, evaluaciones y cifras declaradas no se auditaron individualmente.
+El README completo declara 336 clases en 24 partes, 17 rutas por rol, laboratorios y un Commercial Evidence Pack, con una ampliación de 14 clases estratégicas del 13 de octubre de 2026. Las clases, evaluaciones y cifras declaradas no se auditaron individualmente.
 
-**Alcance de la lectura:** README completo recuperado mediante conector GitHub; análisis documental sin abrir sus unidades ni ejecutar herramientas.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `7fb62dda0f150370785f176943d1474d45741f44`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `56ae980803b1fdc276055af280068d35d3644b60`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md) | Leído completo |
+| [README del programa](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Índice de clases](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/curriculum/README.md) | Enlace observado; destino sin leer |
 | [Rutas por rol](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/rutas/README.md) | Enlace observado; destino sin leer |
 | [Investigación de mercado](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/README.md) | Enlace observado; destino sin leer |

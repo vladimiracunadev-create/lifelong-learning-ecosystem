@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "reviewed_on": "2026-10-05",
-  "scope_note": "Inventario inicial de 14 repositorios identificados y leídos a nivel de README (11 fragmentos iniciales y 3 completos). No es un inventario exhaustivo de la cuenta ni una auditoría de clases. Roles, públicos y correspondencias de competencias son propuestas de integración; los estados declarados se atribuyen a cada README.",
+  "reviewed_on": "2026-11-24",
+  "scope_note": "Inventario de 15 repositorios identificados y leídos a nivel de README. En la revisión del 2026-11-24 se recuperaron completos los README de diez programas (nueve actualizados y el nuevo PRG-ASTRO); la lectura se centró en cifras, estado y enlaces. No es un inventario exhaustivo de la cuenta ni una auditoría de clases. Roles, públicos y correspondencias de competencias son propuestas de integración; los estados declarados se atribuyen a cada README.",
   "programs": [
     {
       "id": "PRG-SCHOOL",
@@ -26,18 +26,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md",
-        "content_sha": "14d40e9c5ca6a9795c0075afa2e699736117371b",
-        "scope": "Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento del README declara desarrollo pedagógico interno de 1° básico a 4° medio, 8.841 clases disciplinares y revisión humana especializada pendiente. Distingue OA, clases y experiencias transversales; estas unidades no se suman como si fueran clases equivalentes.",
+        "content_sha": "c7c48333ad8854817a9839fb4541e3ba8adf6654",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 14.826 clases desarrolladas en total. Dentro de ellas, los doce niveles de 1° básico a 4° medio suman 8.841 clases disciplinares (por ejemplo 691 en 1° básico y 466 en 4° medio) y la EPJA publica 1.680 clases en 17 asignaturas; la descripción del repositorio añade integraciones, OA, electivos y especialidades técnico-profesionales. La revisión humana especializada sigue pendiente. Distingue OA, clases y experiencias transversales; estas unidades no se suman como si fueran equivalentes.",
         "human_validation": "El README declara explícitamente pendiente la revisión humana especializada. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/chilean-school-learning-path/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Mapa curricular",
@@ -268,18 +268,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md",
-        "content_sha": "2b7a3a854f1713f152af9c31fb343280120855d8",
-        "scope": "Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El README describe una arquitectura de 480 clases: SE-001–SE-012 desarrolladas; SE-013–SE-360 con material que requiere revisión cualitativa; SE-361–SE-480 con enseñanza completa aún por desarrollar. El catálogo mantiene estas diferencias y no cuenta 480 clases como terminadas.",
-        "human_validation": "El README exige revisión cualitativa del material en partes 01–29 y desarrollo de partes 30–39. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+        "content_sha": "dfb92906c6da63ce539843e05002c5b6684b447b",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README declara 612 clases desarrolladas en 51 partes (SE-001–SE-612), 47 rutas profesionales y 16 casos de estudio, con publicación del texto íntegro, figuras y experimentos. Afirma que todavía no pasaron una revisión editorial humana independiente y que una carpeta generada no cuenta como aprendizaje terminado. Sustituye la arquitectura anterior de 480 clases con partes pendientes.",
+        "human_validation": "El README declara que las 612 clases aún no pasaron revisión editorial humana independiente. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Índice de clases",
@@ -340,18 +340,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md",
-        "content_sha": "e450ac199e26be61f881204d9e78916962303de1",
-        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento del README declara 680 clases redactadas en 68 partes, 48 sesiones de taller y 12 rutas. Enlaza informes de estado y auditoría que no se leyeron en esta revisión. No se certifican clases, talleres ni ejercicio profesional.",
+        "content_sha": "db33dc24bf6175d3d8577b9a2846832c267c3484",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 840 clases redactadas (ARQ-001 a ARQ-840) en 84 partes, 60 sesiones de taller y 35 rutas, y reconoce brechas: de 2.449 relaciones clase–fuente, 1.396 declaran función, alcance, límite y fecha, y 1.053 requieren completar algún campo. No se certifican clases, talleres ni ejercicio profesional.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Índice de clases",
@@ -422,18 +422,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md",
-        "content_sha": "e0b63baed6f867abde77ab1cc336135225916889",
-        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento del README anuncia 356 clases en 23 partes y enlaces a aplicaciones y manual. Se revisó la presentación inicial; no se ejecutaron aplicaciones, no se contaron clases y no se verificó normativa de sus módulos.",
+        "content_sha": "06e2acfc4b511c503fc04fd7a028435cbf1c4ad9",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 356 clases en 23 partes y 5 etapas, 534 horas, glosario de 2.232 conceptos, manual consolidado y aplicaciones (portal y APK). Afirma que todas las partes están construidas y que la integración continua comprueba estructura y enlaces; no se ejecutaron aplicaciones ni se verificó normativa.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Índice de clases",
@@ -497,18 +497,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md",
-        "content_sha": "ceaeb71f12e90c23af8f5ebb321726ffabff8879",
-        "scope": "Fragmento inicial del README (37 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento inicial del README presenta 336 clases en 24 partes, un flujo maestro y un archivo STATUS.md. El estado de cada clase y la vigencia de su contenido normativo no fueron comprobados.",
+        "content_sha": "1100c56656b7a0c29621d63f54478974c9108743",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 336 clases en 24 partes y 6 etapas, generadas desde manifiesto, con 61 fuentes citadas. El estado de cada clase y la vigencia de su contenido normativo no fueron comprobados.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Currículo",
@@ -567,18 +567,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md",
-        "content_sha": "c43f459cd2261c2d2ce6a17f50ddeae855a00a3c",
-        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento inicial del README anuncia 360 clases en 20 partes y laboratorios. Se observaron enlaces a índice, prácticas, glosario y reglas de uso; no se ejecutaron laboratorios ni se verificó su preparación.",
+        "content_sha": "13d186f32be6ff24bd30d711d5af8830acd73aea",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 381 clases numeradas en 22 partes (0–21), con laboratorios, rutas por rol, manual y app offline. No se ejecutaron laboratorios ni se verificó su preparación.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Índice de clases",
@@ -637,18 +637,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md",
-        "content_sha": "49d4d842deb92e57f6991c4a973a210a7364e9b2",
-        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento del README anuncia 183 clases en 15 partes, 148 papers y 705 notebooks. Se observaron rutas, glosario y bibliografía; los documentos y experimentos individuales no fueron auditados.",
+        "content_sha": "1592c0d6e33ad7e44aee0f9ca5a72518636b6f5a",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 184 clases en 15 partes, 148 papers fundacionales, 708 notebooks (156 asociados a papers), bibliografía por clase y apps Windows/Android y PWA. Los documentos y experimentos individuales no fueron auditados.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/artificial-intelligence-evolution-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Ruta de aprendizaje",
@@ -787,18 +787,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md",
-        "content_sha": "5e2f8f5ba3fcab7508f934cd6ebfa936b07d2032",
-        "scope": "Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.",
-        "declared_content_status": "El fragmento del README presenta una planificación de 40 clases en ocho partes y declara cinco clases escritas. También anuncia cinco instrumentos y 344 ítems; su presencia o sus pruebas de software no demuestran validación psicométrica para una población o uso.",
+        "content_sha": "d8d2e0fa2ec059f8e7cdfd5d2a48dd9f62966149",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 200 clases en 20 partes, 140 fichas de instrumentos y 5 instrumentos ejecutables con 344 ítems (216 de dominio público IPIP). Aclara que las clases existen pero solo algunas tienen el formato pedagógico completo y que las demás se reescriben. Su presencia o sus pruebas de software no demuestran validación psicométrica para una población o uso.",
         "human_validation": "La validez para usos y poblaciones concretos no se estableció mediante esta revisión. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/psychometrics-and-assessment-program/blob/main/README.md",
-          "verification": "recurso_leido_parcialmente"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Plan curricular",
@@ -861,18 +861,18 @@
       ],
       "review": {
         "status": "readme_revisado",
-        "reviewed_on": "2026-10-05",
+        "reviewed_on": "2026-11-24",
         "source_url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md",
-        "content_sha": "7fb62dda0f150370785f176943d1474d45741f44",
-        "scope": "README completo recuperado mediante conector GitHub; análisis documental sin abrir sus unidades ni ejecutar herramientas.",
-        "declared_content_status": "El README completo declara 336 clases en 24 partes, 17 rutas por rol, laboratorios y un Commercial Evidence Pack. Se leyeron sus descripciones y enlaces; las clases, evaluaciones y cifras declaradas no se auditaron individualmente.",
+        "content_sha": "56ae980803b1fdc276055af280068d35d3644b60",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.",
+        "declared_content_status": "El README completo declara 336 clases en 24 partes, 17 rutas por rol, laboratorios y un Commercial Evidence Pack, con una ampliación de 14 clases estratégicas del 13 de octubre de 2026. Las clases, evaluaciones y cifras declaradas no se auditaron individualmente.",
         "human_validation": "La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
       },
       "entry_points": [
         {
           "label": "README del programa",
           "url": "https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/README.md",
-          "verification": "recurso_leido"
+          "verification": "recurso_leido_completo_enfocado"
         },
         {
           "label": "Índice de clases",
@@ -1090,6 +1090,92 @@
       ],
       "license_note": "El README anuncia MIT. Verificar las licencias de cada dato, obra, biblioteca y material antes de reproducirlo o incorporarlo a una aplicación.",
       "integration_doc": "integrations/prg-data.md"
+    },
+    {
+      "id": "PRG-ASTRO",
+      "name": "Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial",
+      "repository": "vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
+      "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
+      "description": "Conecta observación del cielo, matemática y física con modelos, simulación, ingeniería de misiones y comunicación científica.",
+      "role": "programa",
+      "domains": [
+        "astronomía",
+        "astrofísica",
+        "ciencias espaciales",
+        "ingeniería aeroespacial"
+      ],
+      "audiences": [
+        "personas curiosas por el cielo",
+        "estudiantes de ciencias e ingeniería",
+        "formadores y divulgadores científicos"
+      ],
+      "review": {
+        "status": "readme_revisado",
+        "reviewed_on": "2026-11-24",
+        "source_url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/README.md",
+        "content_sha": "1f6e78274877c06a39acc68d89ef95ba8a971c70",
+        "scope": "README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de áreas y bloques y enlaces. La existencia de nueve destinos enlazados se comprobó con la API; sus contenidos no se leyeron.",
+        "declared_content_status": "El README completo declara 2.077 clases en 133 bloques y 12 áreas (A01–A12), 24 rutas profesionales que reutilizan las mismas clases, 10 talleres de misión, 23 simuladores del Sistema Solar con datos de NASA/JPL, 20 anexos, un glosario de 8.702 términos, apps Windows y Android y PDF. Todo el texto está redactado y en nivel editorial E0, pendiente de revisión disciplinar y de aprobación del autor; no otorga títulos ni habilita decisiones de vuelo, seguridad, médicas o jurídicas.",
+        "human_validation": "El README declara el nivel E0: texto redactado, pendiente de revisión disciplinar. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje."
+      },
+      "entry_points": [
+        {
+          "label": "README del programa",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/README.md",
+          "verification": "recurso_leido_completo_enfocado"
+        },
+        {
+          "label": "Programa académico completo",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/PROGRAMA_ACADEMICO_COMPLETO.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Mapa de rutas profesionales",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/documentacion/MAPA_DE_RUTAS_PROFESIONALES.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Estándar pedagógico y de evaluación",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Talleres de misión",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/talleres/README.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Simuladores",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/simuladores/README.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Glosario",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/glosario/README.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Estado verificable",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/STATUS.md",
+          "verification": "destino_existente_sin_leer"
+        },
+        {
+          "label": "Licencias y procedencia",
+          "url": "https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/blob/main/documentacion/LICENCIAS_Y_PROCEDENCIA.md",
+          "verification": "destino_existente_sin_leer"
+        }
+      ],
+      "competency_ids": [
+        "C-NUM-03",
+        "C-DATA-01",
+        "C-RES-02",
+        "C-PROB-01",
+        "C-SW-01",
+        "C-PROJ-01",
+        "C-ETH-01"
+      ],
+      "license_note": "El README distingue código Apache-2.0 y contenido CC BY-NC-SA 4.0, con enlaces a licencias y procedencia. La copia de material exige verificar licencia no comercial y atribución.",
+      "integration_doc": "integrations/prg-astro.md"
     }
   ]
 }

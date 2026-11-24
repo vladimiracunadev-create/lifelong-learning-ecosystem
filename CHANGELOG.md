@@ -1,5 +1,24 @@
 # Historial de cambios
 
+## Sin publicar — 2026-11-24
+
+### Añadido
+
+- `PRG-ASTRO`: integración canónica del programa de astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial (2.077 clases declaradas, texto en nivel E0), con ficha, evidencia y atlas.
+- Astronomía como flujo nativo número 31 y como cuarta entrada del área «Arte, espacio y oficios».
+- Sección «Novedades del corte 2026-11-24» en el descubrimiento de repositorios, con `learning-path-datasets` y `spherex-releases` como candidatos de apoyo.
+
+### Cambiado
+
+- Cifras, SHA y resúmenes de nueve programas releídos a partir de sus README completos: escuela (14.826 clases en total), software (612 clases, 51 partes), arquitectura (840 clases, 84 partes), finanzas, empresa, ciberseguridad (381 clases, 22 partes), IA (184 clases, 708 notebooks), psicometría (200 clases, 20 partes) y marketing.
+- Redacción de navegación: se usa «usar» y «contrastar» en lugar de «comparar» programas.
+- Mapas SVG: arte, espacio y oficios rediseñado con cuatro tarjetas y marcas de estado; cifras actualizadas en software, cloud, evaluación y campus (que añade fecha de corte).
+- Cuenta pública observada: 128 repositorios, 68 propios y 60 forks.
+
+### Verificación
+
+- Validador correcto con 15 programas; 41 pruebas; portal reconstruido y vigente; DOM controlado correcto. Los SVG se comprobaron visualmente solo en el mapa de arte y espacio. Los README se leyeron de forma enfocada en cifras y enlaces; no se auditaron clases.
+
 ## Sin publicar — 2026-10-06
 
 ### Añadido

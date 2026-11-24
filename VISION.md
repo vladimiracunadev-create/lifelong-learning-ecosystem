@@ -45,7 +45,7 @@ El número de clases es un dato de inventario. La coherencia se juzga observando
 
 Cada programa mantiene su especialidad, estructura, numeración, fuentes, herramientas y licencias. El maestro registra lo que consulta y añade relaciones propias. Las correspondencias se clasifican como propuestas o verificadas por unidad.
 
-La primera versión incluye 14 integraciones canónicas. No son una lista cerrada: el [registro de descubrimiento](catalog/REPOSITORY_DISCOVERY.md) separa otros repositorios existentes de candidatos todavía no incorporados y de componentes que no son programas.
+La primera versión incluye 15 integraciones canónicas. No son una lista cerrada: el [registro de descubrimiento](catalog/REPOSITORY_DISCOVERY.md) separa otros repositorios existentes de candidatos todavía no incorporados y de componentes que no son programas.
 
 ## Qué debe poder preguntar una persona
 

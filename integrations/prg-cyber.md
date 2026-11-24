@@ -1,6 +1,6 @@
 # Integración: Ciberseguridad Moderna
 
-**ID estable:** `PRG-CYBER` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-CYBER` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/modern-cybersecurity-program](https://github.com/vladimiracunadev-create/modern-cybersecurity-program)
 
@@ -18,11 +18,11 @@ El README circunscribe la práctica ofensiva a contextos autorizados. Para las m
 
 ## Estado realmente observado
 
-El fragmento inicial del README anuncia 360 clases en 20 partes y laboratorios. Se observaron enlaces a índice, prácticas, glosario y reglas de uso; no se ejecutaron laboratorios ni se verificó su preparación.
+El README completo declara 381 clases numeradas en 22 partes (0–21), con laboratorios, rutas por rol, manual y app offline. No se ejecutaron laboratorios ni se verificó su preparación.
 
-**Alcance de la lectura:** Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `c43f459cd2261c2d2ce6a17f50ddeae855a00a3c`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `13d186f32be6ff24bd30d711d5af8830acd73aea`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Índice de clases](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/classes/README.md) | Enlace observado; destino sin leer |
 | [Laboratorios](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/labs/README.md) | Enlace observado; destino sin leer |
 | [Glosario](https://github.com/vladimiracunadev-create/modern-cybersecurity-program/blob/main/docs/GLOSARIO-GLOBAL.md) | Enlace observado; destino sin leer |

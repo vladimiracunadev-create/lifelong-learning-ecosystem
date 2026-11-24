@@ -1,6 +1,6 @@
 # Integración: Arquitectura, Construcción y Entorno Habitado
 
-**ID estable:** `PRG-ARCH` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-ARCH` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/architecture-built-environment-learning-program](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program)
 
@@ -18,11 +18,11 @@ Las actividades iniciales del maestro pueden ser observación, dibujo y reflexi�
 
 ## Estado realmente observado
 
-El fragmento del README declara 680 clases redactadas en 68 partes, 48 sesiones de taller y 12 rutas. Enlaza informes de estado y auditoría que no se leyeron en esta revisión. No se certifican clases, talleres ni ejercicio profesional.
+El README completo declara 840 clases redactadas (ARQ-001 a ARQ-840) en 84 partes, 60 sesiones de taller y 35 rutas, y reconoce brechas: de 2.449 relaciones clase–fuente, 1.396 declaran función, alcance, límite y fecha, y 1.053 requieren completar algún campo. No se certifican clases, talleres ni ejercicio profesional.
 
-**Alcance de la lectura:** Fragmento inicial del README (38 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `e450ac199e26be61f881204d9e78916962303de1`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `db33dc24bf6175d3d8577b9a2846832c267c3484`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Índice de clases](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/classes/README.md) | Enlace observado; destino sin leer |
 | [Talleres](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/studios/README.md) | Enlace observado; destino sin leer |
 | [Rutas de aprendizaje](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/RUTAS_DE_APRENDIZAJE.md) | Enlace observado; destino sin leer |

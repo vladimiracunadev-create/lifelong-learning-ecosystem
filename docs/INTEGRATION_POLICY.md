@@ -70,4 +70,4 @@ La consulta y el enlace no modifican licencias. Si se necesita incorporar conten
 
 ## Alcance de la entrega inicial
 
-Las 14 fichas incluyen fuentes leídas y puntos de entrada observados. Las correspondencias de competencias son propuestas editoriales. La selección exhaustiva de clases externas pertenece a la siguiente etapa documentada en [ROADMAP.md](../ROADMAP.md).
+Las 15 fichas incluyen fuentes leídas y puntos de entrada observados. Las correspondencias de competencias son propuestas editoriales. La selección exhaustiva de clases externas pertenece a la siguiente etapa documentada en [ROADMAP.md](../ROADMAP.md).

@@ -28,7 +28,7 @@ Nada en este documento forma parte del producto actual. Cada propuesta parte de 
 ## Visualizador de mallas
 
 - **Problema:** el portal muestra recorridos, pero no permite explorar todas las dependencias como grafo interactivo.
-- **Evidencia:** existen 30 flujos nativos documentados, cinco mallas editoriales y relaciones con distintos niveles de evidencia; la visualización actual es estática.
+- **Evidencia:** existen 31 flujos nativos documentados, cinco mallas editoriales y relaciones con distintos niveles de evidencia; la visualización actual es estática.
 - **Límite actual:** navegación por secciones y detalles, sin análisis gráfico transversal.
 - **Alternativas:** Mermaid generado, tablas de dependencias y exportaciones estáticas.
 - **Sin software nuevo:** sí; primero ampliar diagramas generados en documentación.

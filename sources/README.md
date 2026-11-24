@@ -4,7 +4,7 @@
 
 ## Qué se verificó
 
-Se recuperaron README mediante el conector GitHub: once fragmentos iniciales y tres documentos completos. Se registraron el URL, el SHA de archivo informado por el proveedor y el SHA-256 del texto capturado. Este último permite reconocer la captura de trabajo y no se presenta como el hash de todo el repositorio.
+Se recuperaron README mediante el conector GitHub el 2026-10-05 (once fragmentos iniciales y tres documentos completos). El 2026-11-24 se volvieron a recuperar, completos y mediante la API de GitHub, nueve README cuyo SHA había cambiado y el de `PRG-ASTRO`; quedan tres fragmentos iniciales (pedagogía, matemática y laboratorio neural). Se registraron el URL, el SHA de archivo informado por el proveedor y el SHA-256 del texto capturado. Este último permite reconocer la captura de trabajo y no se presenta como el hash de todo el repositorio.
 
 El ZIP conserva resúmenes breves y enlaces, sin incluir copias de los programas externos. Las cifras publicadas se atribuyen al README y las limitaciones relevantes se reflejan en catálogo e integraciones. Los enlaces internos observados se resolvieron sobre la ubicación del README; sus destinos siguen pendientes de lectura salvo indicación expresa.
 

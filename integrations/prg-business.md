@@ -1,6 +1,6 @@
 # Integración: Creación y Evolución de Empresas
 
-**ID estable:** `PRG-BUSINESS` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-BUSINESS` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/modern-business-creation-program](https://github.com/vladimiracunadev-create/modern-business-creation-program)
 
@@ -18,11 +18,11 @@ Su contexto chileno debe permanecer visible. La ruta maestra puede enseñar deci
 
 ## Estado realmente observado
 
-El fragmento inicial del README presenta 336 clases en 24 partes, un flujo maestro y un archivo STATUS.md. El estado de cada clase y la vigencia de su contenido normativo no fueron comprobados.
+El README completo declara 336 clases en 24 partes y 6 etapas, generadas desde manifiesto, con 61 fuentes citadas. El estado de cada clase y la vigencia de su contenido normativo no fueron comprobados.
 
-**Alcance de la lectura:** Fragmento inicial del README (37 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `ceaeb71f12e90c23af8f5ebb321726ffabff8879`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `1100c56656b7a0c29621d63f54478974c9108743`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
 **Revisión pedagógica:** La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Currículo](https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/CURRICULUM.md) | Enlace observado; destino sin leer |
 | [Flujo maestro](https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/docs/00_MASTER_FLOW.md) | Enlace observado; destino sin leer |
 | [Estado verificable](https://github.com/vladimiracunadev-create/modern-business-creation-program/blob/main/STATUS.md) | Enlace observado; destino sin leer |

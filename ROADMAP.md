@@ -2,7 +2,7 @@
 
 ## Entrega 0.1.0: base integrada y revisable
 
-Esta entrega establece identidad, campus de seis áreas, 30 flujos nativos revisados, contrato de registros técnicos, catálogo inicial, mapa de competencias, cinco mallas editoriales experimentales, apoyos, rúbricas, fichas de integración, lector local y herramientas de coherencia.
+Esta entrega establece identidad, campus de seis áreas, 31 flujos nativos revisados, contrato de registros técnicos, catálogo inicial, mapa de competencias, cinco mallas editoriales experimentales, apoyos, rúbricas, fichas de integración, lector local y herramientas de coherencia.
 
 La documentación describe actividades originales desarrolladas. La correspondencia detallada con todas las clases externas y la validación pedagógica con participantes pertenecen a etapas posteriores.
 
@@ -11,7 +11,7 @@ La documentación describe actividades originales desarrolladas. La corresponden
 **Resultado:** cada paso de una malla identifica unidades concretas y explica qué parte de su objetivo cubre cada una.
 
 Acciones:
-- Leer los índices y muestras representativas de las 14 integraciones canónicas.
+- Leer los índices y muestras representativas de las 15 integraciones canónicas.
 - Seleccionar unidades por resultados y prerrequisitos.
 - Registrar IDs, rutas, versión y alcance de revisión.
 - Clasificar cobertura: suficiente para el objetivo, parcial, ausente, desactualizada o pendiente.

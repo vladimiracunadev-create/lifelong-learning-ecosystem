@@ -1,8 +1,8 @@
 # Descubrimiento verificable de repositorios
 
-Fecha de corte: **2026-10-06** · cuenta: `vladimiracunadev-create`.
+Fecha de corte: **2026-10-06**, actualizado el **2026-11-24** · cuenta: `vladimiracunadev-create`.
 
-Este registro amplía el inventario sin alterar los índices JSON. La API pública de GitHub confirmó **68 repositorios públicos**, incluidos **4 forks**. Se revisaron metadatos de toda la superficie y **30 README educativos** para reconocer secuencias, rutas, niveles, módulos, casos, laboratorios y academias existentes. El mapa navegable está en [flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). No se auditaron todas sus clases ni se ejecutaron todas sus aplicaciones.
+Este registro amplía el inventario sin alterar los índices JSON. La API pública de GitHub confirmó **128 repositorios públicos**, incluidos **60 forks**. Se revisaron metadatos de toda la superficie y **31 README educativos** para reconocer secuencias, rutas, niveles, módulos, casos, laboratorios y academias existentes. El mapa navegable está en [flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). No se auditaron todas sus clases ni se ejecutaron todas sus aplicaciones.
 
 ## Estados usados
 
@@ -19,9 +19,19 @@ Este registro amplía el inventario sin alterar los índices JSON. La API públi
 
 ## Integraciones canónicas actuales
 
-Los siguientes 14 repositorios ya están registrados en `catalog/programs.json`: `architecture-built-environment-learning-program`, `artificial-intelligence-evolution-program`, `chilean-school-learning-path`, `computational-mathematics-program`, `education-pedagogy-learning-sciences-program`, `executive-leadership-founder-program`, `finance-and-banking-evolution-program`, `marketing-sales-growth-evolution-program`, `modern-business-creation-program`, `modern-cybersecurity-program`, `modern-software-engineering-program`, `neural-network-training-labs`, `psychometrics-and-assessment-program` y `python-data-science-program`.
+Los siguientes 15 repositorios ya están registrados en `catalog/programs.json`: `architecture-built-environment-learning-program`, `artificial-intelligence-evolution-program`, `astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`, `chilean-school-learning-path`, `computational-mathematics-program`, `education-pedagogy-learning-sciences-program`, `executive-leadership-founder-program`, `finance-and-banking-evolution-program`, `marketing-sales-growth-evolution-program`, `modern-business-creation-program`, `modern-cybersecurity-program`, `modern-software-engineering-program`, `neural-network-training-labs`, `psychometrics-and-assessment-program` y `python-data-science-program`.
 
 La pertenencia al catálogo confirma una integración editorial existente, no que cada curso esté completo. El estado detallado y el alcance de lectura se conservan en cada entrada canónica y en su ficha de `integrations/`.
+
+## Novedades del corte 2026-11-24
+
+La API pública confirmó **128 repositorios públicos: 68 propios y 60 forks** (los forks son copias de proyectos de terceros y no forman parte de la arquitectura propia). Desde el corte anterior:
+
+- `astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program` (2.077 clases) pasó a integración canónica como `PRG-ASTRO`, con ficha y evidencia propias.
+- Nueve programas canónicos cambiaron sus cifras declaradas y se releyeron: escuela, ingeniería de software (612 clases), arquitectura (840), finanzas, empresa, ciberseguridad (381), IA (184), psicometría (200) y marketing. El detalle está en [sources/evidence.json](../sources/evidence.json).
+- `learning-path-datasets` convierte programas en datasets JSONL con procedencia y licencia (primer pack: 1° básico). Es una herramienta de apoyo, no un currículo; queda como candidata y su relación con el maestro no está aprobada.
+- `spherex-releases` (AstroTrack) distribuye una aplicación relacionada con astronomía; no se revisó como currículo y queda como candidata de apoyo a `PRG-ASTRO`.
+- `universal-api-orchestrator` es un producto de integración de servicios sin finalidad educativa observada; no se integra.
 
 ## Candidatos revisados: programas y currículos
 
@@ -62,9 +72,9 @@ Los repositorios restantes son reales, pero esta auditoría no leyó suficiente 
 
 Esta agrupación no afirma que los productos carezcan de material educativo. Indica que no fueron revisados como currículo en este corte.
 
-## Comparación y vacíos comprobados
+## Vacíos comprobados
 
-1. El catálogo canónico cubre 14 integraciones, mientras la cuenta contiene otros programas y laboratorios verificables.
+1. El catálogo canónico cubre 15 integraciones, mientras la cuenta contiene otros programas y laboratorios verificables.
 2. Los repositorios usan esquemas, niveles, nombres y estados diferentes; no hay un contrato transversal compartido.
 3. Varios candidatos publican conteos y evaluaciones, pero el maestro no los valida ni normaliza.
 4. Los prerrequisitos, públicos y niveles no siempre están explícitos en el README; esos campos quedan como “no establecidos”.

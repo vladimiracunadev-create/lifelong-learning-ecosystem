@@ -1,6 +1,6 @@
 # Integración: Ingeniería de Software Moderna
 
-**ID estable:** `PRG-SOFTWARE` · **Revisión documental:** 2026-10-05
+**ID estable:** `PRG-SOFTWARE` · **Revisión documental:** 2026-11-24
 
 **Origen:** [vladimiracunadev-create/modern-software-engineering-program](https://github.com/vladimiracunadev-create/modern-software-engineering-program)
 
@@ -18,13 +18,13 @@ Las competencias de diseño, pruebas y operación expresan el papel propuesto de
 
 ## Estado realmente observado
 
-El README describe una arquitectura de 480 clases: SE-001–SE-012 desarrolladas; SE-013–SE-360 con material que requiere revisión cualitativa; SE-361–SE-480 con enseñanza completa aún por desarrollar. El catálogo mantiene estas diferencias y no cuenta 480 clases como terminadas.
+El README declara 612 clases desarrolladas en 51 partes (SE-001–SE-612), 47 rutas profesionales y 16 casos de estudio, con publicación del texto íntegro, figuras y experimentos. Afirma que todavía no pasaron una revisión editorial humana independiente y que una carpeta generada no cuenta como aprendizaje terminado. Sustituye la arquitectura anterior de 480 clases con partes pendientes.
 
-**Alcance de la lectura:** Fragmento inicial del README (89 líneas capturadas) recuperado mediante conector GitHub; no equivale a lectura completa del repositorio.
+**Alcance de la lectura:** README completo recuperado el 2026-11-24 mediante la API de GitHub; se leyeron encabezado, insignias, tablas de estado y enlaces. No equivale a lectura de clases ni de los destinos enlazados.
 
-**SHA del archivo fuente informado por GitHub:** `2b7a3a854f1713f152af9c31fb343280120855d8`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
+**SHA del archivo fuente informado por GitHub:** `dfb92906c6da63ce539843e05002c5b6684b447b`. Identifica el contenido del README y no debe tratarse como un commit del repositorio completo.
 
-**Revisión pedagógica:** El README exige revisión cualitativa del material en partes 01–29 y desarrollo de partes 30–39. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
+**Revisión pedagógica:** El README declara que las 612 clases aún no pasaron revisión editorial humana independiente. La alineación con las competencias del maestro es una propuesta editorial. Requiere lectura de unidades, revisión pedagógica humana y evidencia de uso; no se verificó eficacia del aprendizaje.
 
 ## Puntos de entrada observados
 
@@ -32,7 +32,7 @@ Los enlaces relativos se resolvieron sobre la ubicación del README leído. Obse
 
 | Recurso | Verificación realizada |
 | --- | --- |
-| [README del programa](https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md) | Fragmento inicial leído |
+| [README del programa](https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/README.md) | README completo recuperado; cifras y enlaces leídos |
 | [Índice de clases](https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/classes/README.md) | Enlace observado; destino sin leer |
 | [Rutas por rol](https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/roles/README.md) | Enlace observado; destino sin leer |
 | [Producto transversal](https://github.com/vladimiracunadev-create/modern-software-engineering-program/blob/main/blueprints/reference-product/README.md) | Enlace observado; destino sin leer |

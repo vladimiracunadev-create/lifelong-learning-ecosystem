@@ -2,7 +2,7 @@
 
 Esta carpeta conserva **cinco prototipos editoriales, con seis pasos cada uno**, que conectan objetivos, diagnósticos, actividades puente originales, evidencias y criterios de revisión. No son las únicas mallas del ecosistema, no representan las numerosas rutas internas de los repositorios y ninguna se selecciona por defecto. Su alcance es una experiencia integradora inicial: las correspondencias con programas externos permanecen candidatas hasta revisar unidades concretas.
 
-Para entrar por los programas reales, consulta el [campus](../docs/CAMPUS.md) y los [30 flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). Para comprender cuándo puede justificarse una transición entre repositorios, consulta [rutas de aprendizaje](../docs/LEARNING_ROUTES.md).
+Para entrar por los programas reales, consulta el [campus](../docs/CAMPUS.md) y los [31 flujos nativos](../docs/NATIVE_LEARNING_FLOWS.md). Para comprender cuándo puede justificarse una transición entre repositorios, consulta [rutas de aprendizaje](../docs/LEARNING_ROUTES.md).
 
 | ID | Malla | Producto o evidencia integradora | Rúbrica |
 | --- | --- | --- | --- |

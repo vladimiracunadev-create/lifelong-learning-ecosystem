@@ -55,16 +55,17 @@
   </g>
   <g transform="translate(705 510)">
     <rect class="area" width="390" height="150" rx="20"/>
-    <text class="icon" x="28" y="48">🎨</text><text class="count" x="82" y="38">5 REPOSITORIOS REVISADOS</text>
+    <text class="icon" x="28" y="48">🎨</text><text class="count" x="82" y="38">6 REPOSITORIOS REVISADOS</text>
     <text class="title" x="28" y="83">Arte, espacio y oficios</text>
-    <text class="copy" x="28" y="114">Arquitectura · maquinaria · guitarra</text><text class="copy" x="28" y="138">violín · cueca</text>
+    <text class="copy" x="28" y="114">Arquitectura · astronomía · maquinaria</text><text class="copy" x="28" y="138">guitarra · violín · cueca</text>
   </g>
 
   <g transform="translate(478 268)">
     <circle class="center" cx="122" cy="92" r="106"/>
     <text class="centerTitle" x="122" y="69">BRÚJULA</text>
     <text class="centerTitle" x="122" y="101">FEDERADA</text>
-    <text class="centerCopy" x="122" y="131">descubre · compara</text>
+    <text class="centerCopy" x="122" y="131">descubre · usa</text>
     <text class="centerCopy" x="122" y="153">conecta · permite volver</text>
   </g>
+  <text x="600" y="700" text-anchor="middle" style="font:500 14px system-ui,sans-serif;fill:#4b6258">Cifras declaradas por cada README · corte 2026-11-24 · EXISTENTE no equivale a revisión pedagógica</text>
 </svg>

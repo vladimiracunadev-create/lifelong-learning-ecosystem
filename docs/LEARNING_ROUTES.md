@@ -2,7 +2,7 @@
 
 ![Tipos de flujo existentes](assets/tipos-de-flujo.svg)
 
-La entrada principal es el [inventario de 30 flujos nativos](NATIVE_LEARNING_FLOWS.md). Allí cada ruta apunta a una secuencia, un índice, un módulo, un laboratorio o una app que el repositorio fuente realmente publica.
+La entrada principal es el [inventario de 31 flujos nativos](NATIVE_LEARNING_FLOWS.md). Allí cada ruta apunta a una secuencia, un índice, un módulo, un laboratorio o una app que el repositorio fuente realmente publica.
 
 ## Elegir por forma de aprendizaje
 
